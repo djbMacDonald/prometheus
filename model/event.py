@@ -1,6 +1,6 @@
 import constants.channels
 
-class EventModel:
+class Event:
   
   def __init__(self, data):
     self._type = self._event.get('type') 
