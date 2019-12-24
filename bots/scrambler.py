@@ -16,12 +16,12 @@ class ScramblerBot:
     self._randomUtil = RandomUtil()
     
   def run(self):
-    if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFrom(_user):
+    if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFrom(self._user):
       return
     words = self._event.text().split(' ')
     if len(words) > 1 and self._randomUtil.rollDice(self._frequency):
       random.shuffle(words)
       self._messageUtil.deleteMessage(self._event.channel(), self._event.id())
-      identity = IDENTITIES[USERS[_user]]
+      identity = IDENTITIES[USERS[self._user]]
       self._messageUtil.addMessage(' '.join(words), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
       return

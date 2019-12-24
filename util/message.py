@@ -28,9 +28,7 @@ class MessageUtil:
     if not self.isAllowedToPostInThisChannel(channel):
       return;
     postData = PostData(channel, message, identity, threadId = threadId)
-    url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.urlencode(postData.get()))
-    if event_constants.DEBUG:
-      print(url)
+    url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(postData.get()))
     self._pool.apply_async(requests.get, args=[url])
     
   def addReaction(self, reaction, channel, timestamp):
@@ -44,7 +42,7 @@ class MessageUtil:
       'as_user': False,
       'token': os.environ.get('DAKA')
     }
-    url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.urlencode(options))
+    url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
     self._pool.apply_async(requests.get, args=[url])
     
   def deleteMessage(self, channel, id):
@@ -55,5 +53,5 @@ class MessageUtil:
        'ts': self.id(),
        'token': os.environ.get('SECRET')
     }
-    url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.urlencode(postData))
+    url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
     self._pool.apply_async(requests.get, args=[url])

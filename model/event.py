@@ -1,4 +1,5 @@
-import constants.channels
+from constants.channels import CHANNELS
+from constants.people import USERS, IDENTITIES
 
 class Event:
   
@@ -69,17 +70,17 @@ class Event:
     return not not self._threadId
   
   def isInChannel(self, name):
-    if name in event_constants.CHANNELS:
-      return event_constants.CHANNELS[name] == self.channel
+    if name in CHANNELS:
+      return CHANNELS[name] == self.channel
     return None
   
   def isFromChaosUser(self):
-    return self._user in event_constants.IDENTITIES.keys()
+    return self._user in IDENTITIES.keys()
   
   def isAMessage(self):
     return self._type == 'message' and not self._subType and not self._hidden
   
   def isFrom(self, name):
-    if name.lower() in event_constants.USERS.keys():
-      return event_constants.USERS[name.lower()] == self.user
+    if name.lower() in USERS.keys():
+      return USERS[name.lower()] == self._user
     return None
