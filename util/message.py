@@ -4,7 +4,7 @@ import requests
 from model.post_data import PostData
 from constants.channels import ALLOWED_CHANNELS
 
-class MessagePostUtil:
+class MessageUtil:
   
   def __init__(self, pool):
     self._pool = pool
