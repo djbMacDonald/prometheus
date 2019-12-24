@@ -10,17 +10,18 @@ from bots.scrambler import ScramblerBot
 app = Flask(__name__)
 
 handledEvents = [];
+bans = {}
 
 @app.route("/listen", methods=['POST'])
 def inbound():
   data = request.get_json(force=True)
   
-  if (data.get('event_id') in handledEvents):
-    return
+  print(json.dumps(data, indent=2, sort_keys=True))
+  
+  if data.get('event_id') in handledEvents or not data.get('event'):
+    return data, 200
   else:
     handledEvents.append(data.get('event_id'))
-    
-  print(json.dumps(data, indent=2, sort_keys=True))
   
   pool = Pool(1)
   originalEvent = Event(data)

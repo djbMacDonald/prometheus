@@ -3,6 +3,7 @@ import constants.channels
 class Event:
   
   def __init__(self, data):
+    self._event = data.get('event')
     self._type = self._event.get('type') 
     self._user = self._event.get('user')
     self._threadId = self._event.get('thread_ts')
@@ -10,7 +11,6 @@ class Event:
     self._botId = self._event.get('bot_id')
     self._subType = self._event.get('subtype')
     self._hidden = self._event.get('hidden')
-    self._bans = bans
     self._reaction = self._event.get('reaction')
     
     if self._type == 'reaction_added':
@@ -28,9 +28,6 @@ class Event:
   
   def data(self):
     return self._data
-  
-  def bans(self):
-    return self._bans
   
   def type(self):
     return self._type

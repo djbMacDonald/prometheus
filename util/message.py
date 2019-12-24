@@ -10,7 +10,7 @@ class MessageUtil:
     self._pool = pool
   
   def isAllowedToPostInThisChannel(self, channel):
-    return channel in event_constants.ALLOWED_CHANNELS
+    return channel in ALLOWED_CHANNELS
   
   def addMessage(self, message, channel, threadId, identity = None):
     if threadId:
