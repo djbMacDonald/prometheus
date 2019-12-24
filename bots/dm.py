@@ -1,12 +1,17 @@
 import random
-from identity import Identity
+from model.identity import Identity
 
 from util.random import RandomUtil
 from util.message import MessageUtil
 
+from constants.dungeon import ABILITIES, SAVES, SPECIAL, ACTIONS, DANGERS
+from constants.language import VOWELS
+
 class DmBot:
   
-  _frequency = 
+  _frequency = 1/1
+  _save = 1/5
+  _special = 1/5
   
   def __init__(self, eventModel, pool):
     self._event = eventModel
@@ -16,22 +21,22 @@ class DmBot:
   def run(self):
     if self._event.isFromABot():
       return;
-    if self._randomUtil.rollDice(event_constants.CHANCE_FOR_DM):
-      message = 'Roll {} to {} the {}'.format(self._createRollMessage(), random.choice(event_constants.ACTIONS), random.choice(event_constants.DANGERS))
+    if self._randomUtil.rollDice(_frequency):
+      message = 'Roll {} to {} the {}'.format(self._createRollMessage(), random.choice(ACTIONS), random.choice(DANGERS))
       identity = Identity(userName = 'Dungeon Master')
-      if self._event. isPartOfAThread():
+      if self._event.isPartOfAThread():
         self._postUtil.addMessageToThread(message, self._event.channel(), self._event.id(), identity)
       else:
         self._postUtil.addMessageToChannel(message, self._event.channel(), identity)
         
   def _createRollMessage(self):
-    if rollDice(event_constants.CHANCE_FOR_DM_SAVE):
-      message = '{} saving throw'.format(random.choice(event_constants.SAVES))
+    if self._randomUtil.rollDice(_save):
+      message = '{} saving throw'.format(random.choice(SAVES))
     else:
-      message = '{} check'.format(random.choice(event_constants.ABILITIES))
-    if rollDice(event_constants.CHANCE_FOR_DM_SPECIAL):
-      message += ' ' + random.choice(event_constants.SPECIAL)
-    if message.startswith(event_constants.VOWELS):
+      message = '{} check'.format(random.choice(ABILITIES))
+    if self._randomUtil.rollDice(_special):
+      message += ' ' + random.choice(SPECIAL)
+    if message.startswith(VOWELS):
       message = 'an {}'.format(message)
     else: 
       message = 'a {}'.format(message)

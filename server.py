@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, jsonify, Response
 from multiprocessing import Pool
+import json
 
 from model.event import Event
 
@@ -32,9 +33,9 @@ def inbound():
   for bot in bots:
     result = bot.run()
     if result == 'end':
-      return Response(), 200
+      return data, 200
     
-  return Response(), 200
+  return data, 200
 
 if __name__ == "__main__":
   app.run()
