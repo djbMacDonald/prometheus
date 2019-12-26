@@ -2,7 +2,6 @@ from utils.post import PostUtil
 import random
 from model.identity import Identity
 import os
-import urllib
 import requests
 from constant.channels import CHANNELS
 
@@ -13,7 +12,7 @@ class ReminderBot:
     self._postUtil = PostUtil(pool)
   
   def run(self):
-    if not self._event.event() or not self._event.isFromABot() or not self._event().isInChannel('Reminders') or not self._event.sFromBot('reminder') or not self._event.text() == 'Reminder: Trigger Schemes Poll.':
+    if not self._event.event() or not self._event.isFromABot() or not self._event.isInChannel('Reminders') or not self._event.isFromBot('reminder') or not self._event.text() == 'Reminder: Trigger Schemes Poll.':
       return
     
     dayOffset = 3

@@ -2,7 +2,6 @@ from utils.post import PostUtil
 import random
 from model.identity import Identity
 import os
-import urllib
 import requests
 
 class HelloBot:

@@ -1,8 +1,6 @@
 from utils.post import PostUtil
 import random
 from model.identity import Identity
-import os
-import urllib
 import requests
 from utils.identity import IdentityUtil
 from constant.people import USERS, GROUP_LIST

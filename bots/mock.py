@@ -23,7 +23,7 @@ class MockBot:
       'inclusive': True,
       'oldest': self._event.id()
     }
-    req = requests.get('https://slack.com/api/channels.history?{}'.format(urllib.urlencode(postData)))
+    req = requests.get('https://slack.com/api/channels.history?{}'.format(urllib.parse.rlencode(postData)))
     
     message = req.json().get('messages')
     if not message or len(message) < 1:

@@ -1,7 +1,6 @@
 import random
 from model.identity import Identity
 import os
-import urllib
 import requests
 import time
 from pytz import timezone

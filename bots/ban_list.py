@@ -2,8 +2,6 @@ from utils.post import PostUtil
 from constant.people import USERS, IDENTITIES
 import random
 from model.identity import Identity
-import os
-import urllib
 import requests
 from utils.ban import BanUtil
 import re
