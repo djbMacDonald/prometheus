@@ -4,8 +4,7 @@ import json
 
 from model.event import Event
 
-from bots.dm import DmBot
-from bots.scrambler import ScramblerBot
+from bots.nice import NiceBot
 
 app = Flask(__name__)
 
@@ -27,9 +26,8 @@ def inbound():
   originalEvent = Event(data)
   
   bots = [
-      DmBot(originalEvent, pool),
-      ScramblerBot(originalEvent, pool)
-    ]
+    NiceBot(originalEvent, pool)  
+  ]
     
   for bot in bots:
     result = bot.run()

@@ -1,0 +1,2 @@
+NUMBER_OF_WORDS_TO_BAN = 1
+DEBUG = False
