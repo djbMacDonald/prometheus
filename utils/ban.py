@@ -39,7 +39,7 @@ class BanUtil:
       bans[ban[0]] = ban[1]
     return bans;
 
-def activeBans(self, bans):
+  def activeBans(self, bans):
     for ban in bans.items():
       if (int(ban[1]) < int(round(time.time()))):
         del bans[ban[0]]

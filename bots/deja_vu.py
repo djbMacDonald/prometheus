@@ -7,7 +7,7 @@ from utils.identity import IdentityUtil
 
 class DejaVuBot:
   
-  _frequency = 1
+  _frequency = .01
   
   def __init__(self, eventModel, pool):
     self._event = eventModel
@@ -16,7 +16,6 @@ class DejaVuBot:
     self._identityUtil = IdentityUtil()
   
   def run(self):
-    a = 5
     if self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency):
       return
     lines = open('{}_logfile.txt'.format(self._event.channel()), 'r').read().splitlines()

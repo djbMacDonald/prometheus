@@ -14,11 +14,11 @@ class BanListBot:
     self._banUtil = BanUtil()
   
   def run(self):
-    if not self._event.isFromChaosUser():
-      return
+    # if not self._event.isFromChaosUser():
+    #   return
     
     bans = self._banUtil.getBans()
-    activeBans = self._banUtil._activeBans(bans)
+    activeBans = self._banUtil.activeBans(bans)
       
     print (bans)
     if len(activeBans) == 0:
