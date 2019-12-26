@@ -4,7 +4,6 @@ USERS = {
   'chris': 'UDBV9N1E0',
   'dakota': 'UDC4QL95G',
   'dave': 'UDBGH9BMX',
-  'doug': 'UDL020K8D',
   'drew': 'UDC03KCGK',
   'ayshu': 'UHQD9J1SL',
   'victoria': 'UDD45P5A9',
@@ -49,6 +48,5 @@ IDENTITIES =  {
   'UHQD9J1SL': {'username': 'Ash Ketchum', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UHQD9J1SL-303a26778808-48', 'id': 'UHQD9J1SL'},
   'UDD45P5A9': {'username': 'Vee', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDD45P5A9-5bb81e7c49c0-48', 'id': 'UDD45P5A9'},
   'UK7V13DS7': {'username': 'May', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UK7V13DS7-1e2ae9f73e21-48', 'id': 'UK7V13DS7'},
-  'UJTEHPEPL': {'username': 'Rick', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UJTEHPEPL-g426b093d697-48', 'id': 'UJTEHPEPL'},
-  'UDL020K8D': {'username': 'Dig Dug', 'profilePicture': '', 'id': 'UDL020K8D'}
+  'UJTEHPEPL': {'username': 'Rick', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UJTEHPEPL-g426b093d697-48', 'id': 'UJTEHPEPL'}
 }

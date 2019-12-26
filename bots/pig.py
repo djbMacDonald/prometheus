@@ -8,7 +8,7 @@ from constant.people import USERS, IDENTITIES
 
 class PigBot:
   
-  _frequency = .01
+  _frequency = 1
   
   def __init__(self, eventModel, pool):
     self._event = eventModel
@@ -17,7 +17,9 @@ class PigBot:
   
   def run(self):
     user = 'cj'
-    if self._event.isFromABot() or not self._event.isFrom(user) or not self._randomUtil.rollDice(self._frequency):
+    # if self._event.isFromABot() or not self._event.isFrom(user) or not self._randomUtil.rollDice(self._frequency):
+    #   return;
+    if self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency):
       return;
     text = [i for i in self._event.text]
     for i,letter in enumerate(text):

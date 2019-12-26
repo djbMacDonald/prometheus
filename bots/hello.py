@@ -1,6 +1,5 @@
 from utils.post import PostUtil
 import random
-from model.identity import Identity
 import requests
 
 class HelloBot:

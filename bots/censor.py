@@ -14,8 +14,8 @@ class CensorBot:
     self._banUtil = BanUtil()
   
   def run(self):
-    # if not self._event.isFromChaosUser():
-    #   return
+    if not self._event.isFromChaosUser():
+      return
     
     if not self._event.text() or self._event.isFromABot():
       return
@@ -40,7 +40,7 @@ class CensorBot:
         text = fullRedaction
         print('banned!')
         self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-        identity = IDENTITIES[USERS[self._event.user()].lower()]
+        identity = IDENTITIES[self._event.user()]
         self._postUtil.addMessage(text, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
         return
     
@@ -57,5 +57,5 @@ class CensorBot:
     if self._event.text() == newMessage:
       return;
     self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-    identity = IDENTITIES[USERS[self._event.user()].lower()]
+    identity = IDENTITIES[self._event.user()]
     self._postUtil.addMessage(newMessage, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
