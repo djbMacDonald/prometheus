@@ -6,7 +6,7 @@ import requests
 from utils.ban import BanUtil
 import re
 
-class BanListBot:
+class CensorBot:
   
   def __init__(self, eventModel, pool):
     self._event = eventModel
@@ -16,6 +16,9 @@ class BanListBot:
   def run(self):
     # if not self._event.isFromChaosUser():
     #   return
+    
+    if not self._event.text() or self._event.isFromABot():
+      return
     
     bans = self._banUtil.getBans()
     activeBans = self._banUtil.activeBans(bans)
@@ -43,12 +46,10 @@ class BanListBot:
     
     newMessage = self._event.text();
     for ban in bans.keys():
-      ban = ban.encode('utf-8')
       if (not isinstance(ban, str)) or 'redacted' in ban.lower() or not ban.isalpha():
         continue
       newMessage = re.sub(r'\b[^A-Za-z0-9]?({})[^A-Za-z0-9]?\b'.format(ban), ' ~*REDACTED*~ ', newMessage, flags=re.IGNORECASE)
     for ban in bans.keys():
-      ban = ban.encode('utf-8')
       if (not isinstance(ban, str)) or 'redacted' in ban.lower() or not ban.isalpha():
         continue
       newMessage = re.sub(r'\b[^A-Za-z0-9]?({})[^A-Za-z0-9]?\b'.format(ban), ' ~*REDACTED*~ ', newMessage, flags=re.IGNORECASE)

@@ -17,7 +17,7 @@ class FireBot():
     self._randomUtil = RandomUtil()
     
   def run(self):
-    if self._event.isFrom('Dakota') and not self._event.isPartOfAThread() and not self._event.isFromABot():
+    if not self._event.isFrom('Dakota') or self._event.isPartOfAThread() or self._event.isFromABot():
       return
     if not self._randomUtil.rollDice(self._frequency):
       return

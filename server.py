@@ -24,7 +24,7 @@ from bots.dnd import DndBot
 from bots.say_again import SayAgainBot
 from bots.new_ban import NewBanBot
 from bots.group_call import GroupCallBot
-from bots.ban_list import BanListBot
+from bots.censor import CensorBot
 from bots.deja_vu import DejaVuBot
 from bots.botify import BotifyBot
 
@@ -65,7 +65,7 @@ def inbound():
       SayAgainBot(originalEvent, pool),
       NewBanBot(originalEvent, pool),
       GroupCallBot(originalEvent, pool),
-      BanListBot(originalEvent, pool),
+      CensorBot(originalEvent, pool),
       DejaVuBot(originalEvent, pool),
       BotifyBot(originalEvent, pool)
     ]

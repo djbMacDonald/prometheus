@@ -58,8 +58,8 @@ class PostUtil:
     if not self.isAllowedToPostInThisChannel(channel):
       return;
     postData = {
-       'channel': self.channel(),
-       'ts': self.id(),
+       'channel': channel,
+       'ts': id,
        'token': os.environ.get('SECRET')
     }
     url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
