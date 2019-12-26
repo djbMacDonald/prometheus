@@ -1,11 +1,11 @@
-from utils.post_util import PostUtil
+from utils.post import PostUtil
 import random
-from identity import Identity
+from model.identity import Identity
 import os
 import urllib
 import requests
 from utils.identity import IdentityUtil
-from constants.people import USERS, GROUP_LIST
+from constant.people import USERS, GROUP_LIST
 
 class GroupCallBot:
   

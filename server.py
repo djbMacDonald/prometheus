@@ -1,8 +1,11 @@
 from flask import Flask, request, render_template, jsonify, Response
 from multiprocessing import Pool
 import json
+import pprint
 
 from model.event import Event
+
+from utils.log import LogUtil
 
 from bots.scrambler import ScramblerBot
 from bots.nice import NiceBot
@@ -33,7 +36,9 @@ bans = {}
 def inbound():
   data = request.get_json(force=True)
   
-  print(json.dumps(data, indent=2, sort_keys=True))
+  logUtil = LogUtil()
+  
+  # print(json.dumps(data, indent=2, sort_keys=True))
   
   if data.get('event_id') in handledEvents or not data.get('event'):
     return data, 200
@@ -65,10 +70,17 @@ def inbound():
       BotifyBot(originalEvent, pool)
     ]
     
-  for bot in bots:
-    result = bot.run()
-    if result == 'end':
-      return data, 200
+  try:
+    for bot in bots:
+      result = bot.run()
+      if result == 'end':
+        return Response(), 200
+  except Exception as error:
+    pprint.pprint(error)
+    print(traceback.format_exc())
+    
+  if not originalEvent.isFromABot() and originalEvent.isAMessage():
+    logUtil.logToFile(originalEvent)
     
   return data, 200
 

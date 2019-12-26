@@ -1,12 +1,12 @@
-from utils.post_util import PostUtil
+from utils.post import PostUtil
 import random
-from identity import Identity
+from model.identity import Identity
 import os
 import urllib
 import requests
 import json
 from utils.channel import ChannelUtil
-from constants.people import IDENTITIES
+from constant.people import IDENTITIES
 
 class SayAgainBot:
   

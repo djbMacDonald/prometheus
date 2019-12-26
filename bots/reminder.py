@@ -1,10 +1,10 @@
-from utils.post_util import PostUtil
+from utils.post import PostUtil
 import random
-from identity import Identity
+from model.identity import Identity
 import os
 import urllib
 import requests
-from constants.channels import CHANNELS
+from constant.channels import CHANNELS
 
 class ReminderBot:
   

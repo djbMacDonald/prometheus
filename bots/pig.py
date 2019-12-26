@@ -1,12 +1,12 @@
-from utils.post_util import PostUtil
+from utils.post import PostUtil
 import random
-from identity import Identity
+from model.identity import Identity
 import os
 import urllib
 import requests
 from utils.random import RandomUtil
-from constants.language import VOWELS
-from constants.people import USERS, IDENTITIES
+from constant.language import VOWELS
+from constant.people import USERS, IDENTITIES
 
 class PigBot:
   

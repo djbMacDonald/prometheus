@@ -1,7 +1,7 @@
-from utils.post_util import PostUtil
-from constants.people import USERS, IDENTITIES
+from utils.post import PostUtil
+from constant.people import USERS, IDENTITIES
 import random
-from identity import Identity
+from model.identity import Identity
 import os
 import urllib
 import requests
