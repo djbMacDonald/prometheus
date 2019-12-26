@@ -1,7 +1,6 @@
 from utils.post import PostUtil
 import random
 from model.identity import Identity
-import os
 import requests
 from constant.channels import CHANNELS
 

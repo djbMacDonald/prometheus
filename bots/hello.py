@@ -1,7 +1,6 @@
 from utils.post import PostUtil
 import random
 from model.identity import Identity
-import os
 import requests
 
 class HelloBot:
@@ -11,5 +10,5 @@ class HelloBot:
     self._postUtil = PostUtil(pool)
   
   def run(self):
-    if self._event.text().lower() == "hi prometheus":
+    if self._event.text() and self._event.text().lower() == "hi prometheus":
       self._postUtil.addMessageToChannel('Hello!', self._event.channel())

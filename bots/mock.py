@@ -1,9 +1,9 @@
 from utils.post import PostUtil
 import random
 from model.identity import Identity
-import os
 import urllib
 import requests
+import os
 
 class MockBot:
   
@@ -23,7 +23,7 @@ class MockBot:
       'inclusive': True,
       'oldest': self._event.id()
     }
-    req = requests.get('https://slack.com/api/channels.history?{}'.format(urllib.parse.rlencode(postData)))
+    req = requests.get('https://slack.com/api/channels.history?{}'.format(urllib.parse.urlencode(postData)))
     
     message = req.json().get('messages')
     if not message or len(message) < 1:

@@ -12,7 +12,7 @@ class NiceBot():
     self._randomUtil = RandomUtil()
   
   def run(self):
-    if self._event.isFromABot() or len(self._event.text()) < 1:
+    if self._event.isFromABot() or not self._event.text() or len(self._event.text()) < 1:
       return;
     if self._event.text() == 'nice' and not self._event.isPartOfAThread():
       nices = 0

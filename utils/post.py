@@ -15,9 +15,9 @@ class PostUtil:
   
   def addMessage(self, message, channel, threadId, identity = None):
     if threadId:
-      addMessageToThread(message, channel, threadId, identity)
+      self.addMessageToThread(message, channel, threadId, identity)
     else:
-      addMessageToChannel(message, channel, identity)
+      self.addMessageToChannel(message, channel, identity)
   
   def addMessageToChannel(self, message, channel, identity = None):
     postData = PostData(channel, message, identity)

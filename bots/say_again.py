@@ -1,7 +1,6 @@
 from utils.post import PostUtil
 import random
 from model.identity import Identity
-import os
 import requests
 import json
 from utils.channel import ChannelUtil
@@ -15,7 +14,7 @@ class SayAgainBot:
     self._channelUtil = ChannelUtil()
   
   def run(self):
-    if self._event.isFromABot() or not self._event.text().lower() == "you can say that again":
+    if not self._event.text() or self._event.isFromABot() or not self._event.text().lower() == "you can say that again":
       return
     if self._event.isPartOfAThread():
       threadJson = self._channelUtil.getThreadData(self._event.threadId(), self._event.channel())

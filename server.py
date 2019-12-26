@@ -40,7 +40,7 @@ def inbound():
   logUtil = LogUtil()
   
   # print(json.dumps(data, indent=2, sort_keys=True))
-  
+  print(data.get('event_id'))
   if data.get('event_id') in handledEvents or not data.get('event'):
     return data, 200
   else:
@@ -49,6 +49,7 @@ def inbound():
   pool = Pool(1)
   originalEvent = Event(data, bans)
   
+  print('STOP')
   bots = [
       DmBot(originalEvent, pool), 
       MockBot(originalEvent, pool), 

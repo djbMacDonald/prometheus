@@ -1,6 +1,5 @@
 from utils.post import PostUtil
 import random
-import os
 import requests
 from utils.channel import ChannelUtil
 from constant.creepy import STATEMENT_GENERATOR
@@ -14,7 +13,7 @@ class SummonBot:
     self._channelUtil = ChannelUtil()
   
   def run(self):
-    if not self._event.text().lower() == "summon the silent" or not self._event.isPartOfAThread():
+    if not self._event.text() or not self._event.text().lower() == "summon the silent" or not self._event.isPartOfAThread():
       return
     threadJson = self._channelUtil.getThreadData(self._event.channel(), self._event.threadId())
     silentUsers = list(set(CHAOS_USERS.values()) - set(threadJson['messages'][0]['reply_users']))

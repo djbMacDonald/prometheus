@@ -2,6 +2,7 @@ from utils.post import PostUtil
 from utils.identity import IdentityUtil
 from utils.random import RandomUtil
 from constant.people import USERS
+from model.identity import Identity
 
 class FireBot():
   

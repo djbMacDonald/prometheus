@@ -1,7 +1,6 @@
 from utils.post import PostUtil
 import random
 from model.identity import Identity
-import os
 import requests
 from utils.random import RandomUtil
 from constant.people import USERS, IDENTITIES

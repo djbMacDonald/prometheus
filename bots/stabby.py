@@ -1,6 +1,5 @@
 from utils.post import PostUtil
 import random
-import os
 import requests
 
 class StabbyBot:
