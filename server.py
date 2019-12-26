@@ -23,7 +23,7 @@ def inbound():
     handledEvents.append(data.get('event_id'))
   
   pool = Pool(1)
-  originalEvent = Event(data)
+  originalEvent = Event(data, bans)
   
   bots = [
     NiceBot(originalEvent, pool)  

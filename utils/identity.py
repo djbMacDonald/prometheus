@@ -1,6 +1,6 @@
 import random
 from model.identity import Identity
-from constants.people import IMPERSONATIONS
+from constant.people import IMPERSONATIONS
 
 class IdentityUtil:
   

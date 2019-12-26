@@ -1,10 +1,13 @@
-from constants.channels import CHANNELS
-from constants.people import USERS, IDENTITIES
+from constant.people import USERS, IDENTITIES
+from constant.channels import CHANNELS
 
 class Event:
   
-  def __init__(self, data):
+  def __init__(self, data, bans):
     self._event = data.get('event')
+    self._data = data
+    self._bans = bans
+    
     self._type = self._event.get('type') 
     self._user = self._event.get('user')
     self._threadId = self._event.get('thread_ts')
@@ -12,6 +15,7 @@ class Event:
     self._botId = self._event.get('bot_id')
     self._subType = self._event.get('subtype')
     self._hidden = self._event.get('hidden')
+    self._bans = bans
     self._reaction = self._event.get('reaction')
     
     if self._type == 'reaction_added':
@@ -29,6 +33,9 @@ class Event:
   
   def data(self):
     return self._data
+  
+  def bans(self):
+    return self._bans
   
   def type(self):
     return self._type
@@ -66,6 +73,11 @@ class Event:
   def isFromABot(self):
     return not not self._botId or self._hidden
   
+  def isFromBot(self, name):
+    if self._botId == name:
+      return self._botId
+    return None
+  
   def isPartOfAThread(self):
     return not not self._threadId
   
@@ -82,5 +94,5 @@ class Event:
   
   def isFrom(self, name):
     if name.lower() in USERS.keys():
-      return USERS[name.lower()] == self._user
+      return USERS[name.lower()] == self.user
     return None
