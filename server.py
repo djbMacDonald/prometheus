@@ -4,9 +4,25 @@ import json
 
 from model.event import Event
 
+from bots.scrambler import ScramblerBot
 from bots.nice import NiceBot
-from bots.summon import SummonBot
+from bots.dm import DmBot
+from bots.mock import MockBot
 from bots.underscore import UnderscoreBot
+from bots.stabby import StabbyBot
+from bots.fire import FireBot
+from bots.hello import HelloBot
+from bots.summon import SummonBot
+from bots.pig import PigBot
+from bots.space_replace import SpaceReplaceBot
+from bots.reminder import ReminderBot
+from bots.dnd import DndBot
+from bots.say_again import SayAgainBot
+from bots.new_ban import NewBanBot
+from bots.group_call import GroupCallBot
+from bots.ban_list import BanListBot
+from bots.deja_vu import DejaVuBot
+from bots.botify import BotifyBot
 
 app = Flask(__name__)
 
@@ -28,10 +44,26 @@ def inbound():
   originalEvent = Event(data, bans)
   
   bots = [
-    NiceBot(originalEvent, pool),
-    SummonBot(originalEvent, pool),
-    UnderscoreBot(originalEvent, pool)
-  ]
+      DmBot(originalEvent, pool), 
+      MockBot(originalEvent, pool), 
+      NiceBot(originalEvent, pool), 
+      UnderscoreBot(originalEvent, pool),
+      StabbyBot(originalEvent, pool),
+      FireBot(originalEvent, pool),
+      HelloBot(originalEvent, pool),
+      SummonBot(originalEvent, pool),
+      PigBot(originalEvent, pool),
+      ScramblerBot(originalEvent, pool),
+      SpaceReplaceBot(originalEvent, pool),
+      ReminderBot(originalEvent, pool),
+      DndBot(originalEvent, pool),
+      SayAgainBot(originalEvent, pool),
+      NewBanBot(originalEvent, pool),
+      GroupCallBot(originalEvent, pool),
+      BanListBot(originalEvent, pool),
+      DejaVuBot(originalEvent, pool),
+      BotifyBot(originalEvent, pool)
+    ]
     
   for bot in bots:
     result = bot.run()
