@@ -5,6 +5,8 @@ import json
 from model.event import Event
 
 from bots.nice import NiceBot
+from bots.summon import SummonBot
+from bots.underscore import UnderscoreBot
 
 app = Flask(__name__)
 
@@ -26,7 +28,9 @@ def inbound():
   originalEvent = Event(data, bans)
   
   bots = [
-    NiceBot(originalEvent, pool)  
+    NiceBot(originalEvent, pool),
+    SummonBot(originalEvent, pool),
+    UnderscoreBot(originalEvent, pool)
   ]
     
   for bot in bots:

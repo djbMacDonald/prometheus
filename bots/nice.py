@@ -19,7 +19,3 @@ class NiceBot():
       while nices < 3 or (self._randomUtil.rollDice(8.0/10) and nices < 10):
         self._postUtil.addMessageToThread('nice', self._event.channel(), self._event.id(), self._identityUtil.getRandomIdentity())
         nices = nices+1
-    # elif not self._event.isPartOfAThread() and 'nice' in self._event.text() and self._randomUtil.rollDice(1.0/100):
-    elif not self._event.isPartOfAThread():
-      for i in range (0,10):
-        self._postUtil.addMessageToThread('nice', self._event.channel(), self._event.id(), self._identityUtil.getRandomIdentity())

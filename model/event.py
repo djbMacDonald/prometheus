@@ -25,9 +25,6 @@ class Event:
       self._channel = self._event.get('channel')
       self._id = self._event.get('ts')
       
-    if self._text and len(self._text) > 0: 
-      self._text = self._text.encode('utf-8')
-      
   def event(self):
     return self._event
   
