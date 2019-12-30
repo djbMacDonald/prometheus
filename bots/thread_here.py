@@ -21,10 +21,8 @@ class ThreadHereBot:
     targetNumber = random.randint(3, 10)
     if not messages or not messages[0] or not messages[0]['reply_count'] or messages[0]['reply_count'] < targetNumber:
       return
-    userMap = map(self._identityUtil.pingUser, USERS.keys())
-    print(userMap)
+    userMap = map(self._identityUtil.pingUser, USERS.values())
     notification = "Hey {}! There's a thread here!".format(" ".join(userMap))
-      
     # self._postUtil.addMessageToThread(notification, self._event.channel(), self._event.threadId())
       
 #   move to utils
