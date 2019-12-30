@@ -15,12 +15,23 @@ class ThreadHereBot:
     self._identityUtil = IdentityUtil()
   
   def run(self):
+    lines = open('threads.txt', 'r').read().splitlines()
+    if self._event.threadId() in lines:
+      return
+    
     if self._event.text() and self._event.text().lower() == "silence chaos seed":
       self._recordThread()
-      self._postUtil.addReaction(salute_cap, self._event.channel(), self._event.threadId())
+      self._postUtil.addReaction("salute_cap", self._event.channel(), self._event.id())
+      self._postUtil.addReaction("squirrel", self._event.channel(), self._event.threadId())
       return
-    if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Chaos'):
+    # if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Chaos'):
+    if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Megamoji'):
       return;
+    
+    lines = open('threads.txt', 'r').read().splitlines()
+    if str(self._event.threadId()) in lines:
+      return
+
     messages = self._checkForReplies()
     targetNumber = random.randint(3, 10)
     if not messages or not messages[0] or not messages[0]['reply_count'] or messages[0]['reply_count'] < targetNumber:
