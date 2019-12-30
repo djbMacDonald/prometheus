@@ -14,6 +14,19 @@ class ThreadHereBot:
   def run(self):
     if self._event.isFromABot():
       return;
+    if self._event.threadId():
+      'a'
+      
+#   move to utils
+  def checkForReplies():
+    postData = {
+      'token': os.environ.get('SECRET'),
+      'channel': self._event.channel(),
+      'latest': self._event.id(),
+      'inclusive': True,
+      'oldest': self._event.id()
+    }
+    req = requests.get('https://slack.com/api/channels.history?{}'.format(urllib.parse.urlencode(postData)))
     
     
     # if (!request.body.event.thread_ts) {
@@ -26,81 +39,81 @@ class ThreadHereBot:
     #     return;
     #   }
     
-    function checkForReplies(threadId, channel, user) {
-  let url = 'https://www.slack.com/api/channels.replies?token=' + process.env.SECRET + '&thread_ts=' + threadId + '&channel=' + channel;
-  https.get(url, function (res) {
-      var jsonRetval = '';
-      res.on('data', (d) => {
-        jsonRetval += d.toString();
-      });
-      res.on('end', (d) => {
-        //console.log(jsonRetval);
-        var message = (JSON.parse(jsonRetval));
-        //console.log(message);
-        if (message.messages[0].reply_count > 3) {
-          //askToPingDave(threadId, user, channel, message.messages[0].reply_users);
-          notifyMissingUsers(threadId, user, channel, message.messages[0].reply_users);
-        }
-      });
-  });
+#     function checkForReplies(threadId, channel, user) {
+#   let url = 'https://www.slack.com/api/channels.replies?token=' + process.env.SECRET + '&thread_ts=' + threadId + '&channel=' + channel;
+#   https.get(url, function (res) {
+#       var jsonRetval = '';
+#       res.on('data', (d) => {
+#         jsonRetval += d.toString();
+#       });
+#       res.on('end', (d) => {
+#         //console.log(jsonRetval);
+#         var message = (JSON.parse(jsonRetval));
+#         //console.log(message);
+#         if (message.messages[0].reply_count > 3) {
+#           //askToPingDave(threadId, user, channel, message.messages[0].reply_users);
+#           notifyMissingUsers(threadId, user, channel, message.messages[0].reply_users);
+#         }
+#       });
+#   });
   
-}
+# }
 
-function notifyMissingUsers(threadId, user, channel, users) {
-  var number =  Math.floor(Math.random() * 10); 
+# function notifyMissingUsers(threadId, user, channel, users) {
+#   var number =  Math.floor(Math.random() * 10); 
   
-  if (number !== 2 || channel !== 'CDR5ZBTT7' || users.length === names.length) {
-    return
-  }
+#   if (number !== 2 || channel !== 'CDR5ZBTT7' || users.length === names.length) {
+#     return
+#   }
   
-  var usersNotIncluded = allOfUs.filter(function(currentUser){
-    return users.indexOf(currentUser) === -1;
-  });
+#   var usersNotIncluded = allOfUs.filter(function(currentUser){
+#     return users.indexOf(currentUser) === -1;
+#   });
   
-  var options = {
-    host: 'www.slack.com',
-    path: '/api/chat.postMessage',
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json; charset=utf-8',
-      'Authorization': 'Bearer ' + process.env.SECRET
-    }
-  };
-  var str = ''
-  //dave = UDBGH9BMX
-  var req = https.request(
-    options,
-    function (resp) {
-      //no-op
-    }
-  );
+#   var options = {
+#     host: 'www.slack.com',
+#     path: '/api/chat.postMessage',
+#     method: 'POST',
+#     headers: {
+#       'Content-Type': 'application/json; charset=utf-8',
+#       'Authorization': 'Bearer ' + process.env.SECRET
+#     }
+#   };
+#   var str = ''
+#   //dave = UDBGH9BMX
+#   var req = https.request(
+#     options,
+#     function (resp) {
+#       //no-op
+#     }
+#   );
   
-  req.on('error', function (err) {
-      console.log('error: ' + err);
-  });
+#   req.on('error', function (err) {
+#       console.log('error: ' + err);
+#   });
   
-  var userMap = usersNotIncluded.map((currentUser) => {
-    return '<@' + currentUser + '>'
-  });
+#   var userMap = usersNotIncluded.map((currentUser) => {
+#     return '<@' + currentUser + '>'
+#   });
   
-  //This is the data we are posting, it needs to be a string or a buffer
-  req.write(JSON.stringify({
-    channel: channel,
-    link_names: 1,
-    thread_ts: threadId,
-    as_user: false,
-    user: user,
-    username: 'Chaos Seed',
-    icon_emoji: ':chaos:',
-    text: 'Hey ' + userMap.join(', ') + '! Theres a thread here!',
-    response_type: 'in_channel'
-  }));
+#   //This is the data we are posting, it needs to be a string or a buffer
+#   req.write(JSON.stringify({
+#     channel: channel,
+#     link_names: 1,
+#     thread_ts: threadId,
+#     as_user: false,
+#     user: user,
+#     username: 'Chaos Seed',
+#     icon_emoji: ':chaos:',
+#     text: 'Hey ' + userMap.join(', ') + '! Theres a thread here!',
+#     response_type: 'in_channel'
+#   }));
   
-  parentThreads.splice(parentThreads.indexOf(threadId),1);
+#   parentThreads.splice(parentThreads.indexOf(threadId),1);
   
-  //UDC03KCGK drew
-  //UDC4QL95G Dakota
-  //UDDE5960N CJ
-  //UDBGH9BMX Dave
-  req.end();
-}
+#   //UDC03KCGK drew
+#   //UDC4QL95G Dakota
+#   //UDDE5960N CJ
+#   //UDBGH9BMX Dave
+#   req.end();
+# }
