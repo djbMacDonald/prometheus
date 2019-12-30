@@ -16,7 +16,6 @@ class BanUtil:
     while not myword.isalpha() or myword in bans.keys():
       myline = random.choice(lines)
       myword = random.choice(myline.split(' '))
-    print(myline)
     
     tz = timezone('EST')
     n = datetime.datetime.now(tz)
@@ -25,7 +24,6 @@ class BanUtil:
     f = open('banlist.txt', 'w+')
     f.write(newBan)
     f.close()
-    print(newBan)
     bans['myword'] = expirationDate
     return bans;
   

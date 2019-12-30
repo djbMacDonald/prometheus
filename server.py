@@ -107,11 +107,8 @@ def stuff():
 def test():
   
   data = request.form.to_dict()
-
-  print(data)
   
   message = getChungus(data.get('text'))
-  print(message)
   if message:
     return jsonify(
         response_type='in_channel',
@@ -124,7 +121,6 @@ def test():
 def test2(search):
   
   if search == 'list':
-      print('hi')
       url = 'https://wayfair.slack.com/api/emoji.adminList?token={}&count=100000'.format(os.environ.get('EMOJI'))
       res = requests.get(url)
       emojis = res.json();
@@ -141,7 +137,6 @@ def test2(search):
                       gigaEmojis.get(groups[0]).append((emoji.get('name'), int(groups[1]), int(groups[2])))
                   else:
                       gigaEmojis[groups[0]] = [(emoji.get('name'), int(groups[1]), int(groups[2]))]
-      print(gigaEmojis)
       message = ''
       for key in sorted(gigaEmojis.keys()):
         message = message + key + "<br />"
@@ -168,7 +163,6 @@ def bannedWords():
     ##call them an idiot
     return Response(), 200
   if text == 'list':
-    print(bans)
     postUtil.addMessageToChannel('Current Manual Bans: ' + ', '.join(bans.keys()), CHANNELS['Underscore'])
   elif text == 'clear':
     bans = {}
@@ -176,17 +170,14 @@ def bannedWords():
     postUtil.addMessageToChannel('Bans Cleared!', CHANNELS['Underscore'])
   else:
     addBan(text)
-    print(bans)
     saveBans()
     postUtil.addMessageToChannel(text + ' is now banned', CHANNELS['Underscore'])
   return Response(), 200
   
 def getChungus(searchTerm):
-  print('hi')
   url = 'https://games-club-external.slack.com/api/emoji.adminList?token={}&queries=["{}"]&count=100000'.format(os.environ.get('MEGA'), searchTerm)
   res = requests.get(url)
   emojis = res.json();
-  print(emojis)
   emojis = emojis.get('emoji')
   gigaEmojis = dict();
 
@@ -257,7 +248,6 @@ def getNewBans(numberOfBans, expiredBans):
       myline = random.choice(lines)
       myword = random.choice(myline.split(' '))
     addBan(myword)
-    print(myword)
     saveBans()
     
 def saveBans():

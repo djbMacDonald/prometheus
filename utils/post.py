@@ -36,8 +36,6 @@ class PostUtil:
     if not self.isAllowedToPostInThisChannel(info['channel']):
       return;
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
-    if DEBUG:
-      print(url)
     self._pool.apply_async(requests.get, args=[url])
     
   def addReaction(self, reaction, channel, timestamp):

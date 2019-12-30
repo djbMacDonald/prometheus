@@ -14,15 +14,15 @@ class CensorBot:
     self._banUtil = BanUtil()
   
   def run(self):
-    # if not self._event.isFromChaosUser():
-    #   return
+    if not self._event.isFromChaosUser():
+      return
     
     if not self._event.text() or self._event.isFromABot():
       return
     
     bans = self._banUtil.getBans()
     activeBans = self._banUtil.activeBans(bans)
-      
+
     if len(activeBans) == 0:
       bans = self._banUtil.banNewWord();
     self._censorMessage(activeBans);
