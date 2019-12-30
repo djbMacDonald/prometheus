@@ -4,6 +4,7 @@ from model.identity import Identity
 import urllib
 import requests
 import os
+from constant.PEOPLE import USERS
 
 class ThreadHereBot:
   
@@ -12,11 +13,17 @@ class ThreadHereBot:
     self._postUtil = PostUtil(pool)
   
   def run(self):
-    if self._event.isFromABot() or not self._event.threadId() or not self._event.:
+    if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Chaos'):
       return;
     messages = self._checkForReplies()
-    if not messages or not messages[0] or not messages[0]['reply_count'] or messages[0]['reply_count'] < 3
+    targetNumber = randint(3, 10)
+    if not messages or not messages[0] or not messages[0]['reply_count'] or messages[0]['reply_count'] < targetNumber
       return
+    userMap = map(USERS)
+      
+    self._postUtil.addMessageToThread(notification, self._event.channel(), self._event.threadId())
+    
+    
       
 #   move to utils
   def _checkForReplies():
