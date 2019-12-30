@@ -27,6 +27,7 @@ from bots.group_call import GroupCallBot
 from bots.censor import CensorBot
 from bots.deja_vu import DejaVuBot
 from bots.botify import BotifyBot
+from bots.thread_here import ThreadHereBot
 
 app = Flask(__name__)
 
@@ -67,7 +68,8 @@ def inbound():
       GroupCallBot(originalEvent, pool),
       CensorBot(originalEvent, pool),
       DejaVuBot(originalEvent, pool),
-      BotifyBot(originalEvent, pool)
+      BotifyBot(originalEvent, pool),
+      ThreadHereBot(originalEvent, pool)
     ]
     
   try:
