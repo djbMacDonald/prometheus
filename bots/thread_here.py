@@ -15,6 +15,10 @@ class ThreadHereBot:
     self._identityUtil = IdentityUtil()
   
   def run(self):
+    f = open('threads.txt', 'a')
+    f.write("{}\n".format(self._event.threadId()))
+    f.close()
+    
     if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Megamoji'):
       return;
     messages = self._checkForReplies()

@@ -40,7 +40,6 @@ def inbound():
   
   logUtil = LogUtil()
   
-  # print(json.dumps(data, indent=2, sort_keys=True))
   if data.get('event_id') in handledEvents or not data.get('event'):
     return data, 200
   else:
