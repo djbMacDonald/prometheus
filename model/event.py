@@ -80,7 +80,7 @@ class Event:
   
   def isInChannel(self, name):
     if name in CHANNELS:
-      return CHANNELS[name] == self.channel
+      return CHANNELS[name] == self._channel
     return None
   
   def isFromChaosUser(self):

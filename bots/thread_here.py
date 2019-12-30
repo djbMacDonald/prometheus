@@ -15,19 +15,20 @@ class ThreadHereBot:
     self._identityUtil = IdentityUtil()
   
   def run(self):
-    if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Chaos'):
+    if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Megamoji'):
       return;
     messages = self._checkForReplies()
-    targetNumber = randint(3, 10)
+    targetNumber = random.randint(3, 10)
     if not messages or not messages[0] or not messages[0]['reply_count'] or messages[0]['reply_count'] < targetNumber:
       return
     userMap = map(self._identityUtil.pingUser, USERS.keys())
+    print(userMap)
     notification = "Hey {}! There's a thread here!".format(" ".join(userMap))
       
-    self._postUtil.addMessageToThread(notification, self._event.channel(), self._event.threadId())
+    # self._postUtil.addMessageToThread(notification, self._event.channel(), self._event.threadId())
       
 #   move to utils
-  def _checkForReplies():
+  def _checkForReplies(self):
     postData = {
       'token': os.environ.get('SECRET'),
       'channel': self._event.channel(),
