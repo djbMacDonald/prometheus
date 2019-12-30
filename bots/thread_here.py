@@ -15,11 +15,11 @@ class ThreadHereBot:
     self._identityUtil = IdentityUtil()
   
   def run(self):
-    f = open('threads.txt', 'a')
-    f.write("{}\n".format(self._event.threadId()))
-    f.close()
-    
-    if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Megamoji'):
+    if self._event.text() and self._event.text().lower() == "silence chaos seed":
+      self._recordThread()
+      self._postUtil.addReaction(salute_cap, self._event.channel(), self._event.threadId())
+      return
+    if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Chaos'):
       return;
     messages = self._checkForReplies()
     targetNumber = random.randint(3, 10)
@@ -28,6 +28,12 @@ class ThreadHereBot:
     userMap = map(self._identityUtil.pingUser, USERS.values())
     notification = "Hey {}! There's a thread here!".format(" ".join(userMap))
     # self._postUtil.addMessageToThread(notification, self._event.channel(), self._event.threadId())
+    
+  def _recordThread(self):
+    f = open('threads.txt', 'a')
+    f.write("{}\n".format(self._event.threadId()))
+    f.close()
+    # lines = open('threads.txt', 'r').read().splitlines()
       
 #   move to utils
   def _checkForReplies(self):
