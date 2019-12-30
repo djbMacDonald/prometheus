@@ -23,7 +23,6 @@ class ThreadHereBot:
       return
     userMap = map(self._identityUtil.pingUser, USERS.values())
     notification = "Hey {}! There's a thread here!".format(" ".join(userMap))
-    print(messages)
     # self._postUtil.addMessageToThread(notification, self._event.channel(), self._event.threadId())
       
 #   move to utils

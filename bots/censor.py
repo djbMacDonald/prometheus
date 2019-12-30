@@ -15,7 +15,7 @@ class CensorBot:
   
   def run(self):
     # if not self._event.isFromChaosUser():
-      # return
+    #   return
     
     if not self._event.text() or self._event.isFromABot():
       return
@@ -23,9 +23,8 @@ class CensorBot:
     bans = self._banUtil.getBans()
     activeBans = self._banUtil.activeBans(bans)
       
-    print (bans)
     if len(activeBans) == 0:
-      bans = self.banUtil._banNewWord();
+      bans = self._banUtil.banNewWord();
     self._censorMessage(activeBans);
     
   def _censorMessage(self, bans):
@@ -34,11 +33,9 @@ class CensorBot:
     for i in range(0, len(words)):
       words[i] = '~*REDACTED*~'
     fullRedaction = ' '.join(words);
-    print(fullRedaction)
     if ('cj' in bans.keys() and self._event.isFrom('cj')):
         #do nothing
         text = fullRedaction
-        print('banned!')
         self._postUtil.deleteMessage(self._event.channel(), self._event.id())
         identity = IDENTITIES[self._event.user()]
         self._postUtil.addMessage(text, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
@@ -53,7 +50,6 @@ class CensorBot:
       if (not isinstance(ban, str)) or 'redacted' in ban.lower() or not ban.isalpha():
         continue
       newMessage = re.sub(r'\b[^A-Za-z0-9]?({})[^A-Za-z0-9]?\b'.format(ban), ' ~*REDACTED*~ ', newMessage, flags=re.IGNORECASE)
-    print ('NEW MESSAGE: ' + newMessage)
     if self._event.text() == newMessage:
       return;
     self._postUtil.deleteMessage(self._event.channel(), self._event.id())

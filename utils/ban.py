@@ -4,6 +4,7 @@ import requests
 import time
 from pytz import timezone
 from constant.channels import CHANNELS
+import datetime
 
 class BanUtil:
   
@@ -40,9 +41,9 @@ class BanUtil:
     return bans;
 
   def activeBans(self, bans):
-    copy = bans
+    copy = bans.copy()
     
     for ban in bans.items():
       if (int(ban[1]) < int(round(time.time()))):
-        del bans[ban[0]]
-    return bans
+        del copy[ban[0]]
+    return copy
