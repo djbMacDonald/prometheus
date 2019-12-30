@@ -14,8 +14,8 @@ class CensorBot:
     self._banUtil = BanUtil()
   
   def run(self):
-    if not self._event.isFromChaosUser():
-      return
+    # if not self._event.isFromChaosUser():
+      # return
     
     if not self._event.text() or self._event.isFromABot():
       return

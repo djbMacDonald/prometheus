@@ -40,6 +40,8 @@ class BanUtil:
     return bans;
 
   def activeBans(self, bans):
+    copy = bans
+    
     for ban in bans.items():
       if (int(ban[1]) < int(round(time.time()))):
         del bans[ban[0]]
