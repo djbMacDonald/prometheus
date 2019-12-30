@@ -24,8 +24,7 @@ class ThreadHereBot:
       self._postUtil.addReaction("salute_cap", self._event.channel(), self._event.id())
       self._postUtil.addReaction("squirrel", self._event.channel(), self._event.threadId())
       return
-    # if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Chaos'):
-    if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Megamoji'):
+    if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Chaos'):
       return;
     
     lines = open('threads.txt', 'r').read().splitlines()
@@ -38,13 +37,13 @@ class ThreadHereBot:
       return
     userMap = map(self._identityUtil.pingUser, USERS.values())
     notification = "Hey {}! There's a thread here!".format(" ".join(userMap))
-    # self._postUtil.addMessageToThread(notification, self._event.channel(), self._event.threadId())
+    self._postUtil.addMessageToThread(notification, self._event.channel(), self._event.threadId())
+    self._recordThread()
     
   def _recordThread(self):
     f = open('threads.txt', 'a')
     f.write("{}\n".format(self._event.threadId()))
     f.close()
-    # lines = open('threads.txt', 'r').read().splitlines()
       
 #   move to utils
   def _checkForReplies(self):
