@@ -12,52 +12,25 @@ class ThreadHereBot:
     self._postUtil = PostUtil(pool)
   
   def run(self):
-    if self._event.isFromABot():
+    if self._event.isFromABot() or not self._event.threadId() or not self._event.:
       return;
-    if self._event.threadId():
-      'a'
+    messages = self._checkForReplies()
+    if not messages or not messages[0] or not messages[0]['reply_count'] or messages[0]['reply_count'] < 3
+      return
       
 #   move to utils
-  def checkForReplies():
+  def _checkForReplies():
     postData = {
       'token': os.environ.get('SECRET'),
+      'channel': self._event.channel(),
+      'thread_ts': self._event.threadId()
       'channel': self._event.channel(),
       'latest': self._event.id(),
       'inclusive': True,
       'oldest': self._event.id()
     }
-    req = requests.get('https://slack.com/api/channels.history?{}'.format(urllib.parse.urlencode(postData)))
-    
-    
-    # if (!request.body.event.thread_ts) {
-    #   parentThreads[(threadIndex++ % 100)] = request.body.event.ts
-    # } else {
-    #   if (parentThreads.includes(request.body.event.thread_ts)) {
-    #     //testMessage(request.body.event.ts);
-    #     checkForReplies(request.body.event.thread_ts, request.body.event.channel, request.body.event.user);
-    #     response.json({});  
-    #     return;
-    #   }
-    
-#     function checkForReplies(threadId, channel, user) {
-#   let url = 'https://www.slack.com/api/channels.replies?token=' + process.env.SECRET + '&thread_ts=' + threadId + '&channel=' + channel;
-#   https.get(url, function (res) {
-#       var jsonRetval = '';
-#       res.on('data', (d) => {
-#         jsonRetval += d.toString();
-#       });
-#       res.on('end', (d) => {
-#         //console.log(jsonRetval);
-#         var message = (JSON.parse(jsonRetval));
-#         //console.log(message);
-#         if (message.messages[0].reply_count > 3) {
-#           //askToPingDave(threadId, user, channel, message.messages[0].reply_users);
-#           notifyMissingUsers(threadId, user, channel, message.messages[0].reply_users);
-#         }
-#       });
-#   });
-  
-# }
+    req = requests.get('https://slack.com/api/channels.replies?{}'.format(urllib.parse.urlencode(postData)))
+    return req.json().get('messages')
 
 # function notifyMissingUsers(threadId, user, channel, users) {
 #   var number =  Math.floor(Math.random() * 10); 
