@@ -7,7 +7,7 @@ from constant.language import VOWELS
 
 class DmBot:
   
-  _frenquency = .01
+  _frenquency = .02
   _frequency_save = .2
   _frequency_special = .2
   
