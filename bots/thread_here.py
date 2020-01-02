@@ -9,6 +9,8 @@ from utils.identity import IdentityUtil
 
 class ThreadHereBot:
   
+  minCount
+  
   def __init__(self, eventModel, pool):
     self._event = eventModel
     self._postUtil = PostUtil(pool)
