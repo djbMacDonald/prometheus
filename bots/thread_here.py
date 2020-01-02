@@ -35,7 +35,8 @@ class ThreadHereBot:
     targetNumber = random.randint(3, 10)
     if not messages or not messages[0] or not messages[0]['reply_count'] or messages[0]['reply_count'] < targetNumber:
       return
-    userMap = map(self._identityUtil.pingUser, USERS.values())
+    users = self._filterUsers(USERS.values(), messages[0]['reply_users'])
+    userMap = map(self._identityUtil.pingUser, users)
     notification = "Hey {}! There's a thread here!".format(" ".join(userMap))
     self._postUtil.addMessageToThread(notification, self._event.channel(), self._event.threadId())
     self._recordThread()
@@ -58,3 +59,7 @@ class ThreadHereBot:
     }
     req = requests.get('https://slack.com/api/channels.replies?{}'.format(urllib.parse.urlencode(postData)))
     return req.json().get('messages')
+  
+  # move to util
+  def _filterUsers(self, fullList, subtractList):
+    return list(set(fullList) - set(subtractList))
