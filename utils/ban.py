@@ -6,6 +6,7 @@ from pytz import timezone
 from constant.channels import CHANNELS
 import datetime
 
+# move to static functions
 class BanUtil:
   
   def banNewWord(self):

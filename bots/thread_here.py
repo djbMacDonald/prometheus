@@ -9,7 +9,9 @@ from utils.identity import IdentityUtil
 
 class ThreadHereBot:
   
-  minCount
+  _fileName = 'threads.txt'
+  _minCount = 3
+  _maxCount = 10
   
   def __init__(self, eventModel, pool):
     self._event = eventModel
@@ -17,7 +19,7 @@ class ThreadHereBot:
     self._identityUtil = IdentityUtil()
   
   def run(self):
-    lines = open('threads.txt', 'r').read().splitlines()
+    lines = open(self._fileName, 'r').read().splitlines()
     if self._event.threadId() in lines:
       return
     
@@ -29,12 +31,12 @@ class ThreadHereBot:
     if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Chaos'):
       return;
     
-    lines = open('threads.txt', 'r').read().splitlines()
+    lines = open(self._fileName, 'r').read().splitlines()
     if str(self._event.threadId()) in lines:
       return
 
     messages = self._checkForReplies()
-    targetNumber = random.randint(3, 10)
+    targetNumber = random.randint(self._minCount, self._maxCount)
     if not messages or not messages[0] or not messages[0]['reply_count'] or messages[0]['reply_count'] < targetNumber:
       return
     users = self._filterUsers(USERS.values(), messages[0]['reply_users'])
@@ -44,7 +46,7 @@ class ThreadHereBot:
     self._recordThread()
     
   def _recordThread(self):
-    f = open('threads.txt', 'a')
+    f = open(self._fileName, 'a')
     f.write("{}\n".format(self._event.threadId()))
     f.close()
       

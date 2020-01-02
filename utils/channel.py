@@ -2,6 +2,7 @@ import os
 import json
 import requests
 
+# move to static functions
 class ChannelUtil:
   
   def getThreadData(self, channel, threadTs):

@@ -2,6 +2,7 @@ import random
 from model.identity import Identity
 from constant.people import IMPERSONATIONS
 
+# move to static functions
 class IdentityUtil:
   
   def getRandomIdentity(self):

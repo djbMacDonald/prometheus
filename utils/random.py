@@ -1,5 +1,6 @@
 import random
 
+#move to static functions
 class RandomUtil:
   
   def rollDice(self, chanceToSucceed):

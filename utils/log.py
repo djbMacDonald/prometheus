@@ -1,5 +1,6 @@
 from constant.settings import DEBUG
 
+#move to static functions
 class LogUtil:
   
   def logToFile(self, event):
