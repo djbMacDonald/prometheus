@@ -3,7 +3,7 @@ USERS = {
   'cj': 'UDDE5960N',
   'chris': 'UDBV9N1E0',
   'dakota': 'UDC4QL95G',
-  'dave': 'UDBGH9BMX',
+  #'dave': 'UDBGH9BMX',
   'drew': 'UDC03KCGK',
   'ayshu': 'UHQD9J1SL',
   'victoria': 'UDD45P5A9',
