@@ -8,7 +8,8 @@ USERS = {
   'ayshu': 'UHQD9J1SL',
   'victoria': 'UDD45P5A9',
   'mei': 'UK7V13DS7',
-  'richard': 'UJTEHPEPL'
+  'richard': 'UJTEHPEPL',
+  #'marissa':'UPGVCMGD9'
 }
 
 GROUP_LIST = {
