@@ -32,7 +32,7 @@ class ThreadHereBot:
       self._postUtil.addReaction("salute_cap", self._event.channel(), self._event.id())
       self._postUtil.addReaction("squirrel", self._event.channel(), self._event.threadId())
       return
-    if self._event.isFromABot() or not self._event.threadId() or not self._event.isInChannel('Chaos'):
+    if self._event.isFromABot() or not self._event.threadId():
       return;
     
     lines = open(self._fileName, 'r').read().splitlines()

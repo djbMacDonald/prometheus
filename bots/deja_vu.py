@@ -1,23 +1,14 @@
-from utils.post import PostUtil
 import random
 from model.identity import Identity
-import requests
-from utils.random import RandomUtil
-from utils.identity import IdentityUtil
+from bots.bot import Bot
 
-class DejaVuBot:
+class DejaVuBot(Bot):
   
   _frequency = .01
   
   @classmethod
   def description(cls):
     return "`Deja Vu` Has a {}% chance to post a message from the channel history as a random bot".format(cls._frequency * 100)
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._randomUtil = RandomUtil()
-    self._identityUtil = IdentityUtil()
   
   def run(self):
     if self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency):

@@ -4,17 +4,13 @@ from model.identity import Identity
 import requests
 from utils.identity import IdentityUtil
 from constant.people import USERS, GROUP_LIST
+from bots.bot import Bot
 
-class GroupCallBot:
+class GroupCallBot(Bot):
   
   @classmethod
   def description(cls):
     return "`Group Call` Pings all users in a given group. Available are: {}".format(", ".join(GROUP_LIST.keys()))
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._identityUtil = IdentityUtil()
   
   def run(self):
     if not self._event.isAMessage():

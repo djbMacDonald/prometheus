@@ -1,21 +1,13 @@
-from utils.post import PostUtil
-from constant.people import USERS, IDENTITIES
-import random
+from constant.people import IDENTITIES
 from model.identity import Identity
-import requests
-from utils.ban import BanUtil
 import re
+from bots.bot import Bot
 
-class CensorBot:
+class CensorBot(Bot):
   
   @classmethod
   def description(cls):
     return "`Censor` Censors instances of banned words. Only applies to those opted into Chaos Users. The banned word changes every day."
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._banUtil = BanUtil()
   
   def run(self):
     if not self._event.isFromChaosUser():

@@ -1,10 +1,9 @@
 from utils.post import PostUtil
-from utils.identity import IdentityUtil
-from utils.random import RandomUtil
 from constant.people import USERS
 from model.identity import Identity
+from bots.bot import Bot
 
-class FireBot():
+class FireBot(Bot):
   
   _frequency = .1
   _frequencyFire = .6
@@ -15,12 +14,6 @@ class FireBot():
   @classmethod
   def description(cls):
     return "`Fire` Has a {}% chance to say Pandora or Prometheus things when {} posts. {}% chance to also ping {}".format(cls._frequency * 100, cls._target, cls._frequencyDrew * 100, cls._ping)
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._identityUtil = IdentityUtil()
-    self._randomUtil = RandomUtil()
     
   def run(self):
     if not self._event.isFrom(self._target) or self._event.isPartOfAThread() or self._event.isFromABot():

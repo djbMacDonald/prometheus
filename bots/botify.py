@@ -1,11 +1,8 @@
-from utils.post import PostUtil
-import random
 from model.identity import Identity
-import requests
-from utils.random import RandomUtil
-from constant.people import USERS, IDENTITIES
+from constant.people import IDENTITIES
+from bots.bot import Bot
 
-class BotifyBot:
+class BotifyBot(Bot):
   
   _frequency = .2
   _target = "CJ"
@@ -13,11 +10,6 @@ class BotifyBot:
   @classmethod
   def description(cls):
     return "`Botify` Has a {}% chance of replacing {}'s message with {}-bot's message".format(cls._frequency * 100, cls._target, cls._target)
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._randomUtil = RandomUtil()
   
   def run(self):
     if self._event.isAMessage() and self._event.isFrom(self._target) and self._randomUtil.rollDice(self._frequency):

@@ -2,8 +2,9 @@ from utils.post import PostUtil
 from utils.identity import IdentityUtil
 import random
 from utils.random import RandomUtil
+from bots.bot import Bot
 
-class NiceBot():
+class NiceBot(Bot):
   
   _min = 3
   _max = 10
@@ -11,12 +12,6 @@ class NiceBot():
   @classmethod
   def description(cls):
     return "`Nice` If you say nice, will respond with 'nice', {} to {} times".format(cls._min, cls._max)
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._identityUtil = IdentityUtil()
-    self._randomUtil = RandomUtil()
   
   def run(self):
     if self._event.isFromABot() or not self._event.text() or len(self._event.text()) < 1:

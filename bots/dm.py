@@ -1,11 +1,10 @@
-from utils.post import PostUtil
 import random
 from model.identity import Identity
-from utils.random import RandomUtil
 from constant.dungeon import ABILITIES, SAVES, SPECIAL, ACTIONS, DANGERS
 from constant.language import VOWELS
+from bots.bot import Bot
 
-class DmBot:
+class DmBot(Bot):
   
   _frenquency = .02
   _frequency_save = .2
@@ -14,11 +13,6 @@ class DmBot:
   @classmethod
   def description(cls):
     return "`DM` Has a {}% chance to post a command from your dungeon master. {}% of the time it will be a saving throw. Only works on messages in channel directly.".format(cls._frenquency * 100, cls._frequency_save * 100)
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._randomUtil = RandomUtil()
     
   def run(self):
     if self._event.isFromABot()or self._event.isPartOfAThread():
