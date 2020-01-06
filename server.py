@@ -8,41 +8,14 @@ from model.event import Event
 
 from utils.log import Log
 
-
-from bots import *
+import bots
 
 app = Flask(__name__)
 
 handledEvents = []
 bans = {}
 
-bots = dir(bots)
-
-bots = [
-  Dm, 
-  Mock, 
-  Nice, 
-  Underscore,
-  Stabby,
-  Fire,
-  Hello,
-  Summon,
-  Pig,
-  Scrambler,
-  SpaceReplace,
-  Reminder,
-  Dnd,
-  SayAgain,
-  NewBan,
-  GroupCall,
-  Censor,
-  DejaVu,
-  Botify,
-  ChaosSeed,
-  Sandbox, 
-  Spam,
-  Lol
-]
+botList = sorted(list(filter(lambda name: not name.startswith("_") and name[0].isupper(), dir(bots))))
 
 @app.route("/listen", methods=['POST'])
 def inbound():
@@ -59,7 +32,7 @@ def inbound():
   originalEvent = Event(data, bans)
     
   try:
-    for bot in bots:
+    for bot in botList:
       runner = bot(originalEvent, pool)
       result = runner.run()
       if result == 'end':
@@ -80,7 +53,7 @@ def list():
     return _bot_list()
   
 def _bot_list():
-  return "\n".join(sorted(map(_get_description, bots))), 200
+  return "\n".join(sorted(map(_get_description, botList))), 200
 
 def _get_description(bot):
   try:
