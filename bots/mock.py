@@ -1,19 +1,15 @@
-from utils.post import PostUtil
 import random
 from model.identity import Identity
 import urllib
 import requests
 import os
+from bots.bot import Bot
 
-class MockBot:
+class MockBot(Bot):
   
   @classmethod
   def description(cls):
     return "`Mock` If you use the spongebob-mock emote on a message,  it will post to a thread that weird alternating caps thing version of the message."
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
   
   def run(self):
     if self._event.isFromABot():

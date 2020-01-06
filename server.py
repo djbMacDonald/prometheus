@@ -6,7 +6,7 @@ import traceback
 
 from model.event import Event
 
-from utils.log import LogUtil
+from utils.log import Log
 
 from bots.scrambler import ScramblerBot
 from bots.nice import NiceBot
@@ -15,19 +15,19 @@ from bots.mock import MockBot
 from bots.underscore import UnderscoreBot
 from bots.stabby import StabbyBot
 from bots.fire import FireBot
-from bots.hello import HelloBot
-from bots.summon import SummonBot
-from bots.pig import PigBot
-from bots.space_replace import SpaceReplaceBot
-from bots.reminder import ReminderBot
-from bots.dnd import DndBot
-from bots.say_again import SayAgainBot
-from bots.new_ban import NewBanBot
-from bots.group_call import GroupCallBot
-from bots.censor import CensorBot
-from bots.deja_vu import DejaVuBot
-from bots.botify import BotifyBot
-from bots.thread_here import ThreadHereBot
+from bots.hello import Hello
+from bots.summon import Summon
+from bots.pig import Pig
+from bots.space_replace import SpaceReplace
+from bots.reminder import Reminder
+from bots.dnd import Dnd
+from bots.say_again import SayAgain
+from bots.new_ban import NewBan
+from bots.group_call import GroupCall
+from bots.censor import Censor
+from bots.deja_vu import DejaVu
+from bots.botify import Botify
+from bots.thread_here import ThreadHere
 
 app = Flask(__name__)
 
@@ -61,7 +61,7 @@ bots = [
 def inbound():
   data = request.get_json(force=True)
   
-  logUtil = LogUtil()
+  logUtil = Log()
   
   if data.get('event_id') in handledEvents or not data.get('event'):
     return data, 200

@@ -1,16 +1,12 @@
-from utils.post import PostUtil
 import random
 from constant.people import USERS, IDENTITIES
+from bots.bot import Bot
 
-class UnderscoreBot():
+class UnderscoreBot(Bot):
   
   @classmethod
   def description(cls):
     return ""
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
     
   def _runConditition(self):
     return self._event.isInChannel('Underscore') and self._event.isFromChaosUser()

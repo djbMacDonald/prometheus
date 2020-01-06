@@ -3,7 +3,7 @@ import json
 import requests
 
 # move to static functions
-class ChannelUtil:
+class Channel:
   
   def getThreadData(self, channel, threadTs):
     if not threadTs:

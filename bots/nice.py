@@ -1,7 +1,4 @@
-from utils.post import PostUtil
-from utils.identity import IdentityUtil
 import random
-from utils.random import RandomUtil
 from bots.bot import Bot
 
 class NiceBot(Bot):

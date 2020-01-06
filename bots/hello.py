@@ -1,8 +1,7 @@
-from utils.post import PostUtil
 import random
-import requests
+from bots.bot import Bot
 
-class HelloBot:
+class HelloBot(Bot):
   
   @classmethod
   def description(cls):

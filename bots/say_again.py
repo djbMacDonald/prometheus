@@ -1,21 +1,14 @@
-from utils.post import PostUtil
 import random
 from model.identity import Identity
-import requests
 import json
-from utils.channel import ChannelUtil
 from constant.people import IDENTITIES
+from bots.bot import Bot
 
-class SayAgainBot:
+class SayAgainBot(Bot):
   
   @classmethod
   def description(cls):
     return "`Say Again` If you say 'you can say that again', it will say it again"
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._channelUtil = ChannelUtil()
   
   def run(self):
     if not self._event.text() or self._event.isFromABot() or not self._event.text().lower() == "you can say that again":

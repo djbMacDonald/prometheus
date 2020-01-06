@@ -1,11 +1,9 @@
-from utils.post import PostUtil
 import random
 from model.identity import Identity
-import requests
-from utils.random import RandomUtil
 from constant.people import USERS, IDENTITIES
+from bots.bot import Bot
 
-class SpaceReplaceBot:
+class SpaceReplaceBot(Bot):
   
   _frequency = .01
   _target = 'Brenden'
@@ -13,11 +11,6 @@ class SpaceReplaceBot:
   @classmethod
   def description(cls):
     return "`Space Replace` Has a {}% chance to replace {}'s spaces with dashes".format(cls._frequency * 100, cls._target)
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._randomUtil = RandomUtil()
   
   def run(self):
     if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFrom(self._target) or not self._randomUtil.rollDice(self._frequency):

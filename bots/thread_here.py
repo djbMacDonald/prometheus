@@ -1,13 +1,12 @@
-from utils.post import PostUtil
 import random
 from model.identity import Identity
 import urllib
 import requests
 import os
 from constant.people import USERS
-from utils.identity import IdentityUtil 
+from bots.bot import Bot
 
-class ThreadHereBot:
+class ThreadHereBot(Bot):
   
   _fileName = 'threads.txt'
   _minCount = 3
@@ -16,11 +15,6 @@ class ThreadHereBot:
   @classmethod
   def description(cls):
     return "`Thread Here` If somewhere between {} and {} posts are made in a thread, pings all Chaos users not currently in thread".format(cls._minCount, cls._maxCount)
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._identityUtil = IdentityUtil()
   
   def run(self):
     lines = open(self._fileName, 'r').read().splitlines()

@@ -1,19 +1,12 @@
-from utils.post import PostUtil
-import random
-import requests
+from bots.bot import Bot
 
-class StabbyBot:
+class StabbyBot(Bot):
   
   _target = 'CJ'
   
   @classmethod
   def description(cls):
     return "`Stabby` If {} says 'stabby' then adds a reaction".format(cls._target)
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._pool = pool
-    self._postUtil = PostUtil(pool)
     
   def run(self):
     if self._event.isAMessage() and 'stabby' in self._event.text().lower() and self._event.isFrom(self._target):

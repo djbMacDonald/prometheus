@@ -1,13 +1,17 @@
-from utils.post import PostUtil
-from utils.identity import IdentityUtil
-from utils.random import RandomUtil
-from utils.ban import BanUtil
+from utils.post import Post
+from utils.identity import Identity
+from utils.random import Random
+from utils.ban import Ban
 
 class Bot(object):
   
   def __init__(self, eventModel, pool):
     self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._identityUtil = IdentityUtil()
-    self._randomUtil = RandomUtil()
-    self._banUtil = BanUtil()
+    self._postUtil = Post(pool)
+    self._identityUtil = Identity()
+    self._randomUtil = Random()
+    self._banUtil = Ban()
+    
+  @classmethod
+  def description(cls):
+    return ""

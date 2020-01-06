@@ -7,7 +7,7 @@ from constant.channels import CHANNELS
 import datetime
 
 # move to static functions
-class BanUtil:
+class Ban:
   
   def banNewWord(self):
     bans = dict();

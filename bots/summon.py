@@ -1,20 +1,13 @@
-from utils.post import PostUtil
 import random
-import requests
-from utils.channel import ChannelUtil
 from constant.creepy import STATEMENT_GENERATOR
 from constant.people import CHAOS_USERS
+from bots.bot import Bot
 
-class SummonBot:
+class SummonBot(Bot):
   
   @classmethod
   def description(cls):
     return "`Summon` If you say 'summon the silent' in a thread, then will ping all Chaos users with weird stuff."
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._channelUtil = ChannelUtil()
   
   def run(self):
     if not self._event.text() or not self._event.text().lower() == "summon the silent" or not self._event.isPartOfAThread():

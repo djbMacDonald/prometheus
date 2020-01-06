@@ -1,8 +1,5 @@
-from utils.post import PostUtil
 import random
 from model.identity import Identity
-import requests
-from utils.identity import IdentityUtil
 from constant.people import USERS, GROUP_LIST
 from bots.bot import Bot
 

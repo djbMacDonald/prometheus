@@ -1,21 +1,10 @@
-from utils.post import PostUtil
-import random
-from model.identity import Identity
-import requests
-import time
-from pytz import timezone
-from utils.ban import BanUtil
+from bots.bot import Bot
 
-class NewBanBot:
+class NewBanBot(Bot):
   
   @classmethod
   def description(cls):
     return ""
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._banUtil = BanUtil()
   
   def run(self):
     if not self._event.isInChannel('Secret') or not self._event.text() == 'new ban':

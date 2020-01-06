@@ -1,9 +1,8 @@
-from utils.post import PostUtil
 import random
-from utils.random import RandomUtil
 from constant.people import USERS, IDENTITIES
+from bots.bot import Bot
 
-class ScramblerBot:
+class ScramblerBot(Bot):
   
   _frequency = .1
   _target = 'Drew'

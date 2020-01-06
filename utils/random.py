@@ -1,7 +1,7 @@
 import random
 
 #move to static functions
-class RandomUtil:
+class Random:
   
   def rollDice(self, chanceToSucceed):
     rand = random.random()

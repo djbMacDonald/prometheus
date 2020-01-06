@@ -1,4 +1,3 @@
-from utils.post import PostUtil
 from constant.people import USERS
 from model.identity import Identity
 from bots.bot import Bot

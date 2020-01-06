@@ -3,7 +3,7 @@ from model.identity import Identity
 from constant.people import IMPERSONATIONS
 
 # move to static functions
-class IdentityUtil:
+class Identity:
   
   def getRandomIdentity(self):
     identityRow = random.choice(IMPERSONATIONS)
