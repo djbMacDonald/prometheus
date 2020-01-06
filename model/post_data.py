@@ -15,6 +15,8 @@ class PostData:
       self.params['username'] = identity.userName()
     if identity and identity.profilePicture():
       self.params['icon_url'] = identity.profilePicture()
+    elif identity and identity.emoji():
+      self.params['icon_emoji'] = identity.emoji()
   
   def get(self):
     return self.params

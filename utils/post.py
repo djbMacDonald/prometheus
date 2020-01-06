@@ -62,5 +62,3 @@ class PostUtil:
     }
     url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
     self._pool.apply_async(requests.get, args=[url])
-    
-  
