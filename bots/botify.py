@@ -9,6 +9,10 @@ class BotifyBot:
   
   _frequency = .2
   
+  @classmethod
+  def description(class):
+    return "`Botify bot` Has a {} chance of replacing CJ's message with CJ-bot's message"
+  
   def __init__(self, eventModel, pool):
     self._event = eventModel
     self._postUtil = PostUtil(pool)

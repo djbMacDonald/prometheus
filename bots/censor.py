@@ -8,6 +8,10 @@ import re
 
 class CensorBot:
   
+  @staticmethod
+  def description():
+    return "`Censor bot` Censors instances of banned words. Only applies to those opted into Chaos Users."
+  
   def __init__(self, eventModel, pool):
     self._event = eventModel
     self._postUtil = PostUtil(pool)
