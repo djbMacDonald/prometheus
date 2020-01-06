@@ -13,7 +13,7 @@ class PigBot:
   
   @classmethod
   def description(cls):
-    return "`Pig bot` Has a {}% chance of replacing {}'s message with pig latin".format(cls._frequency * 100, cls._target)
+    return "`Pig` Has a {}% chance of replacing {}'s message with pig latin".format(cls._frequency * 100, cls._target)
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

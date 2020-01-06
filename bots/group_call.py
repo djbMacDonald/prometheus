@@ -9,7 +9,7 @@ class GroupCallBot:
   
   @classmethod
   def description(cls):
-    return "`Group Call bot` Pings all users in a given group. Available are: {}".format(", ".join(GROUP_LIST.keys()))
+    return "`Group Call` Pings all users in a given group. Available are: {}".format(", ".join(GROUP_LIST.keys()))
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

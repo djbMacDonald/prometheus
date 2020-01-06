@@ -86,9 +86,17 @@ def inbound():
     
   return data, 200
 
-@app.route('/list', methods=['POST'])
+@app.route('/bot', methods=['POST'])
 def list():
+  text = request.form.get('text')
+  if text.lower() == 'list':
+    return _bot_list()
+  
+def _bot_list():
   return "\n".join(sorted(map(lambda bot : bot.description(), bots))), 200
+
+def _get_description(bot):
+  return 
 
 @app.route('/push_me', methods=['POST'])
 def stuff():

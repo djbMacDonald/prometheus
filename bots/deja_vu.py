@@ -11,7 +11,7 @@ class DejaVuBot:
   
   @classmethod
   def description(cls):
-    return "`Deja Vu bot` Has a {}% chance to post a message from the channel history as a random bot".format(cls._frequency * 100)
+    return "`Deja Vu` Has a {}% chance to post a message from the channel history as a random bot".format(cls._frequency * 100)
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

@@ -8,7 +8,7 @@ class DndBot:
   
   @classmethod
   def description(cls):
-    return "`DnD bot` Not running yet."
+    return ""
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

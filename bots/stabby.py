@@ -8,7 +8,7 @@ class StabbyBot:
   
   @classmethod
   def description(cls):
-    return "`Stabby bot` If {} says 'stabby' then adds a reaction".format(cls._target)
+    return "`Stabby` If {} says 'stabby' then adds a reaction".format(cls._target)
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

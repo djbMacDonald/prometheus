@@ -12,7 +12,7 @@ class BotifyBot:
   
   @classmethod
   def description(cls):
-    return "`Botify bot` Has a {}% chance of replacing {}'s message with {}-bot's message".format(cls._frequency * 100, cls._target, cls._target)
+    return "`Botify` Has a {}% chance of replacing {}'s message with {}-bot's message".format(cls._frequency * 100, cls._target, cls._target)
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

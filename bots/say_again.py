@@ -10,7 +10,7 @@ class SayAgainBot:
   
   @classmethod
   def description(cls):
-    return "`Say Again bot` If you say 'you can say that again', it will say it again"
+    return "`Say Again` If you say 'you can say that again', it will say it again"
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

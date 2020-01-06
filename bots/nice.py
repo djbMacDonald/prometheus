@@ -10,7 +10,7 @@ class NiceBot():
   
   @classmethod
   def description(cls):
-    return "`Nice bot` If you say nice, will respond with 'nice', {} to {} times".format(cls._min, cls._max)
+    return "`Nice` If you say nice, will respond with 'nice', {} to {} times".format(cls._min, cls._max)
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

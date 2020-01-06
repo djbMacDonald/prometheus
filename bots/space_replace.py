@@ -12,7 +12,7 @@ class SpaceReplaceBot:
   
   @classmethod
   def description(cls):
-    return "`Space Replace bot` Has a {}% chance to replace {}'s spaces with dashes".format(cls._frequency * 100, cls._target)
+    return "`Space Replace` Has a {}% chance to replace {}'s spaces with dashes".format(cls._frequency * 100, cls._target)
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

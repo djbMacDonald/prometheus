@@ -10,7 +10,7 @@ class CensorBot:
   
   @classmethod
   def description(cls):
-    return "`Censor bot` Censors instances of banned words. Only applies to those opted into Chaos Users. The banned word changes every day."
+    return "`Censor` Censors instances of banned words. Only applies to those opted into Chaos Users. The banned word changes every day."
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

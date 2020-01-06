@@ -15,7 +15,7 @@ class ThreadHereBot:
   
   @classmethod
   def description(cls):
-    return "`Thread Here bot` If somewhere between {} and {} posts are made in a thread, pings all Chaos users not currently in thread".format(cls._minCount, cls._maxCount)
+    return "`Thread Here` If somewhere between {} and {} posts are made in a thread, pings all Chaos users not currently in thread".format(cls._minCount, cls._maxCount)
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

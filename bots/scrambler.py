@@ -10,7 +10,7 @@ class ScramblerBot:
   
   @classmethod
   def description(cls):
-    return "`Scrambler bot` Has a {}% chance to scramble {}'s message".format(cls._frequency * 100, cls._target)
+    return "`Scrambler` Has a {}% chance to scramble {}'s message".format(cls._frequency * 100, cls._target)
   
   def __init__(self, eventModel, pool):
     self._event = eventModel
