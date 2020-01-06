@@ -123,7 +123,7 @@ STATEMENT_GENERATOR = [
     'They delight in your struggle.',
     'You will never be the same again.',
     'You still have hope, but it is fading.',
-    'You witness the sunset, do not assume it will rise again.',
+    'You witness the setting of the sun, do not assume it will rise again.',
     'You are part of the darkness now.',
     'Greater beings than you have failed this challenge.',
     'We will all be forgotten.',
