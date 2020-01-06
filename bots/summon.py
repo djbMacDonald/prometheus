@@ -9,7 +9,7 @@ class SummonBot:
   
   @classmethod
   def description(cls):
-    return "`Name bot` ".format()
+    return "`Summon bot` If you say 'summon the silent' in a thread, then will ping all Chaos users with weird stuff."
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

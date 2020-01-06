@@ -6,7 +6,7 @@ class HelloBot:
   
   @classmethod
   def description(cls):
-    return "`Name bot` ".format()
+    return "`Hello bot` if you say 'Hi Prometheus' it will say hello back."
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

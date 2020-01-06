@@ -9,7 +9,7 @@ class MockBot:
   
   @classmethod
   def description(cls):
-    return "`Name bot` ".format()
+    return "`Mock bot` If you use the spongebob-mock emote on a message,  it will post to a thread that weird alternating caps thing version of the message."
   
   def __init__(self, eventModel, pool):
     self._event = eventModel

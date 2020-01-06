@@ -6,7 +6,7 @@ class UnderscoreBot():
   
   @classmethod
   def description(cls):
-    return "`Name bot` ".format()
+    return ""
   
   def __init__(self, eventModel, pool):
     self._event = eventModel
