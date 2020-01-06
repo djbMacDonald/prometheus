@@ -18,6 +18,6 @@ class SpaceReplace(Bot):
     if ' ' in self._event.text():
       message = self._event.text().replace(' ', '-')
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-      identity = IDENTITIES[USERS[user]]
+      identity = IDENTITIES[USERS[self._target.lower()]]
       self._postUtil.addMessage(message, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
       return

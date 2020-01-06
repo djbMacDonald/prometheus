@@ -26,7 +26,7 @@ class Sandbox(Bot):
     
     messages = db.events.find({"channel": "CDU145F08"})
     for m in messages:
-      print(m.text)
+      print(m)
     
     # Issue the serverStatus command and print the results
     return

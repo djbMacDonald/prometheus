@@ -18,6 +18,6 @@ class Scrambler(Bot):
     if len(words) > 1 and self._randomUtil.rollDice(self._frequency):
       random.shuffle(words)
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-      identity = IDENTITIES[USERS[user]]
+      identity = IDENTITIES[USERS[self._target.lower()]]
       self._postUtil.addMessage(' '.join(words), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
       return

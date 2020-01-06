@@ -6,7 +6,7 @@ from bots.bot import Bot
 
 class Pig(Bot):
   
-  _frequency = .1
+  _frequency = .05
   _target = 'CJ'
   
   @classmethod
@@ -34,6 +34,6 @@ class Pig(Bot):
           word = ''.join(word[1:]) + word[0]
       text[i] = word + 'ay'
     self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-    identity = IDENTITIES[USERS[self._target]]
+    identity = IDENTITIES[USERS[self._target.lower()]]
     self._postUtil.addMessage(' '.join(text), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
     return
