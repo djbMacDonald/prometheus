@@ -30,6 +30,7 @@ from bots.botify import Botify
 from bots.chaos_seed import ChaosSeed
 from bots.sandbox import Sandbox
 from bots.spam import Spam
+from bots.lol import Lol
 
 app = Flask(__name__)
 
@@ -58,7 +59,8 @@ bots = [
   Botify,
   ChaosSeed,
   Sandbox, 
-  Spam
+  Spam,
+  Lol
 ]
 
 @app.route("/listen", methods=['POST'])
