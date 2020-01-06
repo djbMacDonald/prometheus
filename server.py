@@ -8,7 +8,7 @@ from model.event import Event
 
 from utils.log import Log
 
-fr
+# from bots import *
 
 from bots.scrambler import Scrambler
 from bots.nice import Nice
@@ -33,6 +33,8 @@ from bots.chaos_seed import ChaosSeed
 from bots.sandbox import Sandbox
 from bots.spam import Spam
 from bots.lol import Lol
+
+# import bots
 
 app = Flask(__name__)
 
