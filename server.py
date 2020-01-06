@@ -93,10 +93,15 @@ def list():
     return _bot_list()
   
 def _bot_list():
-  return "\n".join(sorted(map(lambda bot : bot.description(), bots))), 200
+  return "\n".join(sorted(map(_get_description, bots))), 200
 
 def _get_description(bot):
-  return 
+  try:
+    return bot.description()
+  except Exception as error:
+    pprint.pprint(error)
+    print(traceback.format_exc())
+    return ""
 
 @app.route('/push_me', methods=['POST'])
 def stuff():
