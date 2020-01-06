@@ -1,6 +1,6 @@
 from bots.bot import Bot
 
-class StabbyBot(Bot):
+class Stabby(Bot):
   
   _target = 'CJ'
   

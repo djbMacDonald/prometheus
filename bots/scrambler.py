@@ -2,7 +2,7 @@ import random
 from constant.people import USERS, IDENTITIES
 from bots.bot import Bot
 
-class ScramblerBot(Bot):
+class Scrambler(Bot):
   
   _frequency = .1
   _target = 'Drew'

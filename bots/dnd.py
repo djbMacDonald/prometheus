@@ -4,7 +4,7 @@ import requests
 import json
 from bots.bot import Bot
 
-class DndBot(Bot):
+class Dnd(Bot):
   
   def run(self):
     if self._event.isFromABot() or not self._event.text() or not self._event.text()[0] == '!':

@@ -3,7 +3,7 @@ from constant.creepy import STATEMENT_GENERATOR
 from constant.people import CHAOS_USERS
 from bots.bot import Bot
 
-class SummonBot(Bot):
+class Summon(Bot):
   
   @classmethod
   def description(cls):

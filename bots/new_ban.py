@@ -1,6 +1,6 @@
 from bots.bot import Bot
 
-class NewBanBot(Bot):
+class NewBan(Bot):
   
   @classmethod
   def description(cls):

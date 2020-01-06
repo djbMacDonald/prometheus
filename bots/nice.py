@@ -1,7 +1,7 @@
 import random
 from bots.bot import Bot
 
-class NiceBot(Bot):
+class Nice(Bot):
   
   _min = 3
   _max = 10

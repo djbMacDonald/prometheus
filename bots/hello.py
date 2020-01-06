@@ -1,7 +1,7 @@
 import random
 from bots.bot import Bot
 
-class HelloBot(Bot):
+class Hello(Bot):
   
   @classmethod
   def description(cls):

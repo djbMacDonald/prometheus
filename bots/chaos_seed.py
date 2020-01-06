@@ -6,7 +6,7 @@ import os
 from constant.people import USERS
 from bots.bot import Bot
 
-class ThreadHereBot(Bot):
+class ChaosSeed(Bot):
   
   _fileName = 'threads.txt'
   _minCount = 3
@@ -14,7 +14,7 @@ class ThreadHereBot(Bot):
   
   @classmethod
   def description(cls):
-    return "`Thread Here` If somewhere between {} and {} posts are made in a thread, pings all Chaos users not currently in thread".format(cls._minCount, cls._maxCount)
+    return "`Chaos Seed` If somewhere between {} and {} posts are made in a thread, pings all Chaos users not currently in thread".format(cls._minCount, cls._maxCount)
   
   def run(self):
     lines = open(self._fileName, 'r').read().splitlines()

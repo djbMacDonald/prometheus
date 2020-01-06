@@ -2,7 +2,7 @@ import random
 from constant.people import USERS, IDENTITIES
 from bots.bot import Bot
 
-class UnderscoreBot(Bot):
+class Underscore(Bot):
   
   @classmethod
   def description(cls):

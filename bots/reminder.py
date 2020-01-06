@@ -3,7 +3,7 @@ from model.identity import Identity
 from constant.channels import CHANNELS
 from bots.bot import Bot
 
-class ReminderBot(Bot):
+class Reminder(Bot):
   
   def run(self):
     if not self._event.event() or not self._event.isFromABot() or not self._event.isInChannel('Reminders') or not self._event.isFromBot('reminder') or not self._event.text() == 'Reminder: Trigger Schemes Poll.':

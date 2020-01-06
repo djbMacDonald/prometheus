@@ -11,8 +11,10 @@ class PostData:
     }
     if threadId:
       self.params['thread_ts'] = threadId
+      
     if identity and identity.userName():
       self.params['username'] = identity.userName()
+      
     if identity and identity.profilePicture():
       self.params['icon_url'] = identity.profilePicture()
     elif identity and identity.emoji():

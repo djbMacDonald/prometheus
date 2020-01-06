@@ -8,13 +8,13 @@ from model.event import Event
 
 from utils.log import Log
 
-from bots.scrambler import ScramblerBot
-from bots.nice import NiceBot
-from bots.dm import DmBot
-from bots.mock import MockBot
-from bots.underscore import UnderscoreBot
-from bots.stabby import StabbyBot
-from bots.fire import FireBot
+from bots.scrambler import Scrambler
+from bots.nice import Nice
+from bots.dm import Dm
+from bots.mock import Mock
+from bots.underscore import Underscore
+from bots.stabby import Stabby
+from bots.fire import Fire
 from bots.hello import Hello
 from bots.summon import Summon
 from bots.pig import Pig
@@ -27,7 +27,7 @@ from bots.group_call import GroupCall
 from bots.censor import Censor
 from bots.deja_vu import DejaVu
 from bots.botify import Botify
-from bots.thread_here import ThreadHere
+from bots.chaos_seed import ChaosSeed
 
 app = Flask(__name__)
 
@@ -35,26 +35,26 @@ handledEvents = []
 bans = {}
 
 bots = [
-  DmBot, 
-  MockBot, 
-  NiceBot, 
-  UnderscoreBot,
-  StabbyBot,
-  FireBot,
-  HelloBot,
-  SummonBot,
-  PigBot,
-  ScramblerBot,
-  SpaceReplaceBot,
-  ReminderBot,
-  DndBot,
-  SayAgainBot,
-  NewBanBot,
-  GroupCallBot,
-  CensorBot,
-  DejaVuBot,
-  BotifyBot,
-  ThreadHereBot
+  Dm, 
+  Mock, 
+  Nice, 
+  Underscore,
+  Stabby,
+  Fire,
+  Hello,
+  Summon,
+  Pig,
+  Scrambler,
+  SpaceReplace,
+  Reminder,
+  Dnd,
+  SayAgain,
+  NewBan,
+  GroupCall,
+  Censor,
+  DejaVu,
+  Botify,
+  ChaosSeed
 ]
 
 @app.route("/listen", methods=['POST'])

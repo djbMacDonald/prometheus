@@ -3,7 +3,7 @@ from model.identity import Identity
 from constant.people import USERS, IDENTITIES
 from bots.bot import Bot
 
-class SpaceReplaceBot(Bot):
+class SpaceReplace(Bot):
   
   _frequency = .01
   _target = 'Brenden'

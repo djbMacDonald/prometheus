@@ -2,7 +2,7 @@ from constant.people import USERS
 from model.identity import Identity
 from bots.bot import Bot
 
-class FireBot(Bot):
+class Fire(Bot):
   
   _frequency = .1
   _frequencyFire = .6

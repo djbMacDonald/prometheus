@@ -4,7 +4,7 @@ from constant.dungeon import ABILITIES, SAVES, SPECIAL, ACTIONS, DANGERS
 from constant.language import VOWELS
 from bots.bot import Bot
 
-class DmBot(Bot):
+class Dm(Bot):
   
   _frenquency = .02
   _frequency_save = .2

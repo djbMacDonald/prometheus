@@ -4,7 +4,7 @@ from constant.language import VOWELS
 from constant.people import USERS, IDENTITIES
 from bots.bot import Bot
 
-class PigBot(Bot):
+class Pig(Bot):
   
   _frequency = .1
   _target = 'CJ'

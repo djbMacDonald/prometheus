@@ -4,7 +4,7 @@ import json
 from constant.people import IDENTITIES
 from bots.bot import Bot
 
-class SayAgainBot(Bot):
+class SayAgain(Bot):
   
   @classmethod
   def description(cls):

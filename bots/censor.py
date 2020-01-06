@@ -3,7 +3,7 @@ from model.identity import Identity
 import re
 from bots.bot import Bot
 
-class CensorBot(Bot):
+class Censor(Bot):
   
   @classmethod
   def description(cls):

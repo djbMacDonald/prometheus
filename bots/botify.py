@@ -2,7 +2,7 @@ from model.identity import Identity
 from constant.people import IDENTITIES
 from bots.bot import Bot
 
-class BotifyBot(Bot):
+class Botify(Bot):
   
   _frequency = .2
   _target = "CJ"

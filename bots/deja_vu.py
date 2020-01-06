@@ -2,7 +2,7 @@ import random
 from model.identity import Identity
 from bots.bot import Bot
 
-class DejaVuBot(Bot):
+class DejaVu(Bot):
   
   _frequency = .01
   

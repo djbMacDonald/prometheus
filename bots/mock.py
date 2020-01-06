@@ -5,7 +5,7 @@ import requests
 import os
 from bots.bot import Bot
 
-class MockBot(Bot):
+class Mock(Bot):
   
   @classmethod
   def description(cls):
