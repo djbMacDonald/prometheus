@@ -8,6 +8,10 @@ from utils.ban import BanUtil
 
 class NewBanBot:
   
+  @classmethod
+  def description(cls):
+    return "`Name bot` ".format()
+  
   def __init__(self, eventModel, pool):
     self._event = eventModel
     self._postUtil = PostUtil(pool)

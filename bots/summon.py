@@ -7,6 +7,10 @@ from constant.people import CHAOS_USERS
 
 class SummonBot:
   
+  @classmethod
+  def description(cls):
+    return "`Name bot` ".format()
+  
   def __init__(self, eventModel, pool):
     self._event = eventModel
     self._postUtil = PostUtil(pool)

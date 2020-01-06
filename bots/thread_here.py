@@ -13,6 +13,10 @@ class ThreadHereBot:
   _minCount = 3
   _maxCount = 10
   
+  @classmethod
+  def description(cls):
+    return "`Name bot` ".format()
+  
   def __init__(self, eventModel, pool):
     self._event = eventModel
     self._postUtil = PostUtil(pool)

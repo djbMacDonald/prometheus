@@ -88,7 +88,7 @@ def inbound():
 
 @app.route('/list', methods=['POST'])
 def list():
-  return "/n".join(map(lambda bot : bot.description(), bots)), 200
+  return "\n".join(sorted(map(lambda bot : bot.description(), bots))), 200
 
 @app.route('/push_me', methods=['POST'])
 def stuff():

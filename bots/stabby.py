@@ -4,6 +4,10 @@ import requests
 
 class StabbyBot:
   
+  @classmethod
+  def description(cls):
+    return "`Name bot` ".format()
+  
   def __init__(self, eventModel, pool):
     self._event = eventModel
     self._pool = pool

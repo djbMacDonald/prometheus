@@ -10,6 +10,10 @@ class FireBot():
   _frequencyFire = .6
   _frequencyDrew = .2
   
+  @classmethod
+  def description(cls):
+    return "`Name bot` ".format()
+  
   def __init__(self, eventModel, pool):
     self._event = eventModel
     self._postUtil = PostUtil(pool)

@@ -7,6 +7,10 @@ class ScramblerBot:
   
   _frequency = .1
   
+  @classmethod
+  def description(cls):
+    return "`Name bot` ".format()
+  
   def __init__(self, eventModel, pool):
     self._event = eventModel
     self._postUtil = PostUtil(pool)

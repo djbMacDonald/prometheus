@@ -11,6 +11,10 @@ class DmBot:
   _frequency_save = .2
   _frequency_special = .2
   
+  @classmethod
+  def description(cls):
+    return "`DM bot` Has a {}% chance to post a command from your dungeon master. {}% of the time it will be a saving throw. A".format()
+  
   def __init__(self, eventModel, pool):
     self._event = eventModel
     self._postUtil = PostUtil(pool)
