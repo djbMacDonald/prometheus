@@ -6,14 +6,15 @@ import urllib
 
 class Spam(Bot):
   
-  _frequency = .01
+  _frequency = .05
+  _numberOfEmotes = 23
   
   @classmethod
   def description(cls):
-    return ""
+    return "`Spam` Has a {}% chance to post {23} random reactions to a message".format(cls._frequency * 100, cls._numberOfEmotes)
   
   def run(self):
-    if self._event.isPartOfAThread() or not self._randomUtil.rollDice(self._frequency) or not self._event.text() == "spam50":
+    if not self._randomUtil.rollDice(self._frequency):
       return
     
     # this needs to be moved to util
@@ -22,5 +23,5 @@ class Spam(Bot):
     }
     req = requests.get('https://slack.com/api/emoji.list?{}'.format(urllib.parse.urlencode(postData)))
     
-    for i in range(1, 50):
+    for i in range(1, self._numberOfEmotes):
       self._postUtil.addReaction(random.choice(list(req.json().get('emoji').keys())), self._event.channel(), self._event.id())
