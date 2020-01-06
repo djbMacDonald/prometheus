@@ -8,6 +8,8 @@ from model.event import Event
 
 from utils.log import Log
 
+fr
+
 from bots.scrambler import Scrambler
 from bots.nice import Nice
 from bots.dm import Dm

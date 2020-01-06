@@ -4,9 +4,11 @@ class Lol(Bot):
   
   @classmethod
   def description(cls):
-    return "`Lol` Adds a LOL emote when you LOL"
+    return "`Lol` Adds an emote if your message matches an emote"
   
   def run(self):
-    if not self._event.text() or self._event.text().lower() != 'lol':
+    if not self._event.text():
       return
-    self._postUtil.addReaction('lol', self._event.channel(), self._event.threadId())
+    emojis = self._postUtil.getAllEmojis()
+    if self._event.text().lower() in emojis: 
+      self._postUtil.addReaction(self._event.text().lower(), self._event.channel(), self._event.id())

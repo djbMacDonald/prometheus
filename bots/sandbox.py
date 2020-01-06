@@ -19,14 +19,14 @@ class Sandbox(Bot):
     event = self._event.event()
     if 'blocks' in event:
       del(event['blocks'])
-    event['_id'] = event['client_msg_id']
-    print(event)
+    # event['_id'] = event['client_msg_id']
+    # print(event)
     
-    db.events.insert_one(event)
+    # db.events.insert_one(event)
     
-    messages = db.events.find({"channel": "CDU145F08"})
-    for m in messages:
-      print(m)
+    # messages = db.events.find({"channel": "CDU145F08"})
+    # for m in messages:
+      # print(m)
     
     # Issue the serverStatus command and print the results
     return

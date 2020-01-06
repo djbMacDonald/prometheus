@@ -62,3 +62,10 @@ class Post:
     }
     url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
     self._pool.apply_async(requests.get, args=[url])
+
+  def getAllEmojis(self):
+    postData = {
+      'token': os.environ.get('SECRET')
+    }
+    req = requests.get('https://slack.com/api/emoji.list?{}'.format(urllib.parse.urlencode(postData)))
+    return list(req.json().get('emoji').keys())

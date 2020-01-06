@@ -17,11 +17,7 @@ class Spam(Bot):
     if not self._randomUtil.rollDice(self._frequency):
       return
     
-    # this needs to be moved to util
-    postData = {
-      'token': os.environ.get('SECRET')
-    }
-    req = requests.get('https://slack.com/api/emoji.list?{}'.format(urllib.parse.urlencode(postData)))
+    emojis = self._postUtil.getAllEmojis()
     
     for i in range(1, self._numberOfEmotes):
-      self._postUtil.addReaction(random.choice(list(req.json().get('emoji').keys())), self._event.channel(), self._event.id())
+      self._postUtil.addReaction(random.choice(emojis), self._event.channel(), self._event.id())
