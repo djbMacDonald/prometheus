@@ -20,7 +20,7 @@ class BotifyBot:
     self._randomUtil = RandomUtil()
   
   def run(self):
-    if self._event.isAMessage() and self._event.isFrom(self._target) and self.randomUtil.rollDice(self._frequency):
+    if self._event.isAMessage() and self._event.isFrom(self._target) and self._randomUtil.rollDice(self._frequency):
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
       identity = IDENTITIES[self._event.user()]
       self._postUtil.addMessage(self._event.text(), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
