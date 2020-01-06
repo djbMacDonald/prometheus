@@ -29,8 +29,7 @@ def _getBotAttr(bot, attrName):
   moduleType = getattr(bots, bot)
   className = _convertCase(bot)
   classType = getattr(moduleType, className)
-  print(getattr(classType, attrName)())
-  return "7"
+  return getattr(classType, attrName)()
 
 botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
 

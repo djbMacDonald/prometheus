@@ -1,7 +1,7 @@
 from constant.people import IDENTITIES
 from model.identity import Identity
 import re
-from bots.bot import Bot
+from bots._bot import Bot
 
 class Censor(Bot):
   

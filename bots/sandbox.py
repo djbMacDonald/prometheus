@@ -1,4 +1,4 @@
-from bots.bot import Bot
+from bots._bot import Bot
 from pymongo import MongoClient
 from pprint import pprint
 import json

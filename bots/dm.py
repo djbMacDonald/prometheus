@@ -2,7 +2,7 @@ import random
 from model.identity import Identity
 from constant.dungeon import ABILITIES, SAVES, SPECIAL, ACTIONS, DANGERS
 from constant.language import VOWELS
-from bots.bot import Bot
+from bots._bot import Bot
 
 class Dm(Bot):
   
@@ -15,7 +15,7 @@ class Dm(Bot):
     return "`DM` Has a {}% chance to post a command from your dungeon master. {}% of the time it will be a saving throw. Only works on messages in channel directly.".format(cls._frenquency * 100, cls._frequency_save * 100)
     
   def run(self):
-    if self._event.isFromABot()or self._event.isPartOfAThread():
+    if self._event.isFromABot() or self._event.isPartOfAThread() or not self._event.isAMessage():
       return;
     if self._randomUtil.rollDice(self._frenquency):
       message = 'Roll {} to {} the {}'.format(self._createRollMessage(), random.choice(ACTIONS), random.choice(DANGERS))

@@ -1,7 +1,7 @@
 import random
 from model.identity import Identity
 from constant.people import USERS, GROUP_LIST
-from bots.bot import Bot
+from bots._bot import Bot
 
 class GroupCall(Bot):
   

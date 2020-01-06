@@ -1,6 +1,6 @@
 import random
 from constant.people import USERS, IDENTITIES
-from bots.bot import Bot
+from bots._bot import Bot
 
 class Underscore(Bot):
   

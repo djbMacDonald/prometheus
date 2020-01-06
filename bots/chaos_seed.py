@@ -4,7 +4,7 @@ import urllib
 import requests
 import os
 from constant.people import USERS
-from bots.bot import Bot
+from bots._bot import Bot
 
 class ChaosSeed(Bot):
   

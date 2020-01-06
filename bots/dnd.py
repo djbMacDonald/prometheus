@@ -2,7 +2,7 @@ import random
 from model.identity import Identity
 import requests
 import json
-from bots.bot import Bot
+from bots._bot import Bot
 
 class Dnd(Bot):
   

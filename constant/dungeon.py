@@ -8,7 +8,7 @@ SAVES = ['Fortitude', 'Reflex', 'Will', 'Strength', 'Dexterity', 'Constitution',
 
 SPECIAL = ['with advantage', 'with disadvantage']
 
-ACTIONS = ['avoid', 'dodge', 'survive', 'notice', 'seduce', 'hide from', 'punch', 'headbut', 'shoot', 'jump over', 'buy off', 'research', 'kick', 'persuade', 'sneak around'
+ACTIONS = ['avoid', 'dodge', 'survive', 'notice', 'seduce', 'hide from', 'punch', 'headbut', 'shoot', 'jump over', 'buy off', 'research', 'kick', 'persuade', 'sneak around',
            'steal from', 'swim past', 'throw', 'track', 'subscribe to', 'gather information from', 'pickpocket from', 'tell a story to', 'deceive', 'inspire', 'intimidate',
            'play cards with', 'bum a cigarette from', 'steal food from', 'disarm', 'assess', 'appraise']
 

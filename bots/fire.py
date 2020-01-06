@@ -1,6 +1,6 @@
 from constant.people import USERS
 from model.identity import Identity
-from bots.bot import Bot
+from bots._bot import Bot
 
 class Fire(Bot):
   

@@ -7,6 +7,8 @@ from constant.channels import ALLOWED_CHANNELS
 
 class Post:
   
+  _allEmotes = []
+  
   def __init__(self, pool):
     self._pool = pool
   
@@ -64,8 +66,12 @@ class Post:
     self._pool.apply_async(requests.get, args=[url])
 
   def getAllEmojis(self):
+    if self._allEmotes:
+      return self._allEmotes
+    
     postData = {
       'token': os.environ.get('SECRET')
     }
     req = requests.get('https://slack.com/api/emoji.list?{}'.format(urllib.parse.urlencode(postData)))
-    return list(req.json().get('emoji').keys())
+    self._allEmotes = list(req.json().get('emoji').keys())
+    return self._allEmotes

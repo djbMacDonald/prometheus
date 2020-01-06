@@ -1,5 +1,5 @@
 import random
-from bots.bot import Bot
+from bots._bot import Bot
 
 class Hello(Bot):
   

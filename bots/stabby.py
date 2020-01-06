@@ -1,4 +1,4 @@
-from bots.bot import Bot
+from bots._bot import Bot
 
 class Stabby(Bot):
   

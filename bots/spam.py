@@ -1,4 +1,4 @@
-from bots.bot import Bot
+from bots._bot import Bot
 import os
 import requests
 import random
@@ -18,6 +18,7 @@ class Spam(Bot):
       return
     
     emojis = self._postUtil.getAllEmojis()
+    randomEmojis = random.sample(emojis, k=23)
     
-    for i in range(1, self._numberOfEmotes):
-      self._postUtil.addReaction(random.choice(emojis), self._event.channel(), self._event.id())
+    for emoji in randomEmojis:
+      self._postUtil.addReaction(emoji, self._event.channel(), self._event.id())

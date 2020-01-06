@@ -3,7 +3,7 @@ from model.identity import Identity
 import urllib
 import requests
 import os
-from bots.bot import Bot
+from bots._bot import Bot
 
 class Mock(Bot):
   
