@@ -1,4 +1,9 @@
-from bots.dm import Dm
-from bots.lol import Lol
+import os
+import glob
 
-_all__ = ["Dm", "Lol"]
+all_list = list()
+for f in glob.glob(os.path.dirname(__file__)+"/*.py"):
+    if os.path.isfile(f) and not os.path.basename(f).startswith('_'):
+        all_list.append(os.path.basename(f)[:-3])
+
+__all__ = all_list 
