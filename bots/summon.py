@@ -1,7 +1,7 @@
 import random
 from constant.creepy import STATEMENT_GENERATOR
 from constant.people import CHAOS_USERS
-from bots.bot import Bot
+from bots._bot import Bot
 
 class Summon(Bot):
   

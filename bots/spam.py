@@ -14,7 +14,7 @@ class Spam(Bot):
     return "`Spam` Has a {}% chance to post {} random reactions to a message".format(cls._frequency * 100, cls._numberOfEmotes)
   
   def run(self):
-    if not self._randomUtil.rollDice(self._frequency):
+    if self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency):
       return
     
     emojis = self._postUtil.getAllEmojis()

@@ -1,7 +1,7 @@
 import random
 from model.identity import Identity
 from constant.channels import CHANNELS
-from bots.bot import Bot
+from bots._bot import Bot
 
 class Reminder(Bot):
   

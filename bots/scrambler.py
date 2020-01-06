@@ -1,6 +1,7 @@
 import random
 from constant.people import USERS, IDENTITIES
 from bots._bot import Bot
+from model.identity import Identity
 
 class Scrambler(Bot):
   

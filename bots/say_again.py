@@ -2,7 +2,7 @@ import random
 from model.identity import Identity
 import json
 from constant.people import IDENTITIES
-from bots.bot import Bot
+from bots._bot import Bot
 
 class SayAgain(Bot):
   
