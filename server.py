@@ -28,6 +28,7 @@ from bots.censor import Censor
 from bots.deja_vu import DejaVu
 from bots.botify import Botify
 from bots.chaos_seed import ChaosSeed
+from bots.sandbox import Sandbox
 
 app = Flask(__name__)
 
@@ -54,7 +55,8 @@ bots = [
   Censor,
   DejaVu,
   Botify,
-  ChaosSeed
+  ChaosSeed,
+  Sandbox
 ]
 
 @app.route("/listen", methods=['POST'])
