@@ -31,8 +31,31 @@ from bots.thread_here import ThreadHereBot
 
 app = Flask(__name__)
 
-handledEvents = [];
+handledEvents = []
 bans = {}
+
+bots = [
+  DmBot, 
+  MockBot, 
+  NiceBot, 
+  UnderscoreBot,
+  StabbyBot,
+  FireBot,
+  HelloBot,
+  SummonBot,
+  PigBot,
+  ScramblerBot,
+  SpaceReplaceBot,
+  ReminderBot,
+  DndBot,
+  SayAgainBot,
+  NewBanBot,
+  GroupCallBot,
+  CensorBot,
+  DejaVuBot,
+  BotifyBot,
+  ThreadHereBot
+]
 
 @app.route("/listen", methods=['POST'])
 def inbound():
@@ -47,33 +70,11 @@ def inbound():
   
   pool = Pool(1)
   originalEvent = Event(data, bans)
-  
-  bots = [
-      DmBot(originalEvent, pool), 
-      MockBot(originalEvent, pool), 
-      NiceBot(originalEvent, pool), 
-      UnderscoreBot(originalEvent, pool),
-      StabbyBot(originalEvent, pool),
-      FireBot(originalEvent, pool),
-      HelloBot(originalEvent, pool),
-      SummonBot(originalEvent, pool),
-      PigBot(originalEvent, pool),
-      ScramblerBot(originalEvent, pool),
-      SpaceReplaceBot(originalEvent, pool),
-      ReminderBot(originalEvent, pool),
-      DndBot(originalEvent, pool),
-      SayAgainBot(originalEvent, pool),
-      NewBanBot(originalEvent, pool),
-      GroupCallBot(originalEvent, pool),
-      CensorBot(originalEvent, pool),
-      DejaVuBot(originalEvent, pool),
-      BotifyBot(originalEvent, pool),
-      ThreadHereBot(originalEvent, pool)
-    ]
     
   try:
     for bot in bots:
-      result = bot.run()
+      runner = bot(originalEvent, pool)
+      result = runner.run()
       if result == 'end':
         return Response(), 200
   except Exception as error:
@@ -84,6 +85,12 @@ def inbound():
     logUtil.logToFile(originalEvent)
     
   return data, 200
+
+@app.route('/list', methods=['POST'])
+def list():
+  for bot in bots:
+    a = 4
+  return "Hello world", 200
 
 @app.route('/push_me', methods=['POST'])
 def stuff():
