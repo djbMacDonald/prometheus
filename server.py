@@ -19,8 +19,20 @@ def _convertCase(name):
   components = name.split('_')
   return''.join(x.title() for x in components)
 
+def _callBot(bot, originalEvent, pool):
+  moduleType = getattr(bots, bot)
+  className = _convertCase(bot)
+  runner = getattr(moduleType, className)(originalEvent, pool)
+  return runner.run()
+
+def _getBotAttr(bot, attrName):
+  moduleType = getattr(bots, bot)
+  className = _convertCase(bot)
+  classType = getattr(moduleType, className)
+  print(getattr(classType, attrName)())
+  return "7"
+
 botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
-print(botList)
 
 @app.route("/listen", methods=['POST'])
 def inbound():
@@ -38,10 +50,7 @@ def inbound():
     
   for bot in botList:
     try:
-      moduleType = getattr(bots, bot)
-      classType = _convertCase(bot)
-      getattr(moduleType, classType)(originalEvent, pool)
-      result = runner.run()
+      result = _callBot(bot, originalEvent, pool)
       if result == 'end':
         return Response(), 200
     except Exception as error:
@@ -57,14 +66,14 @@ def inbound():
 def list():
   text = request.form.get('text')
   if text.lower() == 'list':
-    return _bot_list()
+    return _botList()
   
-def _bot_list():
-  return "\n".join(sorted(map(_get_description, botList))), 200
+def _botList():
+  return "\n".join(sorted(map(_getDescription, botList))), 200
 
-def _get_description(bot):
+def _getDescription(bot):
   try:
-    return bot.description()
+    return _getBotAttr(bot, "description")
   except Exception as error:
     pprint.pprint(error)
     print(traceback.format_exc())

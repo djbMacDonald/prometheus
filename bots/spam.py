@@ -11,7 +11,7 @@ class Spam(Bot):
   
   @classmethod
   def description(cls):
-    return "`Spam` Has a {}% chance to post {23} random reactions to a message".format(cls._frequency * 100, cls._numberOfEmotes)
+    return "`Spam` Has a {}% chance to post {} random reactions to a message".format(cls._frequency * 100, cls._numberOfEmotes)
   
   def run(self):
     if not self._randomUtil.rollDice(self._frequency):

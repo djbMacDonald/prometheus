@@ -15,3 +15,6 @@ class Bot(object):
   @classmethod
   def description(cls):
     return ""
+  
+  def run(self):
+    return
