@@ -91,5 +91,5 @@ class Event:
   
   def isFrom(self, name):
     if name.lower() in USERS.keys():
-      return USERS[name.lower()] == self.user
+      return USERS[name.lower()] == self._user
     return None

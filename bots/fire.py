@@ -9,10 +9,12 @@ class FireBot():
   _frequency = .1
   _frequencyFire = .6
   _frequencyDrew = .2
+  _target = 'Dakota'
+  _ping = 'Drew'
   
   @classmethod
   def description(cls):
-    return "`Name bot` ".format()
+    return "`Fire bot` Has a {}% chance to say Pandora or Prometheus things when {} posts. {}% chance to also ping {}".format(cls._frequency * 100, cls._target, cls._frequencyDrew * 100, cls._ping)
   
   def __init__(self, eventModel, pool):
     self._event = eventModel
@@ -21,7 +23,7 @@ class FireBot():
     self._randomUtil = RandomUtil()
     
   def run(self):
-    if not self._event.isFrom('Dakota') or self._event.isPartOfAThread() or self._event.isFromABot():
+    if not self._event.isFrom(self._target) or self._event.isPartOfAThread() or self._event.isFromABot():
       return
     if not self._randomUtil.rollDice(self._frequency):
       return
@@ -30,7 +32,7 @@ class FireBot():
     else:
       message = 'Dakota opened the box'
     if self._randomUtil.rollDice(self._frequencyDrew):
-      message = message + ' ' + self._identityUtil.pingUser(USERS['drew'])
+      message = message + ' ' + self._identityUtil.pingUser(USERS[self._ping.lower()])
     
     self._postUtil.addMessageToThread(message, self._event.channel(), self._event.id(), Identity(profilePicture = self._identityUtil.randomImageUrl()))
       

@@ -13,7 +13,7 @@ class DmBot:
   
   @classmethod
   def description(cls):
-    return "`DM bot` Has a {}% chance to post a command from your dungeon master. {}% of the time it will be a saving throw. A".format()
+    return "`DM bot` Has a {}% chance to post a command from your dungeon master. {}% of the time it will be a saving throw. Only works on messages in channel directly.".format(cls._frenquency * 100, cls._frequency_save * 100)
   
   def __init__(self, eventModel, pool):
     self._event = eventModel
