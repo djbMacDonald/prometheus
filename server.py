@@ -15,7 +15,12 @@ app = Flask(__name__)
 handledEvents = []
 bans = {}
 
-botList = sorted(list(filter(lambda name: not name.startswith("_") and name[0].isupper(), dir(bots))))
+def _convertCase(name):
+  components = name.split('_')
+  return''.join(x.title() for x in components)
+
+botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
+print(botList)
 
 @app.route("/listen", methods=['POST'])
 def inbound():
@@ -31,15 +36,17 @@ def inbound():
   pool = Pool(1)
   originalEvent = Event(data, bans)
     
-  try:
-    for bot in botList:
-      runner = bot(originalEvent, pool)
+  for bot in botList:
+    try:
+      moduleType = getattr(bots, bot)
+      classType = _convertCase(bot)
+      getattr(moduleType, classType)(originalEvent, pool)
       result = runner.run()
       if result == 'end':
         return Response(), 200
-  except Exception as error:
-    pprint.pprint(error)
-    print(traceback.format_exc())
+    except Exception as error:
+      pprint.pprint(error)
+      print(traceback.format_exc())
     
   if not originalEvent.isFromABot() and originalEvent.isAMessage():
     logUtil.logToFile(originalEvent)
