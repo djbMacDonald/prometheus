@@ -34,6 +34,6 @@ class Pig(Bot):
           word = ''.join(word[1:]) + word[0]
       text[i] = word + 'ay'
     self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-    identity = IDENTITIES[USERS[user]]
+    identity = IDENTITIES[USERS[self._target]]
     self._postUtil.addMessage(' '.join(text), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
     return

@@ -11,7 +11,7 @@ class Sandbox(Bot):
     # return "`Sandbox` Random Stuff"
   
   def run(self):
-    if not self._event.isInChannel('Secret'):
+    if not self._event.isInChannel('Megamoji'):
       return
     # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
     client = MongoClient(os.environ.get('MONGO'))
@@ -19,10 +19,14 @@ class Sandbox(Bot):
     event = self._event.event()
     if 'blocks' in event:
       del(event['blocks'])
-    print(event)
-
     event['_id'] = event['client_msg_id']
+    print(event)
+    
     db.events.insert_one(event)
+    
+    messages = db.events.find({"channel": "CDU145F08"})
+    for m in messages:
+      print(m.text)
     
     # Issue the serverStatus command and print the results
     return
