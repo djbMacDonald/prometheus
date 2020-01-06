@@ -12,6 +12,6 @@ class Identity:
     return self._profilePicture
   
   def emoji(self):
-    if self._emoji[0] == ':' and self.emoji[-1] == ':':
+    if self._emoji and self._emoji[0] == ':' and self._emoji[-1] == ':':
       return self._emoji
     return ":{}:".format(self._emoji)

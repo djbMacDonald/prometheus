@@ -14,7 +14,11 @@ class Sandbox(Bot):
       return
     # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
     client = MongoClient(os.environ.get('MONGO'))
-    db=client.admin
+    db=client.slack
+    
+    db.events.insert_one(self._event)
+    
+    
     # Issue the serverStatus command and print the results
     serverStatusResult=db.command("serverStatus")
     pprint(serverStatusResult)
