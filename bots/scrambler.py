@@ -10,11 +10,6 @@ class Scrambler(Bot):
   @classmethod
   def description(cls):
     return "`Scrambler` Has a {}% chance to scramble {}'s message".format(cls._frequency * 100, cls._target)
-  
-  def __init__(self, eventModel, pool):
-    self._event = eventModel
-    self._postUtil = PostUtil(pool)
-    self._randomUtil = RandomUtil()
     
   def run(self):
     if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFrom(self._target):

@@ -10,7 +10,7 @@ class Sandbox(Bot):
     return "`Sandbox` Random Stuff"
   
   def run(self):
-    if not self._event.isInChannel('secret'):
+    if not self._event.isInChannel('Secret'):
       return
     # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
     client = MongoClient(os.environ.get('MONGO'))

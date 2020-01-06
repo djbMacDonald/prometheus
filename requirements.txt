@@ -4,3 +4,4 @@ python-dotenv
 pytz
 python-dateutil
 PyMongo
+dnspython
