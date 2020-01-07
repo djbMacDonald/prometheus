@@ -3,17 +3,18 @@ from multiprocessing import Pool
 import json
 import pprint
 import traceback
-
 from model.event import Event
-
 from utils.log import Log
-
 import bots
+from apscheduler.schedulers.background import BackgroundScheduler
+import atexit
 
 app = Flask(__name__)
 
 handledEvents = []
 bans = {}
+
+scheduler = BackgroundScheduler()
 
 def _convertCase(name):
   components = name.split('_')
