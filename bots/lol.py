@@ -7,6 +7,7 @@ class Lol(Bot):
     return "`Lol` Adds an emote if your message matches an emote"
   
   def run(self):
+    return
     if not self._event.text():
       return
     emojis = self._postUtil.getAllEmojis()
