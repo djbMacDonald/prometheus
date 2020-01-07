@@ -5,4 +5,3 @@ pytz
 python-dateutil
 PyMongo
 dnspython
-apscheduler
