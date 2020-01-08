@@ -1,9 +1,9 @@
-import random
+  _frequency = .1import random
 from constant.people import USERS, IDENTITIES
 from bots._bot import Bot
 from model.identity import Identity
 
-class Scrambler(Bot):
+class Sc  _frequency = .rambler(Bot):
   
   _frequency = .1
   _target = 'Drew'
@@ -20,5 +20,5 @@ class Scrambler(Bot):
       random.shuffle(words)
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
       identity = IDENTITIES[USERS[self._target.lower()]]
-      self._postUtil.addMessage(' '.join(words), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+      self._postUtil.addMessage(' '.join(words), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get)))
       return
