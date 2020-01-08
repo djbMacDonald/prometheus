@@ -17,7 +17,7 @@ class News(Bot):
     return "`News` Posts a Buzzfeed headline for {} {}% of the time.".format(cls._target, cls._frequency * 100)
   
   def run(self):
-    if self._event.isFromABot() or not self._event.isFrom(self._target) or not self._randomUtil.rollDice(self._frequency):
+    if self._event.isFromABot() or not self._event.isFrom(self._target) or not self._randomUtil.rollDice(self._frequency) or self._event.isPartOfAThread():
       return;
     
     req = requests.get(self._url)

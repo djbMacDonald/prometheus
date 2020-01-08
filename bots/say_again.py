@@ -19,7 +19,8 @@ class SayAgain(Bot):
     else:
       threadJson = self._channelUtil.getChannelData(self._event.channel())
       messages = threadJson['messages']
-      
+    
+    identity = IDENTITIES[self._event.user()]
     messageText = ''
     for message in messages:
       if message['text'].lower() != 'you can say that again' and message.get('user'):
@@ -27,5 +28,5 @@ class SayAgain(Bot):
           message['text'], 
           self._event.channel(), 
           self._event.threadId(), 
-          identity = Identity(IDENTITIES[user].get('username'), IDENTITIES[user].get('profilePicture'))
+          identity = Identity(identity.get('username'), identity.get('profilePicture'))
         )
