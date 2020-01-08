@@ -1,14 +1,12 @@
-  _frequency = .1import random
+froimport random
 from constant.people import USERS, IDENTITIES
 from bots._bot import Bot
 from model.identity import Identity
 
-class Sc  _frequency = .rambler(Bot):
+class
   
-  _frequency = .1
-  _target = 'Drew'
-  
-  @classmethod
+  _frequency = .01
+  _target = 'Drew'     @classmethod
   def description(cls):
     return "`Scrambler` Has a {}% chance to scramble {}'s message".format(cls._frequency * 100, cls._target)
     
