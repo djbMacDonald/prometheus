@@ -21,10 +21,9 @@ class News(Bot):
     # if self._event.isFromABot() or not self._event.isFrom(self._target):
     #   return;
     
-    req = resp = requests.get(self._url)
+    req = requests.get(self._url)
     # print(req.content)
     mydoc = minidom.parseString(req.content)
-    items = mydoc.getElementsByTagName('item')
-    print(items[0].attributes['title'].value)
-    # self._postUtil.addMessageToThread(items[0].title, self._event.channel(), self._event.threadId())
+    items = mydoc.getElementsByTagName('item')  
+    # self._postUtil.addMessageToThread(random.choice(items).getElementsByTagName("title")[0].firstChild.nodeValue, self._event.channel(), self._event.threadId())
     
