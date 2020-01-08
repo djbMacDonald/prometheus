@@ -16,8 +16,15 @@ class News(Bot):
     return "`News`"
   
   def run(self):
+    if not self._event.isInChannel('Megamoji'):
+      return
     # if self._event.isFromABot() or not self._event.isFrom(self._target):
     #   return;
     
     req = resp = requests.get(self._url)
-    mydoc = minidom.parse(req.content)
+    # print(req.content)
+    mydoc = minidom.parseString(req.content)
+    items = mydoc.getElementsByTagName('item')
+    print(items[0].attributes['title'].value)
+    # self._postUtil.addMessageToThread(items[0].title, self._event.channel(), self._event.threadId())
+    

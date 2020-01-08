@@ -14,7 +14,7 @@ class Pig(Bot):
     return "`Pig` Has a {}% chance of replacing {}'s message with pig latin".format(cls._frequency * 100, cls._target)
   
   def run(self):
-    if self._event.isFromABot() or not self._event.isFrom(self._target) or not self._randomUtil.rollDice(self._frequency):
+    if self._event.isFromABot() or not self._event.isFrom(self._target) or not self._randomUtil.rollDice(self._frequency) or not self._event.isAMessage():
       return;
     text = [i for i in self._event.text()]
     for i,letter in enumerate(text):

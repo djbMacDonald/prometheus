@@ -45,8 +45,8 @@ def inbound():
   
   if log:
     cleanData = data.get('event')
-    if 'blocks' in data:
-      del(data['blocks'])
+    if 'blocks' in cleanData:
+      del(cleanData['blocks'])
     print(json.dumps(cleanData, indent=2, sort_keys=True))
 
   
