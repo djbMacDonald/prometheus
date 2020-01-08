@@ -3,7 +3,7 @@ from constant.people import USERS, IDENTITIES
 from bots._bot import Bot
 from model.identity import Identity
 
-class Scrambler:
+class Scrambler(Bot):
 
   _frequency = .01
   _target = 'Drew' 

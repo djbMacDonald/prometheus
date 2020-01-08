@@ -9,6 +9,7 @@ import bots
 
 app = Flask(__name__)
 
+log = True
 handledEvents = []
 bans = {}
 
@@ -40,6 +41,14 @@ def inbound():
     return data, 200
   else:
     handledEvents.append(data.get('event_id'))
+  
+  
+  if log:
+    cleanData = data.get('event')
+    if 'blocks' in data:
+      del(data['blocks'])
+    print(json.dumps(cleanData, indent=2, sort_keys=True))
+
   
   pool = Pool(1)
   originalEvent = Event(data, bans)
