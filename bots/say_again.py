@@ -17,7 +17,7 @@ class SayAgain(Bot):
       threadJson = self._channelUtil.getThreadData(self._event.threadId(), self._event.channel())
       messages = reversed(threadJson['messages'])
     else:
-      threadJson = getChannelData(self._event.channel())
+      threadJson = self._channelUtil.getChannelData(self._event.channel())
       messages = threadJson['messages']
       
     messageText = ''

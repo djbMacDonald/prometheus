@@ -9,6 +9,7 @@ USERS = {
   'victoria': 'UDD45P5A9',
   'mei': 'UK7V13DS7',
   'richard': 'UJTEHPEPL',
+  'doug': 'UDL020K8D'
   #'marissa':'UPGVCMGD9'
 }
 
