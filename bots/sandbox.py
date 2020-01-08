@@ -1,5 +1,6 @@
 from bots._bot import Bot
 from pymongo import MongoClient
+from model.user import User
 from pprint import pprint
 import json
 import os
@@ -11,14 +12,14 @@ class Sandbox(Bot):
     # return "`Sandbox` Random Stuff"
   
   def run(self):
-    if not self._event.isInChannel('Megamoji'):
-      return
+    # if not self._event.isInChannel('Megamoji'):
+    #   return
     # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
-    client = MongoClient(os.environ.get('MONGO'))
-    db=client.slack
-    event = self._event.event()
-    if 'blocks' in event:
-      del(event['blocks'])
+    # client = MongoClient(os.environ.get('MONGO'))
+    # db=client.slack
+    # event = self._event.event()
+    # if 'blocks' in event:
+    #   del(event['blocks'])
     # event['_id'] = event['client_msg_id']
     # print(event)
     
@@ -29,5 +30,6 @@ class Sandbox(Bot):
       # print(m)
     
     # Issue the serverStatus command and print the results
+    user = User(self._event)
     return
     
