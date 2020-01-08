@@ -5,8 +5,8 @@ from model.identity import Identity
 
 class Scrambler:
 
-  _frequency = .01
-  _target = 'Drew' 
+  _frequency = .05
+  _target = 'CJ' 
   
   @classmethod
   def description(cls):
