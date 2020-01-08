@@ -17,7 +17,7 @@ class News(Bot):
     return "`News`"
   
   def run(self):
-    if not self._event.isInChannel('Megamoji'):
+    if self._event.isFromABot() or not self._event.isInChannel('Megamoji') or not self._event.:
       return
     # if self._event.isFromABot() or not self._event.isFrom(self._target) or not self._randomUtil.rollDice(self._frequency):
     #   return;

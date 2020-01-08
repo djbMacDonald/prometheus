@@ -8,8 +8,8 @@ from bots._bot import Bot
 
 class Third(Bot):
   
-  _target = "CJ"
-  _frequency = 1
+  _target = "Brenden"
+  _frequency = .1
   _post_text =""
   
   @classmethod
@@ -28,7 +28,7 @@ class Third(Bot):
   def run(self):
     if self._event.isAMessage() and self._event.isFrom(self._target) and self._randomUtil.rollDice(self._frequency) and self.contains_first():
       identity = IDENTITIES[self._event.user()]
-      self._post_text=self._event.text().lower()
+      self._post_text=self._event.text()
       self._post_text = self._post_text.lower().replace(" i ",self._target+" ")
       self._post_text = self._post_text.lower().replace("i ",self._target+" ")
       self._post_text = self._post_text.lower().replace("i'm",self._target+" is")
