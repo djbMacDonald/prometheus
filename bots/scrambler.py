@@ -1,12 +1,14 @@
-froimport random
+import random
 from constant.people import USERS, IDENTITIES
 from bots._bot import Bot
 from model.identity import Identity
 
-class
-  
+class Scrambler:
+
   _frequency = .01
-  _target = 'Drew'     @classmethod
+  _target = 'Drew' 
+  
+  @classmethod
   def description(cls):
     return "`Scrambler` Has a {}% chance to scramble {}'s message".format(cls._frequency * 100, cls._target)
     
@@ -18,5 +20,5 @@ class
       random.shuffle(words)
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
       identity = IDENTITIES[USERS[self._target.lower()]]
-      self._postUtil.addMessage(' '.join(words), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get)))
+      self._postUtil.addMessage(' '.join(words), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get))
       return
