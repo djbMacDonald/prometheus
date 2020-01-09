@@ -75,3 +75,14 @@ class Post:
     req = requests.get('https://slack.com/api/emoji.list?{}'.format(urllib.parse.urlencode(postData)))
     self._allEmotes = list(req.json().get('emoji').keys())
     return self._allEmotes
+  
+  def setChannelTopic(self, channel, message):
+    if not self.isAllowedToPostInThisChannel(channel):
+      return;
+    postData = {
+       'channel': channel,
+       'topic': message,
+       'token': os.environ.get('SECRET')
+    }
+    url = 'https://www.slack.com/api/channels.setTopic?{}'.format(urllib.parse.urlencode(options))
+    self._pool.apply_async(requests.get, args=[url])
