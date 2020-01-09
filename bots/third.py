@@ -29,7 +29,7 @@ class Third(Bot):
     if self._event.isAMessage() and self._event.isFrom(self._target) and self._randomUtil.rollDice(self._frequency) and self.contains_first():
       identity = IDENTITIES[self._event.user()]
       self._post_text=self._event.text()
-      self._post_text = self._post_text.lower().replace(" i ",self._target+" ")
+      self._post_text = self._post_text.lower().replace(" i "," "+self._target+" ")
       self._post_text = self._post_text.lower().replace("i ",self._target+" ")
       self._post_text = self._post_text.lower().replace("i'm",self._target+" is")
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
