@@ -171,6 +171,32 @@ def bannedWords():
     saveBans()
     postUtil.addMessageToChannel(text + ' is now banned', CHANNELS['Underscore'])
   return Response(), 200
+
+@app.route('/roll', methods=['POST'])
+def bannedWords():
+  global bans
+  text = request.form.get('text')
+  words = text.split(' ')
+  postUtil = PostUtil(Pool(1))
+  if text.isdigit():
+    getNewBans(int(text), {})
+    postUtil.addMessageToChannel(text + ' new bans added', CHANNELS['Underscore'])
+    return Response(), 200
+
+  elif len(words) > 1 or not text.isalpha() or text in bans.keys():
+    ##call them an idiot
+    return Response(), 200
+  if text == 'list':
+    postUtil.addMessageToChannel('Current Manual Bans: ' + ', '.join(bans.keys()), CHANNELS['Underscore'])
+  elif text == 'clear':
+    bans = {}
+    saveBans()
+    postUtil.addMessageToChannel('Bans Cleared!', CHANNELS['Underscore'])
+  else:
+    addBan(text)
+    saveBans()
+    postUtil.addMessageToChannel(text + ' is now banned', CHANNELS['Underscore'])
+  return Response(), 200
   
 def getChungus(searchTerm):
   url = 'https://games-club-external.slack.com/api/emoji.adminList?token={}&queries=["{}"]&count=100000'.format(os.environ.get('MEGA'), searchTerm)
