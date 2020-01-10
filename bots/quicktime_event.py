@@ -41,6 +41,5 @@ class QuicktimeEvent(Bot):
       'token': os.environ.get('SECRET')
 
     }
-    print(postData)
     self._postUtil.postEphemeral(postData)
     return
