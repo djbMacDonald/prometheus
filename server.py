@@ -3,6 +3,8 @@ from multiprocessing import Pool
 import json
 import pprint
 import traceback
+import urllib
+import requests
 from model.event import Event
 from utils.log import Log
 import bots
@@ -175,6 +177,9 @@ def bannedWords():
 @app.route('/quicktime', methods=['POST'])
 def quicktime():
   print('quicktime')
+  print(request.values.get('payload'))
+  url = '{}?{}'.format(json.loads(request.values.get('payload'))['response_url'], urllib.parse.urlencode({'delete_original':True}))
+  print(url)
   return Response(), 200
   
 def getChungus(searchTerm):
