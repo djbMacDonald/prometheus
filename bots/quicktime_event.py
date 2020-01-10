@@ -27,15 +27,15 @@ class QuicktimeEvent(Bot):
         {
           "callback_id": "quicktime",
           "attachment_type": "default",
-          "text": 'GET OUT OF THE WAY',
+          "text": '',
           "fallback": "Well thsi is awkward :bug:",
-          "actions": {
+          "actions": [{
             "name": "game",
             "text": "Done",
             "style": "danger",
             "type": "button",
             "value": "done"
-          }
+          }]
         }
       ],
       'token': os.environ.get('SECRET')
