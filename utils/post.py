@@ -76,6 +76,12 @@ class Post:
     self._allEmotes = list(req.json().get('emoji').keys())
     return self._allEmotes
   
+  
+  def postEphemeral(self, data):
+    url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))
+    print(url)
+    self._pool.apply_async(requests.get, args=[url])
+    return
   # def setChannelTopic(self, channel, message):
   #   if not self.isAllowedToPostInThisChannel(channel):
   #     return;
