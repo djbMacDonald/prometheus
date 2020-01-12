@@ -10,7 +10,7 @@ SPECIAL = ['with advantage', 'with disadvantage']
 
 ACTIONS = ['avoid', 'dodge', 'survive', 'notice', 'seduce', 'hide from', 'punch', 'headbut', 'shoot', 'jump over', 'buy off', 'research', 'kick', 'persuade', 'sneak around',
            'steal from', 'swim past', 'throw', 'track', 'subscribe to', 'gather information from', 'pickpocket from', 'tell a story to', 'deceive', 'inspire', 'intimidate',
-           'play cards with', 'bum a cigarette from', 'steal food from', 'disarm', 'assess', 'appraise']
+           'play cards with', 'bum a cigarette from', 'steal food from', 'disarm', 'assess', 'appraise', 'peer review']
 
 DANGERS = ['ogre', 'falling rocks', 'trapdoor', 'acid pit', 'dragon', 'swarm of bats', 'wizard', 'podcast', 'shopping mall', 'zombies', 'fireball', 'evil twin', 'hydra',
            'Drewid', 'symphony orchestra', 'monster truck rally', 'god of death', 'man in the moon', 'giant lizard', 'molten glass golem', 'breakfast sandwich', 'charging rhino'
