@@ -6,7 +6,7 @@ from bots._bot import Bot
 
 class Pig(Bot):
   
-  _frequency = .05
+  _frequency = .0025
   _target = 'CJ'
   
   @classmethod
