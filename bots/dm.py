@@ -6,7 +6,7 @@ from bots._bot import Bot
 
 class Dm(Bot):
   
-  _frenquency = .02
+  _frenquency = .01
   _frequency_save = .2
   _frequency_special = .2
   
