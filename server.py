@@ -8,6 +8,7 @@ import requests
 from model.event import Event
 from utils.log import Log
 import bots
+from pymongo import MongoClient
 
 app = Flask(__name__)
 
@@ -54,6 +55,7 @@ def inbound():
   
   pool = Pool(1)
   originalEvent = Event(data, bans)
+  client = MongoClient(os.environ.get('MONGO'))
     
   for bot in botList:
     try:
