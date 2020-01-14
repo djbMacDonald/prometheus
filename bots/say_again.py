@@ -11,11 +11,11 @@ class SayAgain(Bot):
     return "`Say Again` If you say 'you can say that again', it will say it again"
   
   def run(self):
-    return
     if not self._event.text() or self._event.isFromABot() or not self._event.text().lower() == "you can say that again" or not self._event.isInChannel('Megamoji'):
       return
     if self._event.isPartOfAThread():
       threadJson = self._channelUtil.getThreadData(self._event.threadId(), self._event.channel())
+      print(threadJson)
       messages = reversed(threadJson['messages'])
     else:
       threadJson = self._channelUtil.getChannelData(self._event.channel())
@@ -25,10 +25,14 @@ class SayAgain(Bot):
     messageText = ''
     for message in messages:
       if message['text'].lower() != 'you can say that again' and message.get('user'):
-        self._postUtil.addMessage(
+        if not self._event.isPartOfAThread():
+          if message.get('thread_ts'):
+            continue;
+          
+        return self._postUtil.addMessage(
           message['text'], 
           self._event.channel(), 
           self._event.threadId(), 
           identity = Identity(identity.get('username'), identity.get('profilePicture'))
         )
-        return
+          
