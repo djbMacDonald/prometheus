@@ -8,9 +8,10 @@ class SayAgain(Bot):
   
   @classmethod
   def description(cls):
-    return "`Say Again` If you say 'you can say that again', it will say it again"
+    return "`Say Again` If you say 'you can say that again', it will make someone say it again."
   
   def run(self):
+    return #OFF
     if not self._event.text() or self._event.isFromABot() or not self._event.text().lower() == "you can say that again" or not self._event.isInChannel('Megamoji'):
       return
     if self._event.isPartOfAThread():

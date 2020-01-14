@@ -178,7 +178,7 @@ def bannedWords():
 def quicktime():
   print('quicktime')
   print(request.values.get('payload'))
-  url = '{}?{}'.format(json.loads(request.values.get('payload'))['response_url'], urllib.parse.urlencode({'delete_original':True}))
+  url = '{}?{}'.format(json.loads(request.values.get('payload'))['response_url'], urllib.parse.urlencode({'response_type': 'ephemeral', 'text': '', 'replace_original': True, 'delete_original': True}))
   print(url)
   return Response(), 200
   
