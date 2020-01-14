@@ -19,11 +19,8 @@ class Dm(Bot):
       return;
     if self._randomUtil.rollDice(self._frenquency):
       message = 'Roll {} to {} the {}'.format(self._createRollMessage(), random.choice(ACTIONS), random.choice(DANGERS))
-      identity = Identity(userName = 'Dungeon Master')
-      if self._event. isPartOfAThread():
-        self._postUtil.addMessageToThread(message, self._event.channel(), self._event.id(), identity)
-      else:
-        self._postUtil.addMessageToChannel(message, self._event.channel(), identity)
+      identity = Identity(userName = 'Dungeon Master', profilePicture = self._identityUtil.randomImageUrl())
+      self._postUtil.addMessageToChannel(message, self._event.channel(), identity)
         
   def _createRollMessage(self):
     if self._randomUtil.rollDice(self._frequency_save):

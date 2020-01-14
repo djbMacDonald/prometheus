@@ -11,6 +11,7 @@ class SayAgain(Bot):
     return "`Say Again` If you say 'you can say that again', it will say it again"
   
   def run(self):
+    return
     if not self._event.text() or self._event.isFromABot() or not self._event.text().lower() == "you can say that again":
       return
     if self._event.isPartOfAThread():
@@ -30,3 +31,4 @@ class SayAgain(Bot):
           self._event.threadId(), 
           identity = Identity(identity.get('username'), identity.get('profilePicture'))
         )
+        return
