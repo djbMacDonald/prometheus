@@ -20,10 +20,10 @@ def _convertCase(name):
   components = name.split('_')
   return''.join(x.title() for x in components)
 
-def _callBot(bot, originalEvent, pool):
+def _callBot(bot, originalEvent, pool, client):
   moduleType = getattr(bots, bot)
   className = _convertCase(bot)
-  runner = getattr(moduleType, className)(originalEvent, pool)
+  runner = getattr(moduleType, className)(originalEvent, pool, client)
   return runner.run()
 
 def _getBotAttr(bot, attrName):
@@ -59,7 +59,7 @@ def inbound():
     
   for bot in botList:
     try:
-      result = _callBot(bot, originalEvent, pool)
+      result = _callBot(bot, originalEvent, pool, client)
       if result == 'end':
         return Response(), 200
     except Exception as error:
