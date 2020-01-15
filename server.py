@@ -85,10 +85,13 @@ def _botList():
   return "\n".join(sorted(map(_getDescription, botList))), 200
 
 def _botConfigure(action, bot, value):
+  if action not in ['frequency', 'target']:
+    return 'Supported actions are frequency and target'
+  if bot not in ['code']:
+    return 'Supported bots are code'
+  
   client = MongoClient(os.environ.get('MONGO'))
-  client.slack.bots.update({'name': bot}, {'name': bot, action: value})
-  print('AAAAAAAAA {}').format(bot)
-  # client.slack.bots.update({'name': 'code'}, {'name': 'code', 'frequency': '.3'})
+  client.slack.bots.update({'name': bot}, {'$set': {action: value}})
   return '{} bot {} set to {}'.format(bot, action, value)
 
 def _getDescription(bot):
