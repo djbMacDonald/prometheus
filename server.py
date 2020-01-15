@@ -9,6 +9,7 @@ from model.event import Event
 from utils.log import Log
 import bots
 from pymongo import MongoClient
+import os
 
 app = Flask(__name__)
 

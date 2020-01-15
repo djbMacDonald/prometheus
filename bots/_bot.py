@@ -3,6 +3,7 @@ from utils.identity import Identity
 from utils.random import Random
 from utils.ban import Ban
 from utils.channel import Channel
+from utils.mongo import Mongo
 
 class Bot(object):
   
@@ -13,7 +14,7 @@ class Bot(object):
     self._randomUtil = Random()
     self._banUtil = Ban()
     self._channelUtil = Channel()
-    self._mongoClient = mongoClient
+    self._mongoUtil = Mongo(mongoClient)
     
   @classmethod
   def description(cls):
