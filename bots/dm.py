@@ -15,12 +15,11 @@ class Dm(Bot):
     return "`DM` Has a {}% chance to post a command from your dungeon master. {}% of the time it will be a saving throw. Only works on messages in channel directly.".format(cls._frenquency * 100, cls._frequency_save * 100)
     
   def run(self):
-    if self._event.isFromABot() or self._event.isPartOfAThread() or not self._event.isAMessage():
+    if self._event.isFromABot() or self._event.isPartOfAThread() or not self._event.isAMessage() or not self._randomUtil.rollDice(self._frenquency):
       return;
-    if self._randomUtil.rollDice(self._frenquency):
-      message = 'Roll {} to {} the {}'.format(self._createRollMessage(), random.choice(ACTIONS), random.choice(DANGERS))
-      identity = Identity(userName = 'Dungeon Master', profilePicture = self._identityUtil.randomImageUrl())
-      self._postUtil.addMessageToChannel(message, self._event.channel(), identity)
+    message = 'Roll {} to {} the {}'.format(self._createRollMessage(), random.choice(ACTIONS), random.choice(DANGERS))
+    identity = Identity(userName = 'Dungeon Master', profilePicture = self._identityUtil.randomImageUrl())
+    self._postUtil.addMessageToChannel(message, self._event.channel(), identity)
         
   def _createRollMessage(self):
     if self._randomUtil.rollDice(self._frequency_save):
