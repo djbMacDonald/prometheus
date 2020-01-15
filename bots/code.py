@@ -7,9 +7,9 @@ class Code(Bot):
     return ""
   
   def run(self):
-    if not self._event.isInChannel('Megamoji') or self._event.isFromABot:
+    if self._event.isFromABot() or not self._event.isInChannel('Megamoji') or not self._event.text() == 'test':
       return
     doc = self._mongoUtil.findOne('bots', {'name': 'code'})
     frequency = doc['frequency']
-    # self._postUtil.addMessage(frequency, self._event.channel(), self._event.threadId())
+    self._postUtil.addMessage(frequency, self._event.channel(), self._event.threadId())
     return

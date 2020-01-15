@@ -75,11 +75,18 @@ def inbound():
 @app.route('/bot', methods=['POST'])
 def list():
   text = request.form.get('text')
-  if text.lower() == 'list':
+  words = text.split()
+  if words[0].lower() == 'list':
     return _botList()
+  if words[0].lower() == 'configure':
+    return _botConfigure(words[1], words[2], words[3])
   
 def _botList():
   return "\n".join(sorted(map(_getDescription, botList))), 200
+
+def _botConfigure(action, bot, value):
+  client = MongoClient(os.environ.get('MONGO'))
+  return
 
 def _getDescription(bot):
   try:
