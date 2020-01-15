@@ -19,6 +19,6 @@ class Code(Bot):
     if not self._event.isFrom(target) or not self._randomUtil.rollDice(frequency):
       return
     
-    self._postUtil.deleteMessage(self._event.channel(), self._event.id())
     identity = IDENTITIES[USERS[self._target.lower()]]
+    self._postUtil.deleteMessage(self._event.channel(), self._event.id())
     self._postUtil.addMessage('`{}`'.format(self._event.text()), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
