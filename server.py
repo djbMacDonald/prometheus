@@ -91,7 +91,7 @@ def _botConfigure(action, bot, value):
     return 'Supported bots are code'
   
   client = MongoClient(os.environ.get('MONGO'))
-  client.slack.bots.update({'name': bot}, {'$set': {action: value}})
+  client.slack.bots.update_one({'name': bot}, {'$set': {action: value}})
   return '{} bot {} set to {}'.format(bot, action, value)
 
 def _getDescription(bot):
