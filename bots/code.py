@@ -14,7 +14,7 @@ class Code(Bot):
 #     it is possible to fetch all settings in a single call. This needs to be refactored to that model before people copy this code.
     doc = self._mongoUtil.findOne('bots', {'name': 'code'})
     target = doc['target']
-    frequency = int(doc['frequency'])
+    frequency = float(doc['frequency'])
     
     if not self._event.isFrom(target) or not self._randomUtil.rollDice(frequency):
       return
