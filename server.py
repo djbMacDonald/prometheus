@@ -56,7 +56,8 @@ def inbound():
   
   pool = Pool(1)
   originalEvent = Event(data, bans)
-  client = MongoClient(os.environ.get('MONGO'))
+  # client = MongoClient(os.environ.get('MONGO'))
+  client = None
     
   for bot in botList:
     try:
@@ -90,8 +91,8 @@ def _botConfigure(action, bot, value):
   if bot not in ['code']:
     return 'Supported bots are code'
   
-  client = MongoClient(os.environ.get('MONGO'))
-  client.slack.bots.update_one({'name': bot}, {'$set': {action: value}})
+  # client = MongoClient(os.environ.get('MONGO'))
+  # client.slack.bots.update_one({'name': bot}, {'$set': {action: value}})
   return '{} bot {} set to {}'.format(bot, action, value)
 
 def _getDescription(bot):

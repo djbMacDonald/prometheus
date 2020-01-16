@@ -12,13 +12,13 @@ class Code(Bot):
       return
     
 #     it is possible to fetch all settings in a single call. This needs to be refactored to that model before people copy this code.
-    doc = self._mongoUtil.findOne('bots', {'name': 'code'})
-    target = doc['target']
-    frequency = float(doc['frequency'])
+#     doc = self._mongoUtil.findOne('bots', {'name': 'code'})
+#     target = doc['target']
+#     frequency = float(doc['frequency'])
     
-    if not self._event.isFrom(target) or not self._randomUtil.rollDice(frequency):
-      return
+#     if not self._event.isFrom(target) or not self._randomUtil.rollDice(frequency):
+#       return
     
-    identity = IDENTITIES[USERS[self._target.lower()]]
-    self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-    self._postUtil.addMessage('`{}`'.format(self._event.text()), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+#     identity = IDENTITIES[USERS[self._target.lower()]]
+#     self._postUtil.deleteMessage(self._event.channel(), self._event.id())
+#     self._postUtil.addMessage('`{}`'.format(self._event.text()), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
