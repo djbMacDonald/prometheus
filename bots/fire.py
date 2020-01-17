@@ -4,7 +4,7 @@ from bots._bot import Bot
 
 class Fire(Bot):
   
-  _frequency = .1
+  _frequency = .05
   _frequencyFire = .6
   _frequencyDrew = .2
   _target = 'Dakota'
