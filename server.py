@@ -193,15 +193,45 @@ def bannedWords():
 
 @app.route('/quicktime', methods=['POST'])
 def quicktime():
-  print('quicktime')
   print(request.values.get('payload'))
-  url = '{}?{}'.format(json.loads(request.values.get('payload'))['response_url'], urllib.parse.urlencode({'response_type': 'ephemeral', 'text': '', 'replace_original': True, 'delete_original': True}))
-  print(url)
   return Response(), 200
 
 @app.route('/cast', methods=['POST'])
 def cast():
-  print(request.values.to_dict(flat=False))
+  req = request.values.to_dict()
+  print(req)
+  payload = {
+    "token": os.environ.get('SECRET'),
+    "trigger_id": req.get('trigger_id'),
+    "view": {
+      "type": "modal",
+      "callback_id": "modal-identifier",
+      "title": {
+        "type": "plain_text",
+        "text": "Just a modal"
+      },
+      "blocks": [
+        {
+          "type": "section",
+          "block_id": "section-identifier",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*Welcome* to ~my~ Block Kit _modal_!"
+          },
+          "accessory": {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Just a button"
+            },
+            "action_id": "button-identifier"
+          }
+        }
+      ]
+    }
+  }
+  url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
+  requests.get(url)
   return Response(), 200
   
 def getChungus(searchTerm):
