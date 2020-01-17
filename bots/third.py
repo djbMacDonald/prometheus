@@ -8,8 +8,8 @@ from bots._bot import Bot
 
 class Third(Bot):
   
-  _target = "Brenden"
-  _frequency = .1
+  _target = "CJ"
+  _frequency = 1
   _post_text =""
   
   @classmethod
@@ -29,8 +29,8 @@ class Third(Bot):
     if self._event.isAMessage() and self._event.isFrom(self._target) and self._randomUtil.rollDice(self._frequency) and self.contains_first():
       identity = IDENTITIES[self._event.user()]
       self._post_text=self._event.text()
-      self._post_text = self._post_text.lower().replace(" i "," "+self._target+" ")
-      self._post_text = self._post_text.lower().replace("i ",self._target+" ")
-      self._post_text = self._post_text.lower().replace("i'm",self._target+" is")
+      self._post_text = self._post_text.lower().replace(" i "," "+self._target.capitalize()+" ")
+      self._post_text = self._post_text.lower().replace("i ",self._target.capitalize()+" ")
+      self._post_text = self._post_text.lower().replace("i'm",self._target.capitalize()+" is")
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
       self._postUtil.addMessage(self._post_text, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
