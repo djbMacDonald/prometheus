@@ -19,7 +19,6 @@ class News(Bot):
   def run(self):
     if self._event.isFromABot() or not self._event.isFrom(self._target) or not self._randomUtil.rollDice(self._frequency) :
       return;
-    
     req = requests.get(self._url)
     mydoc = minidom.parseString(req.content)
     items = mydoc.getElementsByTagName('item')  
