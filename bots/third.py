@@ -9,8 +9,8 @@ from bots._bot import Bot
 
 class Third(Bot):
   
-  _target = "CJ"
-  _frequency = 1
+  _target = "Brenden"
+  _frequency = .1
   _post_text =""
   
   @classmethod

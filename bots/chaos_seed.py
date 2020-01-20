@@ -60,7 +60,9 @@ class ChaosSeed(Bot):
       'oldest': self._event.id()
     }
     req = requests.get('https://slack.com/api/channels.replies?{}'.format(urllib.parse.urlencode(postData)))
-    return req.json().get('messages')
+    
+    response = req.json()    
+    return response.get('messages')
   
   # move to util
   def _filterUsers(self, fullList, subtractList):
