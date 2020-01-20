@@ -11,7 +11,7 @@ class DejaVu(Bot):
     return "`Deja Vu` Has a {}% chance to post a message from the channel history as a random bot".format(cls._frequency * 100)
   
   def run(self):
-    if self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency):
+    if self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency) or not self._event.isAMessage():
       return
     lines = open('{}_logfile.txt'.format(self._event.channel()), 'r').read().splitlines()
     self._postUtil.addReaction('dejavu', self._event.channel(), self._event.id())
