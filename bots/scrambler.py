@@ -5,7 +5,7 @@ from model.identity import Identity
 
 class Scrambler(Bot):
 
-  _frequency = .01
+  _frequency = .15
   _target = 'Drew' 
   
   @classmethod
@@ -16,7 +16,8 @@ class Scrambler(Bot):
     if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFrom(self._target):
       return
     words = self._event.text().split(' ')
-    if len(words) > 1 and self._randomUtil.rollDice(self._frequency):
+    word_count=len(words)
+    if  word_count> 1 and self._randomUtil.rollDice(self._frequency/word_count):
       random.shuffle(words)
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
       identity = IDENTITIES[USERS[self._target.lower()]]
