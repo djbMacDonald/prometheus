@@ -301,6 +301,11 @@ def cast():
                     "text":"CJ O'Stabby",
                     "emoji":True
                  },
+                 "submit": {
+                    "type": "plain_text",
+                    "text": "Submit",
+                    "emoji": True
+                 },
                  "close":{ 
                     "type":"plain_text",
                     "text":"Cancel",
@@ -348,7 +353,7 @@ def cast():
                              { 
                                 "text":{ 
                                    "type":"plain_text",
-                                   "text":"Agree",
+                                   "text":"Dakota",
                                    "emoji":True
                                 },
                                 "value":"value-1"
@@ -356,7 +361,7 @@ def cast():
                              { 
                                 "text":{ 
                                    "type":"plain_text",
-                                   "text":"Neither agree nor disagree",
+                                   "text":"Brenden",
                                    "emoji":True
                                 },
                                 "value":"value-2"
@@ -364,7 +369,7 @@ def cast():
                              { 
                                 "text":{ 
                                    "type":"plain_text",
-                                   "text":"Disagree",
+                                   "text":"Mei",
                                    "emoji":True
                                 },
                                 "value":"value-3"
@@ -372,7 +377,7 @@ def cast():
                              { 
                                 "text":{ 
                                    "type":"plain_text",
-                                   "text":"Strongly disagree",
+                                   "text":"Victoria",
                                    "emoji":True
                                 },
                                 "value":"value-4"
@@ -406,7 +411,7 @@ def cast():
                              "text":{ 
                                 "type":"plain_text",
                                 "text":"Choose",
-                                "emoji":true
+                                "emoji":True
                              },
                              "value":"click_me_123"
                           }
@@ -442,7 +447,8 @@ def cast():
               }
   }
   url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
-  requests.get(url)
+  res = requests.get(url)
+  print(res.json())
   return Response(), 200
   
 if __name__ == "__main__":
