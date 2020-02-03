@@ -303,7 +303,7 @@ def cast():
                  },
                  "submit": {
                     "type": "plain_text",
-                    "text": "Submit",
+                    "text": "Cast",
                     "emoji": True
                  },
                  "close":{ 
