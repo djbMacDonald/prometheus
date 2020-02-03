@@ -196,44 +196,7 @@ def quicktime():
   print(request.values.get('payload'))
   return Response(), 200
 
-@app.route('/cast', methods=['POST'])
-def cast():
-  req = request.values.to_dict()
-  print(req)
-  payload = {
-    "token": os.environ.get('SECRET'),
-    "trigger_id": req.get('trigger_id'),
-    "view": {
-      "type": "modal",
-      "callback_id": "modal-identifier",
-      "title": {
-        "type": "plain_text",
-        "text": "Just a modal"
-      },
-      "blocks": [
-        {
-          "type": "section",
-          "block_id": "section-identifier",
-          "text": {
-            "type": "mrkdwn",
-            "text": "*Welcome* to ~my~ Block Kit _modal_!"
-          },
-          "accessory": {
-            "type": "button",
-            "text": {
-              "type": "plain_text",
-              "text": "Just a button"
-            },
-            "action_id": "button-identifier"
-          }
-        }
-      ]
-    }
-  }
-  url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
-  requests.get(url)
-  return Response(), 200
-  
+
 def getChungus(searchTerm):
   url = 'https://games-club-external.slack.com/api/emoji.adminList?token={}&queries=["{}"]&count=100000'.format(os.environ.get('MEGA'), searchTerm)
   res = requests.get(url)
@@ -323,6 +286,164 @@ def addBan(word):
   tz = timezone('EST')
   n = datetime.datetime.now(tz)
   bans[word] = int(round(time.time())) + int(round(((24 - n.hour - 2) * 60 * 60) + ((60 - n.minute - 1) * 60) + (60 - n.second)))
-
+  
+@app.route('/cast', methods=['POST'])
+def cast():
+  req = request.values.to_dict()
+  print(req)
+  payload = {
+    "token": os.environ.get('SECRET'),
+    "trigger_id": req.get('trigger_id'),
+    "view": { 
+                 "type":"modal",
+                 "title":{ 
+                    "type":"plain_text",
+                    "text":"CJ O'Stabby",
+                    "emoji":True
+                 },
+                 "close":{ 
+                    "type":"plain_text",
+                    "text":"Cancel",
+                    "emoji":True
+                 },
+                 "blocks":[ 
+                    { 
+                       "type":"section",
+                       "text":{ 
+                          "type":"mrkdwn",
+                          "text":"*Status:* Healthy\n*Mana:* 100/100\n *CHA:* 12 *INT:* 12\n*CON:* 12 *DEX:* 12"
+                       },
+                       "accessory":{ 
+                          "type":"image",
+                          "image_url":"https://ca.slack-edge.com/TDBEDSEQZ-UDDE5960N-9141f5699aec-48",
+                          "alt_text":"Airstream Suite"
+                       }
+                    },
+                    { 
+                       "type":"divider"
+                    },
+                    { 
+                       "type":"input",
+                       "label":{ 
+                          "type":"plain_text",
+                          "text":"Select a Target",
+                          "emoji":True
+                       },
+                       "element":{ 
+                          "type":"static_select",
+                          "placeholder":{ 
+                             "type":"plain_text",
+                             "text":"Select an item",
+                             "emoji":True
+                          },
+                          "options":[ 
+                             { 
+                                "text":{ 
+                                   "type":"plain_text",
+                                   "text":"Drew",
+                                   "emoji":True
+                                },
+                                "value":"value-0"
+                             },
+                             { 
+                                "text":{ 
+                                   "type":"plain_text",
+                                   "text":"Agree",
+                                   "emoji":True
+                                },
+                                "value":"value-1"
+                             },
+                             { 
+                                "text":{ 
+                                   "type":"plain_text",
+                                   "text":"Neither agree nor disagree",
+                                   "emoji":True
+                                },
+                                "value":"value-2"
+                             },
+                             { 
+                                "text":{ 
+                                   "type":"plain_text",
+                                   "text":"Disagree",
+                                   "emoji":True
+                                },
+                                "value":"value-3"
+                             },
+                             { 
+                                "text":{ 
+                                   "type":"plain_text",
+                                   "text":"Strongly disagree",
+                                   "emoji":True
+                                },
+                                "value":"value-4"
+                             }
+                          ]
+                       }
+                    },
+                    { 
+                       "type":"divider"
+                    },
+                    { 
+                       "type":"divider"
+                    },
+                    { 
+                       "type":"section",
+                       "text":{ 
+                          "type":"mrkdwn",
+                          "text":"*Confusion* - 20\n*Inflicts:* Confusion\n *Duration*: 1m\n *Cast Time:* Instant"
+                       },
+                       "accessory":{ 
+                          "type":"image",
+                          "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr74FBJXToegAREwKxo34LdpPTS5KvMbw1-mBkbjXD3Kw5f97hvw&s",
+                          "alt_text":"Airstream Suite"
+                       }
+                    },
+                    { 
+                       "type":"actions",
+                       "elements":[ 
+                          { 
+                             "type":"button",
+                             "text":{ 
+                                "type":"plain_text",
+                                "text":"Choose",
+                                "emoji":true
+                             },
+                             "value":"click_me_123"
+                          }
+                       ]
+                    },
+                    { 
+                       "type":"section",
+                       "text":{ 
+                          "type":"mrkdwn",
+                          "text":"*FIREBALL* - 40\n*Inflicts:* Burn\n *Duration*: 5m\n *Cast Time:* Short"
+                       },
+                       "accessory":{ 
+                          "type":"image",
+                          "image_url":"https://illustoon.com/photo/2725.png",
+                          "alt_text":"Airstream Suite"
+                       }
+                    },
+                    { 
+                       "type":"actions",
+                       "elements":[ 
+                          { 
+                             "type":"button",
+                             "text":{ 
+                                "type":"plain_text",
+                                "text":"Choose",
+                                "emoji":True
+                             },
+                             "value":"click_me_123"
+                          }
+                       ]
+                    }
+                 ]
+              }
+  }
+  url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
+  requests.get(url)
+  return Response(), 200
+  
 if __name__ == "__main__":
   app.run()
