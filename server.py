@@ -408,9 +408,10 @@ def cast():
                        "elements":[ 
                           { 
                              "type":"button",
+                             "style": "danger",
                              "text":{ 
                                 "type":"plain_text",
-                                "text":"Choose",
+                                "text":"Selected",
                                 "emoji":True
                              },
                              "value":"click_me_123"
