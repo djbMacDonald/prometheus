@@ -10,7 +10,7 @@ class Scrambler(Bot):
   
   @classmethod
   def description(cls):
-    return "`Scrambler` Has a {}% chance to scramble {}'s message".format(cls._frequency * 100, cls._target)
+    return "`Scrambler` Has a {}%/(word count) chance to scramble {}'s message".format(cls._frequency * 100, cls._target)
     
   def run(self):
     if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFrom(self._target):
