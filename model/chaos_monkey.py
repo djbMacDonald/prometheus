@@ -1,0 +1,4 @@
+class ChaosMonkey:
+
+  @datamodel
+  
