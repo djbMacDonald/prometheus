@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, jsonify, Response
 from multiprocessing import Pool
 import json
+from model.slackevent import SlackEvent
 import pprint
 import traceback
 import urllib
