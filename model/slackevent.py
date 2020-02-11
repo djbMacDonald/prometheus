@@ -4,9 +4,9 @@ from dataclasses import dataclass
 
 @dataclass
 class SlackEvent:
+  
   type: str
   actions: list
-  callback_id: str
   team: dict
   channel: dict
   user: dict
@@ -17,3 +17,14 @@ class SlackEvent:
   is_app_unfurl: bool
   response_url: str
   trigger_id: str
+  callback_id: str = None
+
+
+  def getChannelId(self):
+    return self.channel.get('id')
+  
+  def getChannelName(self):
+    return self.channel.get('name')
+  
+  def getUserId(self):
+    return self.user.get('id')

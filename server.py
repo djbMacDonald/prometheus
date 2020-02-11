@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, jsonify, Response
 from multiprocessing import Pool
 import json
+import jsons
 from model.slackevent import SlackEvent
 import pprint
 import traceback
@@ -53,6 +54,7 @@ def inbound():
     if 'blocks' in cleanData:
       del(cleanData['blocks'])
     print(json.dumps(cleanData, indent=2, sort_keys=True))
+    
 
   
   pool = Pool(1)
@@ -194,6 +196,8 @@ def bannedWords():
 
 @app.route('/quicktime', methods=['POST'])
 def quicktime():
+  jsons.load(json.loads(request.values.get('payload')), SlackEvent)
+  print(SlackEvent)
   print(request.values.get('payload'))
   return Response(), 200
 
