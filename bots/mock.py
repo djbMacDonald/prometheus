@@ -34,7 +34,7 @@ class Mock(Bot):
     if not message.get('reactions'):
       return
     for reaction in message.get('reactions'):
-      if reaction.get('name') != 'spongebob-mock' or reaction.get('count') < 1:
+      if reaction.get('name') not in ['spongebob-mock', 'mocking-spongebob'] or reaction.get('count') < 1:
         return
     self.text = message.get('text')
     message = self._mockString(self.text)
