@@ -294,6 +294,7 @@ def cast():
   payload = {
     "token": os.environ.get('SECRET'),
     "trigger_id": req.get('trigger_id'),
+    "state": 'Testing!',
     "view": { 
                  "type":"modal",
                  "title":{ 
@@ -399,7 +400,7 @@ def cast():
                        },
                        "accessory":{ 
                           "type":"image",
-                          "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr74FBJXToegAREwKxo34LdpPTS5KvMbw1-mBkbjXD3Kw5f97hvw&s",
+                          "image_url":"https://emoji.slack-edge.com/TDBEDSEQZ/luffy_dizzy/078316a8f001f0fa.gif",
                           "alt_text":"Airstream Suite"
                        }
                     },
@@ -426,7 +427,7 @@ def cast():
                        },
                        "accessory":{ 
                           "type":"image",
-                          "image_url":"https://illustoon.com/photo/2725.png",
+                          "image_url":"https://emoji.slack-edge.com/TDBEDSEQZ/burn/297d37e5dadbe697.gif",
                           "alt_text":"Airstream Suite"
                        }
                     },
