@@ -8,17 +8,17 @@ class SlackEvent:
   type: str
   actions: list
   team: dict
-  channel: dict
   user: dict
-  action_ts: float
-  message_ts: float
-  attachment_id: str
   token: str
-  is_app_unfurl: bool
-  response_url: str
   trigger_id: str
+  view: dict = None
+  response_url: str = None
+  is_app_unfurl: bool = None
+  attachment_id: str = None
+  message_ts: float = None
+  action_ts: float = None
+  channel: dict = None
   callback_id: str = None
-
 
   def getChannelId(self):
     return self.channel.get('id')
