@@ -136,6 +136,7 @@ STATEMENT_GENERATOR = [
     'The path ahead is lonely and inevitable.',
     'Will you be there, when all things fall?',
     'The King is calling.',
+    'Eternity is not a blessing, but a curse.'
     'I see how this ends, and cannot help you.',
     'You are already lost, though you do not realize it yet.'
   ]
