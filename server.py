@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, jsonify, Response
 from multiprocessing import Pool
+from constant.channels import CHANNELS
 import json
 import jsons
 from model.slackevent import SlackEvent
@@ -8,9 +9,11 @@ import traceback
 import urllib
 import requests
 from model.event import Event
+from utils.ban import Ban
 from utils.log import Log
 import bots
 from pymongo import MongoClient
+from utils.post import Post
 import os
 
 app = Flask(__name__)
@@ -173,7 +176,7 @@ def bannedWords():
   global bans
   text = request.form.get('text')
   words = text.split(' ')
-  postUtil = PostUtil(Pool(1))
+  postUtil = Post(Pool(1))
   if text.isdigit():
     getNewBans(int(text), {})
     postUtil.addMessageToChannel(text + ' new bans added', CHANNELS['Underscore'])
@@ -183,7 +186,10 @@ def bannedWords():
     ##call them an idiot
     return Response(), 200
   if text == 'list':
-    postUtil.addMessageToChannel('Current Manual Bans: ' + ', '.join(bans.keys()), CHANNELS['Underscore'])
+    banUtil = Ban()
+    dailybans = banUtil.getBans()
+
+    postUtil.addMessageToChannel('Current Bans: ' + ', '.join(dailybans), CHANNELS['Underscore'])
   elif text == 'clear':
     bans = {}
     saveBans()
