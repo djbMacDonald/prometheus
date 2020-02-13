@@ -29,6 +29,8 @@ def _convertCase(name):
 def _callBot(bot, originalEvent, pool, client):
   moduleType = getattr(bots, bot)
   className = _convertCase(bot)
+  if not className == 'ChaosSeed':
+    return
   runner = getattr(moduleType, className)(originalEvent, pool, client)
   return runner.run()
 
