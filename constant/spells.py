@@ -4,7 +4,7 @@ SPELLS = {
     'duration': 520,
     'cast': 0,
     'type': 'burn',
-    'icon': 
+    'icon': 'https://emoji.slack-edge.com/TDBEDSEQZ/burn/297d37e5dadbe697.gif'
   },
   'confusion': {
     'cost': 20,
@@ -13,5 +13,4 @@ SPELLS = {
     'type': 'confusion',
     'icon': 'https://emoji.slack-edge.com/TDBEDSEQZ/luffy_dizzy/078316a8f001f0fa.gif'
   }
-}
 }
