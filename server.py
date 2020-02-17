@@ -202,6 +202,9 @@ def bannedWords():
 
 @app.route('/quicktime', methods=['POST'])
 def quicktime():
+
+  event = SlackEvent(json.loads(request.values.get('payload')))
+  print(request.values.get('payload'))
   return {
       "response_action": "update",
       "view": {
