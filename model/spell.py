@@ -1,6 +1,6 @@
 from constant.spells import SPELLS
 
-class spell:
+class Spell:
   def __init__(self, type):
     
     if not type in SPELLS:
@@ -11,18 +11,21 @@ class spell:
     self.cost = spell.cost
     self.duration = spell.duration
     self.cast = spell.cast
-    self.type = spell.type
+    self.name = spell.name
     self.icon = spell.icon
-  def getView:
+    self.effect = spell.effect
+    self.selected = True if self.name == ''
+    
+  def getView(self):
     return {
        "type":"section",
        "text":{ 
           "type":"mrkdwn",
-          "text":"*FIREBALL* - 40\n*Inflicts:* Burn\n *Duration*: 5m\n *Cast Time:* Short"
+          "text":f"*{self.name.upper}* - {self.cost}\n*Inflicts:* {self.effect}\n *Duration*: {self.duration} messages\n *Cast Time:* {'Instant' if self.cast == 0 else '{} Seconds'.format(self.cast)}"
        },
        "accessory":{ 
           "type":"image",
-          "image_url":"https://emoji.slack-edge.com/TDBEDSEQZ/burn/297d37e5dadbe697.gif",
+          "image_url": self.icon,
           "alt_text":"Airstream Suite"
        }
     },
@@ -36,7 +39,7 @@ class spell:
                 "text":"Choose",
                 "emoji":True
              },
-             "value":"click_me_123"
+             "value":self.name
           }
        ]
-    } 
+    }

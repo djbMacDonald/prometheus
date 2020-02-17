@@ -8,6 +8,7 @@ import pprint
 import traceback
 import urllib
 import requests
+from model.caster import Caster
 from model.event import Event
 from utils.ban import Ban
 from utils.log import Log
@@ -319,8 +320,9 @@ def addBan(word):
   
 @app.route('/cast', methods=['POST'])
 def cast():
-  request = request.values.to_dict()
-  caster = Caster(request.get('user_id'))
+  req = request.values.to_dict()
+  caster = Caster(req.get('user_id'))
+  
   print(req)
   payload = {
     "token": os.environ.get('SECRET'),

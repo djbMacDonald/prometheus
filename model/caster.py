@@ -1,4 +1,5 @@
 from constant.people import IDENTITIES
+from model.spell import Spell
 
 class Caster:
   def __init__(self, user):
@@ -9,5 +10,12 @@ class Caster:
     
     self.name = IDENTITIES.get(user).get('name')
   
-    self.status = 'normal'
+    self.status = 'Healthy'
+    self.mana = 100
+    self.maxMana = 100
+    self.cha = 12
+    self.int = 12
+    self.con = 12
+    self.dex = 12
+    self.spells = [Spell('fireball'), Spell('confusion')]
     
