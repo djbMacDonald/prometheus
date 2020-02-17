@@ -14,10 +14,10 @@ class Spell:
     self.name = spell.name
     self.icon = spell.icon
     self.effect = spell.effect
-    self.selected = True if self.name == ''
+    self.selected = True if self.name == 'fireball' else False
     
   def getView(self):
-    return {
+    return ({
        "type":"section",
        "text":{ 
           "type":"mrkdwn",
@@ -34,12 +34,13 @@ class Spell:
        "elements":[ 
           { 
              "type":"button",
+             "style": "danger" if self.selected else "default",
              "text":{ 
                 "type":"plain_text",
-                "text":"Choose",
+                "text":"Choose" if not self.selected else "Selected",
                 "emoji":True
              },
              "value":self.name
           }
        ]
-    }
+    })
