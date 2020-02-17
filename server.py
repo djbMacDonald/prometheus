@@ -202,10 +202,26 @@ def bannedWords():
 
 @app.route('/quicktime', methods=['POST'])
 def quicktime():
-  jsons.load(json.loads(request.values.get('payload')), SlackEvent)
-  print(SlackEvent)
-  print(request.values.get('payload'))
-  return Response(), 200
+  return {
+      "response_action": "update",
+      "view": {
+        "type": "modal",
+        "title": {
+          "type": "plain_text",
+          "text": "Updated view"
+        },
+        "blocks": [
+          {
+            "type": "section",
+            "text": {
+              "type": "plain_text",
+              "text": "I've changed and I'll never be the same. You must believe me."
+            }
+          }
+        ]
+      }
+    }
+  
 
 
 def getChungus(searchTerm):
