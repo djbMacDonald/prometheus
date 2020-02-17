@@ -94,7 +94,7 @@ class Caster:
   def buildTargets(self):
     options = []
     
-    for id, user in CHAOS_USERS.items():
+    for user, id in CHAOS_USERS.items():
       if self.user_id == id:
         continue
       options.append(

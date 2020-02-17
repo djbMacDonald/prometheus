@@ -322,17 +322,7 @@ def addBan(word):
 def cast():
   req = request.values.to_dict()
   caster = Caster(req.get('user_id'))
-  
-  print(req)
-  payload = {
-    "token": os.environ.get('SECRET'),
-    "trigger_id": req.get('trigger_id'),
-    "state": 'Testing!',
-    "view": 
-  }
-  url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
-  res = requests.get(url)
-  print(res.json())
+  caster.openView(req.get('trigger_id'))
   return Response(), 200
   
 if __name__ == "__main__":

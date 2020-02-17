@@ -21,7 +21,7 @@ class Spell:
        "type":"section",
        "text":{ 
           "type":"mrkdwn",
-          "text":f"*{self.name.upper}* - {self.cost}\n*Inflicts:* {self.effect}\n *Duration*: {self.duration} messages\n *Cast Time:* {'Instant' if self.cast == 0 else '{} Seconds'.format(self.cast)}"
+          "text":f"*{self.name.upper()}* - {self.cost}\n*Inflicts:* {self.effect}\n *Duration*: {self.duration} messages\n *Cast Time:* {'Instant' if self.cast == 0 else '{} Seconds'.format(self.cast)}"
        },
        "accessory":{ 
           "type":"image",
@@ -34,7 +34,7 @@ class Spell:
        "elements":[ 
           { 
              "type":"button",
-             "style": "danger" if self.selected else "default",
+             "style": "primary" if self.selected else 'danger',
              "text":{ 
                 "type":"plain_text",
                 "text":"Choose" if not self.selected else "Selected",
