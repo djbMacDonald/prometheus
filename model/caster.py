@@ -1,6 +1,9 @@
 import requests
 import urllib
 import os
+import json
+
+from constant.view import DIVIDER
 
 from constant.people import (
   IDENTITIES,
@@ -15,8 +18,8 @@ class Caster:
     if not user in IDENTITIES:
       return
     
-    self.name = IDENTITIES.get(user).get('name')
-    self.icon = IDENTITIES.get('profilePicture')
+    self.name = IDENTITIES.get(user).get('username')
+    self.icon = IDENTITIES.get(user).get('profilePicture')
   
     self.status = 'Healthy'
     self.mana = 100
@@ -34,20 +37,21 @@ class Caster:
   def openView(self, trigger_id):
     payload = {
       "token": os.environ.get('SECRET'),
-      "trigger_id": req.get('trigger_id'),
+      "trigger_id": trigger_id,
       "state": 'Testing!',
-      "view": caster.getView()
+      "view": self.getView()
     }
     url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
     res = requests.get(url)
     print(res.json())
     
   def getView(self):
-    view = getHeader()
+    view = self.getHeader()
     self.buildStatus()
     self.buildTargets()
     self.buildSpells()
     view['blocks'] = self.viewBlocks
+    print(json.dumps(view))
     return view
 
       
@@ -90,7 +94,7 @@ class Caster:
   def buildTargets(self):
     options = []
     
-    for id, user in CHAOS_USERS.values():
+    for id, user in CHAOS_USERS.items():
       if self.user_id == id:
         continue
       options.append(
