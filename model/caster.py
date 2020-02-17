@@ -1,4 +1,7 @@
-from constant.people import IDENTITIES
+from constant.people import (
+  IDENTITIES,
+  CHAOS_USERS
+)
 from model.spell import Spell
 
 class Caster:
@@ -9,6 +12,7 @@ class Caster:
       return
     
     self.name = IDENTITIES.get(user).get('name')
+    self.icon = IDENTITIES.get('profilePicture')
   
     self.status = 'Healthy'
     self.mana = 100
@@ -19,90 +23,20 @@ class Caster:
     self.dex = 12
     self.spells = [Spell('fireball'), Spell('confusion')]
     
+    self.viewBlocks = []
+    
     
   def getView(self):
     
     view = getHeader()
   
-    blocks = [];
-    blocks.append(self.getStatus())
+    self.buildStatus()
+    self.buildTargets()
     
-  def getStatus(self):
-    return { 
-         "type":"section",
-         "text":{ 
-            "type":"mrkdwn",
-            "text":"*Status:* {self.status}\n*Mana:* 100/100\n *CHA:* 12 *INT:* 12\n*CON:* 12 *DEX:* 12"
-         },
-         "accessory":{ 
-            "type":"image",
-            "image_url":"https://ca.slack-edge.com/TDBEDSEQZ-UDDE5960N-9141f5699aec-48",
-            "alt_text":"Airstream Suite"
-         }
-    }
+
     blocks = [
-      ,
-      { 
-         "type":"divider"
-      },
-      { 
-         "type":"input",
-         "label":{ 
-            "type":"plain_text",
-            "text":"Select a Target",
-            "emoji":True
-         },
-         "element":{ 
-            "type":"static_select",
-            "placeholder":{ 
-               "type":"plain_text",
-               "text":"Select an item",
-               "emoji":True
-            },
-            "options":[ 
-               { 
-                  "text":{ 
-                     "type":"plain_text",
-                     "text":"Drew",
-                     "emoji":True
-                  },
-                  "value":"drew"
-               },
-               { 
-                  "text":{ 
-                     "type":"plain_text",
-                     "text":"Dakota",
-                     "emoji":True
-                  },
-                  "value":"dakota"
-               },
-               { 
-                  "text":{ 
-                     "type":"plain_text",
-                     "text":"Brenden",
-                     "emoji":True
-                  },
-                  "value":"brenden"
-               },
-               { 
-                  "text":{ 
-                     "type":"plain_text",
-                     "text":"Mei",
-                     "emoji":True
-                  },
-                  "value":"mei"
-               },
-               { 
-                  "text":{ 
-                     "type":"plain_text",
-                     "text":"Victoria",
-                     "emoji":True
-                  },
-                  "value":"victoria"
-               }
-            ]
-         }
-      },
+      
+  
       { 
          "type":"divider"
       },
@@ -183,6 +117,85 @@ class Caster:
           "emoji":True
        },
     }
-          
-            
+  
+  def buildStatus(self):
+    self.viewBlocks.append({ 
+         "type":"section",
+         "text":{ 
+            "type":"mrkdwn",
+            "text":f"*Status:* {self.status}\n*Mana:* {self.mana}/{self.maxMana} *CHA:* {self.cha} *INT:* {self.int}\n*CON:* {self.con} *DEX:* {self.dex}"
+         },
+         "accessory":{ 
+            "type":"image",
+            "image_url":self.icon,
+            "alt_text":"Airstream Suite"
+         }
+    })
+    self.viewBlocks.append(DIVIDER)
+  
+  def buildTargets(self):
+    options = []
     
+    for user in CHAOS_USERS:
+      options.append(
+        { 
+            "text":{ 
+               "type":"plain_text",
+               "text":"",
+               "emoji":True
+            },
+            "value":"drew"
+         }
+      )
+    
+    return { 
+         "type":"input",
+         "label":{ 
+            "type":"plain_text",
+            "text":"Select a Target",
+            "emoji":True
+         },
+         "element":{ 
+            "type":"static_select",
+            "placeholder":{ 
+               "type":"plain_text",
+               "text":"Select an item",
+               "emoji":True
+            },
+            "options":[ 
+               
+               { 
+                  "text":{ 
+                     "type":"plain_text",
+                     "text":"Dakota",
+                     "emoji":True
+                  },
+                  "value":"dakota"
+               },
+               { 
+                  "text":{ 
+                     "type":"plain_text",
+                     "text":"Brenden",
+                     "emoji":True
+                  },
+                  "value":"brenden"
+               },
+               { 
+                  "text":{ 
+                     "type":"plain_text",
+                     "text":"Mei",
+                     "emoji":True
+                  },
+                  "value":"mei"
+               },
+               { 
+                  "text":{ 
+                     "type":"plain_text",
+                     "text":"Victoria",
+                     "emoji":True
+                  },
+                  "value":"victoria"
+               }
+            ]
+         }
+      }
