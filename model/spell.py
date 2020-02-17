@@ -14,7 +14,7 @@ class Spell:
     self.name = spell.get('name')
     self.icon = spell.get('icon')
     self.effect = spell.get('effect')
-    self.selected = True if self.name == 'fireball' else False
+    self.selected = True if self.name.lower() == 'fireball' else False
     
   def getView(self):
     return ({
