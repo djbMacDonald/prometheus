@@ -1,3 +1,7 @@
+import requests
+import urllib
+import os
+
 from constant.people import (
   IDENTITIES,
   CHAOS_USERS
@@ -26,77 +30,27 @@ class Caster:
     self.viewBlocks = []
     
     
-  def getView(self):
     
+  def openView(self, trigger_id):
+    payload = {
+      "token": os.environ.get('SECRET'),
+      "trigger_id": req.get('trigger_id'),
+      "state": 'Testing!',
+      "view": caster.getView()
+    }
+    url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
+    res = requests.get(url)
+    print(res.json())
+    
+  def getView(self):
     view = getHeader()
-  
     self.buildStatus()
     self.buildTargets()
-    
+    self.buildSpells()
+    view['blocks'] = self.viewBlocks
+    return view
 
-    blocks = [
       
-  
-      { 
-         "type":"divider"
-      },
-      { 
-         "type":"divider"
-      },
-      { 
-         "type":"section",
-         "text":{ 
-            "type":"mrkdwn",
-            "text":"*Confusion* - 20\n*Inflicts:* Confusion\n *Duration*: 1m\n *Cast Time:* Instant"
-         },
-         "accessory":{ 
-            "type":"image",
-            "image_url":"https://emoji.slack-edge.com/TDBEDSEQZ/luffy_dizzy/078316a8f001f0fa.gif",
-            "alt_text":"Airstream Suite"
-         }
-      },
-      { 
-         "type":"actions",
-         "elements":[ 
-            { 
-               "type":"button",
-               "style": "danger",
-               "text":{ 
-                  "type":"plain_text",
-                  "text":"Selected",
-                  "emoji":True
-               },
-               "value":"click_me_123"
-            }
-         ]
-      },
-      { 
-         "type":"section",
-         "text":{ 
-            "type":"mrkdwn",
-            "text":"*FIREBALL* - 40\n*Inflicts:* Burn\n *Duration*: 5m\n *Cast Time:* Short"
-         },
-         "accessory":{ 
-            "type":"image",
-            "image_url":"https://emoji.slack-edge.com/TDBEDSEQZ/burn/297d37e5dadbe697.gif",
-            "alt_text":"Airstream Suite"
-         }
-      },
-      { 
-         "type":"actions",
-         "elements":[ 
-            { 
-               "type":"button",
-               "text":{ 
-                  "type":"plain_text",
-                  "text":"Choose",
-                  "emoji":True
-               },
-               "value":"click_me_123"
-            }
-         ]
-      }
-       ]
   
   def getHeader(self):
     return { 
@@ -136,19 +90,21 @@ class Caster:
   def buildTargets(self):
     options = []
     
-    for user in CHAOS_USERS:
+    for id, user in CHAOS_USERS.values():
+      if self.user_id == id:
+        continue
       options.append(
         { 
             "text":{ 
                "type":"plain_text",
-               "text":"",
+               "text":user.capitalize(),
                "emoji":True
             },
-            "value":"drew"
+            "value":user
          }
       )
     
-    return { 
+    self.viewBlocks.append({ 
          "type":"input",
          "label":{ 
             "type":"plain_text",
@@ -162,40 +118,13 @@ class Caster:
                "text":"Select an item",
                "emoji":True
             },
-            "options":[ 
-               
-               { 
-                  "text":{ 
-                     "type":"plain_text",
-                     "text":"Dakota",
-                     "emoji":True
-                  },
-                  "value":"dakota"
-               },
-               { 
-                  "text":{ 
-                     "type":"plain_text",
-                     "text":"Brenden",
-                     "emoji":True
-                  },
-                  "value":"brenden"
-               },
-               { 
-                  "text":{ 
-                     "type":"plain_text",
-                     "text":"Mei",
-                     "emoji":True
-                  },
-                  "value":"mei"
-               },
-               { 
-                  "text":{ 
-                     "type":"plain_text",
-                     "text":"Victoria",
-                     "emoji":True
-                  },
-                  "value":"victoria"
-               }
-            ]
+            "options": options
          }
-      }
+      })
+    self.viewBlocks.append(DIVIDER)
+    
+  def buildSpells(self):
+    for spell in self.spells:
+      description, action = spell.getView()
+      self.viewBlocks.append(description)
+      self.viewBlocks.append(action)

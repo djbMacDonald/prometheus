@@ -8,12 +8,12 @@ class Spell:
     
     spell = SPELLS.get(type)
     
-    self.cost = spell.cost
-    self.duration = spell.duration
-    self.cast = spell.cast
-    self.name = spell.name
-    self.icon = spell.icon
-    self.effect = spell.effect
+    self.cost = spell.get('cost')
+    self.duration = spell.get('duration')
+    self.cast = spell.get('cast')
+    self.name = spell.get('name')
+    self.icon = spell.get('icon')
+    self.effect = spell.get('effect')
     self.selected = True if self.name == 'fireball' else False
     
   def getView(self):
