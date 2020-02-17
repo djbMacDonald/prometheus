@@ -319,7 +319,8 @@ def addBan(word):
   
 @app.route('/cast', methods=['POST'])
 def cast():
-  req = request.values.to_dict()
+  request = request.values.to_dict()
+  caster = Caster(request.get('user_id'))
   print(req)
   payload = {
     "token": os.environ.get('SECRET'),
