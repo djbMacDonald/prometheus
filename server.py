@@ -327,6 +327,7 @@ def cast():
     "state": 'Testing!',
     "view": { 
                  "type":"modal",
+                 "private_metadata":"Selected: FIREBALL",
                  "title":{ 
                     "type":"plain_text",
                     "text":"CJ O'Stabby",
@@ -379,7 +380,7 @@ def cast():
                                    "text":"Drew",
                                    "emoji":True
                                 },
-                                "value":"value-0"
+                                "value":"drew"
                              },
                              { 
                                 "text":{ 
@@ -387,7 +388,7 @@ def cast():
                                    "text":"Dakota",
                                    "emoji":True
                                 },
-                                "value":"value-1"
+                                "value":"dakota"
                              },
                              { 
                                 "text":{ 
@@ -395,7 +396,7 @@ def cast():
                                    "text":"Brenden",
                                    "emoji":True
                                 },
-                                "value":"value-2"
+                                "value":"brenden"
                              },
                              { 
                                 "text":{ 
@@ -403,7 +404,7 @@ def cast():
                                    "text":"Mei",
                                    "emoji":True
                                 },
-                                "value":"value-3"
+                                "value":"mei"
                              },
                              { 
                                 "text":{ 
@@ -411,7 +412,7 @@ def cast():
                                    "text":"Victoria",
                                    "emoji":True
                                 },
-                                "value":"value-4"
+                                "value":"victoria"
                              }
                           ]
                        }
