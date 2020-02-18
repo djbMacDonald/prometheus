@@ -17,7 +17,9 @@ import bots
 from pymongo import MongoClient
 from utils.post import Post
 import time
+import sched
 import os
+import asyncio
 
 app = Flask(__name__)
 
@@ -325,10 +327,12 @@ def cast():
   req = request.values.to_dict()
   modal = Modal('cast', req)
   modal.open()
-  time.sleep(3)
-  modal.update()
-  return Response(), 200
+  return Response(update(modal)), 200
 
+def update(caster):
+  time.sleep(3)
+  caster.update()
+  
   
 if __name__ == "__main__":
   app.run()
