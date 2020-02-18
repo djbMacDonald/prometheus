@@ -327,12 +327,7 @@ def cast():
   req = request.values.to_dict()
   modal = Modal('cast', req)
   modal.open()
-  return Response(update(modal)), 200
-
-def update(caster):
-  time.sleep(3)
-  caster.update()
-  
+  return Response(), 200
   
 if __name__ == "__main__":
   app.run()
