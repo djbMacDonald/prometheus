@@ -1,6 +1,8 @@
 from view._view import View
 from constant.view import DIVIDER
 import bots
+import pprint
+import traceback
 
 
 class BotListView(View):
@@ -36,10 +38,20 @@ class BotListView(View):
          "elements":[ 
             { 
                "type":"button",
-               "style": "primary" 'danger',
+               "style": 'primary',
                "text":{ 
                   "type":"plain_text",
-                  "text":"Choose" ,
+                  "text":"Configure" ,
+                  "emoji":True
+               },
+               "value":bot
+            },
+           { 
+               "type":"button",
+               "style": 'danger',
+               "text":{ 
+                  "type":"plain_text",
+                  "text":"Disable" ,
                   "emoji":True
                },
                "value":bot
@@ -68,4 +80,4 @@ def _getBotAttr(bot, attrName):
 
 def _convertCase(name):
   components = name.split('_')
-  return''.join(x.title() for x in components)
+  return " ".join(x.title() for x in components)
