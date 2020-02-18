@@ -16,21 +16,22 @@ class BotListView(View):
     
     for bot in self._botList:
       self._blocks.append(
-        {
-          "type": "section",
-          "text": {
-            "type": "plain_text",
-            "text": bot
-          },
-          "accessory": {
-            "type": "image",
-            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/DawwNigKJ2ckPeDeDM7jAg/o.jpg",
-            "alt_text": "alt text for image"
-          }
+        { 
+           "type":"section",
+           "text":{ 
+              "type":"mrkdwn",
+              "text":f"*Kin Khao*\n:star::star::star::star: 1638 reviews The sticky rice also goes wonderfully with the caramelized pork belly, which is absolutely"
+           },
+          "accessory":{ 
+            "type":"image",
+            "image_url": 'https://emoji.slack-edge.com/TDBEDSEQZ/luffy_dizzy/078316a8f001f0fa.gif',
+            "alt_text":"Airstream Suite"
+         }
         }
       )
     
     self._finalize()
+    print(self.view)
     return self.view
    
   
