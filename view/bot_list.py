@@ -29,8 +29,23 @@ class BotListView(View):
               "text": text
            }
         }
+        
       )
-      self._blocks.append(DIVIDER)
+      self._blocks.append({
+         "type":"actions",
+         "elements":[ 
+            { 
+               "type":"button",
+               "style": "primary" 'danger',
+               "text":{ 
+                  "type":"plain_text",
+                  "text":"Choose" ,
+                  "emoji":True
+               },
+               "value":bot
+            }
+       ]
+    })
     
     self._finalize()
     print(self.view)

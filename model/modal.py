@@ -4,6 +4,7 @@ from view.bot_list import BotListView
 from view._view import View
 import requests
 import os
+import json
 import urllib
 import view
 
@@ -31,11 +32,13 @@ class Modal:
     payload = {
       "token": os.environ.get('SECRET'),
       "trigger_id": self.triggerId,
+  
       "state": 'Testing!',
       "view": self.view
     }
-    url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
-    req = requests.get(url)
+  
+    url = 'https://slack.com/api/views.open'
+    req = requests.post(url, payload)
     res = req.json()
     print(res)
     return
