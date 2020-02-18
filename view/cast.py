@@ -13,8 +13,14 @@ class CastView:
       return
     
     self._blocks=[]
+    
+  def build(self):
+    self._buildStatus()
+    self._buildTargets()
+    self._buildSpells()
+    return self._blocks
   
-  def buildStatus(self):
+  def _buildStatus(self):
     self._blocks.append({ 
          "type":"section",
          "text":{ 
@@ -29,7 +35,7 @@ class CastView:
     })
     self._blocks.append(DIVIDER)
   
-  def buildTargets(self):
+  def _buildTargets(self):
     options = []
     
     for user, id in CHAOS_USERS.items():
@@ -65,16 +71,10 @@ class CastView:
       })
     self._blocks.append(DIVIDER)
     
-  def buildSpells(self):
+  def _buildSpells(self):
     for spell in self.caster.spells:
       description, action = spell.getView()
       self._blocks.append(description)
       self._blocks.append(action)
-      
-  def build(self):
-    self.buildStatus()
-    self.buildTargets()
-    self.buildSpells()
-    return self._blocks
   
   

@@ -13,6 +13,7 @@ class Modal:
     if not self.triggerId:
       return
     
+    #Build a Spell Cast ciew
     if type == 'cast':
       caster = Caster(req.get('user_id'))
       castView = CastView(caster)
@@ -32,8 +33,11 @@ class Modal:
       "view": self.view
     }
     url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
-    res = requests.get(url)
-    print(res.json())
+    req = requests.get(url)
+    res = req.json()
+    self.id = res.get('view').get('id')
+    self.hash = res.get('view').get('hash')
+    print(res)
   
   def setSubmit(self, text):
     self.header['submit'] = {
@@ -62,3 +66,32 @@ class Modal:
   def setView(self, view):
     self.view = self.header
     self.view['blocks'] = view
+    
+  
+  def update(self):
+    if not self.view:
+      return
+    self.view = {
+        "type": "modal",
+        "title": {
+          "type": "plain_text",
+          "text": "Updated view"
+        },
+        "blocks": [
+          {
+            "type": "section",
+            "text": {
+              "type": "plain_text",
+              "text": "I've changed and I'll never be the same. You must believe me."
+            }
+          }
+        ]
+      }
+    payload = {
+      "token": os.environ.get('SECRET'),
+      'view_id': self.id,
+      "view": self.view
+    }
+    url = 'https://slack.com/api/views.update?{}'.format(urllib.parse.urlencode(payload))
+    res = requests.get(url)
+    print(res.json())

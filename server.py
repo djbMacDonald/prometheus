@@ -16,6 +16,7 @@ from utils.log import Log
 import bots
 from pymongo import MongoClient
 from utils.post import Post
+import time
 import os
 
 app = Flask(__name__)
@@ -324,6 +325,8 @@ def cast():
   req = request.values.to_dict()
   modal = Modal('cast', req)
   modal.open()
+  time.sleep(3)
+  modal.update()
   return Response(), 200
 
   
