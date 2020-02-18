@@ -9,15 +9,48 @@ class CastView(View):
   
   def __init__(self, caster):
     self.caster = caster
+    self._header = {"type": "modal"}
     self._blocks = []
     if not self.caster:
       return
     
   def build(self):
+    self.setSubmit('Cast')
+    self.setClose('Cancel')
+    self.setTitle(self.caster.name)
+    
     self._buildStatus()
     self._buildTargets()
     self._buildSpells()
     return self._blocks
+  
+  def setView(self, view):
+    self.view = self.header
+    self.view['blocks'] = _blocks
+  
+  def setSubmit(self, text):
+    self._header['submit'] = {
+      "type": "plain_text",
+      "text": text,
+      "emoji": True
+    }
+    return
+    
+  def setClose(self, text):
+    self._header['close'] = { 
+      "type":"plain_text",
+      "text": text,
+      "emoji":True
+    }
+    return
+  
+  def setTitle(self, text):
+    self._header['title'] = {
+      "type":"plain_text",
+      "text": text,
+      "emoji":True
+    }
+    return
   
   def _buildStatus(self):
     self._blocks.append({ 

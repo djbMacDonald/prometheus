@@ -12,7 +12,6 @@ class Modal:
     print(botList)
     
     self.triggerId = req.get('trigger_id')
-    self.header = {"type": "modal"}
     
     if not self.triggerId:
       return
@@ -20,11 +19,8 @@ class Modal:
     #Build a Spell Cast ciew
     if type == 'cast':
       caster = Caster(req.get('user_id'))
-      castView = CastView(caster)
-      self.setSubmit('Cast')
-      self.setClose('Cancel')
-      self.setTitle(caster.name)
-      self.setView(castView.build())
+      CastView(caster).build()
+      self.view = castView.build()
       
       
   def open(self):
@@ -43,33 +39,8 @@ class Modal:
     self.hash = res.get('view').get('hash')
     print(res)
   
-  def setSubmit(self, text):
-    self.header['submit'] = {
-      "type": "plain_text",
-      "text": text,
-      "emoji": True
-    }
-    return
-    
-  def setClose(self, text):
-    self.header['close'] = { 
-      "type":"plain_text",
-      "text": text,
-      "emoji":True
-    }
-    return
+
   
-  def setTitle(self, text):
-    self.header['title'] = {
-      "type":"plain_text",
-      "text": text,
-      "emoji":True
-    }
-    return
-  
-  def setView(self, view):
-    self.view = self.header
-    self.view['blocks'] = view
     
   
   def update(self):
