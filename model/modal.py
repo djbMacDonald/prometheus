@@ -18,9 +18,7 @@ class Modal:
     
     #Build a Spell Cast ciew
     if type == 'cast':
-      caster = Caster(req.get('user_id'))
-      CastView(caster).build()
-      self.view = castView.build()
+      self.view = CastView(req).build()
       
       
   def open(self):

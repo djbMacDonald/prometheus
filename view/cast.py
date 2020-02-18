@@ -1,4 +1,5 @@
 from constant.view import DIVIDER
+from model.caster import Caster
 from view._view import View
 from constant.people import (
   IDENTITIES,
@@ -8,7 +9,7 @@ from constant.people import (
 class CastView(View):
   
   def __init__(self, caster):
-    self.caster = caster
+    self.caster = Caster(self.user)
     self._header = {"type": "modal"}
     self._blocks = []
     if not self.caster:
@@ -22,35 +23,9 @@ class CastView(View):
     self._buildStatus()
     self._buildTargets()
     self._buildSpells()
-    return self._blocks
+    self._finalize()
+    return self.view
   
-  def setView(self, view):
-    self.view = self.header
-    self.view['blocks'] = _blocks
-  
-  def setSubmit(self, text):
-    self._header['submit'] = {
-      "type": "plain_text",
-      "text": text,
-      "emoji": True
-    }
-    return
-    
-  def setClose(self, text):
-    self._header['close'] = { 
-      "type":"plain_text",
-      "text": text,
-      "emoji":True
-    }
-    return
-  
-  def setTitle(self, text):
-    self._header['title'] = {
-      "type":"plain_text",
-      "text": text,
-      "emoji":True
-    }
-    return
   
   def _buildStatus(self):
     self._blocks.append({ 
