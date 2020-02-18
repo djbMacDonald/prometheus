@@ -1,8 +1,6 @@
 from view._view import View
 from constant.view import DIVIDER
 import bots
-import pprint
-import traceback
 
 
 class BotListView(View):
@@ -15,9 +13,13 @@ class BotListView(View):
     
   def build(self):
     
-    print(self._botList)
-    
-    for bot in self._botList:
+    self.setTitle('Bot List')    
+    self._buildBotList()
+    self._finalize()
+    return self.view
+  
+  def _buildBotList(self):
+     for bot in self._botList:
       description = _getDescription(bot)
       if not description:
         continue
@@ -31,8 +33,8 @@ class BotListView(View):
               "text": text
            }
         }
-        
       )
+      
       self._blocks.append({
          "type":"actions",
          "elements":[ 
@@ -56,12 +58,8 @@ class BotListView(View):
                },
                "value":bot
             }
-       ]
-    })
-    
-    self._finalize()
-    print(self.view)
-    return self.view
+         ]
+      })
    
   
 def _getDescription(bot):
@@ -80,4 +78,5 @@ def _getBotAttr(bot, attrName):
 
 def _convertCase(name):
   components = name.split('_')
-  return " ".join(x.title() for x in components)
+  return ''.join(x.title() for x in components)
+

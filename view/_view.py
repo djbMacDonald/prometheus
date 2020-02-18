@@ -11,7 +11,6 @@ class View:
   def build(self):
     self.setSubmit('Submit')
     self.setClose('Cancel')
-  
     self._finalize()
     return self.view
     

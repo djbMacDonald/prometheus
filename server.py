@@ -91,7 +91,7 @@ def list():
   if words[0].lower() == 'list':
     modal = Modal('bot_list', request.values.to_dict())
     modal.open()
-    return _botList()
+    return Response(), 200
   if words[0].lower() == 'configure':
     return _botConfigure(words[1], words[2], words[3])
   
