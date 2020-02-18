@@ -80,7 +80,9 @@ class Post:
   def postEphemeral(self, data):
     url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))
     self._pool.apply_async(requests.get, args=[url])
-    return
+    return   
+    
+    
   # def setChannelTopic(self, channel, message):
   #   if not self.isAllowedToPostInThisChannel(channel):
   #     return;

@@ -1,11 +1,13 @@
 from model.caster import Caster
+import requests
+import os
+import urllib
 
 class Modal:
   def __init__(self, type, req):
     
-    self.triggerId = req.get('trrigger_id')
+    self.triggerId = req.get('trigger_id')
     self.header = {"type": "modal"}
-    
     
     if not self.triggerId:
       return
@@ -14,38 +16,44 @@ class Modal:
       caster = Caster(req.get('user_id'))
       self.setSubmit('Cast')
       self.setClose('Cancel')
-      self.setTitle(Caster.name)
-      self.setView = Caster.getCastingView()
+      self.setTitle(caster.name)
+      self.setView(caster.getCastingView())
       
       
   def open(self):
     if not self.view:
-      
       return
+    payload = {
+      "token": os.environ.get('SECRET'),
+      "trigger_id": self.triggerId,
+      "state": 'Testing!',
+      "view": self.view
+    }
+    url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
+    res = requests.get(url)
+    print(res.json())
   
   def setSubmit(self, text):
     self.header['submit'] = {
-          "type": "plain_text",
-          "text": text,
-          "emoji": True
-     }
+      "type": "plain_text",
+      "text": text,
+      "emoji": True
+    }
     return
     
   def setClose(self, text):
-    elf.header['close'] = { 
-          "type":"plain_text",
-          "text": text,
-          "emoji":True
-       }
+    self.header['close'] = { 
+      "type":"plain_text",
+      "text": text,
+      "emoji":True
+    }
     return
   
   def setTitle(self, text):
     self.header['title'] = {
-      { 
-          "type":"plain_text",
-          "text": text,
-          "emoji":True
-       }
+      "type":"plain_text",
+      "text": text,
+      "emoji":True
     }
     return
   

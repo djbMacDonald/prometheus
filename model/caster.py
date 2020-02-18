@@ -17,7 +17,6 @@ class Caster:
     
     if not user in IDENTITIES:
       return
-    
     self.name = IDENTITIES.get(user).get('username')
     self.icon = IDENTITIES.get(user).get('profilePicture')
   
@@ -31,52 +30,15 @@ class Caster:
     self.spells = [Spell('fireball'), Spell('confusion')]
     
     self.viewBlocks = []
-    
-    
-    
-  def openView(self, trigger_id):
-    payload = {
-      "token": os.environ.get('SECRET'),
-      "trigger_id": trigger_id,
-      "state": 'Testing!',
-      "view": self.getView()
-    }
-    url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
-    res = requests.get(url)
-    print(res.json())
+        
     
   def getCastingView(self):
-    view = self.getHeader()
-    self.buildStatus()
-    self.buildTargets()
-    self.buildSpells()
-    view['blocks'] = self.viewBlocks
-    print(json.dumps(view))
-    return view
+    self.buildStatusView()
+    self.buildTargetsView()
+    self.buildSpellsView()
+    return self.viewBlocks
 
-      
-  
-  def getHeader(self):
-    return { 
-       "type":"modal",
-       "title":{ 
-          "type":"plain_text",
-          "text":f"{self.name}",
-          "emoji":True
-       },
-       "submit": {
-          "type": "plain_text",
-          "text": "Cast",
-          "emoji": True
-       },
-       "close":{ 
-          "type":"plain_text",
-          "text":"Cancel",
-          "emoji":True
-       },
-    }
-  
-  def buildStatus(self):
+  def buildStatusView(self):
     self.viewBlocks.append({ 
          "type":"section",
          "text":{ 
@@ -91,7 +53,7 @@ class Caster:
     })
     self.viewBlocks.append(DIVIDER)
   
-  def buildTargets(self):
+  def buildTargetsView(self):
     options = []
     
     for user, id in CHAOS_USERS.items():
@@ -127,7 +89,7 @@ class Caster:
       })
     self.viewBlocks.append(DIVIDER)
     
-  def buildSpells(self):
+  def buildSpellsView(self):
     for spell in self.spells:
       description, action = spell.getView()
       self.viewBlocks.append(description)

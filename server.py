@@ -322,9 +322,8 @@ def addBan(word):
 @app.route('/cast', methods=['POST'])
 def cast():
   req = request.values.to_dict()
-  modal = Modal('cast', request)
-  caster = Caster(req.get('user_id'))
-  caster.openView(req.get('trigger_id'))
+  modal = Modal('cast', req)
+  modal.open()
   return Response(), 200
 
   
