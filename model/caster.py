@@ -6,8 +6,7 @@ import json
 from constant.view import DIVIDER
 
 from constant.people import (
-  IDENTITIES,
-  CHAOS_USERS
+  IDENTITIES
 )
 from model.spell import Spell
 
@@ -27,70 +26,5 @@ class Caster:
     self.int = 12
     self.con = 12
     self.dex = 12
-    self.spells = [Spell('fireball'), Spell('confusion')]
-    
-    self.viewBlocks = []
-        
-    
-  def getCastingView(self):
-    self.buildStatusView()
-    self.buildTargetsView()
-    self.buildSpellsView()
-    return self.viewBlocks
-
-  def buildStatusView(self):
-    self.viewBlocks.append({ 
-         "type":"section",
-         "text":{ 
-            "type":"mrkdwn",
-            "text":f"*Status:* {self.status}\n*Mana:* {self.mana}/{self.maxMana} *CHA:* {self.cha} *INT:* {self.int}\n*CON:* {self.con} *DEX:* {self.dex}"
-         },
-         "accessory":{ 
-            "type":"image",
-            "image_url":self.icon,
-            "alt_text":"Airstream Suite"
-         }
-    })
-    self.viewBlocks.append(DIVIDER)
+    self.spells = [Spell('fireball'), Spell('confusion')]        
   
-  def buildTargetsView(self):
-    options = []
-    
-    for user, id in CHAOS_USERS.items():
-      if self.user_id == id:
-        continue
-      options.append(
-        { 
-            "text":{ 
-               "type":"plain_text",
-               "text":user.capitalize(),
-               "emoji":True
-            },
-            "value":user
-         }
-      )
-    
-    self.viewBlocks.append({ 
-         "type":"input",
-         "label":{ 
-            "type":"plain_text",
-            "text":"Select a Target",
-            "emoji":True
-         },
-         "element":{ 
-            "type":"static_select",
-            "placeholder":{ 
-               "type":"plain_text",
-               "text":"Select an item",
-               "emoji":True
-            },
-            "options": options
-         }
-      })
-    self.viewBlocks.append(DIVIDER)
-    
-  def buildSpellsView(self):
-    for spell in self.spells:
-      description, action = spell.getView()
-      self.viewBlocks.append(description)
-      self.viewBlocks.append(action)

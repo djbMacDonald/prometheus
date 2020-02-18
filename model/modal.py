@@ -1,4 +1,5 @@
 from model.caster import Caster
+from view.cast import CastView
 import requests
 import os
 import urllib
@@ -14,10 +15,11 @@ class Modal:
     
     if type == 'cast':
       caster = Caster(req.get('user_id'))
+      castView = CastView(caster)
       self.setSubmit('Cast')
       self.setClose('Cancel')
       self.setTitle(caster.name)
-      self.setView(caster.getCastingView())
+      self.setView(castView.build())
       
       
   def open(self):
