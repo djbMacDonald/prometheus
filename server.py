@@ -324,6 +324,7 @@ def cast():
   caster = Caster(req.get('user_id'))
   caster.openView(req.get('trigger_id'))
   return Response(), 200
+
   
 if __name__ == "__main__":
   app.run()
