@@ -1,18 +1,17 @@
 from constant.view import DIVIDER
-
+from view._view import View
 from constant.people import (
   IDENTITIES,
   CHAOS_USERS
 )
 
-class CastView:
+class CastView(View):
   
   def __init__(self, caster):
     self.caster = caster
+    self._blocks = []
     if not self.caster:
       return
-    
-    self._blocks=[]
     
   def build(self):
     self._buildStatus()

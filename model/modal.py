@@ -3,9 +3,13 @@ from view.cast import CastView
 import requests
 import os
 import urllib
+import view
 
 class Modal:
   def __init__(self, type, req):
+    
+    botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(view))))
+    print(botList)
     
     self.triggerId = req.get('trigger_id')
     self.header = {"type": "modal"}
