@@ -37,6 +37,8 @@ class Modal:
     url = 'https://slack.com/api/views.open?{}'.format(urllib.parse.urlencode(payload))
     req = requests.get(url)
     res = req.json()
+    print(res)
+    return
     self.id = res.get('view').get('id')
     self.hash = res.get('view').get('hash')
     print(res)

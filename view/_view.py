@@ -4,12 +4,13 @@ class View:
     self.user = request.get('user_id')
     self._blocks = []
     self._header = {"type": "modal"}
+    self.setTitle('Sample Modal')
+
     
     
   def build(self):
     self.setSubmit('Submit')
     self.setClose('Cancel')
-    self.setTitle('Sample Modal')
   
     self._finalize()
     return self.view
