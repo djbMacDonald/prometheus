@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template, jsonify, Response
+from model.modal import Modal
 from multiprocessing import Pool
 from constant.channels import CHANNELS
 import json
@@ -321,6 +322,7 @@ def addBan(word):
 @app.route('/cast', methods=['POST'])
 def cast():
   req = request.values.to_dict()
+  modal = Modal('cast', request)
   caster = Caster(req.get('user_id'))
   caster.openView(req.get('trigger_id'))
   return Response(), 200

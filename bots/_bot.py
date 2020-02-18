@@ -22,3 +22,6 @@ class Bot(object):
   
   def run(self):
     return
+  
+  def getListView(self):
+    return
