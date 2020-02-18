@@ -89,6 +89,8 @@ def list():
   text = request.form.get('text')
   words = text.split()
   if words[0].lower() == 'list':
+    modal = Modal('bot_list', request.values.to_dict())
+    modal.open()
     return _botList()
   if words[0].lower() == 'configure':
     return _botConfigure(words[1], words[2], words[3])
@@ -255,6 +257,7 @@ def getChungus(searchTerm):
   for emoji, value in gigaEmojis.items():
      sortedEmojis = (sorted(value, key=operator.itemgetter(1,2)))
      maxY = 0
+    
      prevX = 0
      prevY = 0
      for emoji, x, y in sortedEmojis:
