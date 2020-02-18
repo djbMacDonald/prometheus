@@ -225,7 +225,7 @@ def quicktime():
             "type": "section",
             "text": {
               "type": "plain_text",
-              "text": "I've changed and I'll never be the same. You must believe me."
+              "text": "THIS FUCKIN BUTTON WORKS. HAPPY NOW?!?!?"
             }
           }
         ]
