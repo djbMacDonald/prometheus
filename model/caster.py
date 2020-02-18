@@ -45,7 +45,7 @@ class Caster:
     res = requests.get(url)
     print(res.json())
     
-  def getView(self):
+  def getCastingView(self):
     view = self.getHeader()
     self.buildStatus()
     self.buildTargets()
