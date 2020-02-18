@@ -1,5 +1,6 @@
 from model.caster import Caster
 from view.cast import CastView
+from view._view import View
 import requests
 import os
 import urllib
@@ -19,6 +20,7 @@ class Modal:
     #Build a Spell Cast ciew
     if type == 'cast':
       self.view = CastView(req).build()
+    if type == 'bot_list'
       
       
   def open(self):
@@ -36,11 +38,7 @@ class Modal:
     self.id = res.get('view').get('id')
     self.hash = res.get('view').get('hash')
     print(res)
-  
 
-  
-    
-  
   def update(self):
     if not self.view:
       return

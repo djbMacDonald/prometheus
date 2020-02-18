@@ -6,6 +6,15 @@ class View:
     self._header = {"type": "modal"}
     
     
+  def build(self):
+    self.setSubmit('Submit')
+    self.setClose('Cancel')
+    self.setTitle('Sample Modal')
+  
+    self._finalize()
+    return self.view
+    
+    
   def _finalize(self):
     self.view = self._header
     self.view['blocks'] = self._blocks

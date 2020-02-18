@@ -8,18 +8,15 @@ from constant.people import (
 
 class CastView(View):
   
-  def __init__(self, caster):
+  def __init__(self, req):
+    super().__init__(req)
     self.caster = Caster(self.user)
-    self._header = {"type": "modal"}
-    self._blocks = []
-    if not self.caster:
-      return
     
   def build(self):
     self.setSubmit('Cast')
     self.setClose('Cancel')
     self.setTitle(self.caster.name)
-    
+  
     self._buildStatus()
     self._buildTargets()
     self._buildSpells()
