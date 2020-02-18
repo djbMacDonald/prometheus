@@ -1,4 +1,5 @@
 from view._view import View
+from constant.view import DIVIDER
 import bots
 
 
@@ -15,20 +16,21 @@ class BotListView(View):
     print(self._botList)
     
     for bot in self._botList:
+      description = _getDescription(bot)
+      if not description:
+        continue
+      text = f"*{_convertCase(bot)}*\n>{description}"
+      print (text)
       self._blocks.append(
         { 
            "type":"section",
            "text":{ 
               "type":"mrkdwn",
-              "text":f"*Kin Khao*\n:star::star::star::star: 1638 reviews The sticky rice also goes wonderfully with the caramelized pork belly, which is absolutely"
-           },
-          "accessory":{ 
-            "type":"image",
-            "image_url": 'https://emoji.slack-edge.com/TDBEDSEQZ/luffy_dizzy/078316a8f001f0fa.gif',
-            "alt_text":"Airstream Suite"
-         }
+              "text": text
+           }
         }
       )
+      self._blocks.append(DIVIDER)
     
     self._finalize()
     print(self.view)
