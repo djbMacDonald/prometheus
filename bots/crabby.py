@@ -5,7 +5,7 @@ from bots._bot import Bot
 class Crabby(Bot):
   
   _frequency = .99
-  _target = 'Aysh'
+  _target = 'Ayshu'
   
   @classmethod
   def description(cls):
