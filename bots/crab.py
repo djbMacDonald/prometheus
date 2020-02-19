@@ -7,14 +7,14 @@ from bots._bot import Bot
 
 class Crab(Bot):
   
-  _frequency = .05
+  _frequency = .1
   _target = 'Ayshu'
   
   @classmethod
   def description(cls):
-    return "`Crab` Has a {}% chance to call Aysh a crab".format(cls._freqwuency * 100)
+    return "`Crab` Has a {}% chance to call {} a crab".format(cls._frequency * 100, cls._target)
   
   def run(self):
-    if self._event.isFromABot() or not self._event.isFrom(self._target):
+    if self._event.isFromABot() or not self._event.isFrom(self._target) or not self._randomUtil.rollDice(self._frequency):
       return;
-    self._postUtil.addReaction("salute_cap", self._event.channel(), self._event.id())
+    self._postUtil.addReaction("crab", self._event.channel(), self._event.id())
