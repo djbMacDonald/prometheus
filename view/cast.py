@@ -21,6 +21,7 @@ class CastView(View):
     self._buildStatus()
     self._buildTargets()
     self._buildSpells()
+    self.private_metadata = self.caster.getSelectedSpell()
     self._finalize()
     return self.view
   

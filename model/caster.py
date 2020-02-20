@@ -26,5 +26,11 @@ class Caster:
     self.int = 12
     self.con = 12
     self.dex = 12
-    self.spells = [Spell('fireball'), Spell('confusion')]        
+    self.spells = [Spell('fireball'), Spell('confusion')]
+    
+    
+  def getSelectedSpell(self):
+    for spell in self.spells:
+      if spell.selected:
+        return spell.name
   
