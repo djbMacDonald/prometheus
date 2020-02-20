@@ -22,7 +22,10 @@ class View:
     self.view = self._header
     if self.external_id:
       self.view['external_id'] = f"{self.external_id}_{self.user}"
+    if self.private_metadata:
+      self.view['private_metadata'] = self.private_metadata
     self.view['blocks'] = self._blocks
+    
     return self.view
   
   def setSubmit(self, text):

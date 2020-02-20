@@ -1,6 +1,10 @@
 import jsons
+from model.caster import Caster
 from view.cast import CastView
 from model.modal import updateModal
+from multiprocessing import Pool
+
+from utils.post import Post
 class SlackEvent:
   def __init__(self, event):
     
@@ -15,8 +19,11 @@ class SlackEvent:
         target = next(iter(next(iter(event.get('view').get('state').get('values').values())).values())).get('selected_option').get('value');
         user = event.get('user').get('id')
         
-        
-        
+        spell = event.get('view').get('private_metadata')
+        caster = Caster(user)
+        shame = f"{caster.name} just tried to cast {spell} on {target} but failed... cuz their bad."
+        post = Post(Pool(1))
+        post.addMessageToChannel(self, message, channel, identity = None)
 
       
     if event.get('type') == 'block_actions':
