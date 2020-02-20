@@ -28,7 +28,7 @@ class QuicktimeEvent(Bot):
           "callback_id": "quicktime",
           "attachment_type": "default",
           "text": '',
-          "fallback": "Well thsi is awkward :bug:",
+          "fallback": "Well this is awkward :bug:",
           "actions": [{
             "name": "game",
             "text": "Done",
