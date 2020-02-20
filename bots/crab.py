@@ -7,7 +7,7 @@ from bots._bot import Bot
 
 class Crab(Bot):
   
-  _frequency = .1
+  _frequency = 0
   _target = 'Ayshu'
   
   @classmethod
