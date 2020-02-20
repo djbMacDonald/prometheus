@@ -5,6 +5,7 @@ class View:
     self._blocks = []
     self._header = {"type": "modal"}
     self.setTitle('Sample Modal')
+    self.external_id = None
 
     
     
@@ -17,8 +18,8 @@ class View:
     
   def _finalize(self):
     self.view = self._header
-    if self.id:
-      self.external_id
+    if self.external_id:
+      self.view['external_id'] = self.external_id
     self.view['blocks'] = self._blocks
     return self.view
   
