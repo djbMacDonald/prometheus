@@ -1,8 +1,5 @@
 import jsons
-
-
-
-
+from view.cast import CastView
 class SlackEvent:
   def __init__(self, event):
     
@@ -14,8 +11,12 @@ class SlackEvent:
       
     if event.get('type') == 'block_actions':
       print('block_action')
-      print(event)
+      type, user = event.get('view').get('external_id').split('_')      
       
+      caster = Caster(user)
+      caster.
+
+        
       
     else:
       print(event.get('type'))

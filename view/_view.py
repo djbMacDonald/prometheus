@@ -1,11 +1,13 @@
 class View:
   
-  def __init__(self, request):
-    self.user = request.get('user_id')
+  def __init__(self, request=None, user=None):
+    if request:
+      self.user = request.get('user_id')
+    else:
+      self.user = user
     self._blocks = []
     self._header = {"type": "modal"}
     self.setTitle('Sample Modal')
-    self.external_id = None
 
     
     
@@ -19,7 +21,7 @@ class View:
   def _finalize(self):
     self.view = self._header
     if self.external_id:
-      self.view['external_id'] = self.external_id
+      self.view['external_id'] = f"{self.external_id}_{self.user}"
     self.view['blocks'] = self._blocks
     return self.view
   
