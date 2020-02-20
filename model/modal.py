@@ -22,6 +22,8 @@ class Modal:
     #Build a Spell Cast ciew
     if type == 'cast':
       self.view = CastView(req).build()
+      self.id = 'cast'
+
     if type == 'bot_list':
       self.view = BotListView(req).build()
       

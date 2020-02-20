@@ -11,6 +11,7 @@ class CastView(View):
   def __init__(self, req):
     super().__init__(req)
     self.caster = Caster(self.user)
+    self.external_id = 'cast'
     
   def build(self):
     self.setSubmit('Cast')

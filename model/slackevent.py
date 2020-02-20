@@ -14,6 +14,8 @@ class SlackEvent:
       
     if event.get('type') == 'block_actions':
       print('block_action')
+      print(event)
+      
       
     else:
       print(event.get('type'))

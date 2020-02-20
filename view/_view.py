@@ -17,6 +17,8 @@ class View:
     
   def _finalize(self):
     self.view = self._header
+    if self.id:
+      self.external_id
     self.view['blocks'] = self._blocks
     return self.view
   
