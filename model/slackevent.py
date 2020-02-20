@@ -7,17 +7,21 @@ class SlackEvent:
     if not event.get('type'):
       return
     
+    type, user = event.get('view').get('external_id').split('_')      
+    
     if event.get('type') =='view_submission':
-      print('view submission')
+      if type == 'cast':
+        view = CastView(None, user)
+        print(event)        
+
       
     if event.get('type') == 'block_actions':
-      print('block_action')
-      type, user = event.get('view').get('external_id').split('_')      
       
-      view = CastView(None, user)
-      view.handleAction(event.get('actions'))
-      view = view.build()
-      updateModal(event.get('view').get('external_id'), view)
+      if type == 'cast':
+        view = CastView(None, user)
+        view.handleAction(event.get('actions'))
+        view = view.build()
+        updateModal(event.get('view').get('external_id'), view)
 
         
       

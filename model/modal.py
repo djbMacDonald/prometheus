@@ -12,7 +12,6 @@ class Modal:
   def __init__(self, type, req):
     
     botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(view))))
-    print(botList)
     
     self.triggerId = req.get('trigger_id')
     
@@ -42,11 +41,9 @@ class Modal:
     headers = {'content-type': 'application/json; charset=utf-8', "Authorization": f"Bearer {os.environ.get('SECRET')}"}
     req = requests.post(url, json.dumps(payload), headers=headers)
     res = req.json()
-    print(res)
     return
     self.id = res.get('view').get('id')
     self.hash = res.get('view').get('hash')
-    print(res)
 
 def updateModal(id, view):
   if not id or not view:
@@ -58,4 +55,3 @@ def updateModal(id, view):
   }
   url = 'https://slack.com/api/views.update?{}'.format(urllib.parse.urlencode(payload))
   res = requests.get(url)
-  print(res.json())

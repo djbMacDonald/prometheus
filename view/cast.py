@@ -83,8 +83,10 @@ class CastView(View):
       self._blocks.append(action)
   
   def handleAction(self, actions):
-    action = actions[0]
+    action = actions[0].get('value')
     for spell in self.caster.spells:
       if action == spell.name:
         spell.selected = True
+      else:
+        spell.selected = False
       
