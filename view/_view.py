@@ -29,9 +29,10 @@ class View:
     self._header['submit'] = {
       "type": "plain_text",
       "text": text,
-      "emoji": True
+      "emoji": True,
     }
     return
+  
     
   def setClose(self, text):
     self._header['close'] = { 

@@ -12,7 +12,8 @@ class SlackEvent:
     if event.get('type') =='view_submission':
       if type == 'cast':
         view = CastView(None, user)
-        print(event)        
+        print(next(iter(event.get('state').get('values'))))
+)        
 
       
     if event.get('type') == 'block_actions':
