@@ -1,4 +1,5 @@
 import jsons
+from constant.channels import CHANNELS
 from model.caster import Caster
 from view.cast import CastView
 from model.modal import updateModal
@@ -21,9 +22,9 @@ class SlackEvent:
         
         spell = event.get('view').get('private_metadata')
         caster = Caster(user)
-        shame = f"{caster.name} just tried to cast {spell} on {target} but failed... cuz their bad."
+        shame = f"{caster.name} just tried to cast {spell} on {target} but failed... cuz they are bad."
         post = Post(Pool(1))
-        post.addMessageToChannel(self, message, channel, identity = None)
+        post.addMessageToChannel(shame, CHANNELS['Chaos'])
 
       
     if event.get('type') == 'block_actions':
