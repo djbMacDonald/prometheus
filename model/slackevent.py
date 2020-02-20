@@ -1,5 +1,6 @@
 import jsons
 from view.cast import CastView
+from model.modal import updateModal
 class SlackEvent:
   def __init__(self, event):
     
@@ -13,8 +14,10 @@ class SlackEvent:
       print('block_action')
       type, user = event.get('view').get('external_id').split('_')      
       
-      caster = Caster(user)
-      caster.
+      view = CastView(None, user)
+      view.handleAction(event.get('actions'))
+      view = view.build()
+      updateModal(event.get('view').get('external_id'), view)
 
         
       

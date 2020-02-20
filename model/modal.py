@@ -48,30 +48,14 @@ class Modal:
     self.hash = res.get('view').get('hash')
     print(res)
 
-  def update(self):
-    if not self.view:
-      return
-    self.view = {
-        "type": "modal",
-        "title": {
-          "type": "plain_text",
-          "text": "Updated view"
-        },
-        "blocks": [
-          {
-            "type": "section",
-            "text": {
-              "type": "plain_text",
-              "text": "I've changed and I'll never be the same. You must believe me."
-            }
-          }
-        ]
-      }
-    payload = {
-      "token": os.environ.get('SECRET'),
-      'view_id': self.id,
-      "view": self.view
-    }
-    url = 'https://slack.com/api/views.update?{}'.format(urllib.parse.urlencode(payload))
-    res = requests.get(url)
-    print(res.json())
+def updateModal(id, view):
+  if not id or not view:
+    return
+  payload = {
+    "token": os.environ.get('SECRET'),
+    'external_id': id,
+    "view": view
+  }
+  url = 'https://slack.com/api/views.update?{}'.format(urllib.parse.urlencode(payload))
+  res = requests.get(url)
+  print(res.json())
