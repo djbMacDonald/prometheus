@@ -38,7 +38,7 @@ class Post:
     if not self.isAllowedToPostInThisChannel(info['channel']):
       return;
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
-    self._pool.apply_async(requests.get, args=[url])
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def addReaction(self, reaction, channel, timestamp):
     if not self.isAllowedToPostInThisChannel(channel):
@@ -52,7 +52,7 @@ class Post:
       'token': os.environ.get('DAKA')
     }
     url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
-    self._pool.apply_async(requests.get, args=[url])
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def deleteMessage(self, channel, id):
     if not self.isAllowedToPostInThisChannel(channel):
@@ -63,7 +63,7 @@ class Post:
        'token': os.environ.get('SECRET')
     }
     url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
-    self._pool.apply_async(requests.get, args=[url])
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
 
   def getAllEmojis(self):
     if self._allEmotes:
@@ -79,8 +79,14 @@ class Post:
   
   def postEphemeral(self, data):
     url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))
-    self._pool.apply_async(requests.get, args=[url])
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     return   
+  
+def poolCallback(args):
+  
+  print('test', args)
+  args.close()
+  return
     
     
   # def setChannelTopic(self, channel, message):

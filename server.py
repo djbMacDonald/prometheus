@@ -81,7 +81,8 @@ def inbound():
     
   if not originalEvent.isFromABot() and originalEvent.isAMessage():
     logUtil.logToFile(originalEvent)
-    
+  pool.close()
+  pool.join()
   return data, 200
 
 @app.route('/bot', methods=['POST'])
