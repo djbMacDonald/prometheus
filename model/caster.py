@@ -6,7 +6,7 @@ import json
 from constant.view import DIVIDER
 
 from constant.people import (
-  IDENTITIES
+  PEOPLE
 )
 from model.spell import Spell
 
@@ -14,10 +14,10 @@ class Caster:
   def __init__(self, user):
     self.user_id = user
     
-    if not user in IDENTITIES:
+    if not user in PEOPLE:
       return
-    self.name = IDENTITIES.get(user).get('username')
-    self.icon = IDENTITIES.get(user).get('profilePicture')
+    self.name = PEOPLE.get(user).get('username')
+    self.icon = PEOPLE.get(user).get('profilePicture')
   
     self.status = 'Healthy'
     self.mana = 100
