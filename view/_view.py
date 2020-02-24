@@ -1,14 +1,14 @@
 class View:
   
   def __init__(self, user=None, view=None, state=None):
-    self.user = user.user
+    self.user = user
     self.external_id = None
     self.private_metadata = None
     self._blocks = []
     self._header = {"type": "modal"}
     self.setTitle('Sample Modal')
     self.view = view
-    self.state =
+    self.state = state
 
     
     

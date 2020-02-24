@@ -5,10 +5,9 @@ import bots
 
 class BotListView(View):
   
-  def __init__(self, req):
+  def __init__(self, user):
     self._botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
-
-    super().__init__(req)    
+    super().__init__(user)    
   
     
   def build(self):

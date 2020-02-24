@@ -8,8 +8,8 @@ from constant.people import (
 
 class CastView(View):
   
-  def __init__(self, req=None, user=None):
-    super().__init__(req, user)
+  def __init__(self, user):
+    super().__init__(user)
     self.caster = Caster(self.user)
     self.external_id = 'cast'
     

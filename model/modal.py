@@ -11,28 +11,29 @@ import urllib
 import view
 
 class Modal:
-  def __init__(self, type, req, user=None):
+  def __init__(self, type, trigger_id, user):
     
-    botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(view))))
-    
-    self.triggerId = req.get('trigger_id')
+    if not user:
+      return
+        
+    self.triggerId = trigger_id
     
     if not self.triggerId:
       return
     
     #Build a Spell Cast ciew
     if type == 'cast':
-      self.view = CastView(req).build()
+      self.view = CastView(user).build()
       self.id = 'cast'
 
     if type == 'bot_list':
-      self.view = BotListView(req).build()
+      self.view = BotListView(user).build()
       
     if type == 'chaos':
-      self.view = ChaosView(req, user).build()
+      self.view = ChaosView(user).build()
       
     if type == 'chaos_admin':
-      self.view = ChaosAdminView(req, user).build()
+      self.view = ChaosAdminView(user).build()
       
       
   def open(self):

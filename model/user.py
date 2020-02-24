@@ -11,7 +11,6 @@ class User:
   
   def __init__(self, event, db = None):
     self._event = event
-    print('here!!!!!')
     client = MongoClient(os.environ.get('MONGO'))
     if not db:
       db=client.slack
@@ -20,6 +19,8 @@ class User:
       self.createNewProfile(event.user(), db)
     else:
       print (cursor[0])
+      self.__dict__ = cursor[0]
+      self.name = self.display_name
     
   def createNewProfile(self, id, db):
     newUser = self.getUserInfo(id)
@@ -38,3 +39,6 @@ class User:
     }
     res = requests.get(f"{url}?{urllib.parse.urlencode(payload)}")
     return res.json().get('user')
+  
+  def populate(data):
+    

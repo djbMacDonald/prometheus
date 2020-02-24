@@ -12,7 +12,7 @@ from model.spell import Spell
 
 class Caster:
   def __init__(self, user):
-    self.user_id = user
+    self.user_id = user.id
     
     if not user in PEOPLE:
       return

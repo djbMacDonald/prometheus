@@ -2,7 +2,7 @@ from view._view import View
 
 class ChaosView(View):
   
-  def __init__(self, req, user):
+  def __init__(self, user):
     super().__init__(req)
     self.external_id = 'chaos'
     
