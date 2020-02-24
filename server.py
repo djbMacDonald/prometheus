@@ -14,7 +14,6 @@ from model.event import Event
 from utils.ban import Ban
 from utils.log import Log
 import bots
-from pymongo import MongoClient
 from utils.post import Post
 import time
 import sched
@@ -337,7 +336,18 @@ def cast():
 
 @app.route('/chaos', methods=['POST'])
 def chaos():
-  #home for chaos management.
+  #home for chaos management
+  req = request.values.to_dict()
+  if not req.get('text'):
+    #Manage Personal Chaos Settings
+    print('Personal')
+  elif req.get('text') == 'manage':
+    #Manage Overall Chaos
+    print('admin')
+    
+  
+  print(req)
+  
   return Response(), 200
   
 if __name__ == "__main__":

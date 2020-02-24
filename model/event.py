@@ -16,6 +16,8 @@ class Event:
       self._user = self._event.get('user')
     elif 'user_id' in self._event:
       self._user = self._event.get('user_id')
+    else:
+      self._user = None
 
     self._threadId = self._event.get('thread_ts')
     self._text = self._event.get('text')
@@ -98,6 +100,8 @@ class Event:
     return self._type == 'message' and not self._subType and not self._hidden
   
   def isFrom(self, name):
+    if not self._user:
+      return None
     if name.lower() in USERS.keys():
       return USERS[name.lower()] == self._user
     return None

@@ -11,6 +11,7 @@ class User:
   
   def __init__(self, event, db = None):
     self._event = event
+    print('here!!!!!')
     client = MongoClient(os.environ.get('MONGO'))
     if not db:
       db=client.slack
@@ -30,7 +31,6 @@ class User:
     return self._event._trigger_id
   
   def getUserInfo(self, user):
-    print('fetching new user')
     url = 'https://slack.com/api/users.info'
     payload = {
       'token': os.environ.get('SECRET'),
