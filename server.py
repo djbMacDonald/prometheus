@@ -334,6 +334,11 @@ def cast():
   modal = Modal('cast', req)
   modal.open()
   return Response(), 200
+
+@app.route('/chaos', methods=['POST'])
+def chaos():
+  #home for chaos management.
+  return Response(), 200
   
 if __name__ == "__main__":
   app.run()
