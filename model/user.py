@@ -19,8 +19,7 @@ class User:
       self.createNewProfile(event.user(), db)
     else:
       print (cursor[0])
-      self.__dict__ = cursor[0]
-      self.name = self.display_name
+      self.populate(cursor[0])
     
   def createNewProfile(self, id, db):
     newUser = self.getUserInfo(id)
@@ -40,5 +39,12 @@ class User:
     res = requests.get(f"{url}?{urllib.parse.urlencode(payload)}")
     return res.json().get('user')
   
-  def populate(data):
-    
+  def populate(self, data):
+    for key in data.keys():
+      setattr(self, key, data[key])
+      
+  def getDisplayName(self):
+    return self.profile.get('display_name')
+  
+  def getProfilePicture(self):
+    return self.profile.get('image_72')

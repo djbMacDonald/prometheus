@@ -13,12 +13,9 @@ from model.spell import Spell
 class Caster:
   def __init__(self, user):
     self.user_id = user.id
-    
-    if not user in PEOPLE:
-      return
-    self.name = PEOPLE.get(user).get('username')
-    self.icon = PEOPLE.get(user).get('profilePicture')
-  
+    self.name = user.getDisplayName()
+    self.icon = user.getProfilePicture()
+    self.loadStatus()
     self.status = 'Healthy'
     self.mana = 100
     self.maxMana = 100
@@ -33,4 +30,6 @@ class Caster:
     for spell in self.spells:
       if spell.selected:
         return spell.name
+  
+
   
