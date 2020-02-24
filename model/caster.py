@@ -2,6 +2,7 @@ import requests
 import urllib
 import os
 import json
+from model._model import BaseModel
 
 from constant.view import DIVIDER
 
@@ -10,8 +11,9 @@ from constant.people import (
 )
 from model.spell import Spell
 
-class Caster:
+class Caster(BaseModel):
   def __init__(self, user):
+    self._user = user
     self.user_id = user.id
     self.name = user.getDisplayName()
     self.icon = user.getProfilePicture()
@@ -30,6 +32,26 @@ class Caster:
     for spell in self.spells:
       if spell.selected:
         return spell.name
+  
+  def loadStatus(self):
+    self._user._db.casters.put_one({
+      'id': self._user.id,
+      'status': 'Healthy',
+      'mana': 100,
+      'cha': 12,
+      'int': 12,
+      'con': 12,
+      'dex': 12,
+      'spells': ','.join(['fireball', 'confusion'])
+    })
+    cursor = self._user._db.casters.find_one({'id': self._user.id});
+    if not cursor or cursor.count() == 0:
+      self.status = 'Muggle'
+      print('Muggle')
+      return
+    else:
+      print (cursor[0])
+      self.populate(cursor[0])  
   
 
   

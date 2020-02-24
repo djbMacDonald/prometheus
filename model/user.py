@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+from model._model import BaseModel
 import requests
 from pprint import pprint
 import os
@@ -7,16 +8,18 @@ import urllib
 
 import json
 
-class User:
+class User(BaseModel):
   
   def __init__(self, event, db = None):
     self._event = event
     client = MongoClient(os.environ.get('MONGO'))
-    if not db:
-      db=client.slack
-    cursor = db.users.find({"id": event.user()})
+    self._db = db
+    if not self._db:
+      self._db=client.slack
+    cursor = self._db.users.find({"id": event.user()})
     if cursor.count() == 0:
       self.createNewProfile(event.user(), db)
+      self.__init__(event, db)
     else:
       print (cursor[0])
       self.populate(cursor[0])
@@ -25,7 +28,6 @@ class User:
     newUser = self.getUserInfo(id)
     db.users.insert_one(newUser)
     return
-  
   
   def getTrigger(self, user):
     return self._event._trigger_id
@@ -38,10 +40,6 @@ class User:
     }
     res = requests.get(f"{url}?{urllib.parse.urlencode(payload)}")
     return res.json().get('user')
-  
-  def populate(self, data):
-    for key in data.keys():
-      setattr(self, key, data[key])
       
   def getDisplayName(self):
     return self.profile.get('display_name')
