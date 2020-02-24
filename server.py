@@ -329,7 +329,6 @@ def addBan(word):
 @app.route('/cast', methods=['POST'])
 def cast():
   req = request.values.to_dict()
-  user = User(Event(req))
   modal = Modal('cast', req)
   modal.open()
   return Response(), 200
@@ -338,11 +337,18 @@ def cast():
 def chaos():
   #home for chaos management
   req = request.values.to_dict()
+  
+  user = User(Event(req))
+
   if not req.get('text'):
     #Manage Personal Chaos Settings
+    modal = Modal('chaos', req, user)
+    modal.open()
     print('Personal')
-  elif req.get('text') == 'manage':
+  elif req.get('text') == 'admin':
     #Manage Overall Chaos
+    modal = Modal('chaos_admin', req, user)
+    modal.open()
     print('admin')
     
   

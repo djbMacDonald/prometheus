@@ -5,6 +5,8 @@ class View:
       self.user = request.get('user_id')
     else:
       self.user = user
+    self.external_id = None
+    self.private_metadata = None
     self._blocks = []
     self._header = {"type": "modal"}
     self.setTitle('Sample Modal')

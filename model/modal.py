@@ -2,6 +2,8 @@ from model.caster import Caster
 from view.cast import CastView
 from view.bot_list import BotListView
 from view._view import View
+from view.chaos import ChaosView
+from view.chaos_admin import ChaosAdminView
 import requests
 import os
 import json
@@ -9,7 +11,7 @@ import urllib
 import view
 
 class Modal:
-  def __init__(self, type, req):
+  def __init__(self, type, req, user):
     
     botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(view))))
     
@@ -25,6 +27,12 @@ class Modal:
 
     if type == 'bot_list':
       self.view = BotListView(req).build()
+      
+    if type == 'chaos':
+      self.view = ChaosView(req, user).build()
+      
+    if type == 'chaos_admin':
+      self.view = ChaosAdminView(req, user).build()
       
       
   def open(self):
