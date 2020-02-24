@@ -3,13 +3,20 @@ from constant.channels import CHANNELS
 
 class Event:
   
-  def __init__(self, data, bans):
-    self._event = data.get('event')
+  def __init__(self, data, bans=None):
+    if not 'event' in data:
+      self._event = data
+    else:
+      self._event = data.get('event')
     self._data = data
     self._bans = bans
     
-    self._type = self._event.get('type') 
-    self._user = self._event.get('user')
+    self._type = self._event.get('type')
+    if 'user' in self._event:
+      self._user = self._event.get('user')
+    elif 'user_id' in self._event:
+      self._user = self._event.get('user_id')
+
     self._threadId = self._event.get('thread_ts')
     self._text = self._event.get('text')
     self._botId = self._event.get('bot_id')

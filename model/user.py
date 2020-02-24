@@ -6,6 +6,7 @@ import json
 class User:
   
   def __init__(self, event, db = None):
+    print(event.__dict__)
     client = MongoClient(os.environ.get('MONGO'))
     if not db:
       db=client.slack

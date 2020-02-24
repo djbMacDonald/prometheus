@@ -20,6 +20,7 @@ import time
 import sched
 import os
 import asyncio
+from model.user import User
 
 app = Flask(__name__)
 
@@ -329,6 +330,7 @@ def addBan(word):
 @app.route('/cast', methods=['POST'])
 def cast():
   req = request.values.to_dict()
+  user = User(Event(req))
   modal = Modal('cast', req)
   modal.open()
   return Response(), 200
