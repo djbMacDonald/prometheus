@@ -14,14 +14,15 @@ class CastView(View):
     self.external_id = 'cast'
     
   def build(self):
-    self.setSubmit('Cast')
     self.setClose('Cancel')
     self.setTitle(self.caster.name)
-  
+    
     self._buildStatus()
-    self._buildTargets()
-    self._buildSpells()
-    self.private_metadata = self.caster.getSelectedSpell()
+    if not self.caster.status == 'Muggle':
+      self.setSubmit('Cast')
+      self._buildTargets()
+      self._buildSpells()
+      self.private_metadata = self.caster.getSelectedSpell()
     self._finalize()
     return self.view
   
