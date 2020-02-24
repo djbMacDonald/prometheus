@@ -23,8 +23,8 @@ class SlackEvent:
         spell = event.get('view').get('private_metadata')
         caster = Caster(user)
         shame = f"{caster.name} just tried to cast {spell} on {target} but failed... cuz they are bad."
-        post = Post(Pool(1))
-        post.addMessageToChannel(shame, CHANNELS['Chaos'])
+        #post = Post(Pool(1))
+        #post.addMessageToChannel(shame, CHANNELS['Chaos'])
 
       
     if event.get('type') == 'block_actions':

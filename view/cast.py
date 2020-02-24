@@ -33,6 +33,7 @@ class CastView(View):
             "type":"mrkdwn",
             "text":f"*Status:* {self.caster.status}\n*Mana:* {self.caster.mana}/{self.caster.maxMana}\n *CHA:* {self.caster.cha} *INT:* {self.caster.int}\n*CON:* {self.caster.con} *DEX:* {self.caster.dex}"
          },
+         "value": "status",
          "accessory":{ 
             "type":"image",
             "image_url":self.caster.icon,
@@ -54,7 +55,7 @@ class CastView(View):
                "text":user.capitalize(),
                "emoji":True
             },
-            "value":user
+            "value":'user'
          }
       )
     
@@ -65,6 +66,7 @@ class CastView(View):
             "text":"Select a Target",
             "emoji":True
          },
+         "value": 'target',
          "element":{ 
             "type":"static_select",
             "placeholder":{ 
