@@ -24,6 +24,7 @@ class Event:
     self._hidden = self._event.get('hidden')
     self._bans = bans
     self._reaction = self._event.get('reaction')
+    self._trigger_id = self._event.get('trigger_id')
     
     if self._type == 'reaction_added':
       self._channel = self._event.get('item').get('channel')
