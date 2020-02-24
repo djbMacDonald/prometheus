@@ -11,7 +11,7 @@ import urllib
 import view
 
 class Modal:
-  def __init__(self, type, req, user):
+  def __init__(self, type, req, user=None):
     
     botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(view))))
     

@@ -33,7 +33,6 @@ class CastView(View):
             "type":"mrkdwn",
             "text":f"*Status:* {self.caster.status}\n*Mana:* {self.caster.mana}/{self.caster.maxMana}\n *CHA:* {self.caster.cha} *INT:* {self.caster.int}\n*CON:* {self.caster.con} *DEX:* {self.caster.dex}"
          },
-         "value": "status",
          "accessory":{ 
             "type":"image",
             "image_url":self.caster.icon,
@@ -61,13 +60,14 @@ class CastView(View):
     
     self._blocks.append({ 
          "type":"input",
+         "block_id": 'cast_targets',
          "label":{ 
             "type":"plain_text",
             "text":"Select a Target",
             "emoji":True
          },
-         "value": 'target',
-         "element":{ 
+         "element":{          
+            "action_id": 'selected_cast_target',
             "type":"static_select",
             "placeholder":{ 
                "type":"plain_text",

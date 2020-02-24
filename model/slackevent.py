@@ -17,9 +17,9 @@ class SlackEvent:
     if event.get('type') =='view_submission':
       if type == 'cast':
         view = CastView(None, user)
-        target = next(iter(next(iter(event.get('view').get('state').get('values').values())).values())).get('selected_option').get('value');
+        target = event.get('view').get('state').get('values').get('cast_targets').get('selected_cast_target').get('selected_option')
         user = event.get('user').get('id')
-        
+        print(target)
         spell = event.get('view').get('private_metadata')
         caster = Caster(user)
         shame = f"{caster.name} just tried to cast {spell} on {target} but failed... cuz they are bad."
