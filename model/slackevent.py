@@ -17,7 +17,7 @@ class SlackEvent:
     if event.get('type') =='view_submission':
       if type == 'cast':
         view = CastView(None, user)
-        target = event.get('view').get('state').get('values').get('cast_targets').get('selected_cast_target').get('selected_option')
+        target = event.get('view').get('state').get('values').get('cast_targets').get('selected_cast_target').get('selected_option').get('text').get('text')
         user = event.get('user').get('id')
         print(target)
         spell = event.get('view').get('private_metadata')

@@ -54,7 +54,7 @@ class CastView(View):
                "text":user.capitalize(),
                "emoji":True
             },
-            "value":'user'
+            "value":user
          }
       )
     
