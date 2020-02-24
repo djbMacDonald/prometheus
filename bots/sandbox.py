@@ -30,6 +30,7 @@ class Sandbox(Bot):
       # print(m)
     
     # Issue the serverStatus command and print the results
+    return
     if not self._event.isFromABot():
       user = User(self._event)
     return
