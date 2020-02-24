@@ -34,6 +34,10 @@ class SlackEvent:
         view.handleAction(event.get('actions'))
         view = view.build()
         updateModal(event.get('view').get('external_id'), view)
+        
+      if type == 'chaos':
+        return
+
 
         
       
