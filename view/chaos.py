@@ -12,7 +12,43 @@ class ChaosView(View):
     return self.view
   
   def _buildPreferences(self):
-    
+    self._blocks.append(
+      {
+			"type": "actions",
+			"elements": [
+				{
+					"type": "checkboxes",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "New tasks"
+							},
+							"value": "tasks",
+							"description": {
+								"type": "plain_text",
+								"text": "I would like to recieve notifications in active threads"
+							}
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "New comments"
+							},
+							"value": "comments",
+							"description": {
+								"type": "plain_text",
+								"text": "I would like to be eligibile for a bot impersonation"
+							}
+						}
+            ],
+          'initial_options': [
+            "tasks"
+          ]
+          }
+        ]
+      }
+    )
     return
   
  
