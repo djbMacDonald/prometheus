@@ -2,7 +2,7 @@ from constant.spells import SPELLS
 
 class Spell:
   def __init__(self, type):
-    
+    print(type)
     if not type in SPELLS:
       return
     

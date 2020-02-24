@@ -31,7 +31,7 @@ class CastView(View):
          "type":"section",
          "text":{ 
             "type":"mrkdwn",
-            "text":f"*Status:* {self.caster.status}\n*Mana:* {self.caster.mana}/{self.caster.maxMana}\n *CHA:* {self.caster.cha} *INT:* {self.caster.int}\n*CON:* {self.caster.con} *DEX:* {self.caster.dex}"
+            "text":f"*Status:* {self.caster.status}\n*Mana:* {self.caster.mana}/100\n *CHA:* {self.caster.cha} *INT:* {self.caster.int}\n*CON:* {self.caster.con} *DEX:* {self.caster.dex}"
          },
          "accessory":{ 
             "type":"image",
