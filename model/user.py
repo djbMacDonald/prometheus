@@ -46,3 +46,6 @@ class User(BaseModel):
   
   def getProfilePicture(self):
     return self.profile.get('image_72')
+  
+  def isAWizard(self):
+    return hasattr(self, 'wizard') and self.wizard == True
