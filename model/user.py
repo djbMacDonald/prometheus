@@ -57,3 +57,11 @@ class User(BaseModel):
   
   def hasDoppleganger(self):
     return hasattr(self, 'doppleganger') and self.doppleganger == True
+  
+  def update(self, ts):
+    if not hasattr(self, 'last_action') or ts > self.last_action:
+      db = self._db
+      delattr(self, '_db')
+      db.users.replace_one({'id': self.id}, self.__dict__)
+      setattr(self, '_db', db)
+      

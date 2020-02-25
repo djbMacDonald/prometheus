@@ -40,9 +40,7 @@ class SlackEvent:
         
       if type == 'chaos':
         view = ChaosView(user)
-        view.handleAction(event.get('actions'))
-        
-        
+        view.handleAction(event.get('actions')[0], event.get('action_ts'))      
         return
 
 
