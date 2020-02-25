@@ -31,10 +31,10 @@ def _convertCase(name):
   components = name.split('_')
   return''.join(x.title() for x in components)
 
-def _callBot(bot, originalEvent, pool, client):
+def _callBot(bot, originalEvent, pool, client, user=None):
   moduleType = getattr(bots, bot)
   className = _convertCase(bot)
-  runner = getattr(moduleType, className)(originalEvent, pool, client)
+  runner = getattr(moduleType, className)(originalEvent, pool, client, user)
   return runner.run()
 
 def _getBotAttr(bot, attrName):
@@ -69,10 +69,10 @@ def inbound():
   originalEvent = Event(data, bans)
   # client = MongoClient(os.environ.get('MONGO'))
   client = None
-    
+  user = User(Event(data))
   for bot in botList:
     try:
-      result = _callBot(bot, originalEvent, pool, client)
+      result = _callBot(bot, originalEvent, pool, client, user)
       if result == 'end':
         return Response(), 200
     except Exception as error:
@@ -349,8 +349,6 @@ def chaos():
     print('Personal')
   elif req.get('text') == 'admin':
     #Manage Overall Chaos
-    for entry in user._db.users.find({'threads': True}):
-      print(entry.get('id'))
     modal = Modal('chaos_admin', trigger, user)
     modal.open()
     print('admin')

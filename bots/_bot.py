@@ -7,7 +7,7 @@ from utils.mongo import Mongo
 
 class Bot(object):
   
-  def __init__(self, eventModel, pool, mongoClient = None):
+  def __init__(self, eventModel, pool, mongoClient = None, user=None):
     self._event = eventModel
     self._postUtil = Post(pool)
     self._identityUtil = Identity()
@@ -15,7 +15,7 @@ class Bot(object):
     self._banUtil = Ban()
     self._channelUtil = Channel()
     self._mongoUtil = Mongo(mongoClient)
-    
+    self._user = user
   @classmethod
   def description(cls):
     return ""

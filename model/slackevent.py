@@ -14,7 +14,7 @@ class SlackEvent:
     if not event.get('type'):
       return
     
-    type, user_id = event.get('view').get('external_id').split('_')
+    type, user_id, timestamp = event.get('view').get('external_id').split('_')
     
     if event.get('type') =='view_submission':
       if type == 'cast':

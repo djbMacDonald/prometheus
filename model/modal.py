@@ -42,7 +42,6 @@ class Modal:
     payload = {
       "token": os.environ.get('SECRET'),
       "trigger_id": self.triggerId,
-      "state": 'Testing!',
       "view": self.view
     }
   
@@ -50,6 +49,7 @@ class Modal:
     headers = {'content-type': 'application/json; charset=utf-8', "Authorization": f"Bearer {os.environ.get('SECRET')}"}
     req = requests.post(url, json.dumps(payload), headers=headers)
     res = req.json()
+    print(json.dumps(payload))
     print (res)
     return
     self.id = res.get('view').get('id')
