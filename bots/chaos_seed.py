@@ -37,8 +37,8 @@ class ChaosSeed(Bot):
     targetNumber = random.randint(self._minCount, self._maxCount)
     if not messages or not messages[0] or not messages[0]['reply_count'] or messages[0]['reply_count'] < targetNumber:
       return
-    user = map(lambda x: x.get('id'), user._db.users.find({'threads': True}))
-    users = self._filterUsers(USERS.values(), messages[0]['reply_users'])
+    threadUsers = map(lambda x: x.get('id'), self._user._db.users.find({'threads': True}))
+    users = self._filterUsers(threadUsers, messages[0]['reply_users'])
     userMap = map(self._identityUtil.pingUser, users)
     notification = "Hey {}! There's a thread here!".format(" ".join(userMap))
     self._postUtil.addMessageToThread(notification, self._event.channel(), self._event.threadId(), Identity('Chaos Seed', None, 'chaos'))
