@@ -4,6 +4,8 @@ from model.caster import Caster
 from view.cast import CastView
 from model.modal import updateModal
 from multiprocessing import Pool
+from view.chaos import ChaosView
+from model.user import User
 
 from utils.post import Post
 class SlackEvent:
@@ -28,7 +30,7 @@ class SlackEvent:
 
       
     if event.get('type') == 'block_actions':
-      user = User(user_id)
+      user = User(None, None, user_id)
       
       if type == 'cast':
         view = CastView(user)
@@ -37,8 +39,9 @@ class SlackEvent:
         updateModal(event.get('view').get('external_id'), view)
         
       if type == 'chaos':
-        view = 
-        selection = 
+        view = ChaosView(user)
+        view.handleAction(event.get('actions'))
+        
         
         return
 

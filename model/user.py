@@ -10,13 +10,15 @@ import json
 
 class User(BaseModel):
   
-  def __init__(self, event, db = None):
+  def __init__(self, event=None, db = None, user=None):
     self._event = event
+    if event:
+      user = event.user()
     client = MongoClient(os.environ.get('MONGO'))
     self._db = db
     if not self._db:
       self._db=client.slack
-    cursor = self._db.users.find({"id": event.user()})
+    cursor = self._db.users.find({"id": user})
     if cursor.count() == 0:
       self.createNewProfile(event.user(), db)
       self.__init__(event, db)

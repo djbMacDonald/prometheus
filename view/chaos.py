@@ -75,3 +75,12 @@ class ChaosView(View):
 
   def getAllOptions(self):
     return [self.getThreadOption(), self.getImpersonationOption(), self.getWizardOption()]
+  
+  
+  def handleAction(self, action):
+    
+    self.user.wizard = self.getWizardOption() in action.get('selected_options')
+    self.user.doppleganger = self.getImpersonationOption() in action.get('selected_options')
+    self.user.threads = self.getThreadsOption() in action.get('selected_options')
+    self.user.update()
+    return
