@@ -15,25 +15,33 @@ class ChaosAdminView(View):
   
  
   def buildThreadUsers(self):
-    threadUsersCursor = self.user._db.users.find({'threads': True})
+    threadUsersCursor = self.user._db.users.find()
     options = []
+    selectedOptions = []
     for threadUser in threadUsersCursor:
+      
+      print (threadUser)
+      
       name = threadUser.get('profile').get('real_name')
-      options.append(
-        {
+      option = {
           "text": {
             "type": "plain_text",
             "text": name,
             "emoji": True
           },
           "value": threadUser.get('id')
-        }
-      )
+      }
+      options.append(option)
+      if threadUser.get('threads'):
+        selectedOptions.append(option)
                                      
     element = {
       "type": "checkboxes",
-      "options": options
+      "options": options,
     }
+    
+    if selectedOptions:
+      element['initial_options'] = selectedOptions
   
     self._blocks.append(
       {
@@ -42,4 +50,7 @@ class ChaosAdminView(View):
       }
     )
     
+  def handleAction(self, actions, timestamp):
+    
+    return
 

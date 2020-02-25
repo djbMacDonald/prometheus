@@ -5,6 +5,7 @@ from view.cast import CastView
 from model.modal import updateModal
 from multiprocessing import Pool
 from view.chaos import ChaosView
+from view.chaos_admin import ChaosAdminView
 from model.user import User
 
 from utils.post import Post
