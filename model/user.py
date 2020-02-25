@@ -47,5 +47,11 @@ class User(BaseModel):
   def getProfilePicture(self):
     return self.profile.get('image_72')
   
-  def isAWizard(self):
+  def isWizard(self):
     return hasattr(self, 'wizard') and self.wizard == True
+  
+  def notifyOnThreads(self):
+    return hasattr(self, 'threads') and self.threads == True
+  
+  def hasDoppleganger(self):
+    return hasattr(self, 'doppleganger') and self.doppleganger == True

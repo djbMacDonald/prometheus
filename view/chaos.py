@@ -14,42 +14,23 @@ class ChaosView(View):
   
   def _buildPreferences(self):
     selectedOptions = []
-    if self.user.isAWizard():
-      selectedOptions.append(self.getWizardOption())
     if self.user.notifyOnThreads():
-      self.selectedOptions.append(self.getThreadOption())
+      selectedOptions.append(self.getThreadOption())
     if self.user.hasDoppleganger():
-      self.selectedOptions.append(self.getImpersonationOption()
-                                 
-    options = [self.getThreadOption(), self.getImpersonationOption(), self.getWizardOption()]
-    
-    
+      selectedOptions.append(self.getImpersonationOption())
+    if self.user.isWizard():
+      selectedOptions.append(self.getWizardOption())
+                                     
+    element = {
+      "type": "checkboxes",
+      "options": self.getAllOptions(),
+    }
+    if selectedOptions:
+      element['initial_options'] = selectedOptions
     self._blocks.append(
       {
-			"type": "actions",
-			"elements": [
-				{
-					"type": "checkboxes",
-					"options": [
-					
-					
-						
-            ],
-          'initial_options': [
-            {
-							"text": {
-								"type": "plain_text",
-								"text": "Bot Impersonations"
-							},
-							"value": "impersonations",
-							"description": {
-								"type": "plain_text",
-								"text": "I would like to be eligibile for a bot impersonation"
-							}
-						}
-          ]
-          }
-        ]
+        "type": "actions",
+        "elements": [element]
       }
     )
     return
@@ -92,3 +73,5 @@ class ChaosView(View):
 							}
 						}
 
+  def getAllOptions(self):
+    return [self.getThreadOption(), self.getImpersonationOption(), self.getWizardOption()]

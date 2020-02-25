@@ -23,7 +23,7 @@ class CastView(View):
       self._buildTargets()
       self._buildSpells()
       self.private_metadata = self.caster.getSelectedSpell()
-    elif self.user.isAWizard():
+    elif self.user.isWizard():
       self.setSubmit('Become a Wizard!')
     self._finalize()
     return self.view

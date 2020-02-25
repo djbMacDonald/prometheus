@@ -12,30 +12,34 @@ class SlackEvent:
     if not event.get('type'):
       return
     
-    type, user = event.get('view').get('external_id').split('_')      
+    type, user_id = event.get('view').get('external_id').split('_')
     
     if event.get('type') =='view_submission':
       if type == 'cast':
-        view = CastView(None, user)
+        view = CastView(None, user_id)
         target = event.get('view').get('state').get('values').get('cast_targets').get('selected_cast_target').get('selected_option').get('text').get('text')
-        user = event.get('user').get('id')
+        user_id = event.get('user').get('id')
         print(target)
         spell = event.get('view').get('private_metadata')
-        caster = Caster(user)
+        caster = Caster(user_id)
         shame = f"{caster.name} just tried to cast {spell} on {target} but failed... cuz they are bad."
         #post = Post(Pool(1))
         #post.addMessageToChannel(shame, CHANNELS['Chaos'])
 
       
     if event.get('type') == 'block_actions':
+      user = User(user_id)
       
       if type == 'cast':
-        view = CastView(None, user)
+        view = CastView(user)
         view.handleAction(event.get('actions'))
         view = view.build()
         updateModal(event.get('view').get('external_id'), view)
         
       if type == 'chaos':
+        view = 
+        selection = 
+        
         return
 
 
