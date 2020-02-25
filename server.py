@@ -349,6 +349,8 @@ def chaos():
     print('Personal')
   elif req.get('text') == 'admin':
     #Manage Overall Chaos
+    for entry in user._db.users.find({'threads': True}):
+      print(entry.get('id'))
     modal = Modal('chaos_admin', trigger, user)
     modal.open()
     print('admin')

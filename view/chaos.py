@@ -39,24 +39,28 @@ class ChaosView(View):
     return {
 							"text": {
 								"type": "plain_text",
-								"text": "Wizarding"
+								"text": "Wizarding",
+                "emoji": True
 							},
 							"value": "wizarding",
 							"description": {
 								"type": "plain_text",
-								"text": "I would like to participate in magical duals"
+								"text": "I would like to participate in magical duals",
+                "emoji": True
 							}
 						}
   def getThreadOption(self):
     return {
 							"text": {
 								"type": "plain_text",
-								"text": "Thread Notifications"
+								"text": "Thread Notifications",
+                "emoji": True
 							},
 							"value": "threads",
 							"description": {
 								"type": "plain_text",
-								"text": "I would like to recieve notifications in active threads from Chaos Seed"
+								"text": "I would like to recieve notifications in active threads from Chaos Seed",
+                "emoji": True
 							}
 						}
 
@@ -64,12 +68,14 @@ class ChaosView(View):
     return {
 							"text": {
 								"type": "plain_text",
-								"text": "Bot Impersonations"
+								"text": "Bot Impersonations",
+                "emoji": True
 							},
 							"value": "impersonations",
 							"description": {
 								"type": "plain_text",
-								"text": "I would like to be eligibile for a bot impersonation"
+								"text": "I would like to be eligibile for a bot impersonation",
+                "emoji": True
 							}
 						}
 
@@ -77,7 +83,8 @@ class ChaosView(View):
     return [self.getThreadOption(), self.getImpersonationOption(), self.getWizardOption()]
   
   def handleAction(self, action, ts):
-    print(action)
+    print(action.get('selected_options'))
+    print(self.getThreadOption())
     self.user.wizard = self.getWizardOption() in action.get('selected_options')
     self.user.doppleganger = self.getImpersonationOption() in action.get('selected_options')
     self.user.threads = self.getThreadOption() in action.get('selected_options')
