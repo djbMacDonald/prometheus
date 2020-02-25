@@ -23,7 +23,6 @@ class User(BaseModel):
       self.createNewProfile(event.user(), db)
       self.__init__(event, db)
     else:
-      print (cursor[0])
       self.populate(cursor[0])
     
   def createNewProfile(self, id, db):

@@ -212,7 +212,7 @@ def bannedWords():
 def quicktime():
 
   event = SlackEvent(json.loads(request.values.get('payload')))
-  print(request.values.get('payload'))
+
   return {
       "response_action": "update",
       "view": {
@@ -346,15 +346,10 @@ def chaos():
     #Manage Personal Chaos Settings
     modal = Modal('chaos', trigger, user)
     modal.open()
-    print('Personal')
   elif req.get('text') == 'admin':
     #Manage Overall Chaos
     modal = Modal('chaos_admin', trigger, user)
     modal.open()
-    print('admin')
-    
-
-  print(req)
   
   return Response(), 200
   
