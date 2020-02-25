@@ -18,10 +18,7 @@ class ChaosAdminView(View):
     threadUsersCursor = self.user._db.users.find()
     options = []
     selectedOptions = []
-    for threadUser in threadUsersCursor:
-      
-      print (threadUser)
-      
+    for threadUser in threadUsersCursor:      
       name = threadUser.get('profile').get('real_name')
       option = {
           "text": {

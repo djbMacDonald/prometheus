@@ -69,7 +69,10 @@ def inbound():
   originalEvent = Event(data, bans)
   # client = MongoClient(os.environ.get('MONGO'))
   client = None
-  user = User(Event(data))
+  if originalEvent.isAMessage() and not originalEvent.isFromABot():
+    user = User(originalEvent)
+  else:
+    user = None
   for bot in botList:
     try:
       result = _callBot(bot, originalEvent, pool, client, user)
