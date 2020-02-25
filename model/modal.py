@@ -50,6 +50,7 @@ class Modal:
     headers = {'content-type': 'application/json; charset=utf-8', "Authorization": f"Bearer {os.environ.get('SECRET')}"}
     req = requests.post(url, json.dumps(payload), headers=headers)
     res = req.json()
+    print (res)
     return
     self.id = res.get('view').get('id')
     self.hash = res.get('view').get('hash')
