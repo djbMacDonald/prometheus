@@ -28,6 +28,6 @@ class ContractionJunction(Bot):
       for i in self._full:
         message=message.lower().replace(i,self._full[i])
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-      identity = IDENTITIES[USERS[self._target.lower()]]
+      identity = IDENTITIES[self._event.user()]
       self._postUtil.addMessage(message, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get))
       return
