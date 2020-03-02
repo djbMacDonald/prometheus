@@ -21,6 +21,7 @@ class ContractionJunction(Bot):
     if  self._randomUtil.rollDice(self._frequency):
       message=self._event.text()
       for i in self._contractions:
+        if self._contractions[]
         message=message.lower().replace(i,self._contractions[i])
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
       identity = IDENTITIES[USERS[self._target.lower()]]

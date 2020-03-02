@@ -90,10 +90,14 @@ def inbound():
 
 @app.route('/bot', methods=['POST'])
 def list():
+  req = request.values.to_dict()
+  trigger = req.get('trigger_id')
+  user = User(Event(req))
   text = request.form.get('text')
   words = text.split()
   if words[0].lower() == 'list':
-    modal = Modal('bot_list', request.values.to_dict())
+    
+    modal = Modal('bot_list', trigger, user)
     modal.open()
     return Response(), 200
   if words[0].lower() == 'configure':
