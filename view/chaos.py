@@ -1,4 +1,6 @@
 from view._view import View
+from constant.view import DIVIDER
+
 
 class ChaosView(View):
   
@@ -8,6 +10,7 @@ class ChaosView(View):
     
   def build(self):
     self.setTitle('Chaos Preferences')
+    self._buildStatus()
     self._buildPreferences()
     self._finalize()
     return self.view
@@ -34,6 +37,20 @@ class ChaosView(View):
       }
     )
     return
+  def _buildStatus(self):
+    self._blocks.append({ 
+         "type":"section",
+         "text":{ 
+            "type":"mrkdwn",
+            "text":f"*Name:* {self.user.real_name}\n*ID:* {self.user.id}"
+         },
+         "accessory":{ 
+            "type":"image",
+            "image_url":self.user.profile.get('image_original'),
+            "alt_text":"Airstream Suite"
+         }
+    })
+    self._blocks.append(DIVIDER)
   
   def getWizardOption(self):
     return {

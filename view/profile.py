@@ -22,22 +22,7 @@ class ProfileView(View):
     options = []
     selectedOptions = []
     text = ""
-    for threadUser in threadUsersCursor:    
-      for key, value in threadUser.items():
-        if key == '_id':
-          continue
-        if key == 'pofile':
-          for key2, attr in value:
-            self._blocks.append(
-              {
-                "type": "section",
-                "text": {
-                  "type": "mrkdwn",
-                  "text": f"*{key}*\n{value}"
-                }
-              }
-            )
-          continue
+    
           
      
     

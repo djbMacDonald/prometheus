@@ -1,4 +1,5 @@
 import time
+from constant.view import DIVIDER
 class View:
   
   def __init__(self, user=None, view=None, state=None):
