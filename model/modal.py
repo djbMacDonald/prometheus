@@ -5,6 +5,7 @@ from view._view import View
 from view.chaos import ChaosView
 from view.chaos_admin import ChaosAdminView
 from view.user import UserView
+
 import requests
 import importlib
 import os
@@ -14,6 +15,8 @@ import view
 
 class Modal:
   def __init__(self, type, trigger_id, user):
+    
+    self._viewList = sorted(list(filter(lambda name: not name.startswith("_"), dir(view))))
     
     if not user:
       return
@@ -38,8 +41,12 @@ class Modal:
       self.view = ChaosAdminView(user).build()
       
     if type == 'user':
-      print('usrs')
-      self.view = import
+      
+      moduleType = getattr(self._viewList, type)
+      className = _convertCase(f"")
+      runner = getattr(moduleType, className)(originalEvent, pool, client, user)
+      
+      print(self._viewList)
       
       
   def open(self):
