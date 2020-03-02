@@ -339,7 +339,7 @@ def chaos():
     modal = Modal('chaos_admin', trigger, user)
     modal.open()
   elif req.get('text') == 'users':
-    modal = Modal('user', trigger, user)
+    modal = Modal('profile', trigger, user)
     modal.open()
   
   return Response(), 200

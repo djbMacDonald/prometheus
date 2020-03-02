@@ -1,6 +1,7 @@
 from view._view import View
+import json
 
-class UserView(View):
+class ProfileView(View):
   
   def __init__(self, user):
     super().__init__(user)
@@ -10,6 +11,7 @@ class UserView(View):
     self.setTitle('User Management')
     self.buildThreadUsers()
     self._finalize()
+    print (j)
     return self.view
   
   def handleAction(self, action, ts):
@@ -21,7 +23,7 @@ class UserView(View):
     options = []
     selectedOptions = []
     for threadUser in threadUsersCursor:    
-      for key, value in threadUser.items()
+      for key, value in threadUser.items():
         option = {
             "text": {
               "type": "plain_text",
@@ -38,6 +40,7 @@ class UserView(View):
       "type": "checkboxes",
       "options": options,
     }
+    
     
     if selectedOptions:
       element['initial_options'] = selectedOptions
