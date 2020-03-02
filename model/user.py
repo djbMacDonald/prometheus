@@ -16,7 +16,7 @@ class User(BaseModel):
       user = event.user()
     client = MongoClient(os.environ.get('MONGO'))
     self._db = db
-    if not self._db:
+    if not self._db or self._db == None:
       self._db=client.slack
     cursor = self._db.users.find({"id": user})
     if cursor.count() == 0:
