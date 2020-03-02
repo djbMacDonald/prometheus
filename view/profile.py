@@ -11,7 +11,6 @@ class ProfileView(View):
     self.setTitle('User Management')
     self.buildThreadUsers()
     self._finalize()
-    print (j)
     return self.view
   
   def handleAction(self, action, ts):
@@ -22,32 +21,26 @@ class ProfileView(View):
     threadUsersCursor = self.user._db.users.find()
     options = []
     selectedOptions = []
+    text = ""
     for threadUser in threadUsersCursor:    
       for key, value in threadUser.items():
-        option = {
-            "text": {
-              "type": "plain_text",
-              "text": key,
-              "emoji": True
-            },
-            "value": value
-        }
-        options.append(option)
-        if threadUser.get('threads'):
-          selectedOptions.append(option)
-                                     
-    element = {
-      "type": "checkboxes",
-      "options": options,
-    }
+        if key == '_id':
+          continue
+        if key == 'pofile':
+          for key2, attr in value:
+            self._blocks.append(
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": f"*{key}*\n{value}"
+                }
+              }
+            )
+          continue
+          
+     
     
     
-    if selectedOptions:
-      element['initial_options'] = selectedOptions
-  
-    self._blocks.append(
-      {
-        "type": "actions",
-        "elements": [element]
-      }
-    )
+   
+    
