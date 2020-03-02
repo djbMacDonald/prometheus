@@ -83,6 +83,7 @@ class ChaosView(View):
     return [self.getThreadOption(), self.getImpersonationOption(), self.getWizardOption()]
   
   def handleAction(self, action, ts):
+    action = action[0]
     print(action.get('selected_options'))
     print(self.getThreadOption())
     self.user.wizard = self.getWizardOption() in action.get('selected_options')

@@ -7,6 +7,7 @@ from multiprocessing import Pool
 from view.chaos import ChaosView
 from view.chaos_admin import ChaosAdminView
 from model.user import User
+from utils.view_factory import ViewFactory
 
 from utils.post import Post
 class SlackEvent:
@@ -32,27 +33,9 @@ class SlackEvent:
       
     if event.get('type') == 'block_actions':
       user = User(None, None, user_id)
-      
-      
-      
-      if type == 'cast':
-        view = CastView(user)
-        view.handleAction(event.get('actions'))
-        view = view.build()
-        updateModal(event.get('view').get('external_id'), view)
+      view = ViewFactory.getView(type, user)
+      view.handleAction(event.get('actions'), event.get('action_ts'))
         
-      if type == 'chaos':
-        view = ChaosView(user)
-        view.handleAction(event.get('actions')[0], event.get('action_ts'))      
-        return
-      
-      if type == 'ChaosAdmin':
-        view = ChaosAdminView(user)
-        view.handleAction(event.get('actions')[0], event.get('action_ts'))
-
-
-        
-      
     else:
       print(event.get('type'))
 

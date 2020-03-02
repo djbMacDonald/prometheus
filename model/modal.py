@@ -3,8 +3,7 @@ import importlib
 import os
 import json
 import urllib
-import view
-
+from utils.view_factory import ViewFactory
 
 class Modal:
   def __init__(self, type, trigger_id, user):
@@ -17,6 +16,7 @@ class Modal:
     if not self.triggerId:
       return
     
+    self.view = ViewFactory.getView(type, user).build()
     
       
   def open(self):
@@ -48,12 +48,3 @@ def updateModal(id, view):
   }
   url = 'https://slack.com/api/views.update?{}'.format(urllib.parse.urlencode(payload))
   res = requests.get(url)
-
-  
-def _convertCase(type):
-  final = ''
-  words = type.split('_')
-  for word in words:
-    word = word.capitalize()
-    final = final + word
-  return f"{final}View"
