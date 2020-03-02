@@ -74,7 +74,7 @@ def inbound():
     user = None
   for bot in botList:
     try:
-      result = _callBot(bot, originalEvent, pool, client, user)
+      result = _callBot(bot, originalEvent, pool, user)
       if result == 'end':
         return Response(), 200
     except Exception as error:
@@ -355,7 +355,6 @@ def chaos():
   elif req.get('text') == 'admin':
     #Manage Overall Chaos
     
-    cur = user.__dict__
     for curs in cur:
       print(curs)
       
