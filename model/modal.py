@@ -1,11 +1,3 @@
-from model.caster import Caster
-from view.cast import CastView
-from view.bot_list import BotListView
-from view._view import View
-from view.chaos import ChaosView
-from view.chaos_admin import ChaosAdminView
-from view.user import UserView
-
 import requests
 import importlib
 import os
@@ -13,11 +5,10 @@ import json
 import urllib
 import view
 
+
 class Modal:
   def __init__(self, type, trigger_id, user):
-    
-    self._viewList = sorted(list(filter(lambda name: not name.startswith("_"), dir(view))))
-    
+        
     if not user:
       return
         
@@ -26,28 +17,7 @@ class Modal:
     if not self.triggerId:
       return
     
-    #Build a Spell Cast ciew
-    if type == 'cast':
-      self.view = CastView(user).build()
-      self.id = 'cast'
-
-    if type == 'bot_list':
-      self.view = BotListView(user).build()
-      
-    if type == 'chaos':
-      self.view = ChaosView(user).build()
-      
-    if type == 'chaos_admin':
-      self.view = ChaosAdminView(user).build()
-      
-    if type == 'user':
-      
-      moduleType = getattr(self._viewList, type)
-      className = _convertCase(f"")
-      runner = getattr(moduleType, className)(originalEvent, pool, client, user)
-      
-      print(self._viewList)
-      
+    
       
   def open(self):
     if not self.view:
@@ -78,3 +48,12 @@ def updateModal(id, view):
   }
   url = 'https://slack.com/api/views.update?{}'.format(urllib.parse.urlencode(payload))
   res = requests.get(url)
+
+  
+def _convertCase(type):
+  final = ''
+  words = type.split('_')
+  for word in words:
+    word = word.capitalize()
+    final = final + word
+  return f"{final}View"

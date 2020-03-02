@@ -33,6 +33,8 @@ class SlackEvent:
     if event.get('type') == 'block_actions':
       user = User(None, None, user_id)
       
+      
+      
       if type == 'cast':
         view = CastView(user)
         view.handleAction(event.get('actions'))
@@ -53,24 +55,7 @@ class SlackEvent:
       
     else:
       print(event.get('type'))
-      
-    """
-    type: str = None
-    actions: list = None
-    view: dict = None
-    response_url: str = None
-    is_app_unfurl: bool = None
-    attachment_id: str = None
-    message_ts: float = None
-    action_ts: float = None
-    channel: dict = None
-    callback_id: str = None
-    actions: list = None
-    team: dict = None
-    user: dict = None
-    token: str = None
-    trigger_id: str = None
-    """
+
 
 
   def getChannelId(self):

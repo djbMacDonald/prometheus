@@ -340,6 +340,7 @@ def chaos():
     modal.open()
   elif req.get('text') == 'users':
     modal = Modal('user', trigger, user)
+    modal.open()
   
   return Response(), 200
   
