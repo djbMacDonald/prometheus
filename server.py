@@ -336,13 +336,10 @@ def chaos():
     modal.open()
   elif req.get('text') == 'admin':
     #Manage Overall Chaos
-    
-    for curs in cur:
-      print(curs)
-      
-    return Response(), 200
     modal = Modal('chaos_admin', trigger, user)
     modal.open()
+  elif req.get('text') == 'users':
+    modal = Modal('user', trigger, user)
   
   return Response(), 200
   

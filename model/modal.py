@@ -4,7 +4,9 @@ from view.bot_list import BotListView
 from view._view import View
 from view.chaos import ChaosView
 from view.chaos_admin import ChaosAdminView
+from view.user import UserView
 import requests
+import importlib
 import os
 import json
 import urllib
@@ -34,6 +36,10 @@ class Modal:
       
     if type == 'chaos_admin':
       self.view = ChaosAdminView(user).build()
+      
+    if type == 'user':
+      print('usrs')
+      self.view = import
       
       
   def open(self):
