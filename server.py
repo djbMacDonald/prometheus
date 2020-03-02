@@ -37,18 +37,11 @@ def _callBot(bot, originalEvent, pool, client, user=None):
   runner = getattr(moduleType, className)(originalEvent, pool, client, user)
   return runner.run()
 
-def _getBotAttr(bot, attrName):
-  moduleType = getattr(bots, bot)
-  className = _convertCase(bot)
-  classType = getattr(moduleType, className)
-  return getattr(classType, attrName)()
-
 botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
 
 @app.route("/listen", methods=['POST'])
 def inbound():
   data = request.get_json(force=True)
-  
   logUtil = Log()
   
   if data.get('event_id') in handledEvents or not data.get('event'):
@@ -101,9 +94,6 @@ def list():
     return Response(), 200
   if words[0].lower() == 'configure':
     return _botConfigure(words[1], words[2], words[3])
-  
-def _botList():
-  return "\n".join(sorted(map(_getDescription, botList))), 200
 
 def _botConfigure(action, bot, value):
   if action not in ['frequency', 'target']:
@@ -114,14 +104,6 @@ def _botConfigure(action, bot, value):
   # client = MongoClient(os.environ.get('MONGO'))
   # client.slack.bots.update_one({'name': bot}, {'$set': {action: value}})
   return '{} bot {} set to {}'.format(bot, action, value)
-
-def _getDescription(bot):
-  try:
-    return _getBotAttr(bot, "description")
-  except Exception as error:
-    pprint.pprint(error)
-    print(traceback.format_exc())
-    return ""
 
 @app.route('/push_me', methods=['POST'])
 def stuff():
