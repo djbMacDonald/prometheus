@@ -63,8 +63,7 @@ def inbound():
       del(cleanData['blocks'])
     print(json.dumps(cleanData, indent=2, sort_keys=True))
     
-
-  
+    
   pool = Pool(1)
   originalEvent = Event(data, bans)
   # client = MongoClient(os.environ.get('MONGO'))
@@ -355,6 +354,12 @@ def chaos():
     modal.open()
   elif req.get('text') == 'admin':
     #Manage Overall Chaos
+    
+    cur = user.__dict__
+    for curs in cur:
+      print(curs)
+      
+    return Response(), 200
     modal = Modal('chaos_admin', trigger, user)
     modal.open()
   
