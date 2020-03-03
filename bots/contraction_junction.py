@@ -32,5 +32,5 @@ class ContractionJunction(Bot):
         return
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
       identity = IDENTITIES[self._event.user()]
-      self._postUtil.addMessage(message, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get))
+      self._postUtil.addMessage(message, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
       return
