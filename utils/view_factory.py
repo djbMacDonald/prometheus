@@ -3,7 +3,7 @@ import view.profile
 
 class ViewFactory:
   
-  def getView(type, user):
+  def getView(type, user=None):
     moduleType = getattr(view, type)
     className = _convertCase(type)
     return getattr(moduleType, className)(user)

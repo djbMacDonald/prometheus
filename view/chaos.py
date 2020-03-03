@@ -38,11 +38,12 @@ class ChaosView(View):
     )
     return
   def _buildStatus(self):
+    dopple = f"*Dopple:*{self.user.doppleName}" if hasattr(self.user, 'doppleName') else ""
     self._blocks.append({ 
          "type":"section",
          "text":{ 
             "type":"mrkdwn",
-            "text":f"*Name:* {self.user.real_name}\n*ID:* {self.user.id}"
+            "text":f"*Name:* {self.user.real_name}\n{f"*Dopple:*{self.user.doppleName}" if hasattr(self.user, 'doppleName') else ""}
          },
          "accessory":{ 
             "type":"image",
@@ -99,8 +100,9 @@ class ChaosView(View):
   def getAllOptions(self):
     return [self.getThreadOption(), self.getImpersonationOption(), self.getWizardOption()]
   
-  def handleAction(self, action, ts):
-    action = action[0]
+  def handleAction(self, user_id, event, ts):
+    action = event.get('actions')[0]
+    self.setUser(user_id)
     print(action.get('selected_options'))
     print(self.getThreadOption())
     self.user.wizard = self.getWizardOption() in action.get('selected_options')

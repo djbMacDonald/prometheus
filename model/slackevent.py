@@ -32,9 +32,8 @@ class SlackEvent:
 
       
     if event.get('type') == 'block_actions':
-      user = User(None, None, user_id)
-      view = ViewFactory.getView(type, user)
-      view.handleAction(event.get('actions'), event.get('action_ts'))
+      view = ViewFactory.getView(type)
+      view.handleAction(user_id, event, timestamp)
         
     else:
       print(event.get('type'))

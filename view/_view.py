@@ -1,5 +1,6 @@
 import time
 from constant.view import DIVIDER
+from model.user import User
 class View:
   
   def __init__(self, user=None, view=None, state=None):
@@ -54,6 +55,12 @@ class View:
     }
     return
   
+  def setUser(self, user_id):
+    self.user = User(user=user_id)
+  
   def setMetadata(self, data):
     self.private_metadata = data
+    
+  def handleAction(self, user_id, event, timestamp):
+    return
   
