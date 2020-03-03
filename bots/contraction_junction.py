@@ -8,8 +8,8 @@ class ContractionJunction(Bot):
   _frequency = .15
   _target = 'Brenden' 
   _contractions={"not":"n't","am":"'m","are":"'re","does":"'s","is":"'s","has":"'s","have":"'ve","had":"'d","did":"'d",
-              "would":"'d","will":"'ll","shall":"'ll","it":"'t","them":"'em"}
-  _next={"of":"o'","of the":"o'","you":"y'"}
+              "would":"'d","will":"'ll","shall":"'ll","them":"'em"}
+  _next={"it":"'t","of":"o'","of the":"o'","you":"y'"}
   _full={"I am":"I'm","let us":"let's"}
   message=""
   @classmethod
@@ -27,6 +27,9 @@ class ContractionJunction(Bot):
         message=message.lower().replace(i+" ",self._next[i])
       for i in self._full:
         message=message.lower().replace(i,self._full[i])
+        
+      if message==self._event.text().lower():
+        return
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
       identity = IDENTITIES[self._event.user()]
       self._postUtil.addMessage(message, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get))
