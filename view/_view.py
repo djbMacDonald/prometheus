@@ -15,8 +15,6 @@ class View:
     
     
   def build(self):
-    self.setSubmit('Submit')
-    self.setClose('Cancel')
     self._finalize()
     return self.view
     
@@ -56,5 +54,6 @@ class View:
     }
     return
   
-  
+  def setMetadata(self, data):
+    self.private_metadata = data
   

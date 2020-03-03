@@ -10,10 +10,10 @@ class ChaosView(View):
     
   def build(self):
     self.setTitle('Chaos Preferences')
+    self.setMetadata(self.user.id)
     self._buildStatus()
     self._buildPreferences()
-    self._finalize()
-    return self.view
+    return super().build()
   
   def _buildPreferences(self):
     selectedOptions = []

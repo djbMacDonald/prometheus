@@ -22,9 +22,9 @@ class ContractionJunction(Bot):
     if  self._randomUtil.rollDice(self._frequency):
       message=self._event.text()
       for i in self._contractions:
-        message=message.lower().replace(" "+i,self._contractions[i])
+        message=message.lower().replace(f" {i} ",f"{self._contractions[i]} ")
       for i in self._next:
-        message=message.lower().replace(i+" ",self._next[i])
+        message=message.lower().replace(f" {i} ",f" {self._next[i]}")
       for i in self._full:
         message=message.lower().replace(i,self._full[i])
         
