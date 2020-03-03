@@ -38,12 +38,11 @@ class ChaosView(View):
     )
     return
   def _buildStatus(self):
-    dopple = f"*Dopple:*{self.user.doppleName}" if hasattr(self.user, 'doppleName') else ""
     self._blocks.append({ 
          "type":"section",
          "text":{ 
             "type":"mrkdwn",
-            "text":f"*Name:* {self.user.real_name}\n{f"*Dopple:*{self.user.doppleName}" if hasattr(self.user, 'doppleName') else ""}
+            "text":f"*Name:* {self.user.real_name}"
          },
          "accessory":{ 
             "type":"image",
