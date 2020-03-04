@@ -14,7 +14,7 @@ class QuicktimeEvent(Bot):
   
   def run(self):
     
-    if not self._event.isFrom('cj') or not self._event.isInChannel('Secret'):
+    if not self._event.isFrom('cj'): #or not self._event.isInChannel('Secret'):
       return
     postData = {
       'channel': self._event.channel(),
@@ -31,10 +31,10 @@ class QuicktimeEvent(Bot):
           "fallback": "Well this is awkward :bug:",
           "actions": [{
             "name": "game",
-            "text": "Done",
+            "text": "Dive",
             "style": "danger",
             "type": "button",
-            "value": "done"
+            "value": "dive"
           }]
         }
       ],
