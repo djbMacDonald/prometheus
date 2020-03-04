@@ -20,7 +20,7 @@ class User(BaseModel):
       self._db=client.slack
     cursor = self._db.users.find({"id": user})
     if cursor.count() == 0:
-      self.createNewProfile(event.user(), db)
+      self.createNewProfile(event.user(), self._db)
       self.__init__(event, db)
     else:
       self.populate(cursor[0])
