@@ -14,7 +14,7 @@ class QuicktimeEvent(Bot):
   
   def run(self):
     
-    if not self._event.isFrom('cj'): #or not self._event.isInChannel('Secret'):
+    if not self._event.isFrom('cja'): #or not self._event.isInChannel('Secret'):
       return
     postData = {
       'channel': self._event.channel(),
