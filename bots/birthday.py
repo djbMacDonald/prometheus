@@ -16,6 +16,6 @@ class Birthday(Bot):
       return
     if not self._randomUtil.rollDice(self._frequency):
       return
-    message='Happy Birthday {}'.format(self._target)
+    message=':party: Happy Birthday {} :party:'.format(self._target)
     
     self._postUtil.addMessageToThread(message, self._event.channel(), self._event.id(), Identity(profilePicture = self._identityUtil.randomImageUrl()))
