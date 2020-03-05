@@ -5,7 +5,7 @@ from model.identity import Identity
 
 class ContractionJunction(Bot):
 
-  _frequency = .15
+  _frequency = .05
   _target = 'Brenden' 
   _contractions={"not":"n't","am":"'m","are":"'re","does":"'s","is":"'s","has":"'s","have":"'ve","had":"'d","did":"'d",
               "would":"'d","will":"'ll","shall":"'ll","them":"'em"}
