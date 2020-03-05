@@ -5,7 +5,7 @@ from bots._bot import Bot
 class Birthday(Bot):
   
   _frequency = .5
-  _target = 'Brenden'
+  _target = 'Brendean'
   
   @classmethod
   def description(cls):
