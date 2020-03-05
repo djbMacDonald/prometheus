@@ -101,7 +101,7 @@ class ChaosView(View):
   
   def handleAction(self, user_id, event, ts):
     action = event.get('actions')[0]
-    self.setUser(user_id)
+    self.setUser(event.get('view').get('private_metadata'))
     print(action.get('selected_options'))
     print(self.getThreadOption())
     self.user.wizard = self.getWizardOption() in action.get('selected_options')

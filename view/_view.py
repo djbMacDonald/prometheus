@@ -23,7 +23,7 @@ class View:
   def _finalize(self):
     self.view = self._header
     if self.external_id and self.user.id:
-      self.view['external_id'] = f"{self.external_id}_{self.user.id}_{time.time()}"
+      self.view['external_id'] = f"{self.external_id}~{self.user.id}~{time.time()}"
     if self.private_metadata:
       self.view['private_metadata'] = self.private_metadata
     self.view['blocks'] = self._blocks

@@ -1,10 +1,11 @@
 from view._view import View
+import time
 
 class ChaosAdminView(View):
   
   def __init__(self, user):
     super().__init__(user)
-    self.external_id = 'ChaosAdmin'
+    self.external_id = 'chaos_admin'
   
     
   def build(self):
@@ -33,13 +34,13 @@ class ChaosAdminView(View):
           "accessory": {
             "type": "overflow",
             "options": [
-              {
+              {  
                 "text": {
                   "type": "plain_text",
                   "text": ":pencil: Edit",
                   "emoji": True
                 },
-                "value": "edit"
+                "value": f"edit~{threadUser.get('id')}~{time.time()}"
               },
               {
                 "text": {
@@ -47,7 +48,7 @@ class ChaosAdminView(View):
                   "text": ":x: Delete",
                   "emoji": True
                 },
-                "value": "delete"
+                "value": f"edit~{threadUser.get('id')}~{time.time()}"
               }
             ]
           }
@@ -55,7 +56,8 @@ class ChaosAdminView(View):
       )
       self.addDivider()
     
-  def handleAction(self, actions, timestamp):
+  def handleAction(self, user_id, event, ts):
     
+    print(event.get('actions')[0].get('selected_option').get('value'))
     return
 
