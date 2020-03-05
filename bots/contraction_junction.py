@@ -43,13 +43,15 @@ class ContractionJunction(Bot):
     
     message = self._event.text()
     for i in self._before:
-      message = re.sub(r'\b{}'.format(i), "'" + self._before[i], message, flags=re.IGNORECASE)
+      regex = r'(\s{1}' + i + r')|(\b' + i + r')'
+      # message = re.sub(regex, "'" + self._before[i], message)
+      message = re.sub(regex, "'" + self._before[i], message, flags=re.IGNORECASE)
     # for i in self._contractions:
     #   message = message.lower().replace(f" {i} ", f"{self._contractions[i]} ")
-    for i in self._next:
-      message = message.lower().replace(f" {i} ", f" {self._next[i]}")
-    for i in self._full:
-      message = message.lower().replace(i, self._full[i])
+    # for i in self._next:
+    #   message = message.lower().replace(f" {i} ", f" {self._next[i]}")
+    # for i in self._full:
+    #   message = message.lower().replace(i, self._full[i])
       
     print(message)
 
