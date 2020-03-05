@@ -4,7 +4,7 @@ from bots._bot import Bot
 
 class Emerald(Bot):
   
-  _frequency = .1
+  _frequency = .01
   _target = 'Dakota'
   
   @classmethod
@@ -14,5 +14,5 @@ class Emerald(Bot):
   def run(self):
     if not self._event.isFrom(self._target) or self._event.isPartOfAThread() or self._event.isFromABot() or not not self._randomUtil.rollDice(self._frequency):
       return
-    self._postUtil.addMessageToThread(':you-mean-the-chaos-emeralds:', self._event.channel(), self._event.id(), Identity(profilePicture = self._identityUtil.randomImageUrl()))
+    self._postUtil.addMessageToThread('Never forget: :you-mean-the-chaos-emeralds:', self._event.channel(), self._event.id(), Identity(userName = 'Doctor Ivo "Eggman" Robotnik', emoji = 'robotnik'))
       
