@@ -16,8 +16,9 @@ class Third(Bot):
   @classmethod
   def description(cls):
     return "`Third` Makes {} talk in third person".format(cls._target)
+  
   def contains_first(self):
-    container=False
+    container = False
     if " i " in self._event.text().lower():
       container=True
     if "i " in self._event.text().lower():
