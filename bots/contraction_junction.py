@@ -2,11 +2,30 @@ import random
 from constant.people import USERS, IDENTITIES
 from bots._bot import Bot
 from model.identity import Identity
+import re
 
 class ContractionJunction(Bot):
 
   _frequency = .05
-  _target = 'Brenden' 
+  _target = 'Brenden'
+  
+  
+  _before = {
+    "am": "m",
+    "are": "re",
+    "does": "es",
+    "is": "s",
+    "has": "as",
+    "have": "ve",
+    "had": "ad",
+    "did": "id",
+    "would": "d",
+    "will": "ll",
+    "shall": "all",
+    "them": "em"
+  }
+  
+  
   _contractions={"not":"n't","am":"'m","are":"'re","does":"'s","is":"'s","has":"'s","have":"'ve","had":"'d","did":"'d",
               "would":"'d","will":"'ll","shall":"'ll","them":"'em"}
   _next={"it":"'t","of":"o'","of the":"o'","you":"y'"}
@@ -19,9 +38,15 @@ class ContractionJunction(Bot):
   def run(self):
     if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFromChaosUser() or not self._randomUtil.rollDice(self._frequency):
       return
-    message=self._event.text()
+    
+    message = self._event.text()
+    for i in self._before:
+      message
+      # message = re.sub(r'\b[^A-Za-z0-9]?({})[^A-Za-z0-9]?\b'.format(ban), ' ~*REDACTED*~ ', newMessage, flags=re.IGNORECASE)
+    
+    
     for i in self._contractions:
-      message=message.lower().replace(f" {i} ", f"{self._contractions[i]} ")
+      message = message.lower().replace(f" {i} ", f"{self._contractions[i]} ")
     for i in self._next:
       message = message.lower().replace(f" {i} ", f" {self._next[i]}")
     for i in self._full:
@@ -29,7 +54,8 @@ class ContractionJunction(Bot):
 
     if message == self._event.text().lower():
       return
-    self._postUtil.deleteMessage(self._event.channel(), self._event.id())
+    
     identity = IDENTITIES[self._event.user()]
+    self._postUtil.deleteMessage(self._event.channel(), self._event.id())
     self._postUtil.addMessage(message, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
     return
