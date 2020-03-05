@@ -59,8 +59,7 @@ class ContractionJunction(Bot):
     
     message = self._event.text()
     for i in self._before:
-      regex = r'(\s{1}' + i + r'\b)|(\b' + i + r'\b)'
-      message = re.sub(regex, "'" + self._before[i], message, flags=re.IGNORECASE)
+      message = re.sub(f'(\\s{i}\\b)|(\\b{i}\\b)', f'\'{self._before[i]}', message, flags=re.IGNORECASE)
     for i in self._next:
       message = message.lower().replace(f" {i} ", f" {self._next[i]}")
     for i in self._full:
