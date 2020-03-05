@@ -6,9 +6,16 @@ import re
 
 class ContractionJunction(Bot):
 
-  _frequency = 1
-  # _target = 'Brenden'
+  _frequency = .05
   
+  _inner = {
+    "of the": "",
+    "you all": "",
+    "not": "",
+    "over": "",
+    "ever": "",
+    "never": ""
+  }
   
   _before = {
     "am": "m",
@@ -22,36 +29,42 @@ class ContractionJunction(Bot):
     "would": "d",
     "will": "ll",
     "shall": "all",
-    "them": "em"
+    "them": "em",
+    "us": "s",
+    "it": "t"
   }
   
+  _after = {
+    "of": "o",
+    "you": "y",
+  }
   
-  _contractions={"not":"n't","am":"'m","are":"'re","does":"'s","is":"'s","has":"'s","have":"'ve","had":"'d","did":"'d",
-              "would":"'d","will":"'ll","shall":"'ll","them":"'em"}
+  _after_upper = {
+    "Of": "O",
+    "You": "Y",
+  }
+  
   _next={"it":"'t","of":"o'","of the":"o'","you":"y'"}
   _full={"I am":"I'm","let us":"let's"}
   message=""
   @classmethod
   def description(cls):
-    return "`contraction_junction` has a {}% chance to contract {}'s message".format(cls._frequency * 100, cls._target)
+    return "`contraction_junction` has a {}% chance to turn a message to contractions".format(cls._frequency * 100)
     
   def run(self):
-    # if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFromChaosUser() or not self._randomUtil.rollDice(self._frequency) or not self._event.isInChannel("Megamoji"):
-    #   return
-    if self._event.isFromABot() or not self._event.isAMessage() or not self._randomUtil.rollDice(self._frequency) or not self._event.isInChannel("Megamoji"):
+    if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFromChaosUser() or not self._randomUtil.rollDice(self._frequency):
       return
+    # if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isInChannel("Megamoji"):
+    #   return
     
     message = self._event.text()
     for i in self._before:
-      regex = r'(\s{1}' + i + r')|(\b' + i + r')'
-      # message = re.sub(regex, "'" + self._before[i], message)
+      regex = r'(\s{1}' + i + r'\b)|(\b' + i + r'\b)'
       message = re.sub(regex, "'" + self._before[i], message, flags=re.IGNORECASE)
-    # for i in self._contractions:
-    #   message = message.lower().replace(f" {i} ", f"{self._contractions[i]} ")
-    # for i in self._next:
-    #   message = message.lower().replace(f" {i} ", f" {self._next[i]}")
-    # for i in self._full:
-    #   message = message.lower().replace(i, self._full[i])
+    for i in self._next:
+      message = message.lower().replace(f" {i} ", f" {self._next[i]}")
+    for i in self._full:
+      message = message.lower().replace(i, self._full[i])
       
     print(message)
 
