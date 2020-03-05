@@ -17,20 +17,19 @@ class ContractionJunction(Bot):
     return "`contraction_junction` has a {}% chance to contract {}'s message".format(cls._frequency * 100, cls._target)
     
   def run(self):
-    if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFromChaosUser():
+    if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFromChaosUser() or not self._randomUtil.rollDice(self._frequency):
       return
-    if  self._randomUtil.rollDice(self._frequency):
-      message=self._event.text()
-      for i in self._contractions:
-        message=message.lower().replace(f" {i} ",f"{self._contractions[i]} ")
-      for i in self._next:
-        message=message.lower().replace(f" {i} ",f" {self._next[i]}")
-      for i in self._full:
-        message=message.lower().replace(i,self._full[i])
-        
-      if message==self._event.text().lower():
-        return
-      self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-      identity = IDENTITIES[self._event.user()]
-      self._postUtil.addMessage(message, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+    message=self._event.text()
+    for i in self._contractions:
+      message=message.lower().replace(f" {i} ", f"{self._contractions[i]} ")
+    for i in self._next:
+      message = message.lower().replace(f" {i} ", f" {self._next[i]}")
+    for i in self._full:
+      message = message.lower().replace(i, self._full[i])
+
+    if message == self._event.text().lower():
       return
+    self._postUtil.deleteMessage(self._event.channel(), self._event.id())
+    identity = IDENTITIES[self._event.user()]
+    self._postUtil.addMessage(message, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+    return
