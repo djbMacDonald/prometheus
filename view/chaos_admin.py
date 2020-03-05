@@ -1,5 +1,7 @@
 from view._view import View
+from utils.view_factory import ViewFactory
 import time
+from model.modal import updateModal
 
 class ChaosAdminView(View):
   
@@ -41,14 +43,6 @@ class ChaosAdminView(View):
                   "emoji": True
                 },
                 "value": f"edit~{threadUser.get('id')}~{time.time()}"
-              },
-              {
-                "text": {
-                  "type": "plain_text",
-                  "text": ":x: Delete",
-                  "emoji": True
-                },
-                "value": f"edit~{threadUser.get('id')}~{time.time()}"
               }
             ]
           }
@@ -58,6 +52,10 @@ class ChaosAdminView(View):
     
   def handleAction(self, user_id, event, ts):
     
-    print(event.get('actions')[0].get('selected_option').get('value'))
+    action, id, ts = event.get('actions')[0].get('selected_option').get('value').split('~')
+    view = ViewFactory.getView('chaos')
+    view.setUser(id)
+    updateModal(event.get('view').get('external_id'), view.build())
+    
     return
 
