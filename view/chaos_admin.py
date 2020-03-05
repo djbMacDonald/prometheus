@@ -18,6 +18,7 @@ class ChaosAdminView(View):
     threadUsersCursor = self.user._db.users.find()
     options = []
     selectedOptions = []
+    self.addDivider()
     for threadUser in threadUsersCursor:      
       name = threadUser.get('profile').get('real_name')
 
@@ -52,7 +53,7 @@ class ChaosAdminView(View):
           }
         }
       )
-    self.addDivider()
+      self.addDivider()
     
   def handleAction(self, actions, timestamp):
     

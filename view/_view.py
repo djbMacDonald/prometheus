@@ -65,5 +65,8 @@ class View:
     return
   
   def add(self, block):
-    self._blocks.
+    self._blocks.append(block)
+    
+  def addDivider(self):
+    self._blocks.append(DIVIDER)
   
