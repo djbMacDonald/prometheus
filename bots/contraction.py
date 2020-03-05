@@ -4,17 +4,17 @@ from bots._bot import Bot
 from model.identity import Identity
 import re
 
-class ContractionJunction(Bot):
+class Contraction(Bot):
 
   _frequency = .05
   
   _inner = {
-    "of the": "o'",
     "you all": "y'all",
     "not": "'nt",
     "over": "o'er",
     "ever": "e'er",
-    "never": "ne'er"
+    "never": "ne'er",
+    "yes": "yup"
   }
   
   _inner_upper = {
@@ -23,7 +23,8 @@ class ContractionJunction(Bot):
     "Not": "'Nt",
     "Over": "O'er",
     "Ever": "E'er",
-    "Never": "Ne'er"
+    "Never": "Ne'er",
+    "Yes": "Yup"
   }
   
   _before = {
@@ -44,11 +45,13 @@ class ContractionJunction(Bot):
   }
   
   _after = {
+    "of the": "o",
     "of": "o",
     "you": "y",
   }
   
   _after_upper = {
+    "Of the": "O",    
     "Of": "O",
     "You": "Y",
   }
@@ -66,9 +69,9 @@ class ContractionJunction(Bot):
     for i in self._before:
       message = re.sub(f'(\\s{i}\\b)|(\\b{i}\\b)', f'\'{self._before[i]}', message, flags = re.IGNORECASE)
     for i in self._after_upper:
-      message = re.sub(f'(\\b{i}\\s\')|(\\b{i}\')|(\\b{i}\\b)', f'{self._after_upper[i]}\'', message)
+      message = re.sub(f'(\\b{i}\\s\')|(\\b{i}\')|(\\b{i}\\s)|(\\b{i}\\b)', f'{self._after_upper[i]}\'', message)
     for i in self._after:
-      message = re.sub(f'(\\b{i}\\s\')|(\\b{i}\')|(\\b{i}\\b)', f'{self._after[i]}\'', message, flags = re.IGNORECASE)
+      message = re.sub(f'(\\b{i}\\s\')|(\\b{i}\')|(\\b{i}\\s)|(\\b{i}\\b)', f'{self._after[i]}\'', message, flags = re.IGNORECASE)
     for i in self._inner_upper:
       message = re.sub(f'(\\b{i}\\b)', f'{self._inner_upper[i]}', message)
     for i in self._inner:
