@@ -6,8 +6,8 @@ import re
 
 class ContractionJunction(Bot):
 
-  _frequency = .05
-  _target = 'Brenden'
+  _frequency = 1
+  # _target = 'Brenden'
   
   
   _before = {
@@ -36,21 +36,22 @@ class ContractionJunction(Bot):
     return "`contraction_junction` has a {}% chance to contract {}'s message".format(cls._frequency * 100, cls._target)
     
   def run(self):
-    if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFromChaosUser() or not self._randomUtil.rollDice(self._frequency):
+    # if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFromChaosUser() or not self._randomUtil.rollDice(self._frequency) or not self._event.isInChannel("Megamoji"):
+    #   return
+    if self._event.isFromABot() or not self._event.isAMessage() or not self._randomUtil.rollDice(self._frequency) or not self._event.isInChannel("Megamoji"):
       return
     
     message = self._event.text()
     for i in self._before:
-      message
-      # message = re.sub(r'\b[^A-Za-z0-9]?({})[^A-Za-z0-9]?\b'.format(ban), ' ~*REDACTED*~ ', newMessage, flags=re.IGNORECASE)
-    
-    
-    for i in self._contractions:
-      message = message.lower().replace(f" {i} ", f"{self._contractions[i]} ")
+      message = re.sub(r'\b{}'.format(i), "'" + self._before[i], message, flags=re.IGNORECASE)
+    # for i in self._contractions:
+    #   message = message.lower().replace(f" {i} ", f"{self._contractions[i]} ")
     for i in self._next:
       message = message.lower().replace(f" {i} ", f" {self._next[i]}")
     for i in self._full:
       message = message.lower().replace(i, self._full[i])
+      
+    print(message)
 
     if message == self._event.text().lower():
       return
