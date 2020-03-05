@@ -64,3 +64,6 @@ class View:
   def handleAction(self, user_id, event, timestamp):
     return
   
+  def add(self, block):
+    self._blocks.
+  

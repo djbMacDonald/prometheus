@@ -20,32 +20,39 @@ class ChaosAdminView(View):
     selectedOptions = []
     for threadUser in threadUsersCursor:      
       name = threadUser.get('profile').get('real_name')
-      option = {
-          "text": {
-            "type": "plain_text",
-            "text": name,
-            "emoji": True
-          },
-          "value": threadUser.get('id')
-      }
-      options.append(option)
-      if threadUser.get('threads'):
-        selectedOptions.append(option)
-                                     
-    element = {
-      "type": "checkboxes",
-      "options": options,
-    }
-    
-    if selectedOptions:
-      element['initial_options'] = selectedOptions
+
   
-    self._blocks.append(
-      {
-        "type": "actions",
-        "elements": [element]
-      }
-    )
+      self.add(
+        {
+          "type":"section",
+           "text":{ 
+              "type":"mrkdwn",
+              "text":f"*{name}* \n> *Thread User:* {':check:' if threadUser.get('threads') else ':x:'}"
+           },
+          "accessory": {
+            "type": "overflow",
+            "options": [
+              {
+                "text": {
+                  "type": "plain_text",
+                  "text": ":pencil: Edit",
+                  "emoji": True
+                },
+                "value": "edit"
+              },
+              {
+                "text": {
+                  "type": "plain_text",
+                  "text": ":x: Delete",
+                  "emoji": True
+                },
+                "value": "delete"
+              }
+            ]
+          }
+        }
+      )
+    self.addDivider()
     
   def handleAction(self, actions, timestamp):
     
