@@ -61,7 +61,13 @@ class Contraction(Bot):
     return "`contraction_junction` has a {}% chance to turn a message to contractions".format(cls._frequency * 100)
     
   def run(self):
-    if self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFromChaosUser() or not self._randomUtil.rollDice(self._frequency):
+    if (
+        self._event.isFromABot() 
+        or not self._event.isAMessage() 
+        or not self._event.isFromChaosUser() 
+        or not self._randomUtil.rollDice(self._frequency) 
+        or self._event.isFrom('Ayshu')
+    ):
       return
     
     message = self._event.text()
