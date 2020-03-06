@@ -14,7 +14,8 @@ class Contraction(Bot):
     "over": "o'er",
     "ever": "e'er",
     "never": "ne'er",
-    "yes": "yup"
+    "yes": "yup",
+    "actually": "act'ly"
   }
   
   _inner_upper = {
@@ -41,7 +42,8 @@ class Contraction(Bot):
     "shall": "all",
     "them": "em",
     "us": "s",
-    "it": "t"
+    "it": "t",
+    "instead": "stead"
   }
   
   _after = {
