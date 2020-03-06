@@ -5,6 +5,7 @@ import requests
 from model.post_data import PostData
 from constant.channels import ALLOWED_CHANNELS
 from constant.people import IDENTITIES
+from model.identity import Identity
 
 class Post:
   

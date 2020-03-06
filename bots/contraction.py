@@ -1,7 +1,5 @@
 import random
-from constant.people import USERS, IDENTITIES
 from bots._bot import Bot
-from model.identity import Identity
 import re
 
 class Contraction(Bot):
@@ -91,7 +89,5 @@ class Contraction(Bot):
     if message == self._event.text():
       return
     
-    identity = IDENTITIES[self._event.user()]
-    self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-    self._postUtil.addMessage(message, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+    self._postUtil.replacePost(self._event, message)
     return

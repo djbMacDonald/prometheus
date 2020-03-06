@@ -19,7 +19,5 @@ class Scrambler(Bot):
     word_count=len(words)
     if  word_count> 3 and self._randomUtil.rollDice(self._frequency/word_count**2):
       random.shuffle(words)
-      self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-      identity = IDENTITIES[USERS[self._target.lower()]]
-      self._postUtil.addMessage(' '.join(words), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get))
+      self._postUtil.replacePost(self._event, ' '.join(words))
       return

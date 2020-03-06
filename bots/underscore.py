@@ -16,7 +16,5 @@ class Underscore(Bot):
       return
     if ' ' in self.text:
       text = self._event.text().replace(' ', '-')
-      self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-      identity = IDENTITIES[USERS[self._event.user()].lower()]
-      self._postUtil.addMessage(text, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+      self._postUtil.replacePost(self._event, text)
     return 'end'

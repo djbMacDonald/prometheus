@@ -31,10 +31,7 @@ class Censor(Bot):
     fullRedaction = ' '.join(words);
     if ('cj' in bans.keys() and self._event.isFrom('cj')):
         #do nothing
-        text = fullRedaction
-        self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-        identity = IDENTITIES[self._event.user()]
-        self._postUtil.addMessage(text, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+        self._postUtil.replacePost(self._event, fullRedaction)
         return
     
     newMessage = self._event.text();
@@ -48,6 +45,4 @@ class Censor(Bot):
       newMessage = re.sub(r'\b[^A-Za-z0-9]?({})[^A-Za-z0-9]?\b'.format(ban), ' ~*REDACTED*~ ', newMessage, flags=re.IGNORECASE)
     if self._event.text() == newMessage:
       return;
-    self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-    identity = IDENTITIES[self._event.user()]
-    self._postUtil.addMessage(newMessage, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+    self._postUtil.replacePost(self._event, newMessage)

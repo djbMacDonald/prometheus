@@ -13,6 +13,4 @@ class Botify(Bot):
   
   def run(self):
     if self._event.isAMessage() and self._event.isFrom(self._target) and self._randomUtil.rollDice(self._frequency) and not self._event.isFromABot():
-      self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-      identity = IDENTITIES[self._event.user()]
-      self._postUtil.addMessage(self._event.text(), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+      self._postUtil.replacePost(self._event, self._event.text())

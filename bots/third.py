@@ -39,6 +39,4 @@ class Third(Bot):
       text = re.sub(f'\\bi\\b', f' {self._target} ', text, flags = re.IGNORECASE)
       text = re.sub(f'\\bi\'m\\b', f' {self._target} is ', text, flags = re.IGNORECASE)
       
-      identity = IDENTITIES[self._event.user()]
-      self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-      self._postUtil.addMessage(text, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+      self._postUtil.replacePost(self._event, text)
