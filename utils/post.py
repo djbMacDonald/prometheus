@@ -4,6 +4,7 @@ import urllib
 import requests
 from model.post_data import PostData
 from constant.channels import ALLOWED_CHANNELS
+from constant.people import IDENTITIES
 
 class Post:
   
@@ -64,6 +65,11 @@ class Post:
     }
     url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    
+  def replacePost(self, event, message):
+    identity = IDENTITIES[event.user()]
+    self.deleteMessage(event.channel(), event.id())
+    self.addMessage(message, event.channel(), event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
 
   def getAllEmojis(self):
     if self._allEmotes:

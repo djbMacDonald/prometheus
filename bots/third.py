@@ -6,12 +6,12 @@ import requests
 import os
 import string
 from bots._bot import Bot
+import re
 
 class Third(Bot):
   
   _target = "Brenden"
   _frequency = .1
-  _post_text =""
   
   @classmethod
   def description(cls):
@@ -34,11 +34,11 @@ class Third(Bot):
         and self._randomUtil.rollDice(self._frequency) 
         and self.contains_first()
         and not self._event.isFromABot()
-    ):
+    ):  
+      text = self._event.text()
+      text = re.sub(f'\\bi\\b', f' {self._target} ', text, flags = re.IGNORECASE)
+      text = re.sub(f'\\bi\'m\\b', f' {self._target} is ', text, flags = re.IGNORECASE)
+      
       identity = IDENTITIES[self._event.user()]
-      self._post_text=self._event.text()
-      self._post_text = self._post_text.lower().replace(" i "," "+(self._target)+" ")
-      #self._post_text = self._post_text.lower().replace("i ",(self._target)+" ")
-      self._post_text = self._post_text.lower().replace("i'm",(self._target)+" is")
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
-      self._postUtil.addMessage(self._post_text, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+      self._postUtil.addMessage(text, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
