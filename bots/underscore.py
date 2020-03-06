@@ -9,7 +9,7 @@ class Underscore(Bot):
     return ""
     
   def _runConditition(self):
-    return self._event.isInChannel('Underscore') and self._event.isFromChaosUser()
+    return self._event.isInChannel('Underscore') and self._event.isFromChaosUser() and not self._event.isFromABot()
   
   def run(self):
     if not self._runConditition():

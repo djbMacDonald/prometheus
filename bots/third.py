@@ -28,7 +28,13 @@ class Third(Bot):
     return container
   
   def run(self):
-    if self._event.isAMessage() and self._event.isFrom(self._target) and self._randomUtil.rollDice(self._frequency) and self.contains_first():
+    if (
+        self._event.isAMessage() 
+        and self._event.isFrom(self._target) 
+        and self._randomUtil.rollDice(self._frequency) 
+        and self.contains_first()
+        and not self._event.isFromABot()
+    ):
       identity = IDENTITIES[self._event.user()]
       self._post_text=self._event.text()
       self._post_text = self._post_text.lower().replace(" i "," "+(self._target)+" ")

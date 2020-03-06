@@ -12,7 +12,7 @@ class Botify(Bot):
     return "`Botify` Has a {}% chance of replacing {}'s message with {}-bot's message".format(cls._frequency * 100, cls._target, cls._target)
   
   def run(self):
-    if self._event.isAMessage() and self._event.isFrom(self._target) and self._randomUtil.rollDice(self._frequency):
+    if self._event.isAMessage() and self._event.isFrom(self._target) and self._randomUtil.rollDice(self._frequency) and not self._event.isFromABot():
       self._postUtil.deleteMessage(self._event.channel(), self._event.id())
       identity = IDENTITIES[self._event.user()]
       self._postUtil.addMessage(self._event.text(), self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
