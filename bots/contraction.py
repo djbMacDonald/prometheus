@@ -10,22 +10,23 @@ class Contraction(Bot):
   
   _inner = {
     "you all": "y'all",
-    "not": "'nt",
     "over": "o'er",
     "ever": "e'er",
     "never": "ne'er",
     "yes": "yup",
-    "actually": "act'ly"
+    "actually": "act'ly",
+    "when": "w'en"
   }
   
   _inner_upper = {
     "Of the": "O'",
     "You all": "Y'all",
-    "Not": "'Nt",
     "Over": "O'er",
     "Ever": "E'er",
     "Never": "Ne'er",
-    "Yes": "Yup"
+    "Yes": "Yup",
+    "Actually": "Act'ly",
+    "When": "W'en"
   }
   
   _before = {
@@ -43,7 +44,8 @@ class Contraction(Bot):
     "them": "em",
     "us": "s",
     "it": "t",
-    "instead": "stead"
+    "instead": "stead",
+    "not": "nt"
   }
   
   _after = {
@@ -75,6 +77,7 @@ class Contraction(Bot):
     message = self._event.text()
     
     for i in self._before:
+      message = re.sub(f'(\.\\s{i}\\b)', f'. \'{self._before[i]}', message, flags = re.IGNORECASE)
       message = re.sub(f'(\\s{i}\\b)|(\\b{i}\\b)', f'\'{self._before[i]}', message, flags = re.IGNORECASE)
     for i in self._after_upper:
       message = re.sub(f'(\\b{i}\\s\')|(\\b{i}\')|(\\b{i}\\s)|(\\b{i}\\b)', f'{self._after_upper[i]}\'', message)
