@@ -34,4 +34,5 @@ class Pig(Bot):
           word = ''.join(word[1:]) + word[0]
       text[i] = word + 'ay'
     self._postUtil.replacePost(self._event, ' '.join(text))
+    self._postUtil.addMessageToThread(self._event.text(), self._event.channel(), self._event.id(), Identity(identity.get('username'), identity.get('profilePicture')))
     return
