@@ -43,7 +43,8 @@ class Contraction(Bot):
     "us": "s",
     "it": "t",
     "instead": "stead",
-    "not": "nt"
+    "not": "nt",
+    "at": "t"
   }
   
   _after = {
