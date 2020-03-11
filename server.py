@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template, jsonify, Response
 from model.modal import Modal
 from multiprocessing import Pool
-from model.session import Session
 from constant.channels import CHANNELS
 import json
 import jsons
@@ -50,8 +49,6 @@ def inbound():
   else:
     handledEvents.append(data.get('event_id'))
   
-  # session = Session(data)
-  #session.logCleanEvent()
   if log:
     cleanData = data.get('event')
     if 'blocks' in cleanData:
