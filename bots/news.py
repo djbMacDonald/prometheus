@@ -9,7 +9,7 @@ from xml.dom import minidom
 class News(Bot):
   
   _target = "Ayshu"
-  _frequency = .05
+  _frequency = .01
   _url = "https://www.buzzfeed.com/lol.xml"
   
   @classmethod
