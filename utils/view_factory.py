@@ -1,10 +1,12 @@
 import view
+import sys
+
 
 class ViewFactory:
   
   def getView(type, user=None):
-    print(dir(view))
-    moduleType = getattr(view, type)
+    sys.path.append('/app/view')
+    moduleType = __import__(type, fromlist=[view])
     className = _convertCase(type)
     return getattr(moduleType, className)(user)
   
