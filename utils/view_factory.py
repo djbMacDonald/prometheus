@@ -3,7 +3,7 @@ import view
 class ViewFactory:
   
   def getView(type, user=None):
-    print(view.__dict__)
+    print(dir(view))
     moduleType = getattr(view, type)
     className = _convertCase(type)
     return getattr(moduleType, className)(user)

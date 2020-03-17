@@ -1,6 +1,6 @@
+from view._view import View
 from constant.view import DIVIDER
 from model.caster import Caster
-from view._view import View
 from constant.people import (
   IDENTITIES,
   CHAOS_USERS
