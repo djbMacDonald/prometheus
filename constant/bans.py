@@ -1,0 +1,19 @@
+BAN_BAN_LIST = {
+  'it',
+  'to',
+  'the',
+  'and',
+  'you',
+  'not',
+  'me',
+  'if',
+  'who',
+  'what',
+  'where',
+  'when',
+  'how',
+  'why',
+  'your',
+  'like',
+  'as'
+}
