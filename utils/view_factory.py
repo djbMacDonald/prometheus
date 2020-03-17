@@ -1,9 +1,9 @@
 import view
-import view.profile
 
 class ViewFactory:
   
   def getView(type, user=None):
+    print(view.__dict__)
     moduleType = getattr(view, type)
     className = _convertCase(type)
     return getattr(moduleType, className)(user)
