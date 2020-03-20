@@ -7,6 +7,11 @@ from constant.channels import ALLOWED_CHANNELS
 from constant.people import IDENTITIES
 from model.identity import Identity
 
+def poolCallback(args):
+  print('test', args)
+  args.close()
+  return
+
 class Post:
   
   _allEmotes = []
@@ -15,11 +20,18 @@ class Post:
     self._pool = pool
     self._event = event
   
-  def isAllowedToPostInThisChannel(self, channel):
+  def _isAllowedToPostInThisChannel(self, channel):
     return channel in ALLOWED_CHANNELS
   
+  def _sendRequest(self, postData):
+    info = postData.get()
+    if not self._isAllowedToPostInThisChannel(info['channel']):
+      return;
+    url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+  
   def addMessage(self, message, channel, threadId, identity = None):
-    if threadId:
+    if self._event.isPartOfAThread():
       self.addMessageToThread(message, identity)
     else:
       self.addMessageToChannel(message, channel, identity)
@@ -36,15 +48,8 @@ class Post:
     postData = PostData(channel, message, identity, command = command)
     self._sendRequest(postData)
     
-  def _sendRequest(self, postData):
-    info = postData.get()
-    if not self.isAllowedToPostInThisChannel(info['channel']):
-      return;
-    url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
-    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
-    
   def addReaction(self, reaction, channel, timestamp):
-    if not self.isAllowedToPostInThisChannel(channel):
+    if not self._isAllowedToPostInThisChannel(channel):
       return;
     # move to post_data
     options = {
@@ -58,7 +63,7 @@ class Post:
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def deleteMessage(self, channel, id):
-    if not self.isAllowedToPostInThisChannel(channel):
+    if not self._isAllowedToPostInThisChannel(channel):
       return;
     postData = {
        'channel': channel,
@@ -89,12 +94,6 @@ class Post:
     url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     return   
-  
-def poolCallback(args):
-  
-  print('test', args)
-  args.close()
-  return
     
     
   # def setChannelTopic(self, channel, message):
