@@ -7,24 +7,20 @@ from utils.mongo import Mongo
 
 class Trigger:
   
-  def __init__(self):
+  def __init__(self, event):
     self._randomUtil = Random()
+    self._event = event
   
-  def targetSendsMessageToChannel(self, event, target, chance = 1):
+  def targetSendsMessageAnywhere(self, target, chance = 1):
     return (
-      not event.isFrom(target) 
-      or event.isPartOfAThread() 
-      or event.isFromABot() 
-      or not event.isAMessage()
-      or not 
-      return
-    if not self._randomUtil.rollDice(self._frequency):
-      return
+      self._event.isFrom(target) 
+      and not self._event.isFromABot() 
+      and self._event.isAMessage()
+      and self._randomUtil.rollDice(chance)
+    )
   
-  def targetSendsMessageAnywhere(self, event, target, chance = 1):
+  def targetSendsMessageToChannel(self, target, chance = 1):
     return (
-      not self._event.isFrom(self._target) 
-      or self._event.isPartOfAThread() 
-      or self._event.isFromABot():
-      or not self._randomUtil.rollDice(self._frequency
+      targetSendsMessageAnywhere(target, chance) 
+      and not self._event.isPartOfAThread()
     )

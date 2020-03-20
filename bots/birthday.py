@@ -12,10 +12,8 @@ class Birthday(Bot):
     return "`Birthday` Has a {}% chance to say happy brithday on {}'s' posts".format(cls._frequency * 100, cls._target)
     
   def run(self):
-    if not self._event.isFrom(self._target) or self._event.isPartOfAThread() or self._event.isFromABot():
-      return
-    if not self._randomUtil.rollDice(self._frequency):
-      return
-    message=':party: Happy Birthday {} :party:'.format(self._target)
-    
-    self._postUtil.addMessageToThread(message, self._event.channel(), self._event.id(), Identity(profilePicture = self._identityUtil.randomImageUrl()))
+    if self._triggerUtil.targetSendsMessageToChannel(self._target, self._frequency):
+      self._postUtil.addMessageToThread(
+        ':party: Happy Birthday {} :party:'.format(self._target), 
+        Identity(profilePicture = self._identityUtil.randomImageUrl())
+      )

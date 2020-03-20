@@ -12,5 +12,5 @@ class Botify(Bot):
     return "`Botify` Has a {}% chance of replacing {}'s message with {}-bot's message".format(cls._frequency * 100, cls._target, cls._target)
   
   def run(self):
-    if self._event.isAMessage() and self._event.isFrom(self._target) and self._randomUtil.rollDice(self._frequency) and not self._event.isFromABot():
+    if self._triggerUtil.targetSendsMessageAnywhere(self._target, self._frequency):
       self._postUtil.replacePost(self._event, self._event.text())

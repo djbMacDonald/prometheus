@@ -11,15 +11,16 @@ class Post:
   
   _allEmotes = []
   
-  def __init__(self, pool):
+  def __init__(self, pool, event):
     self._pool = pool
+    self._event = event
   
   def isAllowedToPostInThisChannel(self, channel):
     return channel in ALLOWED_CHANNELS
   
   def addMessage(self, message, channel, threadId, identity = None):
     if threadId:
-      self.addMessageToThread(message, channel, threadId, identity)
+      self.addMessageToThread(message, identity)
     else:
       self.addMessageToChannel(message, channel, identity)
   
@@ -27,8 +28,8 @@ class Post:
     postData = PostData(channel, message, identity)
     self._sendRequest(postData)
     
-  def addMessageToThread(self, message, channel, threadId, identity = None):
-    postData = PostData(channel, message, identity, threadId = threadId)
+  def addMessageToThread(self, message, identity = None):
+    postData = PostData(self._event.channel(), message, identity, threadId = self._event.id())
     self._sendRequest(postData)
     
   def useCommand(self, command, message, channel):
