@@ -22,5 +22,5 @@ class News(Bot):
     req = requests.get(self._url)
     mydoc = minidom.parseString(req.content)
     items = mydoc.getElementsByTagName('item')  
-    self._postUtil.addMessageToThread(random.choice(items).getElementsByTagName("title")[0].firstChild.nodeValue, self._event.channel(), self._event.id())
+    self._postUtil.addMessageToThread(random.choice(items).getElementsByTagName("title")[0].firstChild.nodeValue)
     

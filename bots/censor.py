@@ -31,7 +31,7 @@ class Censor(Bot):
     fullRedaction = ' '.join(words);
     if ('cj' in bans.keys() and self._event.isFrom('cj')):
         #do nothing
-        self._postUtil.replacePost(self._event, fullRedaction)
+        self._postUtil.replacePost(fullRedaction)
         return
     
     newMessage = self._event.text();
@@ -45,4 +45,4 @@ class Censor(Bot):
       newMessage = re.sub(r'\b[^A-Za-z0-9]?({})[^A-Za-z0-9]?\b'.format(ban), ' ~*REDACTED*~ ', newMessage, flags=re.IGNORECASE)
     if self._event.text() == newMessage:
       return;
-    self._postUtil.replacePost(self._event, newMessage)
+    self._postUtil.replacePost(newMessage)

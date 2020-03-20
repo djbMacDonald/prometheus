@@ -14,5 +14,5 @@ class Emerald(Bot):
   def run(self):
     if not self._event.isFrom(self._target) or self._event.isPartOfAThread() or self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency):
       return
-    self._postUtil.addMessageToThread('Never forget: :you-mean-the-chaos-emeralds:', self._event.channel(), self._event.id(), Identity(userName = 'Doctor Ivo "Eggman" Robotnik', emoji = 'robotnik'))
+    self._postUtil.addMessageToThread('Never forget: :you-mean-the-chaos-emeralds:', Identity(userName = 'Doctor Ivo "Eggman" Robotnik', emoji = 'robotnik'))
       

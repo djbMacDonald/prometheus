@@ -26,7 +26,7 @@ class Summon(Bot):
       message += '<@' + silentUsers[index] + '>\n'
       message += self._generateOminousStatement(creepyNouns[index], creepyFacts[index], creepyActs[index], creepyEnds[index])
       message += '\n\n'
-    self._postUtil.addMessageToThread(message, self._event.channel(), self._event.threadId())
+    self._postUtil.addMessageToThread(message)
   
   def _generateOminousStatement(self, noun, fact, act, end):
     message = noun + ' ' + fact + '\n' + act + ' ' + end

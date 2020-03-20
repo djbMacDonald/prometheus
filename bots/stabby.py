@@ -10,4 +10,4 @@ class Stabby(Bot):
     
   def run(self):
     if self._event.isAMessage() and 'stabby' in self._event.text().lower() and self._event.isFrom(self._target):
-      self._postUtil.addMessageToThread(':rip: Capitan Stabby Reactji :rip:', self._event.channel(), self._event.id())
+      self._postUtil.addMessageToThread(':rip: Capitan Stabby Reactji :rip:')

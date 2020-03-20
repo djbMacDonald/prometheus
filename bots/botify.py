@@ -13,4 +13,4 @@ class Botify(Bot):
   
   def run(self):
     if self._triggerUtil.targetSendsMessageAnywhere(self._target, self._frequency):
-      self._postUtil.replacePost(self._event, self._event.text())
+      self._postUtil.replacePost(self._event.text())

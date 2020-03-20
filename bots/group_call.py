@@ -17,4 +17,4 @@ class GroupCall(Bot):
         pings=''
         for user in GROUP_LIST[group]:
           pings+=self._identityUtil.pingUser(USERS[user])+' '
-        self._postUtil.addMessageToThread(pings, self._event.channel(), self._event.id(), self._identityUtil.getRandomIdentity())
+        self._postUtil.addMessageToThread(pings, self._identityUtil.getRandomIdentity())

@@ -19,5 +19,5 @@ class Scrambler(Bot):
     word_count=len(words)
     if  word_count> 3 and self._randomUtil.rollDice(self._frequency/word_count**2):
       random.shuffle(words)
-      self._postUtil.replacePost(self._event, ' '.join(words))
+      self._postUtil.replacePost(' '.join(words))
       return

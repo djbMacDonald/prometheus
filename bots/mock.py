@@ -38,7 +38,7 @@ class Mock(Bot):
         return
     self.text = message.get('text')
     message = self._mockString(self.text)
-    self._postUtil.addMessageToThread(message, self._event.channel(), self._event.id(), Identity('sPoNgeBoB', 'https://emoji.slack-edge.com/TDBEDSEQZ/spongebob-mock/3b66c2fdf2b77a8d.png'))
+    self._postUtil.addMessageToThread(message, Identity('sPoNgeBoB', 'https://emoji.slack-edge.com/TDBEDSEQZ/spongebob-mock/3b66c2fdf2b77a8d.png'))
     return 'end'
     
   def _mockString(self, str):

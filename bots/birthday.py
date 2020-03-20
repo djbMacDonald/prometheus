@@ -5,7 +5,7 @@ from bots._bot import Bot
 class Birthday(Bot):
   
   _frequency = .5
-  _target = 'Brendean'
+  _target = 'Brenden'
   
   @classmethod
   def description(cls):
@@ -13,7 +13,4 @@ class Birthday(Bot):
     
   def run(self):
     if self._triggerUtil.targetSendsMessageToChannel(self._target, self._frequency):
-      self._postUtil.addMessageToThread(
-        ':party: Happy Birthday {} :party:'.format(self._target), 
-        Identity(profilePicture = self._identityUtil.randomImageUrl())
-      )
+      self._postUtil.addMessageToThread(':party: Happy Birthday {} :party:'.format(self._target), Identity(profilePicture = self._identityUtil.randomImageUrl()))

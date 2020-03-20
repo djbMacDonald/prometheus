@@ -41,7 +41,7 @@ class ChaosSeed(Bot):
     users = self._filterUsers(threadUsers, messages[0]['reply_users'])
     userMap = map(self._identityUtil.pingUser, users)
     notification = "Hey {}! There's a thread here!".format(" ".join(userMap))
-    self._postUtil.addMessageToThread(notification, self._event.channel(), self._event.threadId(), Identity('Chaos Seed', None, 'chaos'))
+    self._postUtil.addMessageToThread(notification, Identity('Chaos Seed', None, 'chaos'))
     self._recordThread()
     
   def _recordThread(self):
