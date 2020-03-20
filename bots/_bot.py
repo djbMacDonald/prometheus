@@ -16,6 +16,7 @@ class Bot(object):
     self._channelUtil = Channel()
     self._mongoUtil = Mongo(mongoClient)
     self._user = user
+    
   @classmethod
   def description(cls):
     return ""
