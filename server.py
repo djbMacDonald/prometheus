@@ -20,6 +20,9 @@ import sched
 import os
 import asyncio
 from model.user import User
+from utils.server import *
+
+# If you need to define a utility function for this file, do it in utils/server.py
 
 app = Flask(__name__)
 
@@ -27,15 +30,7 @@ log = True
 handledEvents = []
 bans = {}
 
-def _convertCase(name):
-  components = name.split('_')
-  return''.join(x.title() for x in components)
-
-def _callBot(bot, originalEvent, pool, client, user=None):
-  moduleType = getattr(bots, bot)
-  className = _convertCase(bot)
-  runner = getattr(moduleType, className)(originalEvent, pool, client, user)
-  return runner.run()
+emotes = getAllEmotes();
 
 botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
 
@@ -66,7 +61,7 @@ def inbound():
     user = None
   for bot in botList:
     try:
-      result = _callBot(bot, originalEvent, pool, client, user)
+      result = callBot(bot, originalEvent, pool, client, user)
       if result == 'end':
         return Response(), 200
     except Exception as error:
@@ -92,17 +87,7 @@ def list():
     modal.open()
     return Response(), 200
   if words[0].lower() == 'configure':
-    return _botConfigure(words[1], words[2], words[3])
-
-def _botConfigure(action, bot, value):
-  if action not in ['frequency', 'target']:
-    return 'Supported actions are frequency and target'
-  if bot not in ['code']:
-    return 'Supported bots are code'
-  
-  # client = MongoClient(os.environ.get('MONGO'))
-  # client.slack.bots.update_one({'name': bot}, {'$set': {action: value}})
-  return '{} bot {} set to {}'.format(bot, action, value)
+    return botConfigure(words[1], words[2], words[3])
 
 @app.route('/push_me', methods=['POST'])
 def stuff():

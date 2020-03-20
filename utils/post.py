@@ -14,8 +14,6 @@ def poolCallback(args):
 
 class Post:
   
-  _allEmotes = []
-  
   def __init__(self, pool, event):
     self._pool = pool
     self._event = event
@@ -86,17 +84,6 @@ class Post:
     self._deleteMessage()
     self.addMessage(message, Identity(identity.get('username'), identity.get('profilePicture')))
 
-  def getAllEmojis(self):
-    if self._allEmotes:
-      return self._allEmotes
-    
-    postData = {
-      'token': os.environ.get('SECRET')
-    }
-    req = requests.get('https://slack.com/api/emoji.list?{}'.format(urllib.parse.urlencode(postData)))
-    self._allEmotes = list(req.json().get('emoji').keys())
-    return self._allEmotes
-  
   
   def postEphemeral(self, data):
     url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))
