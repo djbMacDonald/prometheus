@@ -36,7 +36,7 @@ def convertCase(name):
 def callBot(bot, originalEvent, pool, client, user, emotes):
   moduleType = getattr(bots, bot)
   className = convertCase(bot)
-  runner = getattr(moduleType, className)(originalEvent, pool, client, user)
+  runner = getattr(moduleType, className)(originalEvent, pool, client, user, emotes)
   return runner.run()
 
 def botConfigure(action, bot, value):

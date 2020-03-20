@@ -17,10 +17,6 @@ class Spam(Bot):
     if self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency):
       return
     
-    randomEmojis = random.sample(self._emoteUtil.getAll() emojis, k=23)
-    
-#     emojis = self._postUtil.getAllEmojis()
-#     randomEmojis = random.sample(emojis, k=23)
-    
-#     for emoji in randomEmojis:
-#       self._postUtil.addReactionToMessage(emoji)
+    randomEmojis = random.sample(self._emoteUtil.getAll(), k=23)
+    for emoji in randomEmojis:
+      self._postUtil.addReactionToMessage(emoji)

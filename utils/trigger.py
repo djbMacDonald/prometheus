@@ -21,6 +21,6 @@ class Trigger:
   
   def targetSendsMessageToChannel(self, target, chance = 1):
     return (
-      targetSendsMessageAnywhere(target, chance) 
+      self.targetSendsMessageAnywhere(target, chance) 
       and not self._event.isPartOfAThread()
     )

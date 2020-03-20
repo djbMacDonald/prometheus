@@ -19,7 +19,7 @@ class Bot(object):
     self._channelUtil = Channel()
     self._mongoUtil = Mongo(mongoClient)
     self._triggerUtil = Trigger(eventModel)
-    self.emoteUtil = Emote(emotes)
+    self._emoteUtil = Emote(emotes)
     
   @classmethod
   def description(cls):

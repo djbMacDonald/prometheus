@@ -29,7 +29,7 @@ class Post:
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _addReaction(self, reaction, timestamp):
-    if not self._isAllowedToPostInThisChannel(channel):
+    if not self._isAllowedToPostInThisChannel(self._event.channel()):
       return;
     # move to post_data
     options = {
@@ -43,7 +43,7 @@ class Post:
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _deleteMessage(self):
-    if not self._isAllowedToPostInThisChannel(channel):
+    if not self._isAllowedToPostInThisChannel(self._event.channel()):
       return;
     postData = {
        'channel': self._event.channel(),
@@ -73,10 +73,10 @@ class Post:
     postData = PostData(channel, message, identity, command = command)
     self._sendRequest(postData)
   
-  def addReactionToMessage(reaction):
+  def addReactionToMessage(self, reaction):
     self._addReaction(reaction, self._event.id());
     
-  def addReactionToOriginalMessage(reaction):
+  def addReactionToOriginalMessage(self, reaction):
     self._addReaction(reaction, self._event.threadId());
     
   def replacePost(self, message):

@@ -3,5 +3,5 @@ class Emote:
   def __init__(self, emotes):
     self._emotes = emotes
     
-  def getAll():
-    return self._emotes()
+  def getAll(self):
+    return self._emotes
