@@ -11,7 +11,7 @@ class Spam(Bot):
   
   @classmethod
   def description(cls):
-    return "`Spam` Has a {}% chance to post {} random reactions to a message".format(cls._frequency * 100, cls._numberOfEmotes)
+    return "`Spam` DISABLED -- Has a {}% chance to post {} random reactions to a message".format(cls._frequency * 100, cls._numberOfEmotes)
   
   def run(self):
     return
@@ -22,4 +22,4 @@ class Spam(Bot):
     randomEmojis = random.sample(emojis, k=23)
     
     for emoji in randomEmojis:
-      self._postUtil.addReaction(emoji, self._event.channel(), self._event.id())
+      self._postUtil.addReactionToMessage(emoji)

@@ -17,4 +17,4 @@ class Crab(Bot):
   def run(self):
     if self._event.isFromABot() or not self._event.isFrom(self._target) or not self._randomUtil.rollDice(self._frequency):
       return;
-    self._postUtil.addReaction("crab", self._event.channel(), self._event.id())
+    self._postUtil.addReactionToMessage("crab")

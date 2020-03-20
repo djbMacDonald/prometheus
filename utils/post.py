@@ -49,13 +49,13 @@ class Post:
   def useCommand(self, command, message, channel):
     postData = PostData(channel, message, identity, command = command)
     self._sendRequest(postData)
-    
-  def addReaction(self, reaction, channel, timestamp):
+  
+  def _addReaction(self, reaction, timestamp):
     if not self._isAllowedToPostInThisChannel(channel):
       return;
     # move to post_data
     options = {
-      'channel': channel,
+      'channel': self._event.channel(),
       'name': reaction, 
       'timestamp': timestamp,
       'as_user': False,
@@ -63,6 +63,12 @@ class Post:
     }
     url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+  
+  def addReactionToMessage(reaction):
+    self._addReaction(reaction, self._event.id());
+    
+  def addReactionToOriginalMessage(reaction):
+    self._addReaction(reaction, self._event.threadId());
     
   def deleteMessage(self, channel, id):
     if not self._isAllowedToPostInThisChannel(channel):
@@ -78,7 +84,7 @@ class Post:
   def replacePost(self, message):
     identity = IDENTITIES[self._event.user()]
     self.deleteMessage(self._event.channel(), self._event.id())
-    self.addMessage(message, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get('profilePicture')))
+    self.addMessage(message, Identity(identity.get('username'), identity.get('profilePicture')))
 
   def getAllEmojis(self):
     if self._allEmotes:
