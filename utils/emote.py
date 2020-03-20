@@ -1,3 +1,7 @@
-class Post:
+class Emote:
   
-  _allEmotes = []
+  def __init__(self, emotes):
+    self._emotes = emotes
+    
+  def getAll():
+    return self._emotes()

@@ -14,12 +14,13 @@ class Spam(Bot):
     return "`Spam` DISABLED -- Has a {}% chance to post {} random reactions to a message".format(cls._frequency * 100, cls._numberOfEmotes)
   
   def run(self):
-    return
     if self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency):
       return
     
-    emojis = self._postUtil.getAllEmojis()
-    randomEmojis = random.sample(emojis, k=23)
+    randomEmojis = random.sample(self._emoteUtil.getAll() emojis, k=23)
     
-    for emoji in randomEmojis:
-      self._postUtil.addReactionToMessage(emoji)
+#     emojis = self._postUtil.getAllEmojis()
+#     randomEmojis = random.sample(emojis, k=23)
+    
+#     for emoji in randomEmojis:
+#       self._postUtil.addReactionToMessage(emoji)

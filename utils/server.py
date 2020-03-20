@@ -33,7 +33,7 @@ def convertCase(name):
   components = name.split('_')
   return''.join(x.title() for x in components)
 
-def callBot(bot, originalEvent, pool, client, user=None):
+def callBot(bot, originalEvent, pool, client, user, emotes):
   moduleType = getattr(bots, bot)
   className = convertCase(bot)
   runner = getattr(moduleType, className)(originalEvent, pool, client, user)

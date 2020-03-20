@@ -83,7 +83,6 @@ class Post:
     identity = IDENTITIES[self._event.user()]
     self._deleteMessage()
     self.addMessage(message, Identity(identity.get('username'), identity.get('profilePicture')))
-
   
   def postEphemeral(self, data):
     url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))

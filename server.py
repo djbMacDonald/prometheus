@@ -61,7 +61,7 @@ def inbound():
     user = None
   for bot in botList:
     try:
-      result = callBot(bot, originalEvent, pool, client, user)
+      result = callBot(bot, originalEvent, pool, client, user, emotes)
       if result == 'end':
         return Response(), 200
     except Exception as error:
