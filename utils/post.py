@@ -29,6 +29,31 @@ class Post:
       return;
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    
+  def _addReaction(self, reaction, timestamp):
+    if not self._isAllowedToPostInThisChannel(channel):
+      return;
+    # move to post_data
+    options = {
+      'channel': self._event.channel(),
+      'name': reaction, 
+      'timestamp': timestamp,
+      'as_user': False,
+      'token': os.environ.get('DAKA')
+    }
+    url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    
+  def _deleteMessage(self):
+    if not self._isAllowedToPostInThisChannel(channel):
+      return;
+    postData = {
+       'channel': self._event.channel(),
+       'ts': self._event.id(),
+       'token': os.environ.get('SECRET')
+    }
+    url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
   
   def addMessage(self, message, identity = None):
     if self._event.isPartOfAThread():
@@ -50,40 +75,15 @@ class Post:
     postData = PostData(channel, message, identity, command = command)
     self._sendRequest(postData)
   
-  def _addReaction(self, reaction, timestamp):
-    if not self._isAllowedToPostInThisChannel(channel):
-      return;
-    # move to post_data
-    options = {
-      'channel': self._event.channel(),
-      'name': reaction, 
-      'timestamp': timestamp,
-      'as_user': False,
-      'token': os.environ.get('DAKA')
-    }
-    url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
-    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
-  
   def addReactionToMessage(reaction):
     self._addReaction(reaction, self._event.id());
     
   def addReactionToOriginalMessage(reaction):
     self._addReaction(reaction, self._event.threadId());
     
-  def deleteMessage(self, channel, id):
-    if not self._isAllowedToPostInThisChannel(channel):
-      return;
-    postData = {
-       'channel': channel,
-       'ts': id,
-       'token': os.environ.get('SECRET')
-    }
-    url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
-    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
-    
   def replacePost(self, message):
     identity = IDENTITIES[self._event.user()]
-    self.deleteMessage(self._event.channel(), self._event.id())
+    self._deleteMessage()
     self.addMessage(message, Identity(identity.get('username'), identity.get('profilePicture')))
 
   def getAllEmojis(self):
