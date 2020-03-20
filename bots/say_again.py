@@ -30,10 +30,5 @@ class SayAgain(Bot):
           if message.get('thread_ts'):
             continue;
           
-        return self._postUtil.addMessage(
-          message['text'], 
-          self._event.channel(), 
-          self._event.threadId(), 
-          identity = Identity(identity.get('username'), identity.get('profilePicture'))
-        )
+        return self._postUtil.addMessage(message['text'], identity = Identity(identity.get('username'), identity.get('profilePicture')))
           

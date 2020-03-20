@@ -42,4 +42,4 @@ class Dnd(Bot):
         responseMessage += '{}\n'.format(prof['name'])
       responseMessage += '```\n\n'
       
-      self._postUtil.addMessage(responseMessage, self._event.channel(), self._event.threadId())
+      self._postUtil.addMessage(responseMessage)

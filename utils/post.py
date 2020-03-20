@@ -30,13 +30,15 @@ class Post:
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
   
-  def addMessage(self, message, channel, threadId, identity = None):
+  def addMessage(self, message, identity = None):
     if self._event.isPartOfAThread():
       self.addMessageToThread(message, identity)
     else:
-      self.addMessageToChannel(message, channel, identity)
+      self.addMessageToChannel(message, identity)
   
-  def addMessageToChannel(self, message, channel, identity = None):
+  def addMessageToChannel(self, message, identity = None, channel = None):
+    if not channel:
+      channel = self._event.channel()
     postData = PostData(channel, message, identity)
     self._sendRequest(postData)
     

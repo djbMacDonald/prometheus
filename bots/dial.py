@@ -9,4 +9,4 @@ class Dial(Bot):
     if self._event.channel() != 'CSZFZKGFK' or self._event.isFromABot() or not self._event.isAMessage():
       return
     identity = Identity(userName = 'The Singer', emoji = 'musical_note');
-    self._postUtil.addMessageToChannel(self._event.text(), CHANNELS['Chaos'], identity)
+    self._postUtil.addMessageToChannel(self._event.text(), identity, CHANNELS['Chaos'])

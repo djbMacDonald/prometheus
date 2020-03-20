@@ -174,7 +174,7 @@ def bannedWords():
   postUtil = Post(Pool(1))
   if text.isdigit():
     getNewBans(int(text), {})
-    postUtil.addMessageToChannel(text + ' new bans added', CHANNELS['Underscore'])
+    postUtil.addMessageToChannel(text + ' new bans added', channel = CHANNELS['Underscore'])
     return Response(), 200
 
   elif len(words) > 1 or not text.isalpha() or text in bans.keys():
@@ -184,15 +184,15 @@ def bannedWords():
     banUtil = Ban()
     dailybans = banUtil.getBans()
 
-    postUtil.addMessageToChannel('Current Bans: ' + ', '.join(dailybans), CHANNELS['Underscore'])
+    postUtil.addMessageToChannel('Current Bans: ' + ', '.join(dailybans), channel = CHANNELS['Underscore'])
   elif text == 'clear':
     bans = {}
     saveBans()
-    postUtil.addMessageToChannel('Bans Cleared!', CHANNELS['Underscore'])
+    postUtil.addMessageToChannel('Bans Cleared!', channel = CHANNELS['Underscore'])
   else:
     addBan(text)
     saveBans()
-    postUtil.addMessageToChannel(text + ' is now banned', CHANNELS['Underscore'])
+    postUtil.addMessageToChannel(text + ' is now banned', channel = CHANNELS['Underscore'])
   return Response(), 200
 
 @app.route('/quicktime', methods=['POST'])
