@@ -48,7 +48,7 @@ def inbound():
     cleanData = data.get('event')
     if 'blocks' in cleanData:
       del(cleanData['blocks'])
-    print(json.dumps(cleanData, indent=2, sort_keys=True))
+    # print(json.dumps(cleanData, indent=2, sort_keys=True))
     
     
   pool = Pool(1)

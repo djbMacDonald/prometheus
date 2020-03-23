@@ -8,7 +8,7 @@ from constant.people import IDENTITIES
 from model.identity import Identity
 
 def poolCallback(args):
-  print('test', args)
+  # print('test', args)
   args.close()
   return
 
