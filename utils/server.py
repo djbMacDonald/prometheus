@@ -25,6 +25,7 @@ def getAllEmotes():
   postData = {
     'token': os.environ.get('SECRET')
   }
+  # print('https://slack.com/api/emoji.list?{}'.format(urllib.parse.urlencode(postData)))
   req = requests.get('https://slack.com/api/emoji.list?{}'.format(urllib.parse.urlencode(postData)))
   allEmotes = list(req.json().get('emoji').keys())
   return allEmotes

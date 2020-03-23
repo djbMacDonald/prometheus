@@ -10,6 +10,5 @@ class Lol(Bot):
     if not self._event.text():
       return
     emojis = self._emoteUtil.getAll()
-    print("fire" in emojis)
     if self._event.text().lower() in emojis: 
       self._postUtil.addReactionToMessage(self._event.text().lower())
