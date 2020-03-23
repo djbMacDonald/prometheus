@@ -21,6 +21,7 @@ import os
 import asyncio
 from model.user import User
 from utils.server import *
+# from constant.emotes import DEFAULT_EMOTES
 
 # If you need to define a utility function for this file, do it in utils/server.py
 
