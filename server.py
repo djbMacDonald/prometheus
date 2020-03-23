@@ -21,7 +21,7 @@ import os
 import asyncio
 from model.user import User
 from utils.server import *
-# from constant.emotes import DEFAULT_EMOTES
+from constant.emotes import DEFAULT_EMOTES
 
 # If you need to define a utility function for this file, do it in utils/server.py
 
@@ -31,7 +31,7 @@ log = True
 handledEvents = []
 bans = {}
 
-emotes = getAllEmotes();
+emotes = getAllEmotes() + DEFAULT_EMOTES;
 
 botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
 
