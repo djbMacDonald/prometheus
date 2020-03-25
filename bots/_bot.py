@@ -9,6 +9,8 @@ from utils.emote import Emote
 
 class Bot(object):
   
+  _active = False
+  
   def __init__(self, eventModel, pool, mongoClient, user, emotes):
     self._event = eventModel
     self._user = user
@@ -24,6 +26,11 @@ class Bot(object):
   @classmethod
   def description(cls):
     return ""
+  
+  def safeRun(self):
+    if not self._active:
+      return
+    self.run()
   
   def run(self):
     return

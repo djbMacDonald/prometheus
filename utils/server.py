@@ -38,7 +38,7 @@ def callBot(bot, originalEvent, pool, client, user, emotes):
   moduleType = getattr(bots, bot)
   className = convertCase(bot)
   runner = getattr(moduleType, className)(originalEvent, pool, client, user, emotes)
-  return runner.run()
+  return runner.safeRun()
 
 def botConfigure(action, bot, value):
   if action not in ['frequency', 'target']:

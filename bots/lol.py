@@ -2,6 +2,8 @@ from bots._bot import Bot
 
 class Lol(Bot):
   
+  _active = True
+  
   @classmethod
   def description(cls):
     return "`Lol` Adds an emote if your message matches an emote"
