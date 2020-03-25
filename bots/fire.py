@@ -4,6 +4,7 @@ from bots._bot import Bot
 
 class Fire(Bot):
   
+  _active = True
   _frequency = .05
   _frequencyFire = .6
   _frequencyDrew = .2

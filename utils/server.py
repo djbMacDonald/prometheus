@@ -21,6 +21,8 @@ import os
 import asyncio
 from model.user import User
 
+hardDisableAllBots = False
+
 def getAllEmotes():
   postData = {
     'token': os.environ.get('SECRET')
@@ -35,6 +37,8 @@ def convertCase(name):
   return''.join(x.title() for x in components)
 
 def callBot(bot, originalEvent, pool, client, user, emotes):
+  if hardDisableAllBots:
+    return
   moduleType = getattr(bots, bot)
   className = convertCase(bot)
   runner = getattr(moduleType, className)(originalEvent, pool, client, user, emotes)

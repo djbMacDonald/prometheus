@@ -4,6 +4,8 @@ from bots._bot import Bot
 
 class Emerald(Bot):
   
+  _active = True
+  
   _frequency = .05
   _target = 'Dakota'
   

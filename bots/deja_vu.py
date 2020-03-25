@@ -4,6 +4,7 @@ from bots._bot import Bot
 
 class DejaVu(Bot):
   
+  _active = True
   _frequency = .01
   
   @classmethod

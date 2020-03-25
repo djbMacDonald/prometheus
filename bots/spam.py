@@ -6,6 +6,7 @@ import urllib
 
 class Spam(Bot):
   
+  _active = True
   _frequency = .01
   _numberOfEmotes = 23
   

@@ -6,6 +6,8 @@ from bots._bot import Bot
 
 class Dnd(Bot):
   
+  _active = True
+  
   def run(self):
     if self._event.isFromABot() or not self._event.text() or not self._event.text()[0] == '!':
       return
