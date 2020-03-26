@@ -6,6 +6,8 @@ from bots._bot import Bot
 
 class SayAgain(Bot):
   
+  _active = True
+  
   @classmethod
   def description(cls):
     return "`Say Again` If you say 'you can say that again', it will make someone say it again."

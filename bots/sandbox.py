@@ -7,6 +7,8 @@ import os
 
 class Sandbox(Bot):
   
+  _active = False
+  
   # @classmethod
   # def description(cls):
     # return "`Sandbox` Random Stuff"

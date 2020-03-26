@@ -7,6 +7,7 @@ from bots._bot import Bot
 
 class QuicktimeEvent(Bot):
   
+  _active = True
   
   # @classmethod
   # def description(cls):

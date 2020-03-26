@@ -5,6 +5,8 @@ from bots._bot import Bot
 
 class Reminder(Bot):
   
+  _active = True
+  
   def run(self):
     if not self._event.event() or not self._event.isFromABot() or not self._event.isInChannel('Reminders') or not self._event.isFromBot('reminder') or not self._event.text() == 'Reminder: Trigger Schemes Poll.':
       return

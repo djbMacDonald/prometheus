@@ -5,6 +5,8 @@ from bots._bot import Bot
 
 class Summon(Bot):
   
+  _active = True
+  
   @classmethod
   def description(cls):
     return "`Summon` If you say 'summon the silent' in a thread, then will ping all Chaos users with weird stuff."
