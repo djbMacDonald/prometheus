@@ -7,8 +7,9 @@ import urllib
 class Spam(Bot):
   
   _active = True
-  _frequency = .01
-  _numberOfEmotes = 23
+  _frequency = .005
+  _minNumberOfEmotes = 10
+  _maxNumberOfEmotes = 23
   
   @classmethod
   def description(cls):
@@ -17,7 +18,6 @@ class Spam(Bot):
   def run(self):
     if self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency):
       return
-    
-    randomEmojis = random.sample(self._emoteUtil.getAll(), k=23)
+    randomEmojis = random.sample(self._emoteUtil.getAll(), k=self._randomUtil.randRange(self._minNumberOfEmotes, self._maxNumberOfEmotes))
     for emoji in randomEmojis:
       self._postUtil.addReactionToMessage(emoji)
