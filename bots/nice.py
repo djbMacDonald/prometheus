@@ -3,6 +3,7 @@ from bots._bot import Bot
 
 class Nice(Bot):
   
+  _active = True
   _min = 3
   _max = 10
   

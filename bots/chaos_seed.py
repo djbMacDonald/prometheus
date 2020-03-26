@@ -8,6 +8,7 @@ from bots._bot import Bot
 
 class ChaosSeed(Bot):
   
+  _active = True
   _fileName = 'threads.txt'
   _minCount = 6
   _maxCount = 10
