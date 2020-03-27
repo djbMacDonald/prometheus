@@ -6,6 +6,7 @@ import os
 from bots._bot import Bot
 
 class Mock(Bot):
+  _active = True
   
   @classmethod
   def description(cls):
