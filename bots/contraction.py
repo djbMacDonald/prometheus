@@ -14,7 +14,8 @@ class Contraction(Bot):
     "never": "ne'er",
     "yes": "yup",
     "actually": "act'ly",
-    "when": "w'en"
+    "when": "w'en",
+    "even": "e'en"
   }
   
   _inner_upper = {
@@ -25,7 +26,8 @@ class Contraction(Bot):
     "Never": "Ne'er",
     "Yes": "Yup",
     "Actually": "Act'ly",
-    "When": "W'en"
+    "When": "W'en",
+    "Even": "E'en"
   }
   
   _before = {
