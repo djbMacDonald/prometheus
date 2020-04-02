@@ -7,6 +7,7 @@ from bots._bot import Bot
 
 class Crab(Bot):
   
+  _active = False
   _frequency = 0
   _target = 'Ayshu'
   

@@ -4,6 +4,8 @@ from bots._bot import Bot
 
 class Botify(Bot):
   
+  _active = True
+  
   _frequency = .2
   _target = "CJ"
   

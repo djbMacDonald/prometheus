@@ -3,6 +3,8 @@ from model.identity import Identity
 
 class Code(Bot):
   
+  _active = False
+  
   @classmethod
   def description(cls):
     return "`Code` sort of a test to get configs from DB. Eventually I need to allow these comments to view settings as well."

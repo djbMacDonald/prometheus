@@ -5,6 +5,8 @@ from bots._bot import Bot
 
 class Censor(Bot):
   
+  _active = True
+  
   @classmethod
   def description(cls):
     return "`Censor` Censors instances of banned words. Only applies to those opted into Chaos Users. The banned word changes every day."

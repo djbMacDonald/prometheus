@@ -3,6 +3,8 @@ from bots._bot import Bot
 
 class Hello(Bot):
   
+  _active = True
+  
   @classmethod
   def description(cls):
     return "`Hello` if you say 'Hi Prometheus' it will say hello back."

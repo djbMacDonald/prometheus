@@ -5,6 +5,8 @@ from constant.channels import CHANNELS
 
 class Dial(Bot):
   
+  _active = True
+  
   def run(self):
     if self._event.channel() != 'CSZFZKGFK' or self._event.isFromABot() or not self._event.isAMessage():
       return

@@ -4,6 +4,7 @@ import re
 
 class Contraction(Bot):
 
+  _active = True
   _frequency = .05
   
   _inner = {
