@@ -93,7 +93,12 @@ def list():
   
 @app.route('/event_history', methods=['POST'])
 def eventHistory():
-  return "\n".join(open('event_log.txt', 'r').read().splitlines()[-20:])
+  req = request.values.to_dict()
+  trigger = req.get('trigger_id')
+  user = User(Event(req))
+  modal = Modal('event_history', trigger, user)
+  modal.open()
+  return Response(), 200
 
 @app.route('/push_me', methods=['POST'])
 def stuff():
