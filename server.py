@@ -90,6 +90,12 @@ def list():
     return Response(), 200
   if words[0].lower() == 'configure':
     return botConfigure(words[1], words[2], words[3])
+  
+@app.route('/event_history', methods=['POST'])
+def eventHistory():
+  lines = open('event_log.txt', 'r').read()
+  print(lines)
+  return "test"
 
 @app.route('/push_me', methods=['POST'])
 def stuff():
