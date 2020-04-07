@@ -25,7 +25,12 @@ class Bot(object):
     
   @classmethod
   def formatDescription(cls):
-    return ""
+    description = cls.description()
+    if description == "":
+      return description
+    if not cls._active:
+      return "DISABLED: " + description
+    return description
   
   @classmethod
   def description(cls):

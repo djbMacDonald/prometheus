@@ -24,7 +24,7 @@ class BotListView(View):
       if not description:
         continue
       text = f"*{_convertCase(bot)}*\n>{description}"
-      print (text)
+      # print (text)
       self._blocks.append(
         { 
            "type":"section",
@@ -35,36 +35,36 @@ class BotListView(View):
         }
       )
       
-      self._blocks.append({
-         "type":"actions",
-         "elements":[ 
-            { 
-               "type":"button",
-               "style": 'primary',
-               "text":{ 
-                  "type":"plain_text",
-                  "text":"Configure" ,
-                  "emoji":True
-               },
-               "value":bot
-            },
-           { 
-               "type":"button",
-               "style": 'danger',
-               "text":{ 
-                  "type":"plain_text",
-                  "text":"Disable" ,
-                  "emoji":True
-               },
-               "value":bot
-            }
-         ]
-      })
+      # self._blocks.append({
+      #    "type":"actions",
+      #    "elements":[ 
+      #       { 
+      #          "type":"button",
+      #          "style": 'primary',
+      #          "text":{ 
+      #             "type":"plain_text",
+      #             "text":"Configure" ,
+      #             "emoji":True
+      #          },
+      #          "value":bot
+      #       },
+      #      { 
+      #          "type":"button",
+      #          "style": 'danger',
+      #          "text":{ 
+      #             "type":"plain_text",
+      #             "text":"Disable" ,
+      #             "emoji":True
+      #          },
+      #          "value":bot
+      #       }
+      #    ]
+      # })
    
   
 def _getDescription(bot):
   try:
-    return _getBotAttr(bot, "description")
+    return _getBotAttr(bot, "formatDescription")
   except Exception as error:
     pprint(error)
     # print(traceback.format_exc())

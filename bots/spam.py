@@ -13,7 +13,7 @@ class Spam(Bot):
   
   @classmethod
   def description(cls):
-    return "Has a {}% chance to post {} random reactions to a message".format(cls._frequency * 100, cls._numberOfEmotes)
+    return "Has a {}% chance to post {}-{} random reactions to a message".format(cls._frequency * 100, cls._minNumberOfEmotes, cls._maxNumberOfEmotes)
   
   def run(self):
     if self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency):
