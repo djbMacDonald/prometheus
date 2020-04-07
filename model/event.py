@@ -74,6 +74,9 @@ class Event:
   def channel(self):
     return self._channel
   
+  def channelName(self):
+    return list(CHANNELS.keys())[list(CHANNELS.values()).index(self._channel)]
+  
   def id(self):
     return self._id
   

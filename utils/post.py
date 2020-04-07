@@ -32,7 +32,7 @@ class Post:
     if not self._isAllowedToPostInThisChannel(info['channel']):
       return;
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
-    self._log.logEvent("{}: {} adds message: {}".format(self._event.channel(), self._caller, self._truncate(info['text'])))
+    self._log.logEvent("{}: {} adds message: {}".format(self._event.channelName(), self._caller, self._truncate(info['text'])))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _addReaction(self, reaction, timestamp):
@@ -47,7 +47,7 @@ class Post:
       'token': os.environ.get('DAKA')
     }
     url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
-    self._logEvent("{}: {}-bot adds reaction: {}".format(self._event.channel(), self._caller, reaction))
+    self._log.logEvent("{}: {}-bot adds reaction: {}".format(self._event.channelName(), self._caller, reaction))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _deleteMessage(self):
@@ -59,7 +59,7 @@ class Post:
        'token': os.environ.get('SECRET')
     }
     url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
-    self._log("{}: {}-bot deletes message: {}".format(self._event.channel(), self._caller, self._truncate(self._event.text())))
+    self._log.logEvent("{}: {}-bot deletes message: {}".format(self._event.channelName(), self._caller, self._truncate(self._event.text())))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
   
   def addMessage(self, message, identity = None):
@@ -95,7 +95,7 @@ class Post:
   
   def postEphemeral(self, data):
     url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))
-    self._log("{}: {}-bot makes an ephemeral post".format(self._event.channel(), self._caller))
+    self._log.logEvent("{}: {}-bot makes an ephemeral post".format(self._event.channelName(), self._caller))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     return   
     
