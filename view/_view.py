@@ -12,8 +12,7 @@ class View:
     self.setTitle('Sample Modal')
     self.view = view
     self.state = state
-
-    
+ 
     
   def build(self):
     self._finalize()
