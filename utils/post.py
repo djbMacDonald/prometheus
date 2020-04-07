@@ -27,6 +27,7 @@ class Post:
     if not self._isAllowedToPostInThisChannel(info['channel']):
       return;
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
+    print("{} adds message: {}".format(self._caller, info['text'][:10] + (info['text'][10:] and '...')))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _addReaction(self, reaction, timestamp):
@@ -41,6 +42,7 @@ class Post:
       'token': os.environ.get('DAKA')
     }
     url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
+    print("{}-bot adds reaction: {}".format(self._caller, reaction))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _deleteMessage(self):
@@ -52,7 +54,8 @@ class Post:
        'token': os.environ.get('SECRET')
     }
     url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
-    print("{} deletes a message".format(self._caller))
+    # print("{} adds message: {}".format(self._caller, self._event.text()[:10] + (self._event.text()[10:] and '...')))
+    print("{}-bot deletes a message".format(self._caller))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
   
   def addMessage(self, message, identity = None):
@@ -88,7 +91,7 @@ class Post:
   
   def postEphemeral(self, data):
     url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))
-    print("{} makes an ephemeral post".format(self._caller))
+    print("{}-bot makes an ephemeral post".format(self._caller))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     return   
     
