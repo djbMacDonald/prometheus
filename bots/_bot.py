@@ -24,7 +24,7 @@ class Bot(object):
     self._emoteUtil = Emote(emotes)
     
   @classmethod
-  def a(cls):
+  def formatDescription(cls):
     return ""
   
   @classmethod
