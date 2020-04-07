@@ -14,9 +14,10 @@ def poolCallback(args):
 
 class Post:
   
-  def __init__(self, pool, event):
+  def __init__(self, pool, event, className):
     self._pool = pool
     self._event = event
+    self._caller = className
   
   def _isAllowedToPostInThisChannel(self, channel):
     return channel in ALLOWED_CHANNELS
@@ -51,6 +52,7 @@ class Post:
        'token': os.environ.get('SECRET')
     }
     url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
+    print("{} deletes a message".format(self._caller))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
   
   def addMessage(self, message, identity = None):
@@ -86,6 +88,7 @@ class Post:
   
   def postEphemeral(self, data):
     url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))
+    print("{} makes an ephemeral post".format(self._caller))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     return   
     

@@ -6,6 +6,7 @@ from utils.channel import Channel
 from utils.mongo import Mongo
 from utils.trigger import Trigger
 from utils.emote import Emote
+from utils.server import hardDisableAllBots
 
 class Bot(object):
   
@@ -14,7 +15,7 @@ class Bot(object):
   def __init__(self, eventModel, pool, mongoClient, user, emotes):
     self._event = eventModel
     self._user = user
-    self._postUtil = Post(pool, eventModel)
+    self._postUtil = Post(pool, eventModel, self.__class__.__name__)
     self._identityUtil = Identity()
     self._randomUtil = Random()
     self._banUtil = Ban()
@@ -28,7 +29,7 @@ class Bot(object):
     description = cls.description()
     if description == "":
       return description
-    if not cls._active:
+    if hardDisableAllBots or not cls._active:
       return "DISABLED: " + description
     return description
   
