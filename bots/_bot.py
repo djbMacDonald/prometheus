@@ -24,6 +24,10 @@ class Bot(object):
     self._emoteUtil = Emote(emotes)
     
   @classmethod
+  def a(cls):
+    return ""
+  
+  @classmethod
   def description(cls):
     return ""
   

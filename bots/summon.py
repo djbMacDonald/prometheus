@@ -9,7 +9,7 @@ class Summon(Bot):
   
   @classmethod
   def description(cls):
-    return "`Summon` If you say 'summon the silent' in a thread, then will ping all Chaos users with weird stuff."
+    return "If you say 'summon the silent' in a thread, then will ping all Chaos users with weird stuff."
   
   def run(self):
     if not self._event.text() or not self._event.text().lower() == "summon the silent" or not self._event.isPartOfAThread():

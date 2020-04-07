@@ -10,7 +10,7 @@ class Birthday(Bot):
   
   @classmethod
   def description(cls):
-    return "`Birthday` Has a {}% chance to say happy brithday on {}'s' posts".format(cls._frequency * 100, cls._target)
+    return "Has a {}% chance to say happy brithday on {}'s' posts".format(cls._frequency * 100, cls._target)
     
   def run(self):
     if self._triggerUtil.targetSendsMessageToChannel(self._target, self._frequency):

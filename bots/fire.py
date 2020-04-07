@@ -13,7 +13,7 @@ class Fire(Bot):
   
   @classmethod
   def description(cls):
-    return "`Fire` Has a {}% chance to say Pandora or Prometheus things when {} posts. {}% chance to also ping {}".format(cls._frequency * 100, cls._target, cls._frequencyDrew * 100, cls._ping)
+    return "Has a {}% chance to say Pandora or Prometheus things when {} posts. {}% chance to also ping {}".format(cls._frequency * 100, cls._target, cls._frequencyDrew * 100, cls._ping)
     
   def run(self):
     if not self._event.isFrom(self._target) or self._event.isPartOfAThread() or self._event.isFromABot() or not self._event.isAMessage():

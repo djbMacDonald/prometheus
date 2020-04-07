@@ -2,6 +2,8 @@ from bots._bot import Bot
 
 class NewBan(Bot):
   
+  _active = True
+  
   @classmethod
   def description(cls):
     return ""

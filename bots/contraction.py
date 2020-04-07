@@ -64,7 +64,7 @@ class Contraction(Bot):
   
   @classmethod
   def description(cls):
-    return "`contraction_junction` has a {}% chance to turn a message to contractions".format(cls._frequency * 100)
+    return "Has a {}% chance to turn a message to contractions".format(cls._frequency * 100)
     
   def run(self):
     if (

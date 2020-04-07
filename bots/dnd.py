@@ -8,6 +8,10 @@ class Dnd(Bot):
   
   _active = True
   
+  @classmethod
+  def description(cls):
+    return "Handles DnD commands"
+  
   def run(self):
     if self._event.isFromABot() or not self._event.text() or not self._event.text()[0] == '!':
       return

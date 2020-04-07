@@ -4,6 +4,8 @@ from bots._bot import Bot
 
 class Underscore(Bot):
   
+  _active = True
+  
   @classmethod
   def description(cls):
     return ""

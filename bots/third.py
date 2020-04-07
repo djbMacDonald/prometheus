@@ -10,12 +10,13 @@ import re
 
 class Third(Bot):
   
+  _active = True
   _target = "Brenden"
   _frequency = .1
   
   @classmethod
   def description(cls):
-    return "`Third` Makes {} talk in third person".format(cls._target)
+    return "Makes {} talk in third person".format(cls._target)
   
   def run(self):
     if (

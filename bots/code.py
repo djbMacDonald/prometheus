@@ -7,7 +7,7 @@ class Code(Bot):
   
   @classmethod
   def description(cls):
-    return "`Code` sort of a test to get configs from DB. Eventually I need to allow these comments to view settings as well."
+    return "Sort of a test to get configs from DB. Eventually I need to allow these comments to view settings as well."
   
   def run(self):
     if self._event.isFromABot() or not self._event.isAMessage():

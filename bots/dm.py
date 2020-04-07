@@ -14,7 +14,7 @@ class Dm(Bot):
   
   @classmethod
   def description(cls):
-    return "`DM` Has a {}% chance to post a command from your dungeon master. {}% of the time it will be a saving throw. Only works on messages in channel directly.".format(cls._frenquency * 100, cls._frequency_save * 100)
+    return "Has a {}% chance to post a command from your dungeon master. {}% of the time it will be a saving throw. Only works on messages in channel directly.".format(cls._frenquency * 100, cls._frequency_save * 100)
     
   def run(self):
     if self._event.isFromABot() or self._event.isPartOfAThread() or not self._event.isAMessage() or not self._randomUtil.rollDice(self._frenquency):

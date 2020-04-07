@@ -1,6 +1,7 @@
 from view._view import View
 from constant.view import DIVIDER
 import bots
+from pprint import pprint
 
 
 class BotListView(View):
@@ -65,8 +66,8 @@ def _getDescription(bot):
   try:
     return _getBotAttr(bot, "description")
   except Exception as error:
-    pprint.pprint(error)
-    print(traceback.format_exc())
+    pprint(error)
+    # print(traceback.format_exc())
     return ""
 
 def _getBotAttr(bot, attrName):

@@ -15,7 +15,7 @@ class ChaosSeed(Bot):
   
   @classmethod
   def description(cls):
-    return "`Chaos Seed` If somewhere between {} and {} posts are made in a thread, pings all Chaos users not currently in thread".format(cls._minCount, cls._maxCount)
+    return "If somewhere between {} and {} posts are made in a thread, pings all Chaos users not currently in thread".format(cls._minCount, cls._maxCount)
   
   def run(self):
     lines = open(self._fileName, 'r').read().splitlines()

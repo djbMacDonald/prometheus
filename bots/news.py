@@ -8,13 +8,14 @@ from xml.dom import minidom
 
 class News(Bot):
   
+  _active = True
   _target = "Ayshu"
-  _frequency = .01
+  _frequency = .005
   _url = "https://www.buzzfeed.com/lol.xml"
   
   @classmethod
   def description(cls):
-    return "`News` Posts a Buzzfeed headline for {} {}% of the time.".format(cls._target, cls._frequency * 100)
+    return "Posts a Buzzfeed headline for {} {}% of the time.".format(cls._target, cls._frequency * 100)
   
   def run(self):
     if self._event.isFromABot() or not self._event.isFrom(self._target) or not self._randomUtil.rollDice(self._frequency) or self._event.isPartOfAThread():

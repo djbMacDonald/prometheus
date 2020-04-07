@@ -9,7 +9,7 @@ class Nice(Bot):
   
   @classmethod
   def description(cls):
-    return "`Nice` If you say nice, will respond with 'nice', {} to {} times".format(cls._min, cls._max)
+    return "If you say nice, will respond with 'nice', {} to {} times".format(cls._min, cls._max)
   
   def run(self):
     if self._event.isFromABot() or not self._event.text() or len(self._event.text()) < 1:

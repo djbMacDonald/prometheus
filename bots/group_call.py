@@ -5,9 +5,11 @@ from bots._bot import Bot
 
 class GroupCall(Bot):
   
+  _active = True
+  
   @classmethod
   def description(cls):
-    return "`Group Call` Pings all users in a given group. Available are: {}".format(", ".join(GROUP_LIST.keys()))
+    return "Pings all users in a given group. Available are: {}".format(", ".join(GROUP_LIST.keys()))
   
   def run(self):
     if not self._event.isAMessage():

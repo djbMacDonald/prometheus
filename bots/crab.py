@@ -13,7 +13,7 @@ class Crab(Bot):
   
   @classmethod
   def description(cls):
-    return "`Crab` Has a {}% chance to call {} a crab".format(cls._frequency * 100, cls._target)
+    return "Has a {}% chance to call {} a crab".format(cls._frequency * 100, cls._target)
   
   def run(self):
     if self._event.isFromABot() or not self._event.isFrom(self._target) or not self._randomUtil.rollDice(self._frequency):

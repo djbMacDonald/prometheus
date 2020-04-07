@@ -11,7 +11,7 @@ class Emerald(Bot):
   
   @classmethod
   def description(cls):
-    return "`Emerald` Bugs {} about chaos emerald {}% of the time".format(cls._target, cls._frequency * 100)
+    return "Bugs {} about chaos emerald {}% of the time".format(cls._target, cls._frequency * 100)
     
   def run(self):
     if not self._event.isFrom(self._target) or self._event.isPartOfAThread() or self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency):

@@ -11,7 +11,7 @@ class Botify(Bot):
   
   @classmethod
   def description(cls):
-    return "`Botify` Has a {}% chance of replacing {}'s message with {}-bot's message".format(cls._frequency * 100, cls._target, cls._target)
+    return "Has a {}% chance of replacing {}'s message with {}-bot's message".format(cls._frequency * 100, cls._target, cls._target)
   
   def run(self):
     if self._triggerUtil.targetSendsMessageAnywhere(self._target, self._frequency):

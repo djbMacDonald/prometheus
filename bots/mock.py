@@ -10,7 +10,7 @@ class Mock(Bot):
   
   @classmethod
   def description(cls):
-    return "`Mock` If you use the spongebob-mock emote on a message,  it will post to a thread that weird alternating caps thing version of the message."
+    return "If you use the spongebob-mock emote on a message,  it will post to a thread that weird alternating caps thing version of the message."
   
   def run(self):
     if self._event.isFromABot():

@@ -9,7 +9,7 @@ class DejaVu(Bot):
   
   @classmethod
   def description(cls):
-    return "`Deja Vu` Has a {}% chance to post a message from the channel history as a random bot".format(cls._frequency * 100)
+    return "Has a {}% chance to post a message from the channel history as a random bot".format(cls._frequency * 100)
   
   def run(self):
     if self._event.isFromABot() or not self._randomUtil.rollDice(self._frequency) or not self._event.isAMessage():
