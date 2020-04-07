@@ -32,7 +32,7 @@ class Post:
     if not self._isAllowedToPostInThisChannel(info['channel']):
       return;
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
-    self._log.logEvent("{}: {} adds message: {}".format(self._event.channelName(), self._caller, self._truncate(info['text'])))
+    self._log.logEvent("{}: {}-bot adds message: {}".format(self._event.channelName(), self._caller, self._truncate(info['text'])))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _addReaction(self, reaction, timestamp):
