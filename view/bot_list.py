@@ -12,7 +12,6 @@ class BotListView(View):
   
     
   def build(self):
-    
     self.setTitle('Bot List')    
     self._buildBotList()
     self._finalize()

@@ -10,12 +10,14 @@ class EventHistoryView(View):
     return self.view
   
   def _buildHistory(self):
+    # events = "\n".join(open('event_log.txt', 'r').read().splitlines()[-20:])
+    # eventsMessage = "\n".join(events)
     self._blocks.append(
         { 
            "type":"section",
            "text":{ 
               "type":"mrkdwn",
-              "text": "\n".join(open('event_log.txt', 'r').read().splitlines()[-20:].reverse())
+              "text": text
            }
         }
       )
