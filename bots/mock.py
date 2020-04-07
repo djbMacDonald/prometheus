@@ -39,14 +39,14 @@ class Mock(Bot):
     intersection = set(reactionNames).intersection(['spongebob-mock', 'mocking-spongebob'])
     if len(intersection) == 0:
       return
-    
-    message = self._mockString(message.get('text'))
     self._postUtil.addMessageToThread(
       self._mockString(message.get('text')), 
-      Identity('sPoNgeBoB', 'https://emoji.slack-edge.com/TDBEDSEQZ/spongebob-mock/3b66c2fdf2b77a8d.png'))
+      Identity('sPoNgeBoB', 'https://emoji.slack-edge.com/TDBEDSEQZ/spongebob-mock/3b66c2fdf2b77a8d.png')
+    )
     return 'end'
     
   def _mockString(self, str):
+    a = map(lambda x: x, str)
     ret = ""
     i = True  # capitalize
     for char in str:
