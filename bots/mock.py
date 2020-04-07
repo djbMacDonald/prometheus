@@ -45,15 +45,8 @@ class Mock(Bot):
     )
     return 'end'
     
-  def _mockString(self, str):
-    a = map(lambda x: x, str)
-    ret = ""
-    i = True  # capitalize
-    for char in str:
-        if i:
-            ret += char.upper()
-        else:
-            ret += char.lower()
-        if char != ' ':
-            i = not i
-    return ret
+  def _mockString(self, string):
+    return "".join(map(
+      lambda charTuple: charTuple[1].lower() if charTuple[0] % 2 else charTuple[1].upper(), 
+      enumerate(string)
+    ))
