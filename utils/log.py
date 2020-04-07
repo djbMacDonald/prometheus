@@ -3,6 +3,12 @@ from constant.settings import DEBUG
 #move to static functions
 class Log:
   
+  def logEvent(self, eventMessage):
+    f = open('event_log.txt', 'a+')
+    f.write('{}\r\n'.format(eventMessage))
+    f.close()
+    print(eventMessage)
+      
   def logToFile(self, event):
     f = open('{}_logfile.txt'.format(event.channel()), 'a+')
     f.write('{}\r\n'.format(event.text()))

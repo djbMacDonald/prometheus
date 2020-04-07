@@ -6,6 +6,7 @@ from model.post_data import PostData
 from constant.channels import ALLOWED_CHANNELS
 from constant.people import IDENTITIES
 from model.identity import Identity
+from utils.log import Log
 
 def poolCallback(args):
   # print('test', args)
@@ -15,6 +16,7 @@ def poolCallback(args):
 class Post:
   
   def __init__(self, pool, event, className):
+    self._log = Log()
     self._pool = pool
     self._event = event
     self._caller = className
@@ -27,7 +29,7 @@ class Post:
     if not self._isAllowedToPostInThisChannel(info['channel']):
       return;
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
-    print("{} adds message: {}".format(self._caller, info['text'][:10] + (info['text'][10:] and '...')))
+    self._log.logEvent("{} adds message: {}".format(self._caller, info['text'][:10] + (info['text'][10:] and '...')))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _addReaction(self, reaction, timestamp):
@@ -42,7 +44,7 @@ class Post:
       'token': os.environ.get('DAKA')
     }
     url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
-    print("{}-bot adds reaction: {}".format(self._caller, reaction))
+    self._logEvent("{}-bot adds reaction: {}".format(self._caller, reaction))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _deleteMessage(self):
@@ -54,8 +56,7 @@ class Post:
        'token': os.environ.get('SECRET')
     }
     url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
-    # print("{} adds message: {}".format(self._caller, self._event.text()[:10] + (self._event.text()[10:] and '...')))
-    print("{}-bot deletes a message".format(self._caller))
+    self._log("{}-bot deletes message: {}".format(self._caller, self._event.text()[:10] + (self._event.text()[10:] and '...')))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
   
   def addMessage(self, message, identity = None):
@@ -91,7 +92,7 @@ class Post:
   
   def postEphemeral(self, data):
     url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))
-    print("{}-bot makes an ephemeral post".format(self._caller))
+    self._log("{}-bot makes an ephemeral post".format(self._caller))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     return   
     
