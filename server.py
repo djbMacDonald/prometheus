@@ -93,9 +93,11 @@ def list():
   
 @app.route('/event_history', methods=['POST'])
 def eventHistory():
-  lines = open('event_log.txt', 'r').read()
-  print(lines)
-  return "test"
+  history = open('event_log.txt', 'r').read()
+  lines = history.splitlines()
+  last = lines[-2:]
+  print(last)
+  return history
 
 @app.route('/push_me', methods=['POST'])
 def stuff():
