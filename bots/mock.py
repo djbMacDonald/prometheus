@@ -34,12 +34,16 @@ class Mock(Bot):
       return
     if not message.get('reactions'):
       return
-    for reaction in message.get('reactions'):
-      if reaction.get('name') not in ['spongebob-mock', 'mocking-spongebob'] or reaction.get('count') < 1:
-        return
-    self.text = message.get('text')
-    message = self._mockString(self.text)
-    self._postUtil.addMessageToThread(message, Identity('sPoNgeBoB', 'https://emoji.slack-edge.com/TDBEDSEQZ/spongebob-mock/3b66c2fdf2b77a8d.png'))
+    
+    reactionNames = map(lambda reaction: reaction.get('name'), message.get('reactions'))
+    intersection = set(reactionNames).intersection(['spongebob-mock', 'mocking-spongebob'])
+    if len(intersection) == 0:
+      return
+    
+    message = self._mockString(message.get('text'))
+    self._postUtil.addMessageToThread(
+      self._mockString(message.get('text')), 
+      Identity('sPoNgeBoB', 'https://emoji.slack-edge.com/TDBEDSEQZ/spongebob-mock/3b66c2fdf2b77a8d.png'))
     return 'end'
     
   def _mockString(self, str):

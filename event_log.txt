@@ -2,3 +2,7 @@ Megamoji: Lol-bot adds reaction: test
 Megamoji: Lol-bot adds reaction: lol
 Megamoji: Lol-bot adds reaction: test
 Megamoji: Mock adds message: QwEq
+Megamoji: Mock-bot adds message: LoL
+Megamoji: Lol-bot adds reaction: lol
+Megamoji: Mock-bot adds message: TeSt
+Megamoji: Lol-bot adds reaction: test
