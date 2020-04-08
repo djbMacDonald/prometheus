@@ -20,3 +20,4 @@ Megamoji: Lol-bot adds reaction: test
 Megamoji: Lol-bot adds reaction: test
 Megamoji: Mock-bot adds message: TeSt
 Megamoji: Lol-bot adds reaction: test
+Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@U...
