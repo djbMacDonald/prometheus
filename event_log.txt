@@ -86,3 +86,13 @@ Chaos: Lol-bot adds reaction: exactly
 Chaos: Lol-bot adds reaction: no
 Chaos: Contraction-bot adds message: Yeah, I don't know h...
 Chaos: Contraction-bot deletes message: Yeah, I don't know h...
+Chaos: Lol-bot adds reaction: yep
+Chaos: Contraction-bot adds message: 't's on sale 50% off
+Chaos: Contraction-bot deletes message: it's on sale 50% off
+Chaos: Botify-bot adds message: for 6?
+Chaos: Botify-bot deletes message: for 6?
+Chaos: Lol-bot adds reaction: yeah
+Chaos: Botify-bot adds message: DAMN SON
+Chaos: Botify-bot deletes message: DAMN SON
+Chaos: Scrambler-bot adds message: let's casual Civ oth...
+Chaos: Scrambler-bot deletes message: "Hey, let's go play ...
