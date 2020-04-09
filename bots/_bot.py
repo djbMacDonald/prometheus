@@ -11,6 +11,7 @@ from utils.server import hardDisableAllBots
 class Bot(object):
   
   _active = False
+  _frequency = 0
   
   def __init__(self, eventModel, pool, mongoClient, user, emotes):
     self._event = eventModel
