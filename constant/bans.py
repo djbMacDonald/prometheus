@@ -1,4 +1,5 @@
 BAN_BAN_LIST = {
+  'i',
   'it',
   'to',
   'the',

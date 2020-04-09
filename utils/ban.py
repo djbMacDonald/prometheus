@@ -15,7 +15,7 @@ class Ban:
     lines = open('{}_logfile.txt'.format(CHANNELS['Chaos']), 'r').read().splitlines()
     myline = random.choice(lines)
     myword = '1';
-    while not myword.isalpha() or myword in bans.keys() or myword in BAN_BAN_LIST:
+    while not myword.isalpha() or myword in bans.keys() or myword.lower() in BAN_BAN_LIST:
       myline = random.choice(lines)
       myword = random.choice(myline.split(' '))
     
