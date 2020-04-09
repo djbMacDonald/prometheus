@@ -184,3 +184,7 @@ Chaos: Botify-bot adds message: Quiet day
 Chaos: Botify-bot deletes message: Quiet day
 Megamoji: Lex-bot adds message: test mesgsae
 Megamoji: Lex-bot deletes message: test message
+Chaos: Botify-bot adds message: Generally because we...
+Chaos: Botify-bot deletes message: Generally because we...
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: DejaVu-bot adds message: <@UDC4QL95G>
