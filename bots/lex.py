@@ -21,7 +21,7 @@ class Lex(Bot):
       return
     
     words = map(self._doStuff, self._event.text().split(' '))
-    newMessage = 
+    newMessage = "".join(words)
     if self._event.text() == newMessage:
       return;
     self._postUtil.replacePost(newMessage)
@@ -30,4 +30,4 @@ class Lex(Bot):
     if len(word) < 4:
       return word
     first, mid, last = word[0], word[1:-1], word[-1]
-    return first + shuffle_string(mids) + last
+    return first + shuffle_string(mid) + last
