@@ -19,13 +19,15 @@ class Lex(Bot):
         or not self._randomUtil.rollDice(self._frequency)
     ):
       return
-
-    newMessage = self._event.text()
-    words = newMessage.split(' ');
     
-    thing = map(self._doStuff, words)
+    words = map(self._doStuff, self._event.text().split(' '))
+    newMessage = 
+    if self._event.text() == newMessage:
+      return;
+    self._postUtil.replacePost(newMessage)
   
   def doStuff(self, word):
-    if len(word) < 5:
+    if len(word) < 4:
       return word
-    return word
+    first, mid, last = word[0], word[1:-1], word[-1]
+    return first + shuffle_string(mids) + last
