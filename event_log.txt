@@ -621,3 +621,17 @@ Megamoji: SpaceReplace-bot adds message: a-s
 Megamoji: SpaceReplace-bot adds message: a-s
 Megamoji: SpaceReplace-bot adds message: z-p-e
 Megamoji: SpaceReplace-bot adds message: q-w
+Megamoji: SpaceReplace-bot adds message: q-w
+Megamoji: SpaceReplace-bot adds message: z-x
+Megamoji: SpaceReplace-bot adds message: a-s
+Megamoji: SpaceReplace-bot adds message: q-w
+Megamoji: SpaceReplace-bot adds message: q-w
+Megamoji: SpaceReplace-bot adds message: a-x
+Megamoji: SpaceReplace-bot adds message: a-x
+Megamoji: SpaceReplace-bot deletes message: a x
+Megamoji: SpaceReplace-bot adds message: z-a
+Megamoji: SpaceReplace-bot deletes message: z a
+Megamoji: SpaceReplace-bot adds message: r-t
+Megamoji: SpaceReplace-bot deletes message: r t
+Megamoji: SpaceReplace-bot adds message: p-o
+Megamoji: SpaceReplace-bot deletes message: p o

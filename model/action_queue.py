@@ -23,9 +23,9 @@ class ActionQueue:
     self._reactions = []
     self._commands = []
     
-  def addReplacement(self, bot, channel, thread, message, identity):
+  def addReplacement(self, bot, channel, id, thread, message, identity):
     self._replacements.append(
-      {'bot': bot, 'channel': channel, 'threadId': thread, 'message': message, 'identity': identity}
+      {'bot': bot, 'channel': channel, 'id': id, 'threadId': thread, 'message': message, 'identity': identity}
     )
   
   def addReaction(self, bot, channel, timestamp, reaction):
@@ -34,15 +34,7 @@ class ActionQueue:
     )
   
   def addReply(self, bot, channel, thread, message, identity):
-    self._replies.append(
-      {
-        'bot': bot, 
-        'channel': channel, 
-        'threadId': thread, 
-        'message': message,
-        'identity': identity
-      }
-    )
+    self._replies.append({'bot': bot, 'channel': channel, 'threadId': thread, 'message': message,'identity': identity})
   
   def flush(self):
     if self._replacements:
@@ -65,7 +57,16 @@ class ActionQueue:
     self._commands = []
   
   def _flushReplacement(self, replacementRequest):
-    self._flushReply(replacementRequest)
+    postData = PostData(
+      replacementRequest.get('channel'), 
+      replacementRequest.get('message'), 
+      replacementRequest.get('identity'), 
+      threadId = replacementRequest.get('threadId')
+    )
+    info = postData.get()
+    url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    self._log.logEvent("{}: {}-bot adds message: {}".format(CHANNELS[replyRequest.get('channel')].get('name'), replyRequest.get('bot'), info['text']))
     self._deleteMessage(replacementRequest)
     # update all refences in queue from old to new
   
@@ -94,9 +95,9 @@ class ActionQueue:
   def _deleteMessage(self, replacementRequest):
     postData = {
        'channel': replacementRequest.get('channel'),
-       'ts': replacementRequest.get('threadId'),
+       'ts': replacementRequest.get('id'),
        'token': os.environ.get('SECRET')
     }
     url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
-    self._log.logEvent("{}: {}-bot deletes message: {}".format(self._event.channelName(), self._caller, self._truncate(self._event.text())))
+    self._log.logEvent("{}: {}-bot deletes message: {}".format(CHANNELS[replacementRequest.get('channel')].get('name'), replacementRequest.get('bot'), self._originalEvent.text()))

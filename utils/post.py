@@ -73,10 +73,7 @@ class Post:
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
       return;
     identity = IDENTITIES[self._event.user()]
-    id = None
-    if self._event.isPartOfAThread():
-      id = self._event.id()
-    self._queue.addReplacement(self._caller, self._event.channel(), id, message, Identity(identity.get('username'), identity.get('profilePicture')))
+    self._queue.addReplacement(self._caller, self._event.channel(), self._event.id(), self._event.threadId(), message, Identity(identity.get('username'), identity.get('profilePicture')))
   
   def postEphemeral(self, data):
     url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))
