@@ -12,7 +12,6 @@ class Lex(Bot):
     return "Scrambles letters in some words."
   
   def run(self):
-    print(1)
     if (
         self._event.isFromABot() 
         or not self._event.text()
@@ -21,7 +20,6 @@ class Lex(Bot):
         or not self._randomUtil.rollDice(self._frequency)
     ):
       return
-    print(2)
     
     words = re.findall(r'\w+', self._event.text())
     longWord = max(words, key=len)
