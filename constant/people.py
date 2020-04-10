@@ -19,7 +19,7 @@ GROUP_LIST = {
 IMPERSONATIONS = [
   {'username': 'Brenden Beerdeaux', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UETS9HTSS-2a4b268e8aca-48', 'id': 'UETS9HTSS'},
   {'username': 'CJ O\'Stabby', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDDE5960N-9141f5699aec-48', 'id': 'UDDE5960N'},
-  {'username': 'Dakota', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDC4QL95G-11730d6b9fe2-48', 'id': 'UDC4QL95G'},
+  {'username': 'Daka Daka', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDC4QL95G-11730d6b9fe2-48', 'id': 'UDC4QL95G'},
   #{'username': 'Deeve Friedman', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDBGH9BMX-19a9cf1e0f26-48', 'id': 'UDBGH9BMX'},
   {'username': 'Drow Carrington', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDC03KCGK-1df95781be09-48', 'id': 'UDC03KCGK'},
   {'username': 'Ayshy', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UHQD9J1SL-303a26778808-48', 'id': 'UHQD9J1SL'},
@@ -43,7 +43,7 @@ CHAOS_USERS = {
 IDENTITIES =  {
   'UETS9HTSS': {'username': 'Brenden Beerdeaux', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UETS9HTSS-2a4b268e8aca-48', 'id': 'UETS9HTSS'},
   'UDDE5960N': {'username': 'CJ O\'Stabby', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDDE5960N-9141f5699aec-48', 'id': 'UDDE5960N'},
-  'UDC4QL95G': {'username': 'Dakota', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDC4QL95G-11730d6b9fe2-48', 'id': 'UDC4QL95G'},
+  'UDC4QL95G': {'username': 'Daka', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDC4QL95G-11730d6b9fe2-48', 'id': 'UDC4QL95G'},
   #'UDBGH9BMX': {'username': 'Deeve Friedman', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDBGH9BMX-19a9cf1e0f26-48', 'id': 'UDBGH9BMX'},
   'UDC03KCGK': {'username': 'Drow Carrington', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDC03KCGK-1df95781be09-48', 'id': 'UDC03KCGK'},
   'UHQD9J1SL': {'username': 'Ayshy', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UHQD9J1SL-303a26778808-48', 'id': 'UHQD9J1SL'},
