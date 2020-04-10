@@ -12,13 +12,15 @@ def poolCallback(args):
 
 class ActionQueue:
   
-  def __init__(self, pool):
+  def __init__(self, pool, event):
     self._log = Log()
     self._pool = pool
+    self._originalEvent = event
     
     self._replacements = []
     self._replies = []
     self._reactions = []
+    self._commands = []
   
   def addReaction(self, bot, channel, timestamp, reaction):
     self._reactions.append(
@@ -37,21 +39,32 @@ class ActionQueue:
     )
   
   def flush(self):
-    replyRequests = self._replies
-    random.shuffle(replyRequests)
-    
     if self._replacements:
       self._flushReplacement(random.choice(self._replacements))
+      
+    replyRequests = self._replies
+    random.shuffle(replyRequests)
     for replyRequest in self._replies:
       self._flushReply(replyRequest)
+      
     for reactionRequest in self._reactions:
       self._flushReaction(reactionRequest)
+      
+    for commandRequest in self._commands:
+      self._flushCommand(commandRequest)
+      
     self._replacements = []
     self._replies = []
     self._reactions = []
+    self._commands = []
   
   def _flushReplacement(self, replacementRequest):
     return
+    # scan all reactions on the original message
+    # add those reactions to the front of the reaction queue
+    # delete message
+    # post new message
+    # update all refences in queue from old to new
   
   def _flushReply(self, replyRequest):
     postData = PostData(replyRequest.get('channel'), replyRequest.get('message'), replyRequest.get('identity'), threadId = replyRequest.get('threadId'))
@@ -71,3 +84,6 @@ class ActionQueue:
     url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     self._log.logEvent("{}: {}-bot adds reaction: {}".format(CHANNELS[reactionRequest.get('channel')].get('name'), reactionRequest.get('bot'), reactionRequest.get('reaction')))
+    
+  def _flushCommand(self, commandRequest):
+    return
