@@ -23,6 +23,11 @@ class ActionQueue:
     self._replies = []
     self._reactions = []
     self._commands = []
+    
+  def addReplacement(self, bot, channel, thread, message, identity):
+    self._replacements.append(
+      {'bot': bot, 'channel': channel, 'threadId': thread, 'message': message, 'identity': identity}
+    )
   
   def addReaction(self, bot, channel, timestamp, reaction):
     self._reactions.append(
@@ -66,12 +71,11 @@ class ActionQueue:
     self._commands = []
   
   def _flushReplacement(self, replacementRequest):
-    return
     messageInfo = self._emoteUtil.getReactionsOnPost(self._event)
     reactionNames = messageInfo.get('reactionNames')
     for name in reactionNames:
       self._prependReaction(replacementRequest.get('bot'), self._event.channel(), self._event.id(), name)
-    # post new message
+    self._flushReply(replacementRequest)
     # delete message
     # update all refences in queue from old to new
   

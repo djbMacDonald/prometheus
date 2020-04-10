@@ -6,8 +6,11 @@ from bots._bot import Bot
 class SpaceReplace(Bot):
   
   _active = True
-  _frequency = .01
-  _target = 'Brenden'
+  # _frequency = .01
+  # _target = 'Brenden'
+  
+  _frequency = 1
+  _target = 'Doug'
   
   @classmethod
   def description(cls):

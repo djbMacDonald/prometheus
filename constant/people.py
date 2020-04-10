@@ -9,7 +9,7 @@ USERS = {
   'victoria': 'UDD45P5A9',
   'mei': 'UK7V13DS7',
   'richard': 'UJTEHPEPL',
-  # 'doug': 'UDL020K8D'
+  'doug': 'UDL020K8D'
 }
 
 GROUP_LIST = {
@@ -25,7 +25,7 @@ IDENTITIES =  {
   'UHQD9J1SL': {'username': 'Ayshy', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UHQD9J1SL-303a26778808-48', 'id': 'UHQD9J1SL'},
   'UDD45P5A9': {'username': 'Vee', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDD45P5A9-5bb81e7c49c0-48', 'id': 'UDD45P5A9'},
   'UK7V13DS7': {'username': 'May', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UK7V13DS7-1e2ae9f73e21-48', 'id': 'UK7V13DS7'},
-  # 'UDL020K8D': {'username': 'Doug-test', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDL020K8D-e70c28fa97bb-48', 'id': 'UDL020K8D'},
+  'UDL020K8D': {'username': 'Doug-test', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDL020K8D-e70c28fa97bb-48', 'id': 'UDL020K8D'},
   'UJTEHPEPL': {'username': 'Rick', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UJTEHPEPL-g426b093d697-48', 'id': 'UJTEHPEPL'}
 }
 
@@ -43,4 +43,5 @@ PEOPLE = {
   'UK7V13DS7': {'username': 'Mei', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UK7V13DS7-1e2ae9f73e21-48', 'id': 'UK7V13DS7'},
   'UJTEHPEPL': {'username': 'Richard', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UJTEHPEPL-g426b093d697-48', 'id': 'UJTEHPEPL'},
   'UDL020K8D': {'username': 'Doug', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDL020K8D-e70c28fa97bb-48', 'id': 'UDL020K8D'}
+
 }
