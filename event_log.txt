@@ -681,3 +681,6 @@ Megamoji: Lol-bot adds reaction: lol
 Megamoji: SpaceReplace-bot adds message: q-w
 Megamoji: SpaceReplace-bot deletes message: q w
 Megamoji: Lol-bot adds reaction: lol
+Megamoji: Lol-bot adds reaction: test
+Megamoji: Dm-bot adds message: Roll a photography check to shoot the Man in the Moon
+Megamoji: Lol-bot adds reaction: test

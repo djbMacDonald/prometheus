@@ -52,7 +52,7 @@ class Post:
       channel = self._event.channel()
     if not self._isAllowedToPostInThisChannel(channel):
       return;
-    self._queue.addReply(self._caller, self._event.channel(), none, message, identity)
+    self._queue.addReply(self._caller, self._event.channel(), None, message, identity)
     
   def addMessageToThread(self, message, identity = None):
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
