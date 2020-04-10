@@ -1,4 +1,4 @@
-from constant.channels import ALLOWED_CHANNELS
+from constant.channels import ALLOWED_CHANNELS, NEW_CHANNEL_OBJECT
 import os
 import urllib
 import requests
@@ -20,7 +20,7 @@ class ActionQueue:
     self._log = Log()
     self._pool = pool
   
-  def shouldDelete():
+  def shouldDelete(self):
     return
   
   def replacement(self):
@@ -44,20 +44,23 @@ class ActionQueue:
     return
   
   def _isAllowedToPostInThisChannel(self, channel):
-    print(channel)
-    print(ALLOWED_CHANNELS)
+    print(NEW_CHANNEL_OBJECT)
+    # allowedChannels = list(filter(lambda channelObj: print(channelObj), NEW_CHANNEL_OBJECT))
+    # allowedChannelIDs = allowedChannels.keys()
+    # print(allowedChannelIDs)
     return channel in ALLOWED_CHANNELS
   
   def _flushReactions(self, reactionRequest):
     if not self._isAllowedToPostInThisChannel(reactionRequest.get('channel')):
       return
     options = {
-      'channel': channel,
-      'name': reaction, 
-      'timestamp': timestamp,
+      'channel': reactionRequest.get('channel'),
+      'name': reactionRequest.get('reaction'), 
+      'timestamp': reactionRequest.get('timestamp'),
       'as_user': False,
       'token': os.environ.get('DAKA')
     }
     url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
-    self._log.logEvent("{}: {}-bot adds reaction: {}".format(self._event.channelName(), self._caller, reaction))
+#     change to channel name
+    self._log.logEvent("{}: {}-bot adds reaction: {}".format(reactionRequest.get('channel'), reactionRequest.get('bot'), reactionRequest.get('reaction')))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
