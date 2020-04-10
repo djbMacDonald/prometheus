@@ -22,3 +22,7 @@ NEW_CHANNEL_OBJECT = {
   'CGFSDDPTQ': {'post': False, 'name': 'Reminders'},
   'CDBT6UTCL': {'post': False, 'name': 'Schemes'}
 }
+
+def allowed_channel_ids():
+  allowedChannels = list(filter(lambda channelObj: channelObj[1].get('post'), NEW_CHANNEL_OBJECT.items()))
+  return list(map(lambda x: x[0], allowedChannels))
