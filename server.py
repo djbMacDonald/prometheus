@@ -66,14 +66,13 @@ def inbound():
   for bot in botList:
     try:
       result = callBot(bot, originalEvent, pool, client, user, emotes, actionQueue)
-      if result == 'end':
-        return Response(), 200
     except Exception as error:
       pprint.pprint(error)
       print(traceback.format_exc())
     
   if not originalEvent.isFromABot() and originalEvent.isAMessage():
     logUtil.logToFile(originalEvent)
+  # actionQueue.flush()
   pool.close()
   pool.join()
   return data, 200

@@ -1,3 +1,15 @@
+from constant.channels import ALLOWED_CHANNELS
+import os
+import urllib
+import requests
+from model.post_data import PostData
+from utils.log import Log
+
+def poolCallback(args):
+  # print('test', args)
+  args.close()
+  return
+
 class ActionQueue:
   
   _replacements = []
@@ -17,9 +29,9 @@ class ActionQueue:
   def replies(self):
     return
   
-  def addReaction(self, bot, channel, reaction):
+  def addReaction(self, bot, channel, timestamp, reaction):
     self._reactions.append(
-      {'bot': bot, "channel": channel, 'reaction': reaction}
+      {'bot': bot, 'channel': channel, 'timestamp': timestamp, 'reaction': reaction}
     )
     return
   
@@ -27,4 +39,23 @@ class ActionQueue:
     return
   
   def flush(self):
+    for reactionRequest in self._reactions:
+      self._flushReactions(reactionRequest)
     return
+  
+  def _isAllowedToPostInThisChannel(self, channel):
+    return channel in ALLOWED_CHANNELS
+  
+  def _flushReactions(self, reactionRequest):
+    if not self._isAllowedToPostInThisChannel(reactionRequest.get('channel')):
+      return
+    options = {
+      'channel': channel,
+      'name': reaction, 
+      'timestamp': timestamp,
+      'as_user': False,
+      'token': os.environ.get('DAKA')
+    }
+    url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
+    self._log.logEvent("{}: {}-bot adds reaction: {}".format(self._event.channelName(), self._caller, reaction))
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)

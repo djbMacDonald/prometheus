@@ -39,7 +39,7 @@ class Post:
   def _addReaction(self, reaction, timestamp):
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
       return;
-    self._queue.addReaction(self._caller, self._event.channelName(), reaction)
+    self._queue.addReaction(self._caller, self._event.channelName(), timestamp, reaction)
     # move to post_data
     options = {
       'channel': self._event.channel(),
