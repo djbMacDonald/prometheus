@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, jsonify, Response
 from model.modal import Modal
 from multiprocessing import Pool
-from constant.channels import CHANNELS
+from constant.channels import chaosChannel, underscoreChannel
 import json
 import jsons
 from model.slackevent import SlackEvent
@@ -25,7 +25,6 @@ from constant.emotes import DEFAULT_EMOTES
 from model.action_queue import ActionQueue
 
 # If you need to define a utility function for this file, do it in utils/server.py
-
 app = Flask(__name__)
 
 log = True
@@ -171,7 +170,7 @@ def bannedWords():
   postUtil = Post(Pool(1))
   if text.isdigit():
     getNewBans(int(text), {})
-    postUtil.addMessageToChannel(text + ' new bans added', channel = CHANNELS['Underscore'])
+    postUtil.addMessageToChannel(text + ' new bans added', channel = underscoreChannel CHANNELS['Underscore'])
     return Response(), 200
 
   elif len(words) > 1 or not text.isalpha() or text in bans.keys():

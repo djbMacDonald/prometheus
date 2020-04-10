@@ -43,12 +43,7 @@ class ActionQueue:
       self._flushReactions(reactionRequest)
     return
   
-  def _isAllowedToPostInThisChannel(self, channel):
-    return channel in allowed_channel_ids()
-  
   def _flushReactions(self, reactionRequest):
-    if not self._isAllowedToPostInThisChannel(reactionRequest.get('channel')):
-      return
     options = {
       'channel': reactionRequest.get('channel'),
       'name': reactionRequest.get('reaction'), 
@@ -58,5 +53,5 @@ class ActionQueue:
     }
     url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
 #     change to channel name
-    self._log.logEvent("{}: {}-bot adds reaction: {}".format( reactionRequest.get('channel'), reactionRequest.get('bot'), reactionRequest.get('reaction')))
+    self._log.logEvent("{}: {}-bot adds reaction: {}".format(NEW_CHANNEL_OBJECT[reactionRequest.get('channel')].get('name'), reactionRequest.get('bot'), reactionRequest.get('reaction')))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)

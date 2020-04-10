@@ -3,7 +3,7 @@ import os
 import urllib
 import requests
 from model.post_data import PostData
-from constant.channels import ALLOWED_CHANNELS
+from constant.channels import allowed_channel_ids, NEW_CHANNEL_OBJECT
 from constant.people import IDENTITIES
 from model.identity import Identity
 from utils.log import Log
@@ -26,7 +26,7 @@ class Post:
     return message[:20] + (message[20:] and '...')
   
   def _isAllowedToPostInThisChannel(self, channel):
-    return channel in ALLOWED_CHANNELS
+    return channel in allowed_channel_ids()
   
   def _sendRequest(self, postData):
     info = postData.get()
@@ -37,20 +37,9 @@ class Post:
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _addReaction(self, reaction, timestamp):
-    # if not self._isAllowedToPostInThisChannel(self._event.channel()):
-    #   return;
+    if not self._isAllowedToPostInThisChannel(self._event.channel()):
+      return;
     self._queue.addReaction(self._caller, self._event.channel(), timestamp, reaction)
-    # move to post_data
-    # options = {
-    #   'channel': self._event.channel(),
-    #   'name': reaction, 
-    #   'timestamp': timestamp,
-    #   'as_user': False,
-    #   'token': os.environ.get('DAKA')
-    # }
-    # url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
-    # self._log.logEvent("{}: {}-bot adds reaction: {}".format(self._event.channelName(), self._caller, reaction))
-    # self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _deleteMessage(self):
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
@@ -112,4 +101,4 @@ class Post:
   #   }
   #   url = 'https://www.slack.com/api/conversations.setTopic?{}'.format(urllib.parse.urlencode(postData))
   #   print(url)
-  #   self._pool.apply_async(requests.post, args=[url])
+  #   self._pool.apply_async(requests.post, args=[url]

@@ -3,16 +3,16 @@ from model.identity import Identity
 import requests
 import time
 from pytz import timezone
-from constant.channels import CHANNELS
 from constant.bans import BAN_BAN_LIST
 import datetime
+from constant.channels import chaosChannel
 
 # move to static functions
 class Ban:
   
   def banNewWord(self):
     bans = dict();
-    lines = open('{}_logfile.txt'.format(CHANNELS['Chaos']), 'r').read().splitlines()
+    lines = open('{}_logfile.txt'.format(chaosChannel()), 'r').read().splitlines()
     myline = random.choice(lines)
     myword = '1';
     while not myword.isalpha() or myword in bans.keys() or myword.lower() in BAN_BAN_LIST:

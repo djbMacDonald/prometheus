@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template, jsonify, Response
 from model.modal import Modal
 from multiprocessing import Pool
-from constant.channels import CHANNELS
 import json
 import jsons
 from model.slackevent import SlackEvent
@@ -52,4 +51,5 @@ def botConfigure(action, bot, value):
   
   # client = MongoClient(os.environ.get('MONGO'))
   # client.slack.bots.update_one({'name': bot}, {'$set': {action: value}})
-  return '{} bot {} set to {}'.format(bot, action, value)
+  return '{} bot {} set to {}'.format(bot, action, value
+)
