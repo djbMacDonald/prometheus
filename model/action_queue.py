@@ -44,6 +44,8 @@ class ActionQueue:
     return
   
   def _isAllowedToPostInThisChannel(self, channel):
+    print(channel)
+    print(ALLOWED_CHANNELS)
     return channel in ALLOWED_CHANNELS
   
   def _flushReactions(self, reactionRequest):

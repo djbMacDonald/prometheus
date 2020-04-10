@@ -37,20 +37,20 @@ class Post:
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _addReaction(self, reaction, timestamp):
-    if not self._isAllowedToPostInThisChannel(self._event.channel()):
-      return;
-    self._queue.addReaction(self._caller, self._event.channelName(), timestamp, reaction)
+    # if not self._isAllowedToPostInThisChannel(self._event.channel()):
+    #   return;
+    self._queue.addReaction(self._caller, self._event.channel(), timestamp, reaction)
     # move to post_data
-    options = {
-      'channel': self._event.channel(),
-      'name': reaction, 
-      'timestamp': timestamp,
-      'as_user': False,
-      'token': os.environ.get('DAKA')
-    }
-    url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
-    self._log.logEvent("{}: {}-bot adds reaction: {}".format(self._event.channelName(), self._caller, reaction))
-    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    # options = {
+    #   'channel': self._event.channel(),
+    #   'name': reaction, 
+    #   'timestamp': timestamp,
+    #   'as_user': False,
+    #   'token': os.environ.get('DAKA')
+    # }
+    # url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
+    # self._log.logEvent("{}: {}-bot adds reaction: {}".format(self._event.channelName(), self._caller, reaction))
+    # self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     
   def _deleteMessage(self):
     if not self._isAllowedToPostInThisChannel(self._event.channel()):

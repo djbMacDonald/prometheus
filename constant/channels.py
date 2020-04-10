@@ -13,3 +13,12 @@ CHANNELS = {
   'Secret': 'CH0TUPU6R',
   'Underscore': 'CMNCA7EV7'
 }
+
+NEW_CHANNEL_OBJECT = {
+  'CDU145F08': {'post': True, 'name': 'Megamoji'},
+  'CDR5ZBTT7': {'post': True, 'name': 'Chaos'},
+  'CH0TUPU6R': {'post': True, 'name': 'Secret'},
+  'CMNCA7EV7': {'post': True, 'name': 'Underscore'},
+  'CGFSDDPTQ': {'post': False, 'name': 'Reminders'},
+  'CDBT6UTCL': {'post': False, 'name': 'Schemes'}
+}

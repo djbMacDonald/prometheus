@@ -72,7 +72,7 @@ def inbound():
     
   if not originalEvent.isFromABot() and originalEvent.isAMessage():
     logUtil.logToFile(originalEvent)
-  # actionQueue.flush()
+  actionQueue.flush()
   pool.close()
   pool.join()
   return data, 200
