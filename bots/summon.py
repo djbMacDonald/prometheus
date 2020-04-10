@@ -1,6 +1,6 @@
 import random
 from constant.creepy import STATEMENT_GENERATOR
-from constant.people import CHAOS_USERS
+from constant.people import impersonations
 from bots._bot import Bot
 
 class Summon(Bot):
@@ -15,7 +15,8 @@ class Summon(Bot):
     if not self._event.text() or not self._event.text().lower() == "summon the silent" or not self._event.isPartOfAThread():
       return
     threadJson = self._channelUtil.getThreadData(self._event.channel(), self._event.threadId())
-    silentUsers = list(set(CHAOS_USERS.values()) - set(threadJson['messages'][0]['reply_users']))
+    chaosPeople = set(map(lambda person: person.get('id'), impersonations()))
+    silentUsers = list(chaosPeople - set(threadJson['messages'][0]['reply_users']))
     message = '';
   
     creepyNouns, creepyFacts, creepyActs, creepyEnds = STATEMENT_GENERATOR

@@ -1,7 +1,7 @@
 from view._view import View
 from constant.view import DIVIDER
 from model.caster import Caster
-from constant.people import CHAOS_USERS
+from constant.people import CHAOS_USERS, impersonations
 
 class CastView(View):
   
@@ -44,6 +44,8 @@ class CastView(View):
   def _buildTargets(self):
     options = []
     
+    chaosPeople = impersonations()
+    for person
     for user, id in CHAOS_USERS.items():
       if self.caster.user_id == id:
         continue

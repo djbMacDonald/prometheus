@@ -1,12 +1,12 @@
 import random
 from model.identity import Identity as IdentityModel
-from constant.people import IMPERSONATIONS
+from constant.people import impersonations
 
 # move to static functions
 class Identity:
   
   def getRandomIdentity(self):
-    identityRow = random.choice(IMPERSONATIONS)
+    identityRow = random.choice(impersonations())
     return IdentityModel(identityRow.get('username'), identityRow.get('profilePicture'))
   
   def randomImageUrl(self):

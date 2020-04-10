@@ -1,6 +1,6 @@
 import random
 from bots._bot import Bot
-import constant.people
+from constant.people import impersonations
 from model.identity import Identity
 
 class Nice(Bot):
@@ -15,7 +15,7 @@ class Nice(Bot):
     if self._event.isFromABot() or not self._event.text() or len(self._event.text()) < 1 or not self._event.text() == 'nice' or  self._event.isPartOfAThread():
       return
     
-    copy = people.impersonations()
+    copy = impersonations()
     random.shuffle(copy)
     
     for impersonation in copy:
