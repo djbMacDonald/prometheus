@@ -1,5 +1,6 @@
 from model.identity import Identity
 from bots._bot import Bot
+import json
 
 class Mock(Bot):
   _active = True
@@ -9,6 +10,7 @@ class Mock(Bot):
     return "If you use the spongebob-mock emote on a message,  it will post to a thread that weird alternating caps thing version of the message."
   
   def run(self):
+    print(json.dumps(self._event))
     if self._event.isAMessage() or self._event.isPartOfAThread():
       return
     

@@ -46,18 +46,6 @@ class Post:
     
   def addReactionToOriginalMessage(self, reaction):
     self._addReaction(reaction, self._event.threadId());
-    
-  def _deleteMessage(self):
-    if not self._isAllowedToPostInThisChannel(self._event.channel()):
-      return;
-    postData = {
-       'channel': self._event.channel(),
-       'ts': self._event.id(),
-       'token': os.environ.get('SECRET')
-    }
-    url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
-    self._log.logEvent("{}: {}-bot deletes message: {}".format(self._event.channelName(), self._caller, self._truncate(self._event.text())))
-    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
   
   def addMessageToChannel(self, message, identity = None, channel = None):
     if not channel:
@@ -85,9 +73,10 @@ class Post:
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
       return;
     identity = IDENTITIES[self._event.user()]
-    # self.addMessage(message, Identity(identity.get('username'), identity.get('profilePicture')))
-    # self._deleteMessage()
-    self._queue.addReplacement(self._caller, self._event.channel(), self._event.id(), message, Identity(identity.get('username'), identity.get('profilePicture')))
+    id = None
+    if self._event.isPartOfAThread():
+      id = self._event.id()
+    self._queue.addReplacement(self._caller, self._event.channel(), id, message, Identity(identity.get('username'), identity.get('profilePicture')))
   
   def postEphemeral(self, data):
     url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(data))

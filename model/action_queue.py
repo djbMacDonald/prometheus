@@ -16,7 +16,6 @@ class ActionQueue:
   def __init__(self, pool, event):
     self._log = Log()
     self._pool = pool
-    self._emoteUtil = Emote(None)
     self._originalEvent = event
     
     self._replacements = []
@@ -31,11 +30,6 @@ class ActionQueue:
   
   def addReaction(self, bot, channel, timestamp, reaction):
     self._reactions.append(
-      {'bot': bot, 'channel': channel, 'timestamp': timestamp, 'reaction': reaction}
-    )
-    
-  def _prependReaction(self, bot, channel, timestamp, reaction):
-    self._reactions.insert(0,
       {'bot': bot, 'channel': channel, 'timestamp': timestamp, 'reaction': reaction}
     )
   
@@ -71,12 +65,8 @@ class ActionQueue:
     self._commands = []
   
   def _flushReplacement(self, replacementRequest):
-    messageInfo = self._emoteUtil.getReactionsOnPost(self._event)
-    reactionNames = messageInfo.get('reactionNames')
-    for name in reactionNames:
-      self._prependReaction(replacementRequest.get('bot'), self._event.channel(), self._event.id(), name)
     self._flushReply(replacementRequest)
-    # delete message
+    self._deleteMessage(replacementRequest)
     # update all refences in queue from old to new
   
   def _flushReply(self, replyRequest):
@@ -100,3 +90,13 @@ class ActionQueue:
     
   def _flushCommand(self, commandRequest):
     return
+  
+  def _deleteMessage(self, replacementRequest):
+    postData = {
+       'channel': replacementRequest.get('channel'),
+       'ts': replacementRequest.get('threadId'),
+       'token': os.environ.get('SECRET')
+    }
+    url = 'https://www.slack.com/api/chat.delete?{}'.format(urllib.parse.urlencode(postData))
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    self._log.logEvent("{}: {}-bot deletes message: {}".format(self._event.channelName(), self._caller, self._truncate(self._event.text())))
