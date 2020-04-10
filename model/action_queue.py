@@ -71,7 +71,9 @@ class ActionQueue:
     for reactionRequest in self._reactions:
       if reactionRequest.get('timestamp') == replacementRequest.get('id'):
         reactionRequest['timestamp'] = newTS
-        print('qwe')
+    for replyRequest in self._replies:
+      if replyRequest.get('threadId') == replacementRequest.get('id'):
+        replyRequest['timestamp'] = newTS
     
     self._log.logEvent("{}: {}-bot adds message: {}".format(CHANNELS[replacementRequest.get('channel')].get('name'), replacementRequest.get('bot'), info['text']))
     self._deleteMessage(replacementRequest)
