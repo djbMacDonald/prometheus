@@ -6,12 +6,10 @@ from model.identity import Identity
 class Nice(Bot):
   
   _active = True
-  _min = 3
-  _max = 10
   
   @classmethod
   def description(cls):
-    return "If you say nice, will respond with 'nice', {} to {} times".format(cls._min, cls._max)
+    return "If you say nice, will respond with 'nice' for all impersonations"
   
   def run(self):
     if self._event.isFromABot() or not self._event.text() or len(self._event.text()) < 1 or not self._event.text() == 'nice' or  self._event.isPartOfAThread():
@@ -21,5 +19,7 @@ class Nice(Bot):
     random.shuffle(copy)
     
     for impersonation in copy:
-      identity = Identity(identity.get('username'), identity.get('profilePicture'))
+      if self._event.user() == impersonation.get('id'):
+        continue
+      identity = Identity(impersonation.get('username'), impersonation.get('profilePicture'))
       self._postUtil.addMessageToThread('nice', identity)
