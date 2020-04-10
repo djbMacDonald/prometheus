@@ -1,8 +1,4 @@
-import random
 from model.identity import Identity
-import urllib
-import requests
-import os
 from bots._bot import Bot
 
 class Mock(Bot):
@@ -13,29 +9,11 @@ class Mock(Bot):
     return "If you use the spongebob-mock emote on a message,  it will post to a thread that weird alternating caps thing version of the message."
   
   def run(self):
-    if self._event.isFromABot():
-      return;
-    
-    # this needs to be moved to util
-    postData = {
-      'token': os.environ.get('SECRET'),
-      'channel': self._event.channel(),
-      'latest': self._event.id(),
-      'inclusive': True,
-      'oldest': self._event.id()
-    }
-    req = requests.get('https://slack.com/api/channels.history?{}'.format(urllib.parse.urlencode(postData)))
-    
-    message = req.json().get('messages')
-    if not message or len(message) < 1:
-      return
-    message = message[0]
-    if message.get('replies') or message.get('thread_ts'):
-      return
-    if not message.get('reactions'):
+    if self._event.isAMessage() or self._event.isPartOfAThread():
       return
     
-    reactionNames = map(lambda reaction: reaction.get('name'), message.get('reactions'))
+    reactionNames = self._emoteUtil.getReactionsOnPost(self._event)
+    print(reactionNames)
     intersection = set(reactionNames).intersection(['spongebob-mock', 'mocking-spongebob'])
     if len(intersection) == 0:
       return

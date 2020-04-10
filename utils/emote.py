@@ -1,4 +1,6 @@
 import os
+import requests
+import urllib
 
 class Emote:
   
@@ -11,20 +13,14 @@ class Emote:
   def getReactionsOnPost(self, event):
     postData = {
       'token': os.environ.get('SECRET'),
-      'channel': self._event.channel(),
-      'latest': self._event.id(),
+      'channel': event.channel(),
+      'latest': event.id(),
       'inclusive': True,
-      'oldest': self._event.id()
+      'oldest': event.id()
     }
-#     req = requests.get('https://slack.com/api/channels.history?{}'.format(urllib.parse.urlencode(postData)))
+    req = requests.get('https://slack.com/api/channels.history?{}'.format(urllib.parse.urlencode(postData)))
     
-#     message = req.json().get('messages')
-#     if not message or len(message) < 1:
-#       return
-#     message = message[0]
-#     if message.get('replies') or message.get('thread_ts'):
-#       return
-#     if not message.get('reactions'):
-#       return
-    
-#     reactionNames = map(lambda reaction: reaction.get('name'), message.get('reactions'))
+    messages = req.json().get('messages')
+    if not messages or len(messages) < 1 or not messages[0].get('reactions'):
+      return []
+    return map(lambda reaction: reaction.get('name'), messages[0].get('reactions'))
