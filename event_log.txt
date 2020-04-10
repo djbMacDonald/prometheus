@@ -635,3 +635,23 @@ Megamoji: SpaceReplace-bot adds message: r-t
 Megamoji: SpaceReplace-bot deletes message: r t
 Megamoji: SpaceReplace-bot adds message: p-o
 Megamoji: SpaceReplace-bot deletes message: p o
+Megamoji: SpaceReplace-bot adds message: e-r
+Megamoji: SpaceReplace-bot deletes message: e r
+Megamoji: SpaceReplace-bot adds message: z-b
+Megamoji: SpaceReplace-bot deletes message: z b
+Megamoji: SpaceReplace-bot adds message: q-f
+Megamoji: SpaceReplace-bot deletes message: q f
+Megamoji: SpaceReplace-bot adds message: b-e
+Megamoji: SpaceReplace-bot deletes message: b e
+Megamoji: SpaceReplace-bot adds message: z-u
+Megamoji: SpaceReplace-bot deletes message: z u
+Megamoji: SpaceReplace-bot adds message: v-b
+Megamoji: SpaceReplace-bot deletes message: v b
+Megamoji: SpaceReplace-bot adds message: c-c
+Megamoji: SpaceReplace-bot deletes message: c c
+Megamoji: SpaceReplace-bot adds message: q-w
+Megamoji: SpaceReplace-bot deletes message: q w
+Megamoji: Lol-bot adds reaction: lol
+Megamoji: SpaceReplace-bot adds message: q-w
+Megamoji: SpaceReplace-bot deletes message: q w
+Megamoji: Lol-bot adds reaction: lol

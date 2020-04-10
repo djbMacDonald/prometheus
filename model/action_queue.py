@@ -65,8 +65,13 @@ class ActionQueue:
     )
     info = postData.get()
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
-    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
-    self._log.logEvent("{}: {}-bot adds message: {}".format(CHANNELS[replyRequest.get('channel')].get('name'), replyRequest.get('bot'), info['text']))
+    res = self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    newTS = res.get(timeout=1).json()
+    print(replacementRequest.get('id'))
+    print(replacementRequest.get('thread'))
+    print(newTS)
+    print(self._reactions)
+    self._log.logEvent("{}: {}-bot adds message: {}".format(CHANNELS[replacementRequest.get('channel')].get('name'), replacementRequest.get('bot'), info['text']))
     self._deleteMessage(replacementRequest)
     # update all refences in queue from old to new
   
