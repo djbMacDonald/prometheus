@@ -314,3 +314,33 @@ Megamoji: Spam-bot adds reaction: duck_sad
 Megamoji: Spam-bot adds reaction: mega-charizard-x
 Megamoji: Spam-bot adds reaction: tepig
 Megamoji: Spam-bot adds reaction: that_left
+Megamoji: Lol-bot adds reaction: test
+Megamoji: Mock-bot adds message: TeSt
+Megamoji: Lol-bot adds reaction: test
+Chaos: Lex-bot adds message: Um, also mocking spn...
+Chaos: Lex-bot deletes message: Um, also mocking spo...
+Chaos: Scrambler-bot adds message: scrambler the Neat, ...
+Chaos: Scrambler-bot deletes message: Neat, the scrambler ...
+Megamoji: Lol-bot adds reaction: test
+Megamoji: Mock-bot adds message: TeSt
+Megamoji: Lol-bot adds reaction: test
+Megamoji: Mock-bot adds message: TeSt
+Megamoji: Lol-bot adds reaction: test
+Chaos: Mock-bot adds message: MoCkInG-SpOnGeBoB
+Chaos: Lol-bot adds reaction: mocking-spongebob
+Chaos: Mock-bot adds message: MoCkInG-SpOnGeBoB
+Chaos: Lol-bot adds reaction: mocking-spongebob
+Chaos: Mock-bot adds message: MoCkInG-SpOnGeBoB
+Chaos: Lol-bot adds reaction: mocking-spongebob
+Chaos: Mock-bot adds message: MoCkInG-SpOnGeBoB
+Chaos: Lol-bot adds reaction: mocking-spongebob
+Chaos: Mock-bot adds message: MoCkInG-SpOnGeBoB
+Chaos: Lol-bot adds reaction: mocking-spongebob
+Chaos: Mock-bot adds message: MoCkInG-SpOnGeBoB
+Chaos: Lol-bot adds reaction: mocking-spongebob
+Chaos: Mock-bot adds message: MoCkInG-SpOnGeBoB
+Chaos: Lol-bot adds reaction: mocking-spongebob
+Chaos: Mock-bot adds message: MoCkInG-SpOnGeBoB
+Chaos: Lol-bot adds reaction: mocking-spongebob
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: DejaVu-bot adds message: ```there```

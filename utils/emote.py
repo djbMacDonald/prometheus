@@ -23,4 +23,5 @@ class Emote:
     messages = req.json().get('messages')
     if not messages or len(messages) < 1 or not messages[0].get('reactions'):
       return []
-    return map(lambda reaction: reaction.get('name'), messages[0].get('reactions'))
+    reactionNames = map(lambda reaction: reaction.get('name'), messages[0].get('reactions'))
+    return {'text': messages[0].get('text'), 'reactionNames': reactionNames}
