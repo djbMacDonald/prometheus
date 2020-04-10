@@ -684,3 +684,5 @@ Megamoji: Lol-bot adds reaction: lol
 Megamoji: Lol-bot adds reaction: test
 Megamoji: Dm-bot adds message: Roll a photography check to shoot the Man in the Moon
 Megamoji: Lol-bot adds reaction: test
+Megamoji: ChaosSeed-bot adds reaction: salute_cap
+Megamoji: ChaosSeed-bot adds reaction: squirrel
