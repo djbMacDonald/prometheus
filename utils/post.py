@@ -64,16 +64,12 @@ class Post:
       channel = self._event.channel()
     if not self._isAllowedToPostInThisChannel(channel):
       return;
-    postData = PostData(channel, message, identity)
-    self._sendRequest(postData)
     self._queue.addReply(self._caller, self._event.channel(), none, message, identity)
     
   def addMessageToThread(self, message, identity = None):
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
       return;
-    postData = PostData(self._event.channel(), message, identity, threadId = self._event.id())
-    self._sendRequest(postData)
-    self._queue.addReply(self._caller, self._event.channel(), threadId, message, identity)
+    self._queue.addReply(self._caller, self._event.channel(), self._event.id(), message, identity)
   
   def addMessage(self, message, identity = None):
     if self._event.isPartOfAThread():

@@ -30,7 +30,7 @@ class ActionQueue:
       {
         'bot': bot, 
         'channel': channel, 
-        'threadId': threadId, 
+        'threadId': thread, 
         'message': message,
         'identity': identity
       }
@@ -54,12 +54,11 @@ class ActionQueue:
     return
   
   def _flushReply(self, replyRequest):
-    return
-    postData = PostData(replyRequest.get()channel, )
-  # postData = PostData(channel, message, identity)
-  #   self._sendRequest(postData)
-  # postData = PostData(self._event.channel(), message, identity, threadId = self._event.id())
-  #   self._sendRequest(postData)
+    postData = PostData(replyRequest.get('channel'), replyRequest.get('message'), replyRequest.get('identity'), threadId = replyRequest.get('threadId'))
+    info = postData.get()
+    url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    self._log.logEvent("{}: {}-bot adds message: {}".format(CHANNELS[replyRequest.get('channel')].get('name'), replyRequest.get('bot'), info['text']))
   
   def _flushReaction(self, reactionRequest):
     options = {
@@ -70,6 +69,5 @@ class ActionQueue:
       'token': os.environ.get('DAKA')
     }
     url = 'https://www.slack.com/api/reactions.add?{}'.format(urllib.parse.urlencode(options))
-#     change to channel name
-    self._log.logEvent("{}: {}-bot adds reaction: {}".format(CHANNELS[reactionRequest.get('channel')].get('name'), reactionRequest.get('bot'), reactionRequest.get('reaction')))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    self._log.logEvent("{}: {}-bot adds reaction: {}".format(CHANNELS[reactionRequest.get('channel')].get('name'), reactionRequest.get('bot'), reactionRequest.get('reaction')))
