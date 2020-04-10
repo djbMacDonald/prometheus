@@ -40,6 +40,7 @@ class ActionQueue:
     return
   
   def flush(self):
+    print('flush')
     replyRequests = self._replies
     random.shuffle(replyRequests)
     
@@ -47,8 +48,12 @@ class ActionQueue:
       self._flushReplacement(random.choice(self._replacements))
     for replyRequest in self._replies:
       self._flushReply(replyRequest)
+    print(len(self._reactions))
     for reactionRequest in self._reactions:
       self._flushReaction(reactionRequest)
+    self._replacements = []
+    self._replies = []
+    self._reactions = []
   
   def _flushReplacement(self, replacementRequest):
     return

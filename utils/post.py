@@ -39,7 +39,14 @@ class Post:
   def _addReaction(self, reaction, timestamp):
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
       return;
+    print('post')
     self._queue.addReaction(self._caller, self._event.channel(), timestamp, reaction)
+    
+  def addReactionToMessage(self, reaction):
+    self._addReaction(reaction, self._event.id());
+    
+  def addReactionToOriginalMessage(self, reaction):
+    self._addReaction(reaction, self._event.threadId());
     
   def _deleteMessage(self):
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
@@ -72,12 +79,6 @@ class Post:
   def useCommand(self, command, message, channel):
     postData = PostData(channel, message, identity, command = command)
     self._sendRequest(postData)
-  
-  def addReactionToMessage(self, reaction):
-    self._addReaction(reaction, self._event.id());
-    
-  def addReactionToOriginalMessage(self, reaction):
-    self._addReaction(reaction, self._event.threadId());
     
   def replacePost(self, message):
     identity = IDENTITIES[self._event.user()]

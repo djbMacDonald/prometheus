@@ -71,6 +71,8 @@ def inbound():
     
   if not originalEvent.isFromABot() and originalEvent.isAMessage():
     logUtil.logToFile(originalEvent)
+  print('server')
+  print(len(actionQueue._reactions))
   actionQueue.flush()
   pool.close()
   pool.join()
