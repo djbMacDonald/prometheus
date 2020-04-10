@@ -290,3 +290,5 @@ Megamoji: Lol-bot adds reaction: nice
 Megamoji: Lol-bot adds reaction: nice
 Megamoji: Lol-bot adds reaction: nice
 Megamoji: Lol-bot adds reaction: nice
+Megamoji: Lol-bot adds reaction: test
+Megamoji: Lol-bot adds reaction: lol
