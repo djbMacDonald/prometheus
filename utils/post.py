@@ -3,7 +3,7 @@ import os
 import urllib
 import requests
 from model.post_data import PostData
-from constant.channels import allowed_channel_ids, NEW_CHANNEL_OBJECT
+from constant.channels import allowed_channel_ids
 from constant.people import IDENTITIES
 from model.identity import Identity
 from utils.log import Log

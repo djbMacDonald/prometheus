@@ -170,7 +170,7 @@ def bannedWords():
   postUtil = Post(Pool(1))
   if text.isdigit():
     getNewBans(int(text), {})
-    postUtil.addMessageToChannel(text + ' new bans added', channel = underscoreChannel CHANNELS['Underscore'])
+    postUtil.addMessageToChannel(text + ' new bans added', channel = underscoreChannel())
     return Response(), 200
 
   elif len(words) > 1 or not text.isalpha() or text in bans.keys():
@@ -180,15 +180,15 @@ def bannedWords():
     banUtil = Ban()
     dailybans = banUtil.getBans()
 
-    postUtil.addMessageToChannel('Current Bans: ' + ', '.join(dailybans), channel = CHANNELS['Underscore'])
+    postUtil.addMessageToChannel('Current Bans: ' + ', '.join(dailybans), channel = underscoreChannel())
   elif text == 'clear':
     bans = {}
     saveBans()
-    postUtil.addMessageToChannel('Bans Cleared!', channel = CHANNELS['Underscore'])
+    postUtil.addMessageToChannel('Bans Cleared!', channel = underscoreChannel())
   else:
     addBan(text)
     saveBans()
-    postUtil.addMessageToChannel(text + ' is now banned', channel = CHANNELS['Underscore'])
+    postUtil.addMessageToChannel(text + ' is now banned', channel = underscoreChannel())
   return Response(), 200
 
 @app.route('/quicktime', methods=['POST'])
@@ -285,7 +285,7 @@ def loadBans():
 def getNewBans(numberOfBans, expiredBans):
   global bans
   newBans = {}
-  lines = open('{}_logfile.txt'.format(CHANNELS['Chaos']), 'r').read().splitlines()
+  lines = open('{}_logfile.txt'.format(underscoreChannel()), 'r').read().splitlines()
   for x in range (0, numberOfBans):
     myline = random.choice(lines)
     myword = '1';
