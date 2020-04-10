@@ -2,19 +2,19 @@ from model.identity import Identity
 from bots._bot import Bot
 
 class Mock(Bot):
-  _active = False
+  _active = True
   
   @classmethod
   def description(cls):
     return "If you use the spongebob-mock emote on a message,  it will post to a thread that weird alternating caps thing version of the message."
   
   def run(self):
-    if self._event.isFromABot() or self._event.isAMessage() or self._event.isPartOfAThread():
+    if self._event.isAMessage() or self._event.isPartOfAThread():
       return
     
     messageInfo = self._emoteUtil.getReactionsOnPost(self._event)
     intersection = set(messageInfo.get('reactionNames')).intersection(['spongebob-mock', 'mocking-spongebob'])
-    if len(intersection) == 0:
+    if len(intersection) == 0 or messageInfo.get('hasAThread'):
       return
     self._postUtil.addMessageToThread(
       self._mockString(messageInfo.get('text')), 

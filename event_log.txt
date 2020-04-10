@@ -344,3 +344,20 @@ Chaos: Mock-bot adds message: MoCkInG-SpOnGeBoB
 Chaos: Lol-bot adds reaction: mocking-spongebob
 Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: DejaVu-bot adds message: ```there```
+Megamoji: Botify-bot adds message: with a word count gr...
+Megamoji: Botify-bot deletes message: with a word count gr...
+Megamoji: Contraction-bot adds message: yup
+Megamoji: Contraction-bot deletes message: yes
+Megamoji: Lol-bot adds reaction: yes
+Megamoji: Lol-bot adds reaction: yup
+Megamoji: ChaosSeed-bot adds message: Hey <@UHQD9J1SL> <@U...
+Megamoji: Lol-bot adds reaction: interesting
+Megamoji: Botify-bot adds message: more than 3, not mor...
+Megamoji: Botify-bot deletes message: more than 3, not mor...
+Megamoji: Lol-bot adds reaction: spongebob-mock
+Megamoji: Lol-bot adds reaction: spongebob-mock
+Megamoji: Lol-bot adds reaction: spongebob-mock
+Megamoji: Mock-bot adds message: SpOnGeBoB-MoCk
+Megamoji: Lol-bot adds reaction: spongebob-mock
+Megamoji: DejaVu-bot adds reaction: dejavu
+Megamoji: DejaVu-bot adds message: could have would hav...

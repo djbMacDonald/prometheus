@@ -6,7 +6,7 @@ from model.identity import Identity
 class Scrambler(Bot):
 
   _active = True
-  _frequency = 5
+  _frequency = 4
   _target = 'Drew' 
   
   @classmethod
