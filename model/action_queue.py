@@ -5,6 +5,7 @@ import requests
 from model.post_data import PostData
 from utils.log import Log
 import random
+from utils.emote import Emote
 
 def poolCallback(args):
   args.close()
@@ -15,6 +16,7 @@ class ActionQueue:
   def __init__(self, pool, event):
     self._log = Log()
     self._pool = pool
+    self._emoteUtil = Emote(None)
     self._originalEvent = event
     
     self._replacements = []
@@ -24,6 +26,11 @@ class ActionQueue:
   
   def addReaction(self, bot, channel, timestamp, reaction):
     self._reactions.append(
+      {'bot': bot, 'channel': channel, 'timestamp': timestamp, 'reaction': reaction}
+    )
+    
+  def _prependReaction(self, bot, channel, timestamp, reaction):
+    self._reactions.insert(0,
       {'bot': bot, 'channel': channel, 'timestamp': timestamp, 'reaction': reaction}
     )
   
@@ -60,10 +67,12 @@ class ActionQueue:
   
   def _flushReplacement(self, replacementRequest):
     return
-    # scan all reactions on the original message
-    # add those reactions to the front of the reaction queue
-    # delete message
+    messageInfo = self._emoteUtil.getReactionsOnPost(self._event)
+    reactionNames = messageInfo.get('reactionNames')
+    for name in reactionNames:
+      self._prependReaction(replacementRequest.get('bot'), self._event.channel(), self._event.id(), name)
     # post new message
+    # delete message
     # update all refences in queue from old to new
   
   def _flushReply(self, replyRequest):

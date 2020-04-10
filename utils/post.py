@@ -82,6 +82,8 @@ class Post:
     self._sendRequest(postData)
     
   def replacePost(self, message):
+    if not self._isAllowedToPostInThisChannel(self._event.channel()):
+      return;
     identity = IDENTITIES[self._event.user()]
     self.addMessage(message, Identity(identity.get('username'), identity.get('profilePicture')))
     self._deleteMessage()
