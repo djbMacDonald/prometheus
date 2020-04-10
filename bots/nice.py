@@ -1,5 +1,7 @@
 import random
 from bots._bot import Bot
+from constant.people import IMPERSONATIONS
+from model.identity import Identity
 
 class Nice(Bot):
   
@@ -12,10 +14,12 @@ class Nice(Bot):
     return "If you say nice, will respond with 'nice', {} to {} times".format(cls._min, cls._max)
   
   def run(self):
-    if self._event.isFromABot() or not self._event.text() or len(self._event.text()) < 1:
-      return;
-    if self._event.text() == 'nice' and not self._event.isPartOfAThread():
-      nices = 0
-      while nices < self._min or (self._randomUtil.rollDice(8.0/10) and nices < self._max):
-        self._postUtil.addMessageToThread('nice', self._identityUtil.getRandomIdentity())
-        nices = nices+1
+    if self._event.isFromABot() or not self._event.text() or len(self._event.text()) < 1 or not self._event.text() == 'nice' or  self._event.isPartOfAThread():
+      return
+    
+    copy = IMPERSONATIONS
+    random.shuffle(copy)
+    
+    for impersonation in copy:
+      identity = Identity(identity.get('username'), identity.get('profilePicture'))
+      self._postUtil.addMessageToThread('nice', identity)
