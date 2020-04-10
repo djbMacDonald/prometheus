@@ -7,19 +7,18 @@ from utils.log import Log
 import random
 
 def poolCallback(args):
-  # print('test', args)
   args.close()
   return
 
 class ActionQueue:
   
-  _replacements = []
-  _replies = []
-  _reactions = []
-  
   def __init__(self, pool):
     self._log = Log()
     self._pool = pool
+    
+    self._replacements = []
+    self._replies = []
+    self._reactions = []
   
   def shouldDelete(self):
     return
@@ -40,7 +39,6 @@ class ActionQueue:
     return
   
   def flush(self):
-    print('flush')
     replyRequests = self._replies
     random.shuffle(replyRequests)
     
@@ -48,7 +46,6 @@ class ActionQueue:
       self._flushReplacement(random.choice(self._replacements))
     for replyRequest in self._replies:
       self._flushReply(replyRequest)
-    print(len(self._reactions))
     for reactionRequest in self._reactions:
       self._flushReaction(reactionRequest)
     self._replacements = []

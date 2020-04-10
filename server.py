@@ -50,8 +50,6 @@ def inbound():
     cleanData = data.get('event')
     if 'blocks' in cleanData:
       del(cleanData['blocks'])
-    # print(json.dumps(cleanData, indent=2, sort_keys=True))
-    
     
   pool = Pool(1)
   originalEvent = Event(data, bans)
@@ -71,8 +69,6 @@ def inbound():
     
   if not originalEvent.isFromABot() and originalEvent.isAMessage():
     logUtil.logToFile(originalEvent)
-  print('server')
-  print(len(actionQueue._reactions))
   actionQueue.flush()
   pool.close()
   pool.join()

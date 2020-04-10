@@ -1,7 +1,6 @@
 from pymongo import MongoClient
 from model._model import BaseModel
 import requests
-from pprint import pprint
 import os
 import urllib
 
