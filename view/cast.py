@@ -1,7 +1,7 @@
 from view._view import View
 from constant.view import DIVIDER
 from model.caster import Caster
-from constant.people import CHAOS_USERS, impersonations
+from constant.people import impersonations
 
 class CastView(View):
   
@@ -45,18 +45,17 @@ class CastView(View):
     options = []
     
     chaosPeople = impersonations()
-    for person
-    for user, id in CHAOS_USERS.items():
-      if self.caster.user_id == id:
+    for person in chaosPeople:
+      if self.caster.user_id == person.get('id'):
         continue
       options.append(
         { 
             "text":{ 
                "type":"plain_text",
-               "text":user.capitalize(),
+               "text":person.get('username'),
                "emoji":True
             },
-            "value":user
+            "value":person.get('username')
          }
       )
     

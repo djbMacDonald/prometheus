@@ -16,18 +16,6 @@ GROUP_LIST = {
   '@dnd_adventures':['cj','brenden','dakota','drew']
 }
 
-CHAOS_USERS = {
-  'brenden': 'UETS9HTSS',
-  'cj': 'UDDE5960N',
-  'chris': 'UDBV9N1E0',
-  'dakota': 'UDC4QL95G',
-  'drew': 'UDC03KCGK',
-  'ayshu': 'UHQD9J1SL',
-  'victoria': 'UDD45P5A9',
-  'mei': 'UK7V13DS7',  
-  'richard': 'UJTEHPEPL'
-}
-
 IDENTITIES =  {
   'UETS9HTSS': {'username': 'Brenden Beerdeaux', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UETS9HTSS-2a4b268e8aca-48', 'id': 'UETS9HTSS'},
   'UDDE5960N': {'username': 'CJ O\'Stabby', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDDE5960N-9141f5699aec-48', 'id': 'UDDE5960N'},

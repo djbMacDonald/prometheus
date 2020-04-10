@@ -1,4 +1,3 @@
-from constant.people import USERS
 from model.identity import Identity
 from bots._bot import Bot
 

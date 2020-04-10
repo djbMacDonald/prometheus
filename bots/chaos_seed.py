@@ -3,7 +3,6 @@ from model.identity import Identity
 import urllib
 import requests
 import os
-from constant.people import USERS
 from bots._bot import Bot
 
 class ChaosSeed(Bot):
