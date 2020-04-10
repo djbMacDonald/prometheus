@@ -36,12 +36,12 @@ def convertCase(name):
   components = name.split('_')
   return''.join(x.title() for x in components)
 
-def callBot(bot, originalEvent, pool, client, user, emotes):
+def callBot(bot, originalEvent, pool, client, user, emotes, actionQueue):
   if hardDisableAllBots:
     return
   moduleType = getattr(bots, bot)
   className = convertCase(bot)
-  runner = getattr(moduleType, className)(originalEvent, pool, client, user, emotes)
+  runner = getattr(moduleType, className)(originalEvent, pool, client, user, emotes, actionQueue)
   return runner.safeRun()
 
 def botConfigure(action, bot, value):

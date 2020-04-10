@@ -22,6 +22,7 @@ import asyncio
 from model.user import User
 from utils.server import *
 from constant.emotes import DEFAULT_EMOTES
+from model.action_queue import ActionQueue
 
 # If you need to define a utility function for this file, do it in utils/server.py
 
@@ -55,6 +56,7 @@ def inbound():
     
   pool = Pool(1)
   originalEvent = Event(data, bans)
+  actionQueue = ActionQueue(pool)
   # client = MongoClient(os.environ.get('MONGO'))
   client = None
   if originalEvent.isAMessage() and not originalEvent.isFromABot():
@@ -63,7 +65,7 @@ def inbound():
     user = None
   for bot in botList:
     try:
-      result = callBot(bot, originalEvent, pool, client, user, emotes)
+      result = callBot(bot, originalEvent, pool, client, user, emotes, actionQueue)
       if result == 'end':
         return Response(), 200
     except Exception as error:

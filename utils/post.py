@@ -15,11 +15,12 @@ def poolCallback(args):
 
 class Post:
   
-  def __init__(self, pool, event, className):
+  def __init__(self, pool, event, className, actionQueue):
     self._log = Log()
     self._pool = pool
     self._event = event
     self._caller = className
+    self._queue = actionQueue
     
   def _truncate(self, message):
     return message[:20] + (message[20:] and '...')
@@ -38,6 +39,7 @@ class Post:
   def _addReaction(self, reaction, timestamp):
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
       return;
+    self._queue.addReaction(self._caller, self._event.channelName(), reaction)
     # move to post_data
     options = {
       'channel': self._event.channel(),
