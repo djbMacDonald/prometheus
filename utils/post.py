@@ -39,7 +39,6 @@ class Post:
   def _addReaction(self, reaction, timestamp):
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
       return;
-    print('post')
     self._queue.addReaction(self._caller, self._event.channel(), timestamp, reaction)
     
   def addReactionToMessage(self, reaction):
@@ -60,21 +59,27 @@ class Post:
     self._log.logEvent("{}: {}-bot deletes message: {}".format(self._event.channelName(), self._caller, self._truncate(self._event.text())))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
   
+  def addMessageToChannel(self, message, identity = None, channel = None):
+    if not channel:
+      channel = self._event.channel()
+    if not self._isAllowedToPostInThisChannel(channel):
+      return;
+    postData = PostData(channel, message, identity)
+    self._sendRequest(postData)
+    self._queue.addReply(self._caller, self._event.channel(), none, message, identity)
+    
+  def addMessageToThread(self, message, identity = None):
+    if not self._isAllowedToPostInThisChannel(self._event.channel()):
+      return;
+    postData = PostData(self._event.channel(), message, identity, threadId = self._event.id())
+    self._sendRequest(postData)
+    self._queue.addReply(self._caller, self._event.channel(), threadId, message, identity)
+  
   def addMessage(self, message, identity = None):
     if self._event.isPartOfAThread():
       self.addMessageToThread(message, identity)
     else:
       self.addMessageToChannel(message, identity)
-  
-  def addMessageToChannel(self, message, identity = None, channel = None):
-    if not channel:
-      channel = self._event.channel()
-    postData = PostData(channel, message, identity)
-    self._sendRequest(postData)
-    
-  def addMessageToThread(self, message, identity = None):
-    postData = PostData(self._event.channel(), message, identity, threadId = self._event.id())
-    self._sendRequest(postData)
     
   def useCommand(self, command, message, channel):
     postData = PostData(channel, message, identity, command = command)

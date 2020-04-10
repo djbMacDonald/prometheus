@@ -20,23 +20,21 @@ class ActionQueue:
     self._replies = []
     self._reactions = []
   
-  def shouldDelete(self):
-    return
-  
-  def replacement(self):
-    return
-  
-  def replies(self):
-    return
-  
   def addReaction(self, bot, channel, timestamp, reaction):
     self._reactions.append(
       {'bot': bot, 'channel': channel, 'timestamp': timestamp, 'reaction': reaction}
     )
-    return
   
-  def reactions(self):
-    return
+  def addReply(self, bot, channel, thread, message, identity):
+    self._replies.append(
+      {
+        'bot': bot, 
+        'channel': channel, 
+        'threadId': threadId, 
+        'message': message,
+        'identity': identity
+      }
+    )
   
   def flush(self):
     replyRequests = self._replies
@@ -57,6 +55,11 @@ class ActionQueue:
   
   def _flushReply(self, replyRequest):
     return
+    postData = PostData(replyRequest.get()channel, )
+  # postData = PostData(channel, message, identity)
+  #   self._sendRequest(postData)
+  # postData = PostData(self._event.channel(), message, identity, threadId = self._event.id())
+  #   self._sendRequest(postData)
   
   def _flushReaction(self, reactionRequest):
     options = {
