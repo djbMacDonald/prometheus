@@ -1,5 +1,5 @@
 import random
-from constant.people import USERS, IDENTITIES
+from constant.people import USERS
 from bots._bot import Bot
 from model.identity import Identity
 

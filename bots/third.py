@@ -1,6 +1,5 @@
 import random
 from model.identity import Identity
-from constant.people import IDENTITIES
 import urllib
 import requests
 import os

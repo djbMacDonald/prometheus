@@ -53,6 +53,9 @@ IDENTITIES =  {
   'UJTEHPEPL': {'username': 'Rick', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UJTEHPEPL-g426b093d697-48', 'id': 'UJTEHPEPL'}
 }
 
+def impersonations():
+  return list(IDENTITIES.values())
+
 PEOPLE = {
   'UETS9HTSS': {'username': 'Brenden', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UETS9HTSS-2a4b268e8aca-48', 'id': 'UETS9HTSS'},
   'UDDE5960N': {'username': 'CJ', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDDE5960N-9141f5699aec-48', 'id': 'UDDE5960N'},

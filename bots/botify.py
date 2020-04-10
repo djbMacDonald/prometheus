@@ -1,5 +1,4 @@
 from model.identity import Identity
-from constant.people import IDENTITIES
 from bots._bot import Bot
 
 class Botify(Bot):

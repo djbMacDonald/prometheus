@@ -2,7 +2,7 @@ import random
 import os
 from model.identity import Identity
 from constant.language import VOWELS
-from constant.people import USERS, IDENTITIES
+from constant.people import USERS
 from bots._bot import Bot
 
 class QuicktimeEvent(Bot):
