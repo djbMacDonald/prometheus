@@ -686,3 +686,5 @@ Megamoji: Dm-bot adds message: Roll a photography check to shoot the Man in the 
 Megamoji: Lol-bot adds reaction: test
 Megamoji: ChaosSeed-bot adds reaction: salute_cap
 Megamoji: ChaosSeed-bot adds reaction: squirrel
+Chaos: Botify-bot adds message: Good morning!
+Chaos: Botify-bot deletes message: Good morning!
