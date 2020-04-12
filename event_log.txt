@@ -689,3 +689,5 @@ Megamoji: ChaosSeed-bot adds reaction: squirrel
 Chaos: Botify-bot adds message: Good morning!
 Chaos: Botify-bot deletes message: Good morning!
 Chaos: Lol-bot adds reaction: okay
+Chaos: DejaVu-bot adds message: we had 9 people on the team
+Chaos: DejaVu-bot adds reaction: dejavu
