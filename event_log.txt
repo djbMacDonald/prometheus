@@ -706,3 +706,6 @@ Chaos: Contraction-bot adds message: Your pain's our benefit. Thank y'
 Chaos: Contraction-bot deletes message: Your pain is our benefit. Thank you
 Chaos: Dm-bot adds message: Roll a grapple check to persuade the falling rocks
 Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
+Chaos: Lol-bot adds reaction: yeah
+Chaos: Lol-bot adds reaction: same
+Chaos: Lol-bot adds reaction: same
