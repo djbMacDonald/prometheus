@@ -691,3 +691,5 @@ Chaos: Botify-bot deletes message: Good morning!
 Chaos: Lol-bot adds reaction: okay
 Chaos: DejaVu-bot adds message: we had 9 people on the team
 Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Botify-bot adds message: Good Morning!
+Chaos: Botify-bot deletes message: Good Morning!
