@@ -693,3 +693,5 @@ Chaos: DejaVu-bot adds message: we had 9 people on the team
 Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: Botify-bot adds message: Good Morning!
 Chaos: Botify-bot deletes message: Good Morning!
+Chaos: Botify-bot adds message: Did you one more turn yourself to 4 am again?
+Chaos: Botify-bot deletes message: Did you one more turn yourself to 4 am again?
