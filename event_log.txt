@@ -695,3 +695,5 @@ Chaos: Botify-bot adds message: Good Morning!
 Chaos: Botify-bot deletes message: Good Morning!
 Chaos: Botify-bot adds message: Did you one more turn yourself to 4 am again?
 Chaos: Botify-bot deletes message: Did you one more turn yourself to 4 am again?
+Chaos: Contraction-bot adds message: :tonight-the-metropolitan-museum-o'-art-'ll-run-red-with-the-blood-o'-the-bourgeoisie:
+Chaos: Contraction-bot deletes message: :tonight-the-metropolitan-museum-of-art-will-run-red-with-the-blood-of-the-bourgeoisie:
