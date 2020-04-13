@@ -709,3 +709,6 @@ Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
 Chaos: Lol-bot adds reaction: yeah
 Chaos: Lol-bot adds reaction: same
 Chaos: Lol-bot adds reaction: same
+Chaos: Lol-bot adds reaction: yep
+Chaos: Lol-bot adds reaction: interesting
+Chaos: Lol-bot adds reaction: yes
