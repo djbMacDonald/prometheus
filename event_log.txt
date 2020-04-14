@@ -721,3 +721,5 @@ Megamoji: Nice-bot adds message: nice
 Megamoji: Nice-bot adds message: nice
 Megamoji: Nice-bot adds message: nice
 Megamoji: Lol-bot adds reaction: nice
+Chaos: Botify-bot adds message: I wonder if the rest of new england will?
+Chaos: Botify-bot deletes message: I wonder if the rest of new england will?
