@@ -728,3 +728,4 @@ Chaos: Third-bot deletes message: even though I don't have a working camera on m
 Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UETS9HTSS> <@UHQD9J1SL> <@UDC4QL95G> <@UDD45P5A9>! There's a thread here!
 Chaos: Botify-bot adds message: Doable but tedious
 Chaos: Botify-bot deletes message: Doable but tedious
+Megamoji: Lol-bot adds reaction: lol

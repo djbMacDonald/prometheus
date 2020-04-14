@@ -15,7 +15,7 @@ def poolCallback(args):
 
 class Post:
   
-  def __init__(self, pool, event, className, actionQueue):
+  def __init__(self, event, className, actionQueue):
     self._event = event
     self._caller = className
     self._queue = actionQueue

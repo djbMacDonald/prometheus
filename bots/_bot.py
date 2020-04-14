@@ -13,7 +13,7 @@ class Bot(object):
   _active = False
   _frequency = 0
   
-  def __init__(self, eventModel, pool, mongoClient, user, emotes, actionQueue):
+  def __init__(self, eventModel, mongoClient, user, emotes, actionQueue):
     self._event = eventModel
     self._user = user
     self._postUtil = Post(eventModel, self.__class__.__name__, actionQueue)

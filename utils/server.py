@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template, jsonify, Response
 from model.modal import Modal
-from multiprocessing import Pool
 import json
 import jsons
 from model.slackevent import SlackEvent
@@ -22,6 +21,15 @@ from model.user import User
 
 hardDisableAllBots = False
 
+def callAllBots(event, mongoClient, user, emotes, actionQueue):
+  botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
+  for bot in botList:
+    try:
+      callBot(bot, event, mongoClient, user, emotes, actionQueue)
+    except Exception as error:
+      pprint.pprint(error)
+      print(traceback.format_exc())
+
 def getAllEmotes():
   postData = {
     'token': os.environ.get('SECRET')
@@ -35,12 +43,12 @@ def convertCase(name):
   components = name.split('_')
   return''.join(x.title() for x in components)
 
-def callBot(bot, originalEvent, pool, client, user, emotes, actionQueue):
+def callBot(bot, originalEvent, client, user, emotes, actionQueue):
   if hardDisableAllBots:
     return
   moduleType = getattr(bots, bot)
   className = convertCase(bot)
-  runner = getattr(moduleType, className)(originalEvent, pool, client, user, emotes, actionQueue)
+  runner = getattr(moduleType, className)(originalEvent, client, user, emotes, actionQueue)
   return runner.safeRun()
 
 def botConfigure(action, bot, value):

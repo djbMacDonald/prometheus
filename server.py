@@ -1,20 +1,15 @@
 from flask import Flask, request, jsonify, Response
 from model.modal import Modal
-# TODO: Move pool creation to action queue
-from multiprocessing import Pool
 # TODO: channels should be in util functions
 from constant.channels import underscoreChannel, civChannel, civSlaughterChannel
 import json
 # TODO: can slackEvent be combined with event model? Or maybe event model needs a better name
 from model.slackevent import SlackEvent
-import pprint
-import traceback
 # TODO this should only be in actionQueue
 import requests
 from model.event import Event
 from utils.ban import Ban
 from utils.log import Log
-import bots
 # move to action queue patern
 from utils.post import Post
 import time
@@ -33,52 +28,31 @@ from constant.people import STEAM
 # If you need to define a utility function for this file, do it in utils/server.py
 app = Flask(__name__)
 
-log = True
 handledEvents = []
 bans = {}
 
 emotes = getAllEmotes() + DEFAULT_EMOTES;
 
-botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
-
 @app.route("/listen", methods=['POST'])
 def inbound():
-# create queue
-# run through bots
-# log incoming message to file
-# flush queue
-  
-  # return data, 200
+  mongoClient = None
+  user = None
+  logUtil = Log()
   data = request.get_json(force=True)
+  originalEvent = Event(data, bans)
+  actionQueue = ActionQueue(event = originalEvent)
   if data.get('event_id') in handledEvents or not data.get('event'):
     return data, 200
-
-  logUtil = Log()
-  handledEvents.append(data.get('event_id'))
-    
-#     pool to be removed once bots connect to queue correctly
-  pool = Pool(1)
-  originalEvent = Event(data, bans)
-  actionQueue = ActionQueue(pool, event = originalEvent)
-  
-  
-  client = None
   if originalEvent.isAMessage() and not originalEvent.isFromABot():
     user = User(originalEvent)
-  else:
-    user = None
-  for bot in botList:
-    try:
-      result = callBot(bot, originalEvent, pool, client, user, emotes, actionQueue)
-    except Exception as error:
-      pprint.pprint(error)
-      print(traceback.format_exc())
-    
   if not originalEvent.isFromABot() and originalEvent.isAMessage():
     logUtil.logToFile(originalEvent)
+  
+  handledEvents.append(data.get('event_id'))
+  
+  callAllBots(originalEvent, mongoClient, user, emotes, actionQueue)
   actionQueue.flush()
-  pool.close()
-  pool.join()
+  
   return data, 200
 
 @app.route('/bot', methods=['POST'])
@@ -155,7 +129,7 @@ def bannedWords():
   global bans
   text = request.form.get('text')
   words = text.split(' ')
-  postUtil = Post(Pool(1))
+  postUtil = Post()
   if text.isdigit():
     getNewBans(int(text), {})
     postUtil.addMessageToChannel(text + ' new bans added', channel = underscoreChannel())
