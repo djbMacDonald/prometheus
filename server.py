@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, jsonify, Response
 from model.modal import Modal
 from multiprocessing import Pool
-from constant.channels import chaosChannel, underscoreChannel, civChannel
+from constant.channels import chaosChannel, underscoreChannel, civChannel, civSlaughterChannel
 import json
 import jsons
 from model.slackevent import SlackEvent
@@ -349,12 +349,16 @@ def civ():
   currentPlayer = data.get('value2')
   currentSlackUser = STEAM.get(currentPlayer)
   turnNumber = data.get('value3')
-  message = gameName + ': <@' + currentSlackUser + '> it is your turn! (turn ' + turnNumber + ')'
-  # postUtil.addMessageToChannel('Test: ' + message, channel = civChannel())
+  message = gameName + ': <@' + currentSlackUser + '> it is your turn! (turn ' + turnNumber + ')'  
   
+  gameToChannelMap = {
+    'Slaughter of the Lamb': civSlaughterChannel(),
+    
+  }
   
+  channel = civSlaughterChannel() if gameName == 'Slaughter of the Lamb' else civChannel()
   
-  postData = PostData(civChannel(), message, Identity(userName = 'Civilization VI: Turn Notification', emoji = 'civ6'))
+  postData = PostData(channel, message, Identity(userName = 'Civilization VI: Turn Notification', emoji = 'civ6'))
   info = postData.get()
   url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
   pool.apply_async(requests.get, args=[url], callback=())
