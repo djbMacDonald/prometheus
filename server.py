@@ -352,11 +352,10 @@ def civ():
   message = gameName + ': <@' + currentSlackUser + '> it is your turn! (turn ' + turnNumber + ')'  
   
   gameToChannelMap = {
-    'Slaughter of the Lamb': civSlaughterChannel(),
-    
+    'Slaughter of the Lamb': civSlaughterChannel()
   }
   
-  channel = civSlaughterChannel() if gameName == 'Slaughter of the Lamb' else civChannel()
+  channel = gameToChannelMap.get(gameName, civChannel())
   
   postData = PostData(channel, message, Identity(userName = 'Civilization VI: Turn Notification', emoji = 'civ6'))
   info = postData.get()
