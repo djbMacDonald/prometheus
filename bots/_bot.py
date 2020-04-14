@@ -16,7 +16,7 @@ class Bot(object):
   def __init__(self, eventModel, pool, mongoClient, user, emotes, actionQueue):
     self._event = eventModel
     self._user = user
-    self._postUtil = Post(pool, eventModel, self.__class__.__name__, actionQueue)
+    self._postUtil = Post(eventModel, self.__class__.__name__, actionQueue)
     self._identityUtil = Identity()
     self._randomUtil = Random()
     self._banUtil = Ban()

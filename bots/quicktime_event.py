@@ -1,8 +1,8 @@
-import random
 import os
-from model.identity import Identity
-from constant.language import VOWELS
 from bots._bot import Bot
+import urllib
+import requests
+from utils.log import Log
 
 class QuicktimeEvent(Bot):
   
@@ -16,6 +16,7 @@ class QuicktimeEvent(Bot):
     
     if not self._event.isFrom('cja'): #or not self._event.isInChannel('Secret'):
       return
+#     todo move to action queue probably
     postData = {
       'channel': self._event.channel(),
       'as_user': False,
@@ -41,5 +42,9 @@ class QuicktimeEvent(Bot):
       'token': os.environ.get('SECRET')
 
     }
-    self._postUtil.postEphemeral(postData)
+    self._log = Log()
+    self._pool = Pool(1)
+    url = 'https://www.slack.com/api/chat.postEphemeral?{}'.format(urllib.parse.urlencode(postData))
+    self._log.logEvent("{}: {}-bot makes an ephemeral post".format(self._event.channelName(), 'QuicktimeEvent'))
+    self._pool.apply_async(requests.get, args=[url], callback=())
     return

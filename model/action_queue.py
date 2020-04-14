@@ -7,6 +7,7 @@ from utils.log import Log
 import random
 from utils.emote import Emote
 from multiprocessing import Pool
+from constant.channels import allowed_channel_ids
 
 def poolCallback(args):
   args.close()
@@ -28,19 +29,23 @@ class ActionQueue:
     self._commands = []
     
   def addReplacement(self, bot, channel, id, thread, message, identity):
-    self._replacements.append(
-      {'bot': bot, 'channel': channel, 'id': id, 'threadId': thread, 'message': message, 'identity': identity}
-    )
+    if not self._isAllowedToPostInThisChannel(channel):
+      return;
+    self._replacements.append({'bot': bot, 'channel': channel, 'id': id, 'threadId': thread, 'message': message, 'identity': identity})
   
   def addReaction(self, bot, channel, timestamp, reaction):
-    self._reactions.append(
-      {'bot': bot, 'channel': channel, 'timestamp': timestamp, 'reaction': reaction}
-    )
+    if not self._isAllowedToPostInThisChannel(channel):
+      return;
+    self._reactions.append({'bot': bot, 'channel': channel, 'timestamp': timestamp, 'reaction': reaction})
   
   def addReply(self, bot, channel, thread, message, identity):
+    if not self._isAllowedToPostInThisChannel(channel):
+      return;
     self._replies.append({'bot': bot, 'channel': channel, 'threadId': thread, 'message': message, 'identity': identity})
     
   def addCommand(self, bot, channel, command, message, identity):
+    if not self._isAllowedToPostInThisChannel(channel):
+      return;
     self._commands.append({'bot': bot, 'channel': channel, 'command': command, 'message': message, 'identity': identity})
   
   def flush(self):
@@ -65,6 +70,9 @@ class ActionQueue:
     
     self._pool.close()
     self._pool.join()
+    
+  def _isAllowedToPostInThisChannel(self, channel):
+    return channel in allowed_channel_ids()
   
   def _flushReplacement(self, replacementRequest):
     postData = PostData(
@@ -117,11 +125,9 @@ class ActionQueue:
       command = commandRequest.get('command')
     )
     info = postData.get()
-#     if not self._isAllowedToPostInThisChannel(info['channel']):
-#       return;
-#     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
-#     self._log.logEvent("{}: {}-bot adds message: {}".format(self._event.channelName(), self._caller, self._truncate(info['text'])))
-#     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
+    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    self._log.logEvent("{}: {}-bot uses command: {}".format(CHANNELS[reactionRequest.get('channel')].get('name'), commandRequest.get('bot'), commandRequest.get('command')))
   
   def _deleteMessage(self, replacementRequest):
     postData = {

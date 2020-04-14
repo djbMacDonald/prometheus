@@ -27,7 +27,7 @@ class SlackEvent:
         spell = event.get('view').get('private_metadata')
         caster = Caster(user_id)
         shame = f"{caster.name} just tried to cast {spell} on {target} but failed... cuz they are bad."
-        #post = Post(Pool(1))
+        #post = Post()
         #post.addMessageToChannel(shame, channel = CHANNELS['Chaos'])
 
       
