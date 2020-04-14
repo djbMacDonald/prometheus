@@ -757,3 +757,4 @@ Chaos: Spam-bot adds reaction: pc
 Chaos: Spam-bot adds reaction: runner-hat
 Chaos: Spam-bot adds reaction: bi-merch
 Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 9)
