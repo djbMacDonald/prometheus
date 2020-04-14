@@ -1,30 +1,37 @@
-from flask import Flask, request, render_template, jsonify, Response
+from flask import Flask, request, jsonify, Response
 from model.modal import Modal
+# TODO: Move pool creation to action queue
 from multiprocessing import Pool
-from constant.channels import chaosChannel, underscoreChannel, civChannel, civSlaughterChannel
+# TODO: channels should be in util functions
+from constant.channels import underscoreChannel, civChannel, civSlaughterChannel
 import json
-import jsons
+# TODO: can slackEvent be combined with event model? Or maybe event model needs a better name
 from model.slackevent import SlackEvent
 import pprint
 import traceback
+# TODO this should only be in actionQueue
 import urllib
+# TODO this should only be in actionQueue
 import requests
-from model.caster import Caster
 from model.event import Event
 from utils.ban import Ban
 from utils.log import Log
 import bots
+# move to action queue patern
 from utils.post import Post
 import time
-import sched
+# remove for action queue pattern
 import os
-import asyncio
 from model.user import User
+# todo remove wildcard
 from utils.server import *
 from constant.emotes import DEFAULT_EMOTES
 from model.action_queue import ActionQueue
+# todo move to bot functions
 from model.identity import Identity
+# todo remove for queue pattern
 from model.post_data import PostData
+# move to a bot somewhere
 from constant.people import STEAM
 
 # If you need to define a utility function for this file, do it in utils/server.py
