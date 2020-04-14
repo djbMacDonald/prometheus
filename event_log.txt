@@ -729,3 +729,4 @@ Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UETS9HTSS> <@UHQD9J1SL> <@
 Chaos: Botify-bot adds message: Doable but tedious
 Chaos: Botify-bot deletes message: Doable but tedious
 Megamoji: Lol-bot adds reaction: lol
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 4)

@@ -1,4 +1,3 @@
-from utils.post import Post
 from utils.identity import Identity
 from utils.random import Random
 from utils.ban import Ban
@@ -17,7 +16,6 @@ class Bot(object):
   def __init__(self, eventModel, mongoClient, user, emotes, actionQueue):
     self._event = eventModel
     self._user = user
-    self._postUtil = Post(eventModel, self.__class__.__name__, actionQueue)
     self._identityUtil = Identity()
     self._randomUtil = Random()
     self._banUtil = Ban()
@@ -77,3 +75,6 @@ class Bot(object):
   def _replacePost(self, message):
     identity = IDENTITIES[self._event.user()]
     self._queue.addReplacement(self._caller, self._event.channel(), self._event.id(), self._event.threadId(), message, Identity(identity.get('username'), identity.get('profilePicture')))
+    
+  def _targetSendsMessageToChannel(self._target, self._frequency):
+    

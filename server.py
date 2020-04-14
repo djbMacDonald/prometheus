@@ -10,8 +10,6 @@ import requests
 from model.event import Event
 from utils.ban import Ban
 from utils.log import Log
-# move to action queue patern
-from utils.post import Post
 import time
 # remove for action queue pattern
 import os
@@ -129,28 +127,25 @@ def bannedWords():
   global bans
   text = request.form.get('text')
   words = text.split(' ')
-  postUtil = Post()
+  actionQueue = ActionQueue()
+  if len(words) > 1 or not text.isalpha() or text in bans.keys():
+    return Response(), 200
   if text.isdigit():
     getNewBans(int(text), {})
-    postUtil.addMessageToChannel(text + ' new bans added', channel = underscoreChannel())
-    return Response(), 200
-
-  elif len(words) > 1 or not text.isalpha() or text in bans.keys():
-    ##call them an idiot
-    return Response(), 200
-  if text == 'list':
+    queue.addReply('/ban', underscoreChannel(), None, "{} new bans added".format(text))
+  elif text == 'list':
     banUtil = Ban()
     dailybans = banUtil.getBans()
-
-    postUtil.addMessageToChannel('Current Bans: ' + ', '.join(dailybans), channel = underscoreChannel())
+    queue.addReply('/ban', underscoreChannel(), None, "Current Bans: {}".format(', '.join(dailybans)))
   elif text == 'clear':
     bans = {}
     saveBans()
-    postUtil.addMessageToChannel('Bans Cleared!', channel = underscoreChannel())
+    queue.addReply('/ban', underscoreChannel(), None, "Bans Cleared!")
   else:
     addBan(text)
     saveBans()
-    postUtil.addMessageToChannel(text + ' is now banned', channel = underscoreChannel())
+    queue.addReply('/ban', underscoreChannel(), None, "{} is now banned".format(text))
+  actionQueue.flush()
   return Response(), 200
 
 @app.route('/quicktime', methods=['POST'])

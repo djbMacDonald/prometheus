@@ -1,4 +1,3 @@
-from utils.post import Post
 from utils.identity import Identity
 from utils.random import Random
 from utils.ban import Ban

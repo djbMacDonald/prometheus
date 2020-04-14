@@ -9,7 +9,6 @@ from view.chaos_admin import ChaosAdminView
 from model.user import User
 from utils.view_factory import ViewFactory
 
-from utils.post import Post
 class SlackEvent:
   def __init__(self, event):
     

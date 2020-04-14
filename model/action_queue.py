@@ -28,7 +28,7 @@ class ActionQueue:
     self._reactions = []
     self._commands = []
     
-  def addReplacement(self, bot, channel, id, thread, message, identity):
+  def addReplacement(self, bot, channel, id, thread, message, identity = None):
     if not self._isAllowedToPostInThisChannel(channel):
       return;
     self._replacements.append({'bot': bot, 'channel': channel, 'id': id, 'threadId': thread, 'message': message, 'identity': identity})
@@ -38,12 +38,12 @@ class ActionQueue:
       return;
     self._reactions.append({'bot': bot, 'channel': channel, 'timestamp': timestamp, 'reaction': reaction})
   
-  def addReply(self, bot, channel, thread, message, identity):
+  def addReply(self, bot, channel, thread, message, identity = None):
     if not self._isAllowedToPostInThisChannel(channel):
       return;
     self._replies.append({'bot': bot, 'channel': channel, 'threadId': thread, 'message': message, 'identity': identity})
     
-  def addCommand(self, bot, channel, command, message, identity):
+  def addCommand(self, bot, channel, command, message, identity = None):
     if not self._isAllowedToPostInThisChannel(channel):
       return;
     self._commands.append({'bot': bot, 'channel': channel, 'command': command, 'message': message, 'identity': identity})

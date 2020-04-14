@@ -12,7 +12,6 @@ from model.event import Event
 from utils.ban import Ban
 from utils.log import Log
 import bots
-from utils.post import Post
 import time
 import sched
 import os
