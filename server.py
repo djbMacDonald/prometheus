@@ -344,7 +344,10 @@ def civ():
   pool = Pool(1)
   #handle Civ VI payloads for turn notifications in the "play by cloud" game mode
   data = request.get_json(force=True)
-  message = str(data)
+  gameName = data.get('value1')
+  currentPlayer = data.get('value2')
+  turnNumber = data.get('value3')
+  message = gameName + ': ' + currentPlayer + ' it is your turn! (turn ' + turnNumber + ')'
   # postUtil.addMessageToChannel('Test: ' + message, channel = civChannel())
   
   postData = PostData(civChannel(), 'Test: ' + message, Identity(userName = 'Doctor Ivo "Eggman" Robotnik', emoji = 'robotnik'))

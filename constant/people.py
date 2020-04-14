@@ -45,3 +45,9 @@ PEOPLE = {
   'UDL020K8D': {'username': 'Doug', 'profilePicture': 'https://ca.slack-edge.com/TDBEDSEQZ-UDL020K8D-e70c28fa97bb-48', 'id': 'UDL020K8D'}
 
 }
+
+STEAM = {
+  'Beerdeau': 'UETS9HTSS',
+  'Fernet': 'UDC03KCGK',
+  'lackmind': 'UDDE5960N'
+}
