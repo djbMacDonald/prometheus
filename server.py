@@ -43,9 +43,6 @@ botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
 
 @app.route("/listen", methods=['POST'])
 def inbound():
-  #if not event, or already handled, quit
-#   mark as handled
-# clean data block??? idk
 # create queue
 # run through bots
 # log incoming message to file
@@ -59,14 +56,17 @@ def inbound():
   logUtil = Log()
   handledEvents.append(data.get('event_id'))
     
+#     pool to be removed once bots connect to queue correctly
   pool = Pool(1)
   originalEvent = Event(data, bans)
+  actionQueue = ActionQueue(pool, event = originalEvent)
+  
+  
   client = None
   if originalEvent.isAMessage() and not originalEvent.isFromABot():
     user = User(originalEvent)
   else:
     user = None
-  actionQueue = ActionQueue(pool, originalEvent)
   for bot in botList:
     try:
       result = callBot(bot, originalEvent, pool, client, user, emotes, actionQueue)

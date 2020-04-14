@@ -38,7 +38,10 @@ class ActionQueue:
     )
   
   def addReply(self, bot, channel, thread, message, identity):
-    self._replies.append({'bot': bot, 'channel': channel, 'threadId': thread, 'message': message,'identity': identity})
+    self._replies.append({'bot': bot, 'channel': channel, 'threadId': thread, 'message': message, 'identity': identity})
+    
+  def addCommand(self, bot, channel, command, message, identity):
+    self._commands.append({'bot': bot, 'channel': channel, 'command': command, 'message': message, 'identity': identity})
   
   def flush(self):
     if self._replacements:
@@ -107,6 +110,18 @@ class ActionQueue:
     
   def _flushCommand(self, commandRequest):
     return
+    postData = PostData(
+      commandRequest.get('channel'), 
+      commandRequest.get('message'), 
+      commandRequest.get('identity'), 
+      command = commandRequest.get('command')
+    )
+    info = postData.get()
+#     if not self._isAllowedToPostInThisChannel(info['channel']):
+#       return;
+#     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
+#     self._log.logEvent("{}: {}-bot adds message: {}".format(self._event.channelName(), self._caller, self._truncate(info['text'])))
+#     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
   
   def _deleteMessage(self, replacementRequest):
     postData = {

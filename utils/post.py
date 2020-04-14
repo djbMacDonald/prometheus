@@ -32,9 +32,7 @@ class Post:
     info = postData.get()
     if not self._isAllowedToPostInThisChannel(info['channel']):
       return;
-    url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
-    self._log.logEvent("{}: {}-bot adds message: {}".format(self._event.channelName(), self._caller, self._truncate(info['text'])))
-    self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.pa
     
   def _addReaction(self, reaction, timestamp):
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
@@ -66,8 +64,9 @@ class Post:
       self.addMessageToChannel(message, identity)
     
   def useCommand(self, command, message, channel):
-    postData = PostData(channel, message, identity, command = command)
-    self._sendRequest(postData)
+    if not self._isAllowedToPostInThisChannel(self._event.channel()):
+      return;
+    self._queue.addCommand(self._caller, channel, command, message, identity)
     
   def replacePost(self, message):
     if not self._isAllowedToPostInThisChannel(self._event.channel()):
@@ -80,16 +79,3 @@ class Post:
     self._log.logEvent("{}: {}-bot makes an ephemeral post".format(self._event.channelName(), self._caller))
     self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
     return   
-    
-    
-  # def setChannelTopic(self, channel, message):
-  #   if not self.isAllowedToPostInThisChannel(channel):
-  #     return;
-  #   postData = {
-  #      'channel': channel,
-  #      'topic': message,
-  #      'token': os.environ.get('SECRET')
-  #   }
-  #   url = 'https://www.slack.com/api/conversations.setTopic?{}'.format(urllib.parse.urlencode(postData))
-  #   print(url)
-  #   self._pool.apply_async(requests.post, args=[url]
