@@ -48,3 +48,12 @@ class Bot(object):
   
   def getListView(self):
     return
+  
+  def _addReactionToMessage(self, reaction):
+    self._queue.addReaction(self._caller, self._event.channel(), self._event.id(), reaction)
+    
+  def _addReactionToOriginalMessage(self, reaction):
+    self._queue.addReaction(self._caller, self._event.channel(), self._event.threadId(), reaction)
+  
+  def _addMessageToThread(self, message, identity):
+    self._queue.addReply(self.__class__.__name__, self._event.channel(), self._event.id(), message, identity)

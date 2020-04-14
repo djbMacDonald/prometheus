@@ -27,5 +27,5 @@ class Fire(Bot):
     if self._randomUtil.rollDice(self._frequencyDrew):
       message = message + ' ' + self._identityUtil.pingUser(USERS[self._ping.lower()])
     
-    self._postUtil.addMessageToThread(message, Identity(profilePicture = self._identityUtil.randomImageUrl()))
+    self._addMessageToThread(message, Identity(profilePicture = self._identityUtil.randomImageUrl()))
       

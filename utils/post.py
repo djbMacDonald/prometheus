@@ -20,26 +20,20 @@ class Post:
     self._caller = className
     self._queue = actionQueue
     
-  def _addReaction(self, reaction, timestamp):
-    self._queue.addReaction(self._caller, self._event.channel(), timestamp, reaction)
-    
   def addReactionToMessage(self, reaction):
-    self._addReaction(reaction, self._event.id());
+    self._queue.addReaction(self._caller, self._event.channel(), self._event.id(), reaction)
     
   def addReactionToOriginalMessage(self, reaction):
-    self._addReaction(reaction, self._event.threadId());
+    self._queue.addReaction(self._caller, self._event.channel(), self._event.threadId(), reaction)
   
   def addMessageToChannel(self, message, identity = None, channel = None):
     if not channel:
       channel = self._event.channel()
     self._queue.addReply(self._caller, self._event.channel(), None, message, identity)
-    
-  def addMessageToThread(self, message, identity = None):
-    self._queue.addReply(self._caller, self._event.channel(), self._event.id(), message, identity)
   
   def addMessage(self, message, identity = None):
     if self._event.isPartOfAThread():
-      self.addMessageToThread(message, identity)
+      self._queue.addReply(self._caller, self._event.channel(), self._event.id(), message, identity)
     else:
       self.addMessageToChannel(message, identity)
     

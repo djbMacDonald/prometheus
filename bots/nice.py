@@ -22,4 +22,4 @@ class Nice(Bot):
       if self._event.user() == impersonation.get('id'):
         continue
       identity = Identity(impersonation.get('username'), impersonation.get('profilePicture'))
-      self._postUtil.addMessageToThread('nice', identity)
+      self._addMessageToThread('nice', identity)
