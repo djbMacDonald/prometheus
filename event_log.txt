@@ -725,3 +725,6 @@ Chaos: Botify-bot adds message: I wonder if the rest of new england will?
 Chaos: Botify-bot deletes message: I wonder if the rest of new england will?
 Chaos: Third-bot adds message: even though Brenden don't have a working camera on my laptop, it still feels weird to hop on a work call when Brenden'm not fully dressed out of the shower in the morning
 Chaos: Third-bot deletes message: even though I don't have a working camera on my laptop, it still feels weird to hop on a work call when I'm not fully dressed out of the shower in the morning
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UETS9HTSS> <@UHQD9J1SL> <@UDC4QL95G> <@UDD45P5A9>! There's a thread here!
+Chaos: Botify-bot adds message: Doable but tedious
+Chaos: Botify-bot deletes message: Doable but tedious
