@@ -723,3 +723,5 @@ Megamoji: Nice-bot adds message: nice
 Megamoji: Lol-bot adds reaction: nice
 Chaos: Botify-bot adds message: I wonder if the rest of new england will?
 Chaos: Botify-bot deletes message: I wonder if the rest of new england will?
+Chaos: Third-bot adds message: even though Brenden don't have a working camera on my laptop, it still feels weird to hop on a work call when Brenden'm not fully dressed out of the shower in the morning
+Chaos: Third-bot deletes message: even though I don't have a working camera on my laptop, it still feels weird to hop on a work call when I'm not fully dressed out of the shower in the morning
