@@ -340,29 +340,23 @@ def chaos():
   
   return Response(), 200
 
+#handle Civ VI payloads for turn notifications in the "play by cloud" game mode
 @app.route('/civ', methods=['POST'])
 def civ():
   actionQueue = ActionQueue()
-  
-  #handle Civ VI payloads for turn notifications in the "play by cloud" game mode
   data = request.get_json(force=True)
-  gameName = data.get('value1')
   currentPlayer = data.get('value2')
-  currentSlackUser = STEAM.get(currentPlayer)
-  turnNumber = data.get('value3')
-  message = gameName + ': <@' + currentSlackUser + '> it is your turn! (turn ' + turnNumber + ')'  
   
-  gameToChannelMap = {
-    'Slaughter of the Lamb': civSlaughterChannel()
-  }
+  gameToChannelMap = {'Slaughter of the Lamb': civSlaughterChannel()}
   
-  channel = gameToChannelMap.get(gameName, civChannel())
-  
-  postData = PostData(channel, message, Identity(userName = 'Civilization VI: Turn Notification', emoji = 'civ6'))
-  info = postData.get()
-  url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
-  pool.apply_async(requests.get, args=[url], callback=())
-  # self._log.logEvent("{}: {}-bot adds message: {}".format(CHANNELS[replyRequest.get('channel')].get('name'), replyRequest.get('bot'), info['text']))
+  actionQueue.addReply(
+    'Civ', 
+    gameToChannelMap.get(data.get('value1'), civChannel()), 
+    None, 
+    '{}: <@{}> it is your turn! (turn {})'.format(data.get('value1'), STEAM.get(currentPlayer), data.get('value3')), 
+    Identity(userName = 'Civilization VI: Turn Notification', emoji = 'civ6')
+  )
+  actionQueue.flush()
   return Response(), 200
   
 if __name__ == "__main__":
