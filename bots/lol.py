@@ -14,4 +14,4 @@ class Lol(Bot):
     
     emojis = self._emoteUtil.getAll()
     if self._event.text().lower() in emojis: 
-      self._postUtil.addReactionToMessage(self._event.text().lower())
+      self._addReactionToMessage(self._event.text().lower())

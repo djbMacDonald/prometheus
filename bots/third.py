@@ -31,4 +31,4 @@ class Third(Bot):
       if text == self._event.text():
         return
       
-      self._postUtil.replacePost(text)
+      self._replacePost(text)

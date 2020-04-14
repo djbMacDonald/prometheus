@@ -11,4 +11,4 @@ class Hello(Bot):
   
   def run(self):
     if self._event.text() and self._event.text().lower() == "hi prometheus":
-      self._postUtil.addMessageToChannel('Hello!')
+      self._addMessageToChannel('Hello!')

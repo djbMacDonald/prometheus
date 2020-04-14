@@ -22,11 +22,7 @@ class Mock(Bot):
     intersection = set(messageInfo.get('reactionNames')).intersection(['spongebob-mock', 'mocking-spongebob'])
     if len(intersection) == 0 or messageInfo.get('hasAThread'):
       return
-    self._addMessageToThread(
-      self._mockString(messageInfo.get('text')), 
-      Identity('sPoNgeBoB', 'https://emoji.slack-edge.com/TDBEDSEQZ/spongebob-mock/3b66c2fdf2b77a8d.png')
-    )
-    return 'end'
+    self._addMessageToThread(self._mockString(messageInfo.get('text')), Identity('sPoNgeBoB', 'https://emoji.slack-edge.com/TDBEDSEQZ/spongebob-mock/3b66c2fdf2b77a8d.png'))
     
   def _mockString(self, string):
     return "".join(map(

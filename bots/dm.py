@@ -21,7 +21,7 @@ class Dm(Bot):
       return;
     message = 'Roll {} to {} the {}'.format(self._createRollMessage(), random.choice(ACTIONS), random.choice(DANGERS))
     identity = Identity(userName = 'Dungeon Master', profilePicture = self._identityUtil.randomImageUrl())
-    self._postUtil.addMessageToChannel(message, identity)
+    self._addMessageToChannel(message, identity)
         
   def _createRollMessage(self):
     if self._randomUtil.rollDice(self._frequency_save):

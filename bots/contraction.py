@@ -93,5 +93,5 @@ class Contraction(Bot):
     if message == self._event.text():
       return
     
-    self._postUtil.replacePost(message)
+    self._replacePost(message)
     return

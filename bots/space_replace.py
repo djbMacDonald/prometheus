@@ -18,5 +18,5 @@ class SpaceReplace(Bot):
       return
     if ' ' in self._event.text():
       message = self._event.text().replace(' ', '-')
-      self._postUtil.replacePost(message)
+      self._replacePost(message)
       return

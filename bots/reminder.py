@@ -33,4 +33,4 @@ class Reminder(Bot):
       friday.month, 
       friday.day
     )
-    self._postUtil.useCommand('/polly', pollText, CHANNELS['Schemes'])
+    self._useCommand('/polly', pollText, CHANNELS['Schemes'])

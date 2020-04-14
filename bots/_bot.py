@@ -6,6 +6,8 @@ from utils.channel import Channel
 from utils.mongo import Mongo
 from utils.trigger import Trigger
 from utils.emote import Emote
+from constant.people import IDENTITIES
+from model.identity import Identity
 
 class Bot(object):
   
@@ -50,10 +52,28 @@ class Bot(object):
     return
   
   def _addReactionToMessage(self, reaction):
-    self._queue.addReaction(self._caller, self._event.channel(), self._event.id(), reaction)
+    self._queue.addReaction(self.__class__.__name__, self._event.channel(), self._event.id(), reaction)
     
   def _addReactionToOriginalMessage(self, reaction):
-    self._queue.addReaction(self._caller, self._event.channel(), self._event.threadId(), reaction)
+    self._queue.addReaction(self.__class__.__name__, self._event.channel(), self._event.threadId(), reaction)
   
   def _addMessageToThread(self, message, identity):
     self._queue.addReply(self.__class__.__name__, self._event.channel(), self._event.id(), message, identity)
+    
+  def _addMessage(self, message, identity = None):
+    if self._event.isPartOfAThread():
+      self._queue.addReply(self.__class__.__name__, self._event.channel(), self._event.id(), message, identity)
+    else:
+      self._addMessageToChannel(message, identity)
+      
+  def _addMessageToChannel(self, message, identity = None, channel = None):
+    if not channel:
+      channel = self._event.channel()
+    self._queue.addReply(self.__class__.__name__, self._event.channel(), None, message, identity)
+    
+  def _useCommand(self, command, message, channel):
+    self._queue.addCommand(self.__class__.__name__, channel, command, message, identity)
+    
+  def _replacePost(self, message):
+    identity = IDENTITIES[self._event.user()]
+    self._queue.addReplacement(self._caller, self._event.channel(), self._event.id(), self._event.threadId(), message, Identity(identity.get('username'), identity.get('profilePicture')))

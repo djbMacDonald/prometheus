@@ -28,7 +28,7 @@ class Lex(Bot):
     
     if self._event.text() == newString:
       return;
-    self._postUtil.replacePost(newString)
+    self._replacePost(newString)
   
   def _scrambleWord(self, word):
     if len(word) < 4:

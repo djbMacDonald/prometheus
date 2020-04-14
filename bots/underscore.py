@@ -17,5 +17,5 @@ class Underscore(Bot):
       return
     if ' ' in self.text:
       text = self._event.text().replace(' ', '-')
-      self._postUtil.replacePost(text)
+      self._replacePost(text)
     return 'end'

@@ -23,8 +23,8 @@ class ChaosSeed(Bot):
     
     if self._event.text() and self._event.text().lower() == "silence chaos seed":
       self._recordThread()
-      self._postUtil.addReactionToMessage("salute_cap")
-      self._postUtil.addReactionToOriginalMessage("squirrel")
+      self._addReactionToMessage("salute_cap")
+      self._addReactionToOriginalMessage("squirrel")
       return
     if self._event.isFromABot() or not self._event.threadId():
       return;

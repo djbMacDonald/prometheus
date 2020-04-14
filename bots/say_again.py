@@ -6,14 +6,13 @@ from bots._bot import Bot
 
 class SayAgain(Bot):
   
-  _active = True
+  _active = False
   
   @classmethod
   def description(cls):
     return "If you say 'you can say that again', it will make someone say it again."
   
   def run(self):
-    return #OFF
     if not self._event.text() or self._event.isFromABot() or not self._event.text().lower() == "you can say that again" or not self._event.isInChannel('Megamoji'):
       return
     if self._event.isPartOfAThread():
@@ -31,5 +30,5 @@ class SayAgain(Bot):
           if message.get('thread_ts'):
             continue;
           
-        return self._postUtil.addMessage(message['text'], identity = Identity(identity.get('username'), identity.get('profilePicture')))
+        return self._addMessage(message['text'], identity = Identity(identity.get('username'), identity.get('profilePicture')))
           

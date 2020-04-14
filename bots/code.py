@@ -21,4 +21,4 @@ class Code(Bot):
 #     if not self._event.isFrom(target) or not self._randomUtil.rollDice(frequency):
 #       return
     
-#     self._postUtil.replacePost('`{}`'.format(self._event.text()))
+#     self._replacePost('`{}`'.format(self._event.text()))

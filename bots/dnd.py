@@ -48,4 +48,4 @@ class Dnd(Bot):
         responseMessage += '{}\n'.format(prof['name'])
       responseMessage += '```\n\n'
       
-      self._postUtil.addMessage(responseMessage)
+      self._addMessage(responseMessage)
