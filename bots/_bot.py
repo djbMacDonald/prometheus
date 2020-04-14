@@ -6,7 +6,6 @@ from utils.channel import Channel
 from utils.mongo import Mongo
 from utils.trigger import Trigger
 from utils.emote import Emote
-from utils.server import hardDisableAllBots
 
 class Bot(object):
   
@@ -24,13 +23,14 @@ class Bot(object):
     self._mongoUtil = Mongo(mongoClient)
     self._triggerUtil = Trigger(eventModel)
     self._emoteUtil = Emote(emotes)
+    self._queue = actionQueue
     
   @classmethod
   def formatDescription(cls):
     description = cls.description()
     if description == "":
       return description
-    if hardDisableAllBots or not cls._active:
+    if not cls._active:
       return "DISABLED: " + description
     return description
   

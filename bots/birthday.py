@@ -13,4 +13,10 @@ class Birthday(Bot):
     
   def run(self):
     if self._triggerUtil.targetSendsMessageToChannel(self._target, self._frequency):
-      self._postUtil.addMessageToThread(':party: Happy Birthday {} :party:'.format(self._target), Identity(profilePicture = self._identityUtil.randomImageUrl()))
+      self._queue.addReply(
+        self.__class__.__name__, 
+        self._event.channel(), 
+        self._event.id(), 
+        ':party: Happy Birthday {} :party:'.format(self._target), 
+        Identity(profilePicture = self._identityUtil.randomImageUrl())
+      )
