@@ -23,6 +23,8 @@ from model.user import User
 from utils.server import *
 from constant.emotes import DEFAULT_EMOTES
 from model.action_queue import ActionQueue
+from model.identity import Identity
+from model.post_data import PostData
 
 # If you need to define a utility function for this file, do it in utils/server.py
 app = Flask(__name__)
@@ -339,10 +341,17 @@ def chaos():
 
 @app.route('/civ', methods=['POST'])
 def civ():
+  pool = Pool(1)
   #handle Civ VI payloads for turn notifications in the "play by cloud" game mode
   data = request.get_json(force=True)
   message = str(data)
-  postUtil.addMessageToChannel('Test: ' + message, channel = civChannel())
+  # postUtil.addMessageToChannel('Test: ' + message, channel = civChannel())
+  
+  postData = PostData(civChannel(), 'Test: ' + message, Identity(userName = 'Doctor Ivo "Eggman" Robotnik', emoji = 'robotnik'))
+  info = postData.get()
+  url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
+  pool.apply_async(requests.get, args=[url], callback=())
+  # self._log.logEvent("{}: {}-bot adds message: {}".format(CHANNELS[replyRequest.get('channel')].get('name'), replyRequest.get('bot'), info['text']))
   return Response(), 200
   
 if __name__ == "__main__":
