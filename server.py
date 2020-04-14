@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, jsonify, Response
 from model.modal import Modal
 from multiprocessing import Pool
-from constant.channels import chaosChannel, underscoreChannel
+from constant.channels import chaosChannel, underscoreChannel, civChannel
 import json
 import jsons
 from model.slackevent import SlackEvent
@@ -341,7 +341,8 @@ def chaos():
 def civ():
   #handle Civ VI payloads for turn notifications in the "play by cloud" game mode
   data = request.get_json(force=True)
-  
+  message = str(data)
+  postUtil.addMessageToChannel('Test: ' + message, channel = civChannel())
   return Response(), 200
   
 if __name__ == "__main__":
