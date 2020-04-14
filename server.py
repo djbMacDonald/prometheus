@@ -336,6 +336,13 @@ def chaos():
     modal.open()
   
   return Response(), 200
+
+@app.route('/civ', methods=['POST'])
+def civ():
+  #handle Civ VI payloads for turn notifications in the "play by cloud" game mode
+  data = request.get_json(force=True)
+  
+  return Response(), 200
   
 if __name__ == "__main__":
   app.run()
