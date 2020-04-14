@@ -21,7 +21,7 @@ class ChaosSeed(Bot):
     if self._event.threadId() in lines:
       return
     
-    if self._event.text() and self._event.text().lower() == "silence chaos seed":
+    if self._messageMatchesText("silence chaos seed"):
       self._recordThread()
       self._addReactionToMessage("salute_cap")
       self._addReactionToOriginalMessage("squirrel")

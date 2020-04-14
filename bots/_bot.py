@@ -79,8 +79,11 @@ class Bot(object):
   def _targetSendsMessageToChannel(self):
     return self._triggerUtil.targetSendsMessageToChannel(self._target, self._frequency)
   
-  def _targetSendsMessageAnywhere():
+  def _targetSendsMessageAnywhere(self):
     return self._triggerUtil.targetSendsMessageAnywhere(self._target, self._frequency)
   
-  def _chaosUserSendsMessage():
-    return self.triggerUtil.chaosUserSendsMessage(self._event)
+  def _chaosUserSendsMessage(self):
+    return self._triggerUtil.chaosUserSendsMessage(self._event)
+  
+  def _messageMatchesText(self, matchText, ignoreCase = True):
+    return self._triggerUtil.messageMatchesText(self._event.text(), matchText, ignoreCase)

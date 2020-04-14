@@ -13,5 +13,5 @@ class Botify(Bot):
     return "Has a {}% chance of replacing {}'s message with {}-bot's message".format(cls._frequency * 100, cls._target, cls._target)
   
   def run(self):
-    if self._triggerUtil.targetSendsMessageAnywhere():
+    if self._targetSendsMessageAnywhere():
       self._replacePost(self._event.text())

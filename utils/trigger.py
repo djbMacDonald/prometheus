@@ -31,8 +31,8 @@ class Trigger:
       and not event.isFromABot()
     )
   
-  def messageMatches(self, message, matchText, ignoreCase = True):
+  def messageMatchesText(self, message, matchText, ignoreCase):
     if ignoreCase:
-      return text and text.lower() == matchText
+      return text and text.lower() == matchText.lower()
     return text and text == matchText
     
