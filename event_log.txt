@@ -730,3 +730,4 @@ Chaos: Botify-bot adds message: Doable but tedious
 Chaos: Botify-bot deletes message: Doable but tedious
 Megamoji: Lol-bot adds reaction: lol
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 4)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 4)

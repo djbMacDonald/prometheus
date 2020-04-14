@@ -23,3 +23,16 @@ class Trigger:
       self.targetSendsMessageAnywhere(target, chance) 
       and not self._event.isPartOfAThread()
     )
+    
+  def chaosUserSendsMessage(self, event):
+    return (
+      event.isFromChaosUser()
+      and event.text() 
+      and not event.isFromABot()
+    )
+  
+  def messageMatches(self, message, matchText, ignoreCase = True):
+    if ignoreCase:
+      return text and text.lower() == matchText
+    return text and text == matchText
+    

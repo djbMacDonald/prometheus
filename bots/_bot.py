@@ -11,7 +11,7 @@ from model.identity import Identity
 class Bot(object):
   
   _active = False
-  _frequency = 0
+  _frequency = 1
   
   def __init__(self, eventModel, mongoClient, user, emotes, actionQueue):
     self._event = eventModel
@@ -76,5 +76,11 @@ class Bot(object):
     identity = IDENTITIES[self._event.user()]
     self._queue.addReplacement(self._caller, self._event.channel(), self._event.id(), self._event.threadId(), message, Identity(identity.get('username'), identity.get('profilePicture')))
     
-  def _targetSendsMessageToChannel(self._target, self._frequency):
-    
+  def _targetSendsMessageToChannel(self):
+    return self._triggerUtil.targetSendsMessageToChannel(self._target, self._frequency)
+  
+  def _targetSendsMessageAnywhere():
+    return self._triggerUtil.targetSendsMessageAnywhere(self._target, self._frequency)
+  
+  def _chaosUserSendsMessage():
+    return self.triggerUtil.chaosUserSendsMessage(self._event)

@@ -11,10 +11,7 @@ class Censor(Bot):
     return "Censors instances of banned words. Only applies to those opted into Chaos Users. The banned word changes every day."
   
   def run(self):
-    if not self._event.isFromChaosUser():
-      return
-    
-    if not self._event.text() or self._event.isFromABot():
+    if not self._chaosUserSendsMessage:
       return
     
     bans = self._banUtil.getBans()
