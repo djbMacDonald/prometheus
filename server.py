@@ -10,8 +10,6 @@ from model.slackevent import SlackEvent
 import pprint
 import traceback
 # TODO this should only be in actionQueue
-import urllib
-# TODO this should only be in actionQueue
 import requests
 from model.event import Event
 from utils.ban import Ban
@@ -29,8 +27,6 @@ from constant.emotes import DEFAULT_EMOTES
 from model.action_queue import ActionQueue
 # todo move to bot functions
 from model.identity import Identity
-# todo remove for queue pattern
-from model.post_data import PostData
 # move to a bot somewhere
 from constant.people import STEAM
 
@@ -47,23 +43,24 @@ botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
 
 @app.route("/listen", methods=['POST'])
 def inbound():
+  #if not event, or already handled, quit
+#   mark as handled
+# clean data block??? idk
+# create queue
+# run through bots
+# log incoming message to file
+# flush queue
+  
   # return data, 200
   data = request.get_json(force=True)
-  logUtil = Log()
-  
   if data.get('event_id') in handledEvents or not data.get('event'):
     return data, 200
-  else:
-    handledEvents.append(data.get('event_id'))
-  
-  if log:
-    cleanData = data.get('event')
-    if 'blocks' in cleanData:
-      del(cleanData['blocks'])
+
+  logUtil = Log()
+  handledEvents.append(data.get('event_id'))
     
   pool = Pool(1)
   originalEvent = Event(data, bans)
-  # client = MongoClient(os.environ.get('MONGO'))
   client = None
   if originalEvent.isAMessage() and not originalEvent.isFromABot():
     user = User(originalEvent)
@@ -106,23 +103,6 @@ def eventHistory():
   user = User(Event(req))
   modal = Modal('event_history', trigger, user)
   modal.open()
-  return Response(), 200
-
-@app.route('/push_me', methods=['POST'])
-def stuff():
-  data = request.form.to_dict(flat=False)
-  data = json.loads(data['payload'][0])
-  triggerId = data['trigger_id']
-  user = data['user']['id']
-  
-  postData = {
-     'user': user, 
-     'scopes': 'chat:write:user',
-     'trigger_id': triggerId,
-     'token': os.environ.get('SECRET')
-   }
-  url = 'https://www.slack.com/api/apps.permissions.users.request?{}'.format(urllib.parse.urlencode(postData))
-  requests.get(url)
   return Response(), 200
 
 @app.route('/mega', methods=['POST'])
