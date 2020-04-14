@@ -6,6 +6,7 @@ from model.post_data import PostData
 from utils.log import Log
 import random
 from utils.emote import Emote
+from multiprocessing import Pool
 
 def poolCallback(args):
   args.close()
@@ -13,9 +14,12 @@ def poolCallback(args):
 
 class ActionQueue:
   
-  def __init__(self, pool, event):
+  def __init__(self, pool = None, event = None):
     self._log = Log()
-    self._pool = pool
+    if pool:
+      self._pool = pool
+    else:
+      self._pool = Pool(1)
     self._originalEvent = event
     
     self._replacements = []
@@ -55,6 +59,9 @@ class ActionQueue:
     self._replies = []
     self._reactions = []
     self._commands = []
+    
+    self._pool.close()
+    self._pool.join()
   
   def _flushReplacement(self, replacementRequest):
     postData = PostData(
