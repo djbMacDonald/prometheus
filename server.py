@@ -25,6 +25,7 @@ from constant.emotes import DEFAULT_EMOTES
 from model.action_queue import ActionQueue
 from model.identity import Identity
 from model.post_data import PostData
+from constant.people import STEAM
 
 # If you need to define a utility function for this file, do it in utils/server.py
 app = Flask(__name__)
@@ -346,11 +347,14 @@ def civ():
   data = request.get_json(force=True)
   gameName = data.get('value1')
   currentPlayer = data.get('value2')
+  currentSlackUser = STEAM.get(currentPlayer)
   turnNumber = data.get('value3')
-  message = gameName + ': ' + currentPlayer + ' it is your turn! (turn ' + turnNumber + ')'
+  message = gameName + ': <@' + currentSlackUser + '> it is your turn! (turn ' + turnNumber + ')'
   # postUtil.addMessageToChannel('Test: ' + message, channel = civChannel())
   
-  postData = PostData(civChannel(), 'Test: ' + message, Identity(userName = 'Doctor Ivo "Eggman" Robotnik', emoji = 'robotnik'))
+  
+  
+  postData = PostData(civChannel(), message, Identity(userName = 'Civilization VI: Turn Notification', emoji = 'civ6'))
   info = postData.get()
   url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
   pool.apply_async(requests.get, args=[url], callback=())

@@ -49,5 +49,6 @@ PEOPLE = {
 STEAM = {
   'Beerdeau': 'UETS9HTSS',
   'Fernet': 'UDC03KCGK',
-  'lackmind': 'UDDE5960N'
+  'lackmind': 'UDDE5960N',
+  'Adobe Shockwave': 'UTX6E7LLU'
 }
