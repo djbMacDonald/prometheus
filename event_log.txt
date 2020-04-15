@@ -890,3 +890,4 @@ Megamoji: Nice-bot adds message: nice
 Megamoji: Nice-bot adds message: nice
 Megamoji: Nice-bot adds message: nice
 Megamoji: Lol-bot adds reaction: nice
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 80)
