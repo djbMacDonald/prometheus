@@ -9,8 +9,6 @@ class Lol(Bot):
     return "Adds an emote if your message matches an emote"
   
   def run(self):
-    print(self._event.text())
-    print(self._event.isAMessage())
     if not self._event.text() or not self._event.isAMessage():
       return
     
