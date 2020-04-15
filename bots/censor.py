@@ -11,7 +11,7 @@ class Censor(Bot):
     return "Censors instances of banned words. Only applies to those opted into Chaos Users. The banned word changes every day."
   
   def run(self):
-    if not self._chaosUserSendsMessage:
+    if not self._chaosUserSendsMessage():
       return
     
     bans = self._banUtil.getBans()
@@ -22,10 +22,8 @@ class Censor(Bot):
     self._censorMessage(activeBans);
     
   def _censorMessage(self, bans):
-    print(self._event.t)
     newMessage = self._event.text()
     words = newMessage.split(' ');
-    print(words)
     for i in range(0, len(words)):
       words[i] = '~*REDACTED*~'
     fullRedaction = ' '.join(words);
