@@ -841,3 +841,7 @@ Civilization: Spam-bot adds reaction: uber
 Civilization: Spam-bot adds reaction: ice-axe
 Civilization: Spam-bot adds reaction: everton_fc
 Civilization: Spam-bot adds reaction: hatch_sleeping_happy
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 75)
+Civilization: Lol-bot adds reaction: no
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 75)
+Civilization: Lol-bot adds reaction: test
