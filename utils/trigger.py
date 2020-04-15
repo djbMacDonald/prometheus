@@ -33,6 +33,6 @@ class Trigger:
   
   def messageMatchesText(self, message, matchText, ignoreCase):
     if ignoreCase:
-      return text and text.lower() == matchText.lower()
-    return text and text == matchText
+      return message and message.lower() == matchText.lower()
+    return message and message == matchText
     
