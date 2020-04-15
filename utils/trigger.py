@@ -27,7 +27,7 @@ class Trigger:
   def chaosUserSendsMessage(self, event):
     return (
       event.isFromChaosUser()
-      and event.text() 
+      and event.text() is not None
       and not event.isFromABot()
     )
   
