@@ -6,7 +6,8 @@ CHANNELS = {
   'CGFSDDPTQ': {'post': False, 'name': 'Reminders'},
   'CDBT6UTCL': {'post': False, 'name': 'Schemes'},
   'C011E259FR8': {'post': True, 'name': 'Civilization'},
-  'C012EG6BF9N': {'post': True, 'name': 'CivilizationSlaughter'}
+  'C012EG6BF9N': {'post': True, 'name': 'CivilizationSlaughter'},
+  'C011XG78YM8': {'post': True, 'name': 'CivilizationBeerdeau'}
 }
 
 def chaosChannel():
@@ -20,6 +21,9 @@ def civChannel():
 
 def civSlaughterChannel():
   return 'C012EG6BF9N'
+
+def civBeerdeauChannel():
+  return 'C011XG78YM8'
 
 def allowed_channel_ids():
   allowedChannels = list(filter(lambda channelObj: channelObj[1].get('post'), CHANNELS.items()))

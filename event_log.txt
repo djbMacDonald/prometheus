@@ -894,3 +894,6 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS>
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 80)
 Civilization: Lol-bot adds reaction: sure
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 81)
+Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 60)
+Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 60)
+Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 54)
