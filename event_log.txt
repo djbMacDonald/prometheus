@@ -934,3 +934,22 @@ Civilization: DejaVu-bot adds reaction: dejavu
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 147)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 147)
 CivilizationBeerdeau: Lol-bot adds reaction: no
+Civilization: Spam-bot adds reaction: clippy-ship-it
+Civilization: Spam-bot adds reaction: rotom-heat
+Civilization: Spam-bot adds reaction: will_merricks
+Civilization: Spam-bot adds reaction: durian-1
+Civilization: Spam-bot adds reaction: fox-pizza
+Civilization: Spam-bot adds reaction: warlin
+Civilization: Spam-bot adds reaction: party-way-day-lawn-mower
+Civilization: Spam-bot adds reaction: stabby
+Civilization: Spam-bot adds reaction: lofi_hip_hop_bot_left
+Civilization: Spam-bot adds reaction: jon_dance_2
+Civilization: Spam-bot adds reaction: opensuse
+Civilization: Spam-bot adds reaction: throwunderbus
+Civilization: Spam-bot adds reaction: jordan-f-master-of-f-intensifies
+Civilization: Spam-bot adds reaction: buttersregal
+Civilization: Spam-bot adds reaction: notion-
+Civilization: Spam-bot adds reaction: acknowledgement
+Civilization: Spam-bot adds reaction: crabrawler
+Civilization: Spam-bot adds reaction: laravel
+Chaos: DejaVu-bot adds reaction: dejavu
