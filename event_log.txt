@@ -966,3 +966,5 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK>
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 148)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 148)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 148)
+CivilizationBeerdeau: Lol-bot adds reaction: lol
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 149)

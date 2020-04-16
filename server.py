@@ -308,7 +308,7 @@ def civ():
   f.close()
   
   f = open('last_civ_webhook_payload.txt', 'w')
-  w.write(str(data))
+  f.write(str(data))
   f.close()
   
   if str(data) == lastPayload:
