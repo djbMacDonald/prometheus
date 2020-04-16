@@ -933,3 +933,4 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is 
 Civilization: DejaVu-bot adds reaction: dejavu
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 147)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 147)
+CivilizationBeerdeau: Lol-bot adds reaction: no
