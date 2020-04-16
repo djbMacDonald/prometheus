@@ -953,3 +953,7 @@ Civilization: Spam-bot adds reaction: acknowledgement
 Civilization: Spam-bot adds reaction: crabrawler
 Civilization: Spam-bot adds reaction: laravel
 Chaos: DejaVu-bot adds reaction: dejavu
+Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 61)
+Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 61)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 84)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 84)
