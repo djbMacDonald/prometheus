@@ -303,6 +303,12 @@ def civ():
   data = request.get_json(force=True)
   currentPlayer = data.get('value2')
   
+  f = open('last_civ_webhook_payload.txt', 'r')
+  lastPayload = f.read()
+  f.close()
+  
+  f = open()
+  
   gameToChannelMap = {
     'Slaughter of the Lamb': civSlaughterChannel(),
     "Beerdeau's Game": civBeerdeauChannel()
