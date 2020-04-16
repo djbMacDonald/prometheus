@@ -307,7 +307,12 @@ def civ():
   lastPayload = f.read()
   f.close()
   
-  f = open()
+  f = open('last_civ_webhook_payload.txt', 'w')
+  w.write(str(data))
+  f.close()
+  
+  if str(data) == lastPayload:
+    return Response(), 200
   
   gameToChannelMap = {
     'Slaughter of the Lamb': civSlaughterChannel(),
