@@ -897,3 +897,15 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS>
 Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 60)
 Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 60)
 Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 54)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 145)
+CivilizationBeerdeau: Nice-bot adds message: nice
+CivilizationBeerdeau: Nice-bot adds message: nice
+CivilizationBeerdeau: Nice-bot adds message: nice
+CivilizationBeerdeau: Nice-bot adds message: nice
+CivilizationBeerdeau: Nice-bot adds message: nice
+CivilizationBeerdeau: Nice-bot adds message: nice
+CivilizationBeerdeau: Nice-bot adds message: nice
+CivilizationBeerdeau: Nice-bot adds message: nice
+CivilizationBeerdeau: Lol-bot adds reaction: nice
+Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 60)
+Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 60)
