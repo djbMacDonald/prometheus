@@ -1,4 +1,4 @@
-from utils.identity import IdentityUtil
+from utils.identity import Identity as IdentityUtil
 from utils.random import Random
 from utils.ban import Ban
 from utils.channel import Channel

@@ -990,3 +990,13 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK>
 Civilization: Civ-bot adds message: chaos_monkey: <@UETS9HTSS> it is your turn! (turn 63)
 Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 63)
 Chaos: DejaVu-bot adds reaction: dejavu
+Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 64)
+CivilizationSlaughter: Third-bot adds message: unless it's early game, then Brenden go for specific tile bonuses
+CivilizationSlaughter: Third-bot deletes message: unless it's early game, then I go for specific tile bonuses
+Megamoji: Lol-bot adds reaction: lol
+Civilization: DejaVu-bot adds message: Seems doubtful as I am going to bed, but feel free to try out a game without and discover all the issues!
+Civilization: DejaVu-bot adds reaction: dejavu
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 153)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 153)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 89)
+CivilizationSlaughter: Dm-bot adds message: Roll a pharmacy check with disadvantage to appraise the shopping mall
