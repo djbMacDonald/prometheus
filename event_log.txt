@@ -1037,3 +1037,4 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 155)
 Chaos: Botify-bot adds message: C&amp;C 4 was a desperate last stand for what was an amazing franchise :f:
 Chaos: Botify-bot deletes message: C&amp;C 4 was a desperate last stand for what was an amazing franchise :f:
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 156)
