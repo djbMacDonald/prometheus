@@ -1000,3 +1000,7 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 153)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 89)
 CivilizationSlaughter: Dm-bot adds message: Roll a pharmacy check with disadvantage to appraise the shopping mall
+CivilizationSlaughter: SpaceReplace-bot adds message: the-aztecs-can-rush-districts-with-builders
+CivilizationSlaughter: SpaceReplace-bot deletes message: the aztecs can rush districts with builders
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 90)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 90)
