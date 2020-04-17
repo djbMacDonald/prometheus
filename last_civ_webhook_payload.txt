@@ -1,1 +1,1 @@
-{'value1': 'Slaughter of the Lamb', 'value2': 'Fernet', 'value3': '96'}
+{'value1': 'chaos_monkey', 'value2': 'Fernet', 'value3': '64'}
