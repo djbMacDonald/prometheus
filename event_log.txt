@@ -1095,3 +1095,4 @@ Civilization: Spam-bot adds reaction: turtles-all-the-way-down-explosion
 Civilization: Spam-bot adds reaction: confused-dino
 Civilization: Spam-bot adds reaction: surprised-ferret-3-1
 Civilization: Spam-bot adds reaction: hateeveryone
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 160)
