@@ -1041,3 +1041,24 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 156)
 Chaos: Botify-bot adds message: Generals was the last one I played hardcore, I'm kinda sad how the franchise died
 Chaos: Botify-bot deletes message: Generals was the last one I played hardcore, I'm kinda sad how the franchise died
+Chaos: Spam-bot adds reaction: omopbot
+Chaos: Spam-bot adds reaction: nezuko-owo
+Chaos: Spam-bot adds reaction: heart-neutrois
+Chaos: Spam-bot adds reaction: jfet-rub
+Chaos: Spam-bot adds reaction: cluck_explosion
+Chaos: Spam-bot adds reaction: patino
+Chaos: Spam-bot adds reaction: infinite-teamwork
+Chaos: Spam-bot adds reaction: great-jorb
+Chaos: Spam-bot adds reaction: little-wolf
+Chaos: Spam-bot adds reaction: american-conference
+Chaos: Spam-bot adds reaction: colbert-emoji
+Chaos: Spam-bot adds reaction: pro-gamer-swayze
+Chaos: Spam-bot adds reaction: excadrill
+Chaos: Spam-bot adds reaction: nietzsche
+Chaos: Spam-bot adds reaction: konstantin
+Chaos: Spam-bot adds reaction: rosgoodeyes
+Chaos: Spam-bot adds reaction: dragonboat
+Chaos: Spam-bot adds reaction: bread-or-bo
+Chaos: Spam-bot adds reaction: mana-3
+Chaos: Spam-bot adds reaction: mike_deal_with_it
+Chaos: Spam-bot adds reaction: fez-will
