@@ -1038,3 +1038,6 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is 
 Chaos: Botify-bot adds message: C&amp;C 4 was a desperate last stand for what was an amazing franchise :f:
 Chaos: Botify-bot deletes message: C&amp;C 4 was a desperate last stand for what was an amazing franchise :f:
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 156)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 156)
+Chaos: Botify-bot adds message: Generals was the last one I played hardcore, I'm kinda sad how the franchise died
+Chaos: Botify-bot deletes message: Generals was the last one I played hardcore, I'm kinda sad how the franchise died
