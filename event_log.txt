@@ -1004,3 +1004,9 @@ CivilizationSlaughter: SpaceReplace-bot adds message: the-aztecs-can-rush-distri
 CivilizationSlaughter: SpaceReplace-bot deletes message: the aztecs can rush districts with builders
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 90)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 90)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 91)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 91)
+CivilizationSlaughter: Lex-bot adds message: One sielngr is an army?
+CivilizationSlaughter: Lex-bot deletes message: One slinger is an army?
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 92)
+CivilizationSlaughter: Lol-bot adds reaction: lol
