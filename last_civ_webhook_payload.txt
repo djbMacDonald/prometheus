@@ -1,1 +1,1 @@
-{'value1': 'chaos_monkey', 'value2': 'Fernet', 'value3': '64'}
+{'value1': "Beerdeau's Game", 'value2': 'Beerdeau', 'value3': '160'}

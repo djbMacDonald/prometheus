@@ -1081,3 +1081,17 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 159)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 96)
 Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 64)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 160)
+Civilization: Spam-bot adds reaction: biscuit
+Civilization: Spam-bot adds reaction: shadow_cat_judging_you
+Civilization: Spam-bot adds reaction: she-brings-you-the-nectar-from-heaven
+Civilization: Spam-bot adds reaction: doraemon_cry
+Civilization: Spam-bot adds reaction: who-is-the-final-dude
+Civilization: Spam-bot adds reaction: louis-intensifies
+Civilization: Spam-bot adds reaction: busstop
+Civilization: Spam-bot adds reaction: hby-ayys
+Civilization: Spam-bot adds reaction: monster-dog-wag
+Civilization: Spam-bot adds reaction: turtles-all-the-way-down-explosion
+Civilization: Spam-bot adds reaction: confused-dino
+Civilization: Spam-bot adds reaction: surprised-ferret-3-1
+Civilization: Spam-bot adds reaction: hateeveryone
