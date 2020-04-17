@@ -1010,3 +1010,12 @@ CivilizationSlaughter: Lex-bot adds message: One sielngr is an army?
 CivilizationSlaughter: Lex-bot deletes message: One slinger is an army?
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 92)
 CivilizationSlaughter: Lol-bot adds reaction: lol
+CivilizationSlaughter: DejaVu-bot adds message: wonders can be built with workers?
+CivilizationSlaughter: DejaVu-bot adds reaction: dejavu
+CivilizationSlaughter: Scrambler-bot adds message: bot me That got Doug
+CivilizationSlaughter: Scrambler-bot deletes message: That Doug bot got me
+CivilizationSlaughter: Contraction-bot adds message: The problem was that Spearmen're supposed to be anti cavalry, but a horsemen still beats'em
+CivilizationSlaughter: Contraction-bot deletes message: The problem was that Spearmen are supposed to be anti cavalry, but a horsemen still beats them
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 92)
+CivilizationSlaughter: Scrambler-bot adds message: put was It +10, them below horsemen which at 3
+CivilizationSlaughter: Scrambler-bot deletes message: It was +10, which put them at 3 below horsemen
