@@ -17,7 +17,6 @@ class DejaVu(Bot):
     lines = open('{}_logfile.txt'.format(self._event.channel()), 'r').read().splitlines()
     self._addReactionToMessage('dejavu')
     myline = random.choice(lines)
-    newId = self._identityUtil.getRandomIdentity()
-    self._addMessage(myline, identity = newId)
+    self._addMessage(myline, identity = self._identityUtil.getRandomIdentity())
     #Drew says don't clear the file. What a Jerk
     #self.logToNewFile()
