@@ -1121,3 +1121,5 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is y
 Chaos: Lol-bot adds reaction: awkward
 CivilizationTwoFrontWar: Botify-bot adds message: Webhook fail your turn <@UETS9HTSS>
 CivilizationTwoFrontWar: Botify-bot deletes message: Webhook fail your turn <@UETS9HTSS>
+Chaos: Botify-bot adds message: I feel your pain i like being Merlin the least
+Chaos: Botify-bot deletes message: I feel your pain i like being Merlin the least
