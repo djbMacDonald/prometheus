@@ -1115,3 +1115,6 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UETS9HTSS> it is y
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UETS9HTSS> it is your turn! (turn 1)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UETS9HTSS> it is your turn! (turn 1)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 97)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 2)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 161)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 2)
