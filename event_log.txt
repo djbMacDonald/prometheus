@@ -1137,3 +1137,6 @@ Civilization: Lol-bot adds reaction: same
 Civilization: Lol-bot adds reaction: whoops
 CivilizationSlaughter: Scrambler-bot adds message: bed I'll or these tonight games before tomorrow to get go to I morning
 CivilizationSlaughter: Scrambler-bot deletes message: I'll get to these games tomorrow morning or before I go to bed tonight
+Civilization: Lol-bot adds reaction: same
+Civilization: Lol-bot adds reaction: same
+Civilization: Lol-bot adds reaction: sorry
