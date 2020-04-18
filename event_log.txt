@@ -1133,3 +1133,7 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 163)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 163)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 164)
+Civilization: Lol-bot adds reaction: same
+Civilization: Lol-bot adds reaction: whoops
+CivilizationSlaughter: Scrambler-bot adds message: bed I'll or these tonight games before tomorrow to get go to I morning
+CivilizationSlaughter: Scrambler-bot deletes message: I'll get to these games tomorrow morning or before I go to bed tonight
