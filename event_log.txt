@@ -1102,3 +1102,6 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is 
 Civilization: Civ-bot adds message: chaos_monkey: <@UETS9HTSS> it is your turn! (turn 65)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 161)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 97)
+Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 65)
+Civilization: Civ-bot adds message: chaos_monkey: <@UDDE5960N> it is your turn! (turn 90)
+Civilization: Civ-bot adds message: chaos_monkey: <@UDDE5960N> it is your turn! (turn 90)
