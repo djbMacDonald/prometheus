@@ -1119,3 +1119,5 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is y
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 161)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 2)
 Chaos: Lol-bot adds reaction: awkward
+CivilizationTwoFrontWar: Botify-bot adds message: Webhook fail your turn <@UETS9HTSS>
+CivilizationTwoFrontWar: Botify-bot deletes message: Webhook fail your turn <@UETS9HTSS>
