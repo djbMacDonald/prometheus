@@ -1124,3 +1124,5 @@ CivilizationTwoFrontWar: Botify-bot deletes message: Webhook fail your turn <@UE
 Chaos: Botify-bot adds message: I feel your pain i like being Merlin the least
 Chaos: Botify-bot deletes message: I feel your pain i like being Merlin the least
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 162)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 162)
+Civilization: Lol-bot adds reaction: same
