@@ -28,6 +28,8 @@ def civBeerdeauChannel():
 
 def civTwoFrontWarChannel():
   return 'C011WA7AFQE'
+def civLackChannel():
+  return 'C011NA88LVD'
 
 def allowed_channel_ids():
   allowedChannels = list(filter(lambda channelObj: channelObj[1].get('post'), CHANNELS.items()))
