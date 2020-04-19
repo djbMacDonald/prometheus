@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, Response
 from model.modal import Modal
 # TODO: channels should be in util functions
-import constant.channels 
+import constant.channels as ch
 import json
 # TODO: can slackEvent be combined with event model? Or maybe event model needs a better name
 from model.slackevent import SlackEvent
@@ -315,10 +315,10 @@ def civ():
     return Response(), 200
   
   gameToChannelMap = {
-    'Slaughter of the Lamb': civSlaughterChannel(),
-    "Beerdeau's Game": civBeerdeauChannel(),
-    '2 Front War': civTwoFrontWarChannel()##,
-    ##"lackmind's Game": civLackChannel()
+    'Slaughter of the Lamb': ch.civSlaughterChannel(),
+    "Beerdeau's Game": ch.civBeerdeauChannel(),
+    '2 Front War': ch.civTwoFrontWarChannel()##,
+    ##"lackmind's Game": ch.civLackChannel()
   }
   
   actionQueue.addReply(
