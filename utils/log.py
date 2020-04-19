@@ -19,7 +19,7 @@ class Log:
 def logToNewFile(self, event):
   f = open('{}_logfile.txt'.format(event.channel()), 'w+')
   f.write('{}\r\n'.format(event.text().encode('utf-8')))
-  self._printFile()  
+  self._printFile()
 
 def _printFile(self, event):
   print('reading file')

@@ -8,7 +8,8 @@ CHANNELS = {
   'C011E259FR8': {'post': True, 'name': 'Civilization'},
   'C012EG6BF9N': {'post': True, 'name': 'CivilizationSlaughter'},
   'C011XG78YM8': {'post': True, 'name': 'CivilizationBeerdeau'},
-  'C011WA7AFQE': {'post': True, 'name': 'CivilizationTwoFrontWar'}
+  'C011WA7AFQE': {'post': True, 'name': 'CivilizationTwoFrontWar'},
+  'C011NA88LVD': {'post': True, 'name': 'civ_lack_game'}
 }
 
 def chaosChannel():
