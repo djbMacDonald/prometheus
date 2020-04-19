@@ -317,8 +317,8 @@ def civ():
   gameToChannelMap = {
     'Slaughter of the Lamb': civSlaughterChannel(),
     "Beerdeau's Game": civBeerdeauChannel(),
-    '2 Front War': civTwoFrontWarChannel(),
-    "lackmind's Game": civLackChannel()
+    '2 Front War': civTwoFrontWarChannel()##,
+    ##"lackmind's Game": civLackChannel()
   }
   
   actionQueue.addReply(

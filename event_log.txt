@@ -1142,3 +1142,5 @@ Civilization: Lol-bot adds reaction: same
 Civilization: Lol-bot adds reaction: sorry
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 2)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 98)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UETS9HTSS> it is your turn! (turn 2)
+Civilization: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 3)

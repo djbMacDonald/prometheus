@@ -28,6 +28,7 @@ def civBeerdeauChannel():
 
 def civTwoFrontWarChannel():
   return 'C011WA7AFQE'
+
 def civLackChannel():
   return 'C011NA88LVD'
 
