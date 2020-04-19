@@ -1146,3 +1146,5 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UETS9HTSS> it is y
 Civilization: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 3)
 CivilizationTwoFrontWar: Third-bot adds message: playing a marathon game, it's 1536 ad, and Brenden'm launching an earth satalite in 10 turns
 CivilizationTwoFrontWar: Third-bot deletes message: playing a marathon game, it's 1536 ad, and I'm launching an earth satalite in 10 turns
+Civilization: Contraction-bot adds message: Well, that's progress't least
+Civilization: Contraction-bot deletes message: Well, that's progress at least
