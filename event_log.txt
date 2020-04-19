@@ -1148,3 +1148,17 @@ CivilizationTwoFrontWar: Third-bot adds message: playing a marathon game, it's 1
 CivilizationTwoFrontWar: Third-bot deletes message: playing a marathon game, it's 1536 ad, and I'm launching an earth satalite in 10 turns
 Civilization: Contraction-bot adds message: Well, that's progress't least
 Civilization: Contraction-bot deletes message: Well, that's progress at least
+Civilization: Scrambler-bot adds message: wait we guess? I Well,
+Civilization: Scrambler-bot deletes message: Well, we wait I guess?
+Civilization: Botify-bot adds message: here
+Civilization: Botify-bot deletes message: here
+Civilization: Lol-bot adds reaction: here
+Civilization: DejaVu-bot adds message: I have no idea how the world congress works
+Civilization: DejaVu-bot adds reaction: dejavu
+Civilization: Lex-bot adds message: hes hree
+Civilization: Lex-bot deletes message: hes here
+Civilization: Scrambler-bot adds message: to Just others first waiting join for
+Civilization: Scrambler-bot deletes message: Just waiting for others to join first
+Civilization: Contraction-bot adds message: 't's a join code
+Civilization: Contraction-bot deletes message: IT's a join code
+Civilization: Lol-bot adds reaction: nvm
