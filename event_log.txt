@@ -1162,3 +1162,6 @@ Civilization: Scrambler-bot deletes message: Just waiting for others to join fir
 Civilization: Contraction-bot adds message: 't's a join code
 Civilization: Contraction-bot deletes message: IT's a join code
 Civilization: Lol-bot adds reaction: nvm
+Civilization: Civ-bot adds message: chaos_monkey: <@UETS9HTSS> it is your turn! (turn 91)
+Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 91)
+Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 91)

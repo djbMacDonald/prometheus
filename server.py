@@ -11,7 +11,7 @@ from model.event import Event
 from utils.ban import Ban
 from utils.log import Log
 import time
-# remove for action queue pattern
+# remove for action queue pattern  
 import os
 from model.user import User
 # todo remove wildcard
@@ -323,7 +323,7 @@ def civ():
   
   actionQueue.addReply(
     'Civ', 
-    gameToChannelMap.get(data.get('value1'), civChannel()), 
+    gameToChannelMap.get(data.get('value1'), ch.civChannel()), 
     None, 
     '{}: <@{}> it is your turn! (turn {})'.format(data.get('value1'), STEAM.get(currentPlayer), data.get('value3')), 
     Identity(userName = 'Civilization VI: Turn Notification', emoji = 'civ6')
