@@ -1271,3 +1271,4 @@ Civilization: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UK7V13DS7> <@UDD45P
 Civilization: Censor-bot adds message:  ~*REDACTED*~ s also just how I play games; quick decisions
 Civilization: Censor-bot deletes message: that's also just how I play games; quick decisions
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 174)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 174)
