@@ -45,5 +45,6 @@ class Database:
       
   def is_new_civ_payload(self, payload):
     self.initialize_civ_db()
-    sql = ''
+    hl.md5(payload.encode('utf-8')).hexdigest()
+    sql = 'INSERT INTO '
     ## WIP, got distracted
