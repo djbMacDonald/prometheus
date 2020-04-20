@@ -1,5 +1,4 @@
-from sqlalchemy import create_engine
-from sqlalchemy import Table, Column, Integer, String, MetaData
+from sqlalchemy import create_engine, Table, Column, Binary, MetaData
 
 import hashlib as hl
 
@@ -20,4 +19,9 @@ class Database:
       
   def initialize_civ_db(self):
     metadata = Metadata()
-    payload_hashes = Table(Payloads, metadata, Column('PayloadHash', Binary, primary_key=True))
+    payloads = Table(Payloads, metadata, Column('PayloadHash', Binary, primary_key=True))
+    try:
+      metadata.create_all(self.db_engine)
+    except Exception as e:
+      print("Error occurred during table creation.")
+      print(e)
