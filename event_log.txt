@@ -1219,3 +1219,9 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK>
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 128)
 CivilizationSlaughter: Lol-bot adds reaction: lol
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 129)
+Chaos: Botify-bot adds message: Good Morning Everyone!
+Chaos: Botify-bot deletes message: Good Morning Everyone!
+Chaos: Censor-bot adds message: D&amp;D podcast with the podcast brothers ~*REDACTED*~ do my brother, my brother, and me
+Chaos: Censor-bot deletes message: D&amp;D podcast with the podcast brothers that do my brother, my brother, and me
+Chaos: Censor-bot adds message: So they play characters ~*REDACTED*~ represent your family?
+Chaos: Censor-bot deletes message: So they play characters that represent your family?
