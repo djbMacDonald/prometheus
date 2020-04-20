@@ -1198,3 +1198,5 @@ CivilizationSlaughter: Lol-bot adds reaction: sure
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 103)
 CivilizationSlaughter: Lol-bot adds reaction: yes
 CivilizationSlaughter: Dm-bot adds message: Roll a Dexterity saving throw to swim past the Juiblex
+CivilizationSlaughter: Scrambler-bot adds message: Well fucking sucked that
+CivilizationSlaughter: Scrambler-bot deletes message: Well that fucking sucked
