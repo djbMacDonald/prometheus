@@ -10,11 +10,6 @@ class Mock(Bot):
     return "If you use the spongebob-mock emote on a message,  it will post to a thread that weird alternating caps thing version of the message."
   
   def run(self):
-    return
-    
-    if False or self._event.isPartOfAThread():
-      return
-    
     if self._event.isAMessage() or self._event.isPartOfAThread():
       return
     
