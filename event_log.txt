@@ -1281,3 +1281,10 @@ CivilizationBeerdeau: Censor-bot deletes message: What do you need to help fight
 CivilizationTwoFrontWar: Lol-bot adds reaction: maybe
 CivilizationBeerdeau: Botify-bot adds message: And I can't give you tech :disappointed:
 CivilizationBeerdeau: Botify-bot deletes message: And I can't give you tech :disappointed:
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 176)
+CivilizationBeerdeau: Lol-bot adds reaction: wtf
+CivilizationBeerdeau: Censor-bot adds message: so ~*REDACTED*~ s nice
+CivilizationBeerdeau: Censor-bot deletes message: so that's nice
+CivilizationBeerdeau: Censor-bot adds message: he got mad ~*REDACTED*~ I had spies in his capital sabotaging shit
+CivilizationBeerdeau: Censor-bot deletes message: he got mad that I had spies in his capital sabotaging shit
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 177)
