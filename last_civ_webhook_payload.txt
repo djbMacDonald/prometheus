@@ -1,1 +1,1 @@
-{'value1': "lackmind's Game", 'value2': 'lackmind', 'value3': '9'}
+{'value1': 'Slaughter of the Lamb', 'value2': 'Fernet', 'value3': '133'}

@@ -1359,3 +1359,12 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is y
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 9)
 CivilizationBeerdeau: DejaVu-bot adds message: this gives me an excuse to take a capital though
 CivilizationBeerdeau: DejaVu-bot adds reaction: dejavu
+CivilizationBeerdeau: Lol-bot adds reaction: jesus
+CivilizationBeerdeau: Censor-bot adds message:  ~*REDACTED*~ s a hell of a policy
+CivilizationBeerdeau: Censor-bot deletes message: that's a hell of a policy
+CivilizationBeerdeau: Lol-bot adds reaction: do-it
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 133)
+CivilizationTwoFrontWar: Censor-bot adds message: yea,  ~*REDACTED*~ s fine with me
+CivilizationTwoFrontWar: Censor-bot deletes message: yea, that's fine with me
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 181)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 133)
