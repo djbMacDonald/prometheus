@@ -1260,3 +1260,10 @@ Chaos: Third-bot deletes message: I wasn't styling my hair because what's the po
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 172)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 172)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UETS9HTSS> it is your turn! (turn 6)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 7)
+Civilization: Censor-bot adds message: I feel like every time I have an hour long meeting you asshats decided ~*REDACTED*~ you should finish your turn in the first 5 minutes
+Civilization: Censor-bot deletes message: I feel like every time I have an hour long meeting you asshats decided that you should finish your turn in the first 5 minutes
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 7)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 173)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 173)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 173)
