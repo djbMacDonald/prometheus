@@ -1340,3 +1340,10 @@ Megamoji: Lol-bot adds reaction: spongebob-mock
 Chaos: Lol-bot adds reaction: lol
 Megamoji: Lol-bot adds reaction: spongebob-mock
 Megamoji: Mock-bot adds message: SpOnGeBoB-MoCk
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 132)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 180)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 8)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 8)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 132)
+Chaos: Lol-bot adds reaction: me
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 181)
