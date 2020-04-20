@@ -43,6 +43,6 @@ class Database:
       print("Error occurred during table creation.")
       print(e)
       
-  def is_new_payload(self, payload):
+  def is_new_civ_payload(self, payload):
     self.initialize_civ_db()
-    sql = 
+    sql = ''
