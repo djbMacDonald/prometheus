@@ -1226,3 +1226,5 @@ Chaos: Censor-bot deletes message: D&amp;D podcast with the podcast brothers tha
 Chaos: Censor-bot adds message: So they play characters ~*REDACTED*~ represent your family?
 Chaos: Censor-bot deletes message: So they play characters that represent your family?
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UETS9HTSS> it is your turn! (turn 4)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 170)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 5)
