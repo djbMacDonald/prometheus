@@ -1257,3 +1257,6 @@ CivilizationSlaughter: Scrambler-bot deletes message: Getting a lot of duplicate
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 7)
 Chaos: Third-bot adds message: Brenden wasn't styling my hair because what's the point
 Chaos: Third-bot deletes message: I wasn't styling my hair because what's the point
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 172)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 172)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UETS9HTSS> it is your turn! (turn 6)
