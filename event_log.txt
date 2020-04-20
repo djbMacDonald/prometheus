@@ -1211,3 +1211,10 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK>
 CivilizationSlaughter: Lol-bot adds reaction: sure
 CivilizationSlaughter: Lol-bot adds reaction: yep
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 127)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 128)
+CivilizationSlaughter: Scrambler-bot adds message: tomorrow Have a got off? man. good You night
+CivilizationSlaughter: Scrambler-bot deletes message: Have a good night man. You got tomorrow off?
+CivilizationSlaughter: Lol-bot adds reaction: lol
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 128)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 128)
+CivilizationSlaughter: Lol-bot adds reaction: lol
