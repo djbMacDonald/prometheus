@@ -1460,3 +1460,8 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 181)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 182)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 182)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 183)
+Chaos: Censor-bot adds message: Yup, cause ~*REDACTED*~ s how it is done! See <@UEA7LHFQS>!
+Chaos: Censor-bot deletes message: Yup, cause that's how it is done! See <@UEA7LHFQS>!
+Chaos: Censor-bot adds message:  ~*REDACTED*~ s what my friend who works at Microsoft was cautioning against
+Chaos: Censor-bot deletes message: That's what my friend who works at Microsoft was cautioning against
