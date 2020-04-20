@@ -1203,3 +1203,11 @@ CivilizationSlaughter: Scrambler-bot deletes message: Well that fucking sucked
 CivilizationSlaughter: Lol-bot adds reaction: lol
 CivilizationSlaughter: Lol-bot adds reaction: yep
 CivilizationSlaughter: Lol-bot adds reaction: damn
+CivilizationSlaughter: Scrambler-bot adds message: last the turn the Mind of this night? if is
+CivilizationSlaughter: Scrambler-bot deletes message: Mind if this is the last turn of the night?
+CivilizationSlaughter: Lol-bot adds reaction: exit
+CivilizationSlaughter: Lol-bot adds reaction: hmm
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 103)
+CivilizationSlaughter: Lol-bot adds reaction: sure
+CivilizationSlaughter: Lol-bot adds reaction: yep
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 127)
