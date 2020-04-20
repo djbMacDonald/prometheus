@@ -1382,3 +1382,5 @@ CivilizationTwoFrontWar: Botify-bot adds message: oihhhh?
 CivilizationTwoFrontWar: Botify-bot deletes message: oihhhh?
 CivilizationTwoFrontWar: Censor-bot adds message: Yep, and I've learned ~*REDACTED*~ you don't connect an aquaduct to solve your problems if it is more than 1 tile
 CivilizationTwoFrontWar: Censor-bot deletes message: Yep, and I've learned that you don't connect an aquaduct to solve your problems if it is more than 1 tile
+CivilizationTwoFrontWar: Censor-bot adds message: yes you did learn ~*REDACTED*~ lesson painfully
+CivilizationTwoFrontWar: Censor-bot deletes message: yes you did learn that lesson painfully
