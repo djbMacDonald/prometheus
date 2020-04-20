@@ -1275,3 +1275,9 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 175)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 175)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 175)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 176)
+CivilizationBeerdeau: Censor-bot adds message: What do you need to help fight Pericles? I'm building up right now, but ~*REDACTED*~ bankruptcy hurt my mil alot
+CivilizationBeerdeau: Censor-bot deletes message: What do you need to help fight Pericles? I'm building up right now, but that bankruptcy hurt my mil alot
+CivilizationTwoFrontWar: Lol-bot adds reaction: maybe
+CivilizationBeerdeau: Botify-bot adds message: And I can't give you tech :disappointed:
+CivilizationBeerdeau: Botify-bot deletes message: And I can't give you tech :disappointed:
