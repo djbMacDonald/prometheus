@@ -1347,3 +1347,15 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your tu
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 132)
 Chaos: Lol-bot adds reaction: me
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 181)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 181)
+Chaos: Censor-bot adds message: Ok,  ~*REDACTED*~ s good for him, and also WHY WE HAVE THIS SLACK
+Chaos: Censor-bot deletes message: Ok, that's good for him, and also WHY WE HAVE THIS SLACK
+Chaos: Censor-bot adds message: We can fix ~*REDACTED*~ probably with an app and discord voice chat
+Chaos: Censor-bot deletes message: We can fix that probably with an app and discord voice chat
+Chaos: Censor-bot adds message: roll20 lets you deal a deck of cards.  ~*REDACTED*~ could work. I'm not sure how the game would do over voice chat. Seems like it would make the discussions take a lot longer
+Chaos: Censor-bot deletes message: roll20 lets you deal a deck of cards. That could work. I'm not sure how the game would do over voice chat. Seems like it would make the discussions take a lot longer
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 8)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 8)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 9)
+CivilizationBeerdeau: DejaVu-bot adds message: this gives me an excuse to take a capital though
+CivilizationBeerdeau: DejaVu-bot adds reaction: dejavu
