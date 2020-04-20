@@ -1404,3 +1404,16 @@ CivilizationTwoFrontWar: Spam-bot adds reaction: i_see_you_are_a_man_of_culture_
 CivilizationTwoFrontWar: Spam-bot adds reaction: tuskan
 Civilization: Botify-bot adds message: Other than that... no
 Civilization: Botify-bot deletes message: Other than that... no
+Civilization: Censor-bot adds message: well I clearly missed ~*REDACTED*~ you declared war on me
+Civilization: Censor-bot deletes message: well I clearly missed that you declared war on me
+CivilizationTwoFrontWar: Censor-bot adds message: well I clearly missed ~*REDACTED*~ you declared war on me
+CivilizationTwoFrontWar: Censor-bot deletes message: well I clearly missed that you declared war on me
+CivilizationTwoFrontWar: Lol-bot adds reaction: yes
+CivilizationTwoFrontWar: Censor-bot adds message:  ~*REDACTED*~ is a good way to get a leg up
+CivilizationTwoFrontWar: Censor-bot deletes message: That is a good way to get a leg up
+CivilizationTwoFrontWar: Lex-bot adds message: Yeah, said you decynsed
+CivilizationTwoFrontWar: Lex-bot deletes message: Yeah, said you desynced
+CivilizationTwoFrontWar: Censor-bot adds message: Damn,  ~*REDACTED*~ ll give you an early game lead
+CivilizationTwoFrontWar: Censor-bot deletes message: Damn, that'll give you an early game lead
+CivilizationTwoFrontWar: Scrambler-bot adds message: rid words! common I got of thought we banning
+CivilizationTwoFrontWar: Scrambler-bot deletes message: I thought we got rid of banning common words!
