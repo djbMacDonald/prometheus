@@ -1243,3 +1243,17 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is 
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 130)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 130)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 130)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 6)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 6)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UETS9HTSS> it is your turn! (turn 5)
+Chaos: ChaosSeed-bot adds message: Hey <@UDDE5960N> <@UDL020K8D> <@UK7V13DS7> <@UDD45P5A9>! There's a thread here!
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 6)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 131)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 6)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 131)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 131)
+CivilizationSlaughter: Scrambler-bot adds message: a lot duplicates of Getting
+CivilizationSlaughter: Scrambler-bot deletes message: Getting a lot of duplicates
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 7)
+Chaos: Third-bot adds message: Brenden wasn't styling my hair because what's the point
+Chaos: Third-bot deletes message: I wasn't styling my hair because what's the point
