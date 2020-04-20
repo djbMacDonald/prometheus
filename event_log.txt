@@ -1384,3 +1384,23 @@ CivilizationTwoFrontWar: Censor-bot adds message: Yep, and I've learned ~*REDACT
 CivilizationTwoFrontWar: Censor-bot deletes message: Yep, and I've learned that you don't connect an aquaduct to solve your problems if it is more than 1 tile
 CivilizationTwoFrontWar: Censor-bot adds message: yes you did learn ~*REDACTED*~ lesson painfully
 CivilizationTwoFrontWar: Censor-bot deletes message: yes you did learn that lesson painfully
+CivilizationTwoFrontWar: Lol-bot adds reaction: lol
+CivilizationTwoFrontWar: Censor-bot adds message:  ~*REDACTED*~ s actually where I wanted to settle soooo ALLS WELL ~*REDACTED*~ ENDS WELL!
+CivilizationTwoFrontWar: Censor-bot deletes message: That's actually where I wanted to settle soooo ALLS WELL THAT ENDS WELL!
+CivilizationTwoFrontWar: Spam-bot adds reaction: brettfromhardware
+CivilizationTwoFrontWar: Spam-bot adds reaction: keanu-surprised
+CivilizationTwoFrontWar: Spam-bot adds reaction: neko-atsume-ball-2
+CivilizationTwoFrontWar: Spam-bot adds reaction: cute_platypus
+CivilizationTwoFrontWar: Spam-bot adds reaction: pentagram
+CivilizationTwoFrontWar: Spam-bot adds reaction: fannypack
+CivilizationTwoFrontWar: Spam-bot adds reaction: classified
+CivilizationTwoFrontWar: Spam-bot adds reaction: pureparrot
+CivilizationTwoFrontWar: Spam-bot adds reaction: eisbaeren
+CivilizationTwoFrontWar: Spam-bot adds reaction: aim_foot
+CivilizationTwoFrontWar: Spam-bot adds reaction: kirby-inhale-down
+CivilizationTwoFrontWar: Spam-bot adds reaction: cool_cool_cool
+CivilizationTwoFrontWar: Spam-bot adds reaction: poke-ball
+CivilizationTwoFrontWar: Spam-bot adds reaction: i_see_you_are_a_man_of_culture_as_well
+CivilizationTwoFrontWar: Spam-bot adds reaction: tuskan
+Civilization: Botify-bot adds message: Other than that... no
+Civilization: Botify-bot deletes message: Other than that... no
