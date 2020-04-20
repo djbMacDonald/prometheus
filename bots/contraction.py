@@ -49,7 +49,8 @@ class Contraction(Bot):
     "not": "nt",
     "at": "t",
     "him": "im",
-    "her": "er"
+    "her": "er",
+    "around": "round"
   }
   
   _after = {
