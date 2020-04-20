@@ -1452,3 +1452,8 @@ CivilizationTwoFrontWar: Censor-bot deletes message: Wait, you get to do that wh
 CivilizationTwoFrontWar: Lol-bot adds reaction: no
 CivilizationTwoFrontWar: Censor-bot adds message: Maybe? But you would have put up enough of a fight ~*REDACTED*~ I probably would have murdered other things than you
 CivilizationTwoFrontWar: Censor-bot deletes message: Maybe? But you would have put up enough of a fight that I probably would have murdered other things than you
+Chaos: Contraction-bot adds message: 'id y'get your dress already? 
+Chaos: Contraction-bot deletes message: Did you get your dress already? 
+Civilization: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 60)
+Civilization: Dm-bot adds message: Roll a melee weapon check to headbut the swarm of bats
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 60)

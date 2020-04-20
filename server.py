@@ -318,11 +318,12 @@ def civ():
     'Slaughter of the Lamb': ch.civSlaughterChannel(),
     "Beerdeau's Game": ch.civBeerdeauChannel(),
     '2 Front War': ch.civTwoFrontWarChannel(),
-    "lackmind's Game": ch.civLackChannel()
+    "lackmind's Game": ch.civLackChannel(),
+    'Hide From Sumeria': ch.civHideFromSumeria()
   }
   
   actionQueue.addReply(
-    'Civ', 
+    'Civ',
     gameToChannelMap.get(data.get('value1'), ch.civChannel()), 
     None, 
     '{}: <@{}> it is your turn! (turn {})'.format(data.get('value1'), STEAM.get(currentPlayer), data.get('value3')), 
