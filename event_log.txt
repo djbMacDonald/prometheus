@@ -1368,3 +1368,17 @@ CivilizationTwoFrontWar: Censor-bot adds message: yea,  ~*REDACTED*~ s fine with
 CivilizationTwoFrontWar: Censor-bot deletes message: yea, that's fine with me
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 181)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 133)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 9)
+CivilizationTwoFrontWar: Contraction-bot adds message: also if this e'er starts to act'ly annoy y', please let me know
+CivilizationTwoFrontWar: Contraction-bot deletes message: also if this ever starts to actually annoy you, please let me know
+CivilizationTwoFrontWar: Censor-bot adds message:  ~*REDACTED*~ s where we have the issues
+CivilizationTwoFrontWar: Censor-bot deletes message: that's where we have the issues
+CivilizationTwoFrontWar: Lol-bot adds reaction: interesting
+CivilizationTwoFrontWar: DejaVu-bot adds message: nah, probably less
+CivilizationTwoFrontWar: DejaVu-bot adds reaction: dejavu
+CivilizationTwoFrontWar: Censor-bot adds message:  ~*REDACTED*~ ll never happen again
+CivilizationTwoFrontWar: Censor-bot deletes message: That'll never happen again
+CivilizationTwoFrontWar: Botify-bot adds message: oihhhh?
+CivilizationTwoFrontWar: Botify-bot deletes message: oihhhh?
+CivilizationTwoFrontWar: Censor-bot adds message: Yep, and I've learned ~*REDACTED*~ you don't connect an aquaduct to solve your problems if it is more than 1 tile
+CivilizationTwoFrontWar: Censor-bot deletes message: Yep, and I've learned that you don't connect an aquaduct to solve your problems if it is more than 1 tile
