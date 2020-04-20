@@ -1457,3 +1457,5 @@ Chaos: Contraction-bot deletes message: Did you get your dress already?
 Civilization: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 60)
 Civilization: Dm-bot adds message: Roll a melee weapon check to headbut the swarm of bats
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 60)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 181)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 182)
