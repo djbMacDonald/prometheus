@@ -1,4 +1,5 @@
 from sqlalchemy import create_engine, Table, Column, Binary, MetaData
+from sqlalchemy.dialects.sqlite import *
 
 import hashlib as hl
 
@@ -13,7 +14,6 @@ class Database:
     if dbtype in self.DB_ENGINE.keys():
       engine_url = self.DB_ENGINE[dbtype].format(DB=dbname)
       self.db_engine = create_engine(engine_url)
-      print(self.db_engine)
     else:
       print("DBType is not found in DB_ENGINE")
       
@@ -46,5 +46,7 @@ class Database:
   def is_new_civ_payload(self, payload):
     self.initialize_civ_db()
     hl.md5(payload.encode('utf-8')).hexdigest()
-    sql = 'INSERT INTO '
+    sql = 'INSERT INTO Payloads(PayloadHash) VALUES (?)'
+    with self.db_engine.connect() as connection:
+      connection.execute(sql, )
     ## WIP, got distracted
