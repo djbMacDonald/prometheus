@@ -46,3 +46,4 @@ class Database:
   def is_new_civ_payload(self, payload):
     self.initialize_civ_db()
     sql = ''
+    ## WIP, got distracted
