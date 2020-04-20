@@ -1289,3 +1289,8 @@ CivilizationBeerdeau: Censor-bot adds message: he got mad ~*REDACTED*~ I had spi
 CivilizationBeerdeau: Censor-bot deletes message: he got mad that I had spies in his capital sabotaging shit
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 177)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 177)
+CivilizationBeerdeau: Censor-bot adds message: so there's ~*REDACTED*~ 
+CivilizationBeerdeau: Censor-bot deletes message: so there's that
+Chaos: Contraction-bot adds message: I'm'nt sure I blame him :hmm:
+Chaos: Contraction-bot deletes message: I'm not sure I blame him :hmm:
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 178)

@@ -47,7 +47,9 @@ class Contraction(Bot):
     "it": "t",
     "instead": "stead",
     "not": "nt",
-    "at": "t"
+    "at": "t",
+    "him": "im",
+    "her": "er"
   }
   
   _after = {
