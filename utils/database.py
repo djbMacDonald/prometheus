@@ -17,15 +17,6 @@ class Database:
     else:
       print("DBType is not found in DB_ENGINE")
       
-  def initialize_civ_db(self):
-    metadata = Metadata()
-    payloads = Table(Payloads, metadata, Column('PayloadHash', Binary, primary_key=True))
-    try:
-      metadata.create_all(self.db_engine)
-    except Exception as e:
-      print("Error occurred during table creation.")
-      print(e)
-      
   def execute_query(self, query=''):
     if query == '': return
     with self.db_engine.connect() as connection:
@@ -36,6 +27,22 @@ class Database:
   
   def does_table_exist(self, table_name = ''):
     if table_name = '': return False
-    sql = "SELECT name FROM sqlite_master WHERE type='table' AND name='{}';"
-    if self.execute_query(sql.format(table_name)).count() == 0:
+    sql = "SELECT name FROM sqlite_master WHERE type='table' AND name='{TN}';"
+    if self.execute_query(sql.format(TN=table_name)).count() == 0:
+      return False
+    else:
+      return True
+    
+  def initialize_civ_db(self):
+    if self.does_table_exist('Payloads'): return
+    metadata = Metadata()
+    payloads = Table('Payloads', metadata, Column('PayloadHash', Binary, primary_key=True))
+    try:
+      metadata.create_all(self.db_engine)
+    except Exception as e:
+      print("Error occurred during table creation.")
+      print(e)
       
+  def is_new_payload(self, payload):
+    self.initialize_civ_db()
+    sql = 
