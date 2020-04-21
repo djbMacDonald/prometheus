@@ -1475,3 +1475,16 @@ Chaos: Botify-bot deletes message: Good Morning Dakak
 Civilization: Civ-bot adds message: chaos_monkey: <@UETS9HTSS> it is your turn! (turn 92)
 Chaos: Censor-bot adds message: I ~*REDACTED*~ a personal gsuite account
 Chaos: Censor-bot deletes message: I have a personal gsuite account
+Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 92)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 184)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 134)
+CivilizationBeerdeau: Lol-bot adds reaction: oops
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 134)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 61)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 61)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 61)
+Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UDL020K8D>! There's a thread here!
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 48)
+Chaos: Third-bot adds message: Brenden'll be sure to tag you in them
+Chaos: Third-bot deletes message: I'll be sure to tag you in them
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 10)
