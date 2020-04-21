@@ -1466,3 +1466,5 @@ Chaos: Censor-bot deletes message: Yup, cause that's how it is done! See <@UEA7L
 Chaos: Censor-bot adds message:  ~*REDACTED*~ s what my friend who works at Microsoft was cautioning against
 Chaos: Censor-bot deletes message: That's what my friend who works at Microsoft was cautioning against
 Chaos: Lol-bot adds reaction: lol
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 183)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 183)
