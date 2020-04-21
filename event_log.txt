@@ -1472,3 +1472,6 @@ Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 184)
 Chaos: Botify-bot adds message: Good Morning Dakak
 Chaos: Botify-bot deletes message: Good Morning Dakak
+Civilization: Civ-bot adds message: chaos_monkey: <@UETS9HTSS> it is your turn! (turn 92)
+Chaos: Censor-bot adds message: I ~*REDACTED*~ a personal gsuite account
+Chaos: Censor-bot deletes message: I have a personal gsuite account
