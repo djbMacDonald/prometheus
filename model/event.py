@@ -92,9 +92,8 @@ class Event:
     return not not self._threadId
   
   def isInChannel(self, name):
-    if name in CHANNELS:
-      return CHANNELS[name] == self._channel
-    return None
+    if self._channel in CHANNELS:
+      return CHANNELS[self._channel]['name'] == name
   
   def isFromChaosUser(self):
     return self._user in IDENTITIES.keys()

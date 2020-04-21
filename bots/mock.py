@@ -14,6 +14,8 @@ class Mock(Bot):
       return
     
     messageInfo = self._emoteUtil.getReactionsOnPost(self._event)
+    if not messageInfo.get('reactionNames'):
+      return
     intersection = set(messageInfo.get('reactionNames')).intersection(['spongebob-mock', 'mocking-spongebob'])
     if len(intersection) == 0 or messageInfo.get('hasAThread'):
       return
