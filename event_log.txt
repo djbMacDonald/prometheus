@@ -1490,3 +1490,8 @@ Chaos: Third-bot deletes message: I'll be sure to tag you in them
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 10)
 Chaos: Lex-bot adds message: its hard to sleep when the president tweets about executive orders stopping iiogtmmrian at midnight :confused:
 Chaos: Lex-bot deletes message: its hard to sleep when the president tweets about executive orders stopping immigration at midnight :confused:
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 61)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 61)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 61)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 10)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 49)
