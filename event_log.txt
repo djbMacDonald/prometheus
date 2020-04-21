@@ -1530,3 +1530,13 @@ Megamoji: Lol-bot adds reaction: testing
 Megamoji: Lol-bot adds reaction: testing
 Megamoji: Lol-bot adds reaction: testing
 Megamoji: Lol-bot adds reaction: testing
+Megamoji: Lol-bot adds reaction: testing
+Megamoji: Greek-bot adds message: This is a test of Translated(src=en, dest=el, text=κάτι, pronunciation=káti, extra_data="{'translat...") [[something]].
+Megamoji: Greek-bot deletes message: This is a test of something.
+Megamoji: Dm-bot adds message: Roll a submachine gun check to intimidate the gazebo
+Megamoji: Greek-bot adds message: We Translated(src=en, dest=el, text=gettin, pronunciation=None, extra_data="{'translat...") [[gettin]] hacked
+Megamoji: Greek-bot deletes message: We gettin hacked
+Megamoji: Greek-bot adds message: :χαχαχα [[lol]]:
+Megamoji: Greek-bot deletes message: :lol:
+Megamoji: Greek-bot adds message: This is a test of κάτι [[something]].
+Megamoji: Greek-bot deletes message: This is a test of something.
