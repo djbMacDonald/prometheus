@@ -1503,3 +1503,5 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 186)
 Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 92)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 187)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 187)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 188)
