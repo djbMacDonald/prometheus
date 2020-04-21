@@ -1541,3 +1541,6 @@ Megamoji: Greek-bot deletes message: :lol:
 Megamoji: Greek-bot adds message: This is a test of κάτι [[something]].
 Megamoji: Greek-bot deletes message: This is a test of something.
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 189)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 189)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 49)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 11)
