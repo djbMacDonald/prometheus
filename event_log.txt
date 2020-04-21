@@ -1500,3 +1500,4 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is 
 civ_hide_from_sumeria: Censor-bot adds message: I ~*REDACTED*~ meetings till 2:30 so any time after that
 civ_hide_from_sumeria: Censor-bot deletes message: I have meetings till 2:30 so any time after that
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 186)
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 186)
