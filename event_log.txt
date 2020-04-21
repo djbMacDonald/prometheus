@@ -1470,3 +1470,5 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 183)
 Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 91)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 184)
+Chaos: Botify-bot adds message: Good Morning Dakak
+Chaos: Botify-bot deletes message: Good Morning Dakak
