@@ -1468,3 +1468,4 @@ Chaos: Censor-bot deletes message: That's what my friend who works at Microsoft 
 Chaos: Lol-bot adds reaction: lol
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 183)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 183)
+Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 91)
