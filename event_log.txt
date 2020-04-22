@@ -2008,3 +2008,33 @@ Megamoji: Lol-bot adds reaction: testing
 Alerts: Bot Error-bot adds message: Test Error
 Chaos: Third-bot adds message: Brenden've never figured out a use for them
 Chaos: Third-bot deletes message: I've never figured out a use for them
+Chaos: Censor-bot adds message: Ugh, taxes suck:
+Long story oversimplified:
+-Got fired and with it, our health insurance
+-In Mass, you need health insurance or pay a penalty
+-Sam was self employed for just about all of that time, so we couldn't go on her non-existent plan
+-By the time I got to a place of stability with my job stuff, I had missed the deadline to apply for the Massachusetts Health Insurance Marketplace stuff
+-So we owed a larger penalty, because we could "afford" health insurance, that we could not procure, because they only have certain windows in which you can apply
+
+and that penalty ~*REDACTED*~ basically 25% of what your health insurance premiums would have been for that time uninsured
+Chaos: Censor-bot deletes message: Ugh, taxes suck:
+Long story oversimplified:
+-Got fired and with it, our health insurance
+-In Mass, you need health insurance or pay a penalty
+-Sam was self employed for just about all of that time, so we couldn't go on her non-existent plan
+-By the time I got to a place of stability with my job stuff, I had missed the deadline to apply for the Massachusetts Health Insurance Marketplace stuff
+-So we owed a larger penalty, because we could "afford" health insurance, that we could not procure, because they only have certain windows in which you can apply
+
+and that penalty is basically 25% of what your health insurance premiums would have been for that time uninsured
+Chaos: Lol-bot adds reaction: gotcha
+Chaos: Censor-bot adds message: The 2020 stuff ~*REDACTED*~ fine because after going through all this crap last year, we just got health insurance through the aforementioned marketplace so I would not be dependent on my employer
+Chaos: Censor-bot deletes message: The 2020 stuff is fine because after going through all this crap last year, we just got health insurance through the aforementioned marketplace so I would not be dependent on my employer
+Chaos: Censor-bot adds message: left ~*REDACTED*~ for wallet + keys
+Chaos: Censor-bot deletes message: left is for wallet + keys
+Chaos: Censor-bot adds message: right ~*REDACTED*~ for phone
+Chaos: Censor-bot deletes message: right is for phone
+Chaos: DejaVu-bot adds message: Okcupid was ok a long time ago
+Chaos: DejaVu-bot adds reaction: dejavu
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 53)
+Chaos: Censor-bot adds message: Mine ~*REDACTED*~ flipped, but the same items together
+Chaos: Censor-bot deletes message: Mine is flipped, but the same items together
