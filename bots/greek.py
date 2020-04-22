@@ -6,6 +6,13 @@ class Greek(Bot):
   
   _active = True
   _frequency = .01
+  _langauges = {
+    'el': 'Greek',
+    'te': 'Telegu',
+    'ru': 'Russian',
+    'iw': 'Hebrew',
+    ''
+  }
   
   @classmethod
   def description(cls):

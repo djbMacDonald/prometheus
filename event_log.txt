@@ -1773,3 +1773,12 @@ Chaos: Greek-bot adds message: Yeah, and this is an αόριστος [[indefinit
 Chaos: Greek-bot deletes message: Yeah, and this is an indefinite not meeting up
 Chaos: Censor-bot adds message:  ~*REDACTED*~ that greek?
 Chaos: Censor-bot deletes message: Is that greek?
+Chaos: Censor-bot adds message: and decide what it ~*REDACTED*~ that annoys you about those profiles
+Chaos: Censor-bot deletes message: and decide what it is that annoys you about those profiles
+Chaos: Censor-bot adds message: learn what it ~*REDACTED*~ you look for in a profile
+Chaos: Censor-bot deletes message: learn what it is you look for in a profile
+Chaos: Lex-bot adds message: Okcuipd was ok a long time ago
+Chaos: Lex-bot deletes message: Okcupid was ok a long time ago
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 232)
+Chaos: Third-bot adds message: Brenden like phonetic pronunciation
+Chaos: Third-bot deletes message: I like phonetic pronunciation
