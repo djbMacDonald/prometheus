@@ -25,7 +25,6 @@ hardDisableAllBots = False
 def callAllBots(event, mongoClient, user, emotes, actionQueue):
   if event.channel() == ch.alertsChannel():
     return
-  print('qwe')
   botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
   for bot in botList:
     try:

@@ -2050,3 +2050,9 @@ Civilization: Botify-bot adds message: Sure, we doing the normal like 6:30-7 sta
 Civilization: Botify-bot deletes message: Sure, we doing the normal like 6:30-7 start time?
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 16)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 54)
+Chaos: Censor-bot adds message: Yeah, a $1200 swing in taxes ~*REDACTED*~ painful
+Chaos: Censor-bot deletes message: Yeah, a $1200 swing in taxes is painful
+Chaos: Censor-bot adds message: Yeah, a $1200 swing in taxes ~*REDACTED*~ painful
+Chaos: Censor-bot deletes message: Yeah, a $1200 swing in taxes is painful
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 17)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 54)
