@@ -26,6 +26,15 @@ def callAllBots(event, mongoClient, user, emotes, actionQueue):
     try:
       callBot(bot, event, mongoClient, user, emotes, actionQueue)
     except Exception as error:
+      actionQueue = ActionQueue()
+      # actionQueue.addReply(
+      #   'Civ',
+      #   gameToChannelMap.get(data.get('value1'), ch.civChannel()), 
+      #   None, 
+      #   '{}: <@{}> it is your turn! (turn {})'.format(data.get('value1'), STEAM.get(currentPlayer), data.get('value3')), 
+      #   Identity(userName = 'Civilization VI: Turn Notification', emoji = 'civ6')
+      # )
+      # actionQueue.flush()
       pprint.pprint(error)
       print(traceback.format_exc())
 

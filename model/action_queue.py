@@ -83,21 +83,18 @@ class ActionQueue:
     )
     info = postData.get()
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
-    try:
-      res = self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
-      newTS = res.get(timeout=1).json()['ts']
-      
-      for reactionRequest in self._reactions:
-        if reactionRequest.get('timestamp') == replacementRequest.get('id'):
-          reactionRequest['timestamp'] = newTS
-      for replyRequest in self._replies:
-        if replyRequest.get('threadId') == replacementRequest.get('id'):
-          replyRequest['timestamp'] = newTS
+    res = self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
+    newTS = res.get(timeout=1).json()['ts']
 
-      self._log.logEvent("{}: {}-bot adds message: {}".format(CHANNELS[replacementRequest.get('channel')].get('name'), replacementRequest.get('bot'), info['text']))
-      self._deleteMessage(replacementRequest)
-    except Exception as error:
-      print('Error with replacement')
+    for reactionRequest in self._reactions:
+      if reactionRequest.get('timestamp') == replacementRequest.get('id'):
+        reactionRequest['timestamp'] = newTS
+    for replyRequest in self._replies:
+      if replyRequest.get('threadId') == replacementRequest.get('id'):
+        replyRequest['timestamp'] = newTS
+
+    self._log.logEvent("{}: {}-bot adds message: {}".format(CHANNELS[replacementRequest.get('channel')].get('name'), replacementRequest.get('bot'), info['text']))
+    self._deleteMessage(replacementRequest)
   
   def _flushReply(self, replyRequest):
     postData = PostData(replyRequest.get('channel'), replyRequest.get('message'), replyRequest.get('identity'), threadId = replyRequest.get('threadId'))

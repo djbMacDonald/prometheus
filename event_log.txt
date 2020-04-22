@@ -1875,3 +1875,32 @@ Chaos: Spam-bot adds reaction: faygo
 Chaos: Spam-bot adds reaction: sold-party
 Chaos: Censor-bot adds message: Yes CJ ~*REDACTED*~ the worst. Whenever we have to hang out with people late. I just sleep there. 
 Chaos: Censor-bot deletes message: Yes CJ is the worst. Whenever we have to hang out with people late. I just sleep there. 
+Chaos: Censor-bot adds message: Even the most recent communication reads as if we are only doing remote work because kids are at home, not because there ~*REDACTED*~ social distancing and worker safety in play
+Chaos: Censor-bot deletes message: Even the most recent communication reads as if we are only doing remote work because kids are at home, not because there is social distancing and worker safety in play
+Chaos: Botify-bot adds message: Man, I don't think I've ever seen Aysh get this fired up before
+Chaos: Botify-bot deletes message: Man, I don't think I've ever seen Aysh get this fired up before
+Chaos: Censor-bot adds message: this ~*REDACTED*~ to reassure them for the future general guidance
+Chaos: Censor-bot deletes message: this is to reassure them for the future general guidance
+Chaos: Censor-bot adds message: All school ~*REDACTED*~ canceled for the rest of this year. Poor parents
+Chaos: Censor-bot deletes message: All school is canceled for the rest of this year. Poor parents
+Chaos: Censor-bot adds message: daycare ~*REDACTED*~ also closed
+Chaos: Censor-bot deletes message: daycare is also closed
+Chaos: Botify-bot adds message: All child care
+Chaos: Botify-bot deletes message: All child care
+Chaos: Censor-bot adds message: Managers all received a directive to reach out to Talent relations if someone ~*REDACTED*~ unable to be productive during this time.
+Throughout that guidance and in the title the word 'caregiver'  ~*REDACTED*~ used (Title ~*REDACTED*~  *Best Practices: Managing Caregivers During the Remote Work Period)* but the content ~*REDACTED*~ supposed to apply to everyone
+Chaos: Censor-bot deletes message: Managers all received a directive to reach out to Talent relations if someone is unable to be productive during this time.
+Throughout that guidance and in the title the word 'caregiver' is used (Title is *Best Practices: Managing Caregivers During the Remote Work Period)* but the content is supposed to apply to everyone
+Chaos: DejaVu-bot adds message: Not sure what the Azores is but you won’t get fired!!
+Chaos: DejaVu-bot adds reaction: dejavu
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 53)
+Chaos: DejaVu-bot adds message: By storing emails on an insecure server?
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Censor-bot adds message: ..... because we both have to get up the next day, and someone forgets what time it ~*REDACTED*~ 
+Chaos: Censor-bot deletes message: ..... because we both have to get up the next day, and someone forgets what time it is
+Chaos: Botify-bot adds message: For the record it also created unrest in the Wayfair parents channel
+Chaos: Botify-bot deletes message: For the record it also created unrest in the Wayfair parents channel
+Chaos: Botify-bot adds message: So it made non of the loud people happy
+Chaos: Botify-bot deletes message: So it made non of the loud people happy
+Chaos: Censor-bot adds message: slack edit message functionality ~*REDACTED*~ broken and very frustrated
+Chaos: Censor-bot deletes message: slack edit message functionality is broken and very frustrated
