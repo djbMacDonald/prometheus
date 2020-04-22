@@ -2006,3 +2006,5 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your tu
 Alerts: Bot Error-bot adds message: Test Error
 Megamoji: Lol-bot adds reaction: testing
 Alerts: Bot Error-bot adds message: Test Error
+Chaos: Third-bot adds message: Brenden've never figured out a use for them
+Chaos: Third-bot deletes message: I've never figured out a use for them
