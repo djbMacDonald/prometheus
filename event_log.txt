@@ -1698,3 +1698,5 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your tu
 Chaos: Censor-bot adds message: Soooooo I'm confused about why you're sad being locked in your apt alone? It's not the lack of human interaction you have that.  ~*REDACTED*~ it the fact you are locked, and you can't roam free?
 Chaos: Censor-bot deletes message: Soooooo I'm confused about why you're sad being locked in your apt alone? It's not the lack of human interaction you have that. Is it the fact you are locked, and you can't roam free?
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 65)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 65)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 138)
