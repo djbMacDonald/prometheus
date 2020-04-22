@@ -26,9 +26,8 @@ def callAllBots(event, mongoClient, user, emotes, actionQueue):
   botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
   for bot in botList:
     try:
-      callBot(bot, event, mongoClient, user, emotes, actionQueue)
+      _callBot(bot, event, mongoClient, user, emotes, actionQueue)
     except Exception as error:
-      actionQueue = ActionQueue()
       actionQueue.addReply(
         'Bot Error',
         ch.alertsChannel(), 
@@ -36,7 +35,6 @@ def callAllBots(event, mongoClient, user, emotes, actionQueue):
         error, 
         None
       )
-      actionQueue.flush()
       pprint.pprint(error)
       print(traceback.format_exc())
 

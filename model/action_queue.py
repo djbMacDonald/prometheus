@@ -84,7 +84,7 @@ class ActionQueue:
     info = postData.get()
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))
     res = self._pool.apply_async(requests.get, args=[url], callback=poolCallback)
-    newTS = res.get(timeout=1).json()['ts']
+    newTS = res.get(timeout=2).json()['ts']
 
     for reactionRequest in self._reactions:
       if reactionRequest.get('timestamp') == replacementRequest.get('id'):
