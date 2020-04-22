@@ -1819,3 +1819,8 @@ Megamoji: Greek-bot adds message: This is a test of что-то.
 
  что-то, Russian: [[something]] (chto-to)
 Megamoji: Greek-bot deletes message: This is a test of something.
+Megamoji: Greek-bot adds message: test of κάτι [[something]]
+
+ [[Greek káti]]
+Megamoji: Greek-bot deletes message: test of something
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 14)
