@@ -1807,3 +1807,15 @@ Yeah, and this is an αόριστος not meeting up
 
 Chaos: Botify-bot adds message: I hang out with people, and sometimes that goes late on the weekend. Mei gets all her energy at night so she wants to clean at 10pm instead of get ready for sleep
 Chaos: Botify-bot deletes message: I hang out with people, and sometimes that goes late on the weekend. Mei gets all her energy at night so she wants to clean at 10pm instead of get ready for sleep
+Megamoji: Greek-bot adds message: This is a test of משהו.
+
+ משהו, Hebrew: [[something]] (None)
+Megamoji: Greek-bot deletes message: This is a test of something.
+Megamoji: Lex-bot adds message: This is a test of smiehntog.
+Megamoji: Lex-bot deletes message: This is a test of something.
+Megamoji: Censor-bot adds message: This ~*REDACTED*~ a test of something.
+Megamoji: Censor-bot deletes message: This is a test of something.
+Megamoji: Greek-bot adds message: This is a test of что-то.
+
+ что-то, Russian: [[something]] (chto-to)
+Megamoji: Greek-bot deletes message: This is a test of something.

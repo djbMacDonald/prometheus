@@ -20,9 +20,7 @@ class Greek(Bot):
     return "Has a {}% chance to replace a word in the post with another language, via Google Translate.".format(cls._frequency * 100)
   
   def run(self):
-    # if not self._chaosUserSendsMessage() or not self._randomUtil.rollDice(self._frequency):
-    #   return
-    if not self._event.isInChannel('Megamoji'):
+    if not self._chaosUserSendsMessage() or not self._randomUtil.rollDice(self._frequency):
       return
     
     translator = Translator()
@@ -33,6 +31,9 @@ class Greek(Bot):
     translation = translator.translate(longWord, dest=lang[0])
     if translation.text == longWord:
       return
-    newString = self._event.text().replace(longWord, translation.text)
-    newString += '\n\n {}, {}: [[{}]] ({})    [[longWord]] ({}, {})'.format(translation.text, lang[1], longWord, translation.pronunciation)
+    newString = self._event.text().replace(longWord, '{} [[{}]]', translation.text), longWord
+    newString += '\n\n [[{}'.format(lang[1])
+    if translation.pronunciation:
+      newString += ' {}'.format(translation.pronunciation)
+    newString += ']]'
     self._replacePost(newString)
