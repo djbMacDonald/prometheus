@@ -17,6 +17,8 @@ import sched
 import os
 import asyncio
 from model.user import User
+import constant.channels as ch
+from model.action_queue import ActionQueue
 
 hardDisableAllBots = False
 
@@ -27,14 +29,14 @@ def callAllBots(event, mongoClient, user, emotes, actionQueue):
       callBot(bot, event, mongoClient, user, emotes, actionQueue)
     except Exception as error:
       actionQueue = ActionQueue()
-      # actionQueue.addReply(
-      #   'Civ',
-      #   gameToChannelMap.get(data.get('value1'), ch.civChannel()), 
-      #   None, 
-      #   '{}: <@{}> it is your turn! (turn {})'.format(data.get('value1'), STEAM.get(currentPlayer), data.get('value3')), 
-      #   Identity(userName = 'Civilization VI: Turn Notification', emoji = 'civ6')
-      # )
-      # actionQueue.flush()
+      actionQueue.addReply(
+        'Bot Error',
+        ch.alertsChannel(), 
+        None, 
+        error, 
+        None
+      )
+      actionQueue.flush()
       pprint.pprint(error)
       print(traceback.format_exc())
 
@@ -51,7 +53,7 @@ def convertCase(name):
   components = name.split('_')
   return''.join(x.title() for x in components)
 
-def callBot(bot, originalEvent, client, user, emotes, actionQueue):
+def _callBot(bot, originalEvent, client, user, emotes, actionQueue):
   if hardDisableAllBots:
     return
   moduleType = getattr(bots, bot)

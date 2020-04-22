@@ -12,6 +12,7 @@ class Lex(Bot):
     return "Scrambles letters in some words."
   
   def run(self):
+    raise Exception('Test Error') 
     if (
         self._event.isFromABot() 
         or not self._event.text()

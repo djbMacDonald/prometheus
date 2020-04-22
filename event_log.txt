@@ -1904,3 +1904,6 @@ Chaos: Botify-bot adds message: So it made non of the loud people happy
 Chaos: Botify-bot deletes message: So it made non of the loud people happy
 Chaos: Censor-bot adds message: slack edit message functionality ~*REDACTED*~ broken and very frustrated
 Chaos: Censor-bot deletes message: slack edit message functionality is broken and very frustrated
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 233)
+Chaos: Censor-bot adds message: Yeah, manager by manager ~*REDACTED*~ like doing a state by state response to a pandemic: fucking terrible
+Chaos: Censor-bot deletes message: Yeah, manager by manager is like doing a state by state response to a pandemic: fucking terrible
