@@ -25,13 +25,14 @@ hardDisableAllBots = False
 def callAllBots(event, mongoClient, user, emotes, actionQueue):
   if event.channel() == ch.alertsChannel():
     return
+
   botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
   for bot in botList:
     try:
       _callBot(bot, event, mongoClient, user, emotes, actionQueue)
     except Exception as error:
       actionQueue.addReply(
-        'Bot Error',
+        'Error Logger',
         ch.alertsChannel(), 
         None,
         error,
