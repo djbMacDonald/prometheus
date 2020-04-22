@@ -2040,3 +2040,8 @@ Chaos: Censor-bot adds message: Mine ~*REDACTED*~ flipped, but the same items to
 Chaos: Censor-bot deletes message: Mine is flipped, but the same items together
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 16)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 67)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 140)
+Chaos: Greek-bot adds message: Yeah в точку [[exactly]]
+
+ [[Russian: v tochku]]
+Chaos: Greek-bot deletes message: Yeah exactly
