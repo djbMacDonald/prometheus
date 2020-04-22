@@ -55,7 +55,7 @@ class Bot(object):
   def _addReactionToOriginalMessage(self, reaction):
     self._queue.addReaction(self.__class__.__name__, self._event.channel(), self._event.threadId(), reaction)
   
-  def _addMessageToThread(self, message, identity):
+  def _addMessageToThread(self, message, identity = None):
     self._queue.addReply(self.__class__.__name__, self._event.channel(), self._event.id(), message, identity)
     
   def _addMessage(self, message, identity = None):
