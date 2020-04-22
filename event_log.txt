@@ -1691,3 +1691,10 @@ Chaos: Censor-bot deletes message: `It is safe for all of you to assume that we 
 Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
 Chaos: Censor-bot adds message: Sam saw the same thing a few days ago. I tend to agree it won't be till then. It's already till about Mid May anyway, so what's another couple of weeks tacked on in response to how long the peak ~*REDACTED*~ 
 Chaos: Censor-bot deletes message: Sam saw the same thing a few days ago. I tend to agree it won't be till then. It's already till about Mid May anyway, so what's another couple of weeks tacked on in response to how long the peak is
+Chaos: Censor-bot adds message: Makes sense. Avoiding people ~*REDACTED*~ still a challenge
+Chaos: Censor-bot deletes message: Makes sense. Avoiding people is still a challenge
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 52)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 14)
+Chaos: Censor-bot adds message: Soooooo I'm confused about why you're sad being locked in your apt alone? It's not the lack of human interaction you have that.  ~*REDACTED*~ it the fact you are locked, and you can't roam free?
+Chaos: Censor-bot deletes message: Soooooo I'm confused about why you're sad being locked in your apt alone? It's not the lack of human interaction you have that. Is it the fact you are locked, and you can't roam free?
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 65)
