@@ -2048,3 +2048,5 @@ Chaos: Greek-bot deletes message: Yeah exactly
 Chaos: ChaosSeed-bot adds message: Hey <@UDL020K8D> <@UK7V13DS7> <@UDC4QL95G> <@UDDE5960N> <@UDD45P5A9>! There's a thread here!
 Civilization: Botify-bot adds message: Sure, we doing the normal like 6:30-7 start time?
 Civilization: Botify-bot deletes message: Sure, we doing the normal like 6:30-7 start time?
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 16)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 54)
