@@ -12,7 +12,7 @@ class Greek(Bot):
     return "Has a {}% chance to replace a word in the post with Greek, via Google Translate.".format(cls._frequency * 100)
   
   def run(self):
-    if not self._chaosUserSendsMessage() or not self._randomUtil.rollDice(self._frenquency):
+    if not self._chaosUserSendsMessage() or not self._randomUtil.rollDice(self._frequency):
       return
     
     translator = Translator()

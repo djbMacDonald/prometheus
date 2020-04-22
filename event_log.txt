@@ -1579,3 +1579,101 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 230)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 231)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 231)
+Chaos: Spam-bot adds reaction: left-arm-of-exodshia-flipped
+Chaos: Spam-bot adds reaction: woke
+Chaos: Spam-bot adds reaction: hey
+Chaos: Spam-bot adds reaction: shibe-blanket
+Chaos: Spam-bot adds reaction: no-jorts
+Chaos: Spam-bot adds reaction: long_cat_bottom_right_reverse
+Chaos: Spam-bot adds reaction: shepard
+Chaos: Spam-bot adds reaction: dragonair
+Chaos: Spam-bot adds reaction: arkface
+Chaos: Spam-bot adds reaction: confidential
+Chaos: Spam-bot adds reaction: ozymandias_i_did_it
+Chaos: Spam-bot adds reaction: horsea
+Chaos: Spam-bot adds reaction: iseewhatyoudidthere
+Chaos: Spam-bot adds reaction: short-keanu
+Chaos: Spam-bot adds reaction: thanks_for_the_review_my_friend
+Chaos: Spam-bot adds reaction: fnatic
+Chaos: Spam-bot adds reaction: jellical
+Chaos: Spam-bot adds reaction: jediberube
+Chaos: Spam-bot adds reaction: bucuo
+Chaos: Spam-bot adds reaction: slytherin
+Chaos: Spam-bot adds reaction: mick
+Chaos: Spam-bot adds reaction: johannisbeere
+Chaos: Spam-bot adds reaction: tulip
+Chaos: Spam-bot adds reaction: doglamp
+Chaos: Spam-bot adds reaction: slow_children
+Chaos: Spam-bot adds reaction: luis_finger_gun
+Chaos: Censor-bot adds message: Wouldn't the phrase "I hope today ~*REDACTED*~ the best day ever" imply the same thing?
+Chaos: Censor-bot deletes message: Wouldn't the phrase "I hope today is the best day ever" imply the same thing?
+Chaos: Contraction-bot adds message: 't's'nt used all that often
+Chaos: Contraction-bot deletes message: it's not used all that often
+Chaos: Censor-bot adds message: But, if today ~*REDACTED*~ the best day ever, that doesn't mean tomorrow cannot be better
+Chaos: Censor-bot deletes message: But, if today is the best day ever, that doesn't mean tomorrow cannot be better
+Chaos: Censor-bot adds message: Today ~*REDACTED*~ better than tomorrow lol 
+Chaos: Censor-bot deletes message: Today is better than tomorrow lol 
+Chaos: ChaosSeed-bot adds message: Hey <@UDDE5960N> <@UDD45P5A9> <@UDC4QL95G> <@UK7V13DS7> <@UHQD9J1SL>! There's a thread here!
+Chaos: Censor-bot adds message: I suppose you could read it either way.
+`I hope today ~*REDACTED*~ the best day you have ever had`
+`I hope today ~*REDACTED*~ the best day you will ever have`
+Chaos: Censor-bot deletes message: I suppose you could read it either way.
+`I hope today is the best day you have ever had`
+`I hope today is the best day you will ever have`
+Chaos: Censor-bot adds message: I actually don't mind ~*REDACTED*~ being ban banned
+Chaos: Censor-bot deletes message: I actually don't mind is being ban banned
+Megamoji: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
+Chaos: Contraction-bot adds message: a word that't being banned doesn't cause chaos, just annoyance
+Chaos: Contraction-bot deletes message: a word that it being banned doesn't cause chaos, just annoyance
+Chaos: Censor-bot adds message: whereas he/she/they/we/I make the sentence ambiguous as to who the subject ~*REDACTED*~ 
+Chaos: Censor-bot deletes message: whereas he/she/they/we/I make the sentence ambiguous as to who the subject is
+Chaos: Censor-bot adds message: I don't think volume ~*REDACTED*~ a good indicator
+Chaos: Censor-bot deletes message: I don't think volume is a good indicator
+Chaos: Censor-bot adds message: for " ~*REDACTED*~ " i agree
+Chaos: Censor-bot deletes message: for "is" i agree
+Chaos: Third-bot adds message: as Brenden've said already
+Chaos: Third-bot deletes message: as I've said already
+Megamoji: Spam-bot adds reaction: infinite_spongebobshocked_zoom
+Megamoji: Spam-bot adds reaction: letterkenny
+Megamoji: Spam-bot adds reaction: tribe
+Megamoji: Spam-bot adds reaction: cat_platypus
+Megamoji: Spam-bot adds reaction: jechan
+Megamoji: Spam-bot adds reaction: sadder_blob
+Megamoji: Spam-bot adds reaction: ah_hmm
+Megamoji: Spam-bot adds reaction: oops-ups
+Megamoji: Spam-bot adds reaction: gude-argh
+Megamoji: Spam-bot adds reaction: party-doge
+Megamoji: Spam-bot adds reaction: ino-blush
+Megamoji: Spam-bot adds reaction: barbara-cosgrove-is-true-art
+Megamoji: Spam-bot adds reaction: marti_gras_parrot
+Megamoji: Spam-bot adds reaction: hvala1
+Megamoji: Spam-bot adds reaction: bliss_6_3
+Megamoji: Spam-bot adds reaction: party_gritty
+Megamoji: Spam-bot adds reaction: chungus-horselamp
+Megamoji: Spam-bot adds reaction: bliss_7_6
+Megamoji: Spam-bot adds reaction: wfretriever
+Megamoji: Spam-bot adds reaction: _prince
+Megamoji: Spam-bot adds reaction: notredame
+Megamoji: Spam-bot adds reaction: cc_disagree
+Megamoji: Spam-bot adds reaction: mugi-strong
+Megamoji: Spam-bot adds reaction: pumpkin_parrot
+Megamoji: Spam-bot adds reaction: ivy
+Megamoji: Spam-bot adds reaction: hash
+Megamoji: Spam-bot adds reaction: greg_skorupa
+Megamoji: Spam-bot adds reaction: deliverhe-service
+Megamoji: Spam-bot adds reaction: lycanroc-midnight-forme
+Megamoji: Spam-bot adds reaction: it-will-be-done
+Megamoji: Spam-bot adds reaction: wayhome-intensifies
+Megamoji: Spam-bot adds reaction: party_rock
+Megamoji: Spam-bot adds reaction: persian
+Megamoji: Spam-bot adds reaction: rhyhorn
+Megamoji: Spam-bot adds reaction: lovetenzin
+Megamoji: Spam-bot adds reaction: loonie_moonie
+Megamoji: Spam-bot adds reaction: joke
+Megamoji: Spam-bot adds reaction: reddit
+Megamoji: Spam-bot adds reaction: 300percent2
+Megamoji: Spam-bot adds reaction: sarcastic_well_done
+Megamoji: Spam-bot adds reaction: smash-wolf
+Megamoji: Spam-bot adds reaction: hopper-on-my-way
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 13)
+Chaos: Dm-bot adds message: Roll a spot hidden check to tell a story to the zombies
