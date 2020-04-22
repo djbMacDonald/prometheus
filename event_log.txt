@@ -1824,3 +1824,13 @@ Megamoji: Greek-bot adds message: test of κάτι [[something]]
  [[Greek káti]]
 Megamoji: Greek-bot deletes message: test of something
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 14)
+Chaos: Lex-bot adds message: so vedio it is!
+Chaos: Lex-bot deletes message: so video it is!
+Chaos: Censor-bot adds message: Sweet, Callie ~*REDACTED*~ a fun bot
+Chaos: Censor-bot deletes message: Sweet, Callie is a fun bot
+Chaos: Censor-bot adds message: Yeah, that can be a pain. I'm apparently a person who ~*REDACTED*~ a morning person and a night person, but most definitely a "fuck off it ~*REDACTED*~ 3pm" person.
+Sam ~*REDACTED*~ most definitely the opposite of that
+Chaos: Censor-bot deletes message: Yeah, that can be a pain. I'm apparently a person who is a morning person and a night person, but most definitely a "fuck off it is 3pm" person.
+Sam is most definitely the opposite of that
+Chaos: Censor-bot adds message: I mean, you can name it what you want. Whether it gets called that or not ~*REDACTED*~ another story
+Chaos: Censor-bot deletes message: I mean, you can name it what you want. Whether it gets called that or not is another story
