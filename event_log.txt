@@ -2038,3 +2038,5 @@ Chaos: DejaVu-bot adds reaction: dejavu
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 53)
 Chaos: Censor-bot adds message: Mine ~*REDACTED*~ flipped, but the same items together
 Chaos: Censor-bot deletes message: Mine is flipped, but the same items together
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 16)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 67)
