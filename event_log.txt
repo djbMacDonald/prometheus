@@ -1712,3 +1712,29 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it 
 Chaos: Botify-bot adds message: lol
 Chaos: Botify-bot deletes message: lol
 Chaos: Lol-bot adds reaction: lol
+Chaos: Censor-bot adds message: True, and that's the part of the conversation I'm curious about: what do you do for physical interaction as someone who ~*REDACTED*~ generally reserved when it comes to touch, when outside of a relationship?
+Chaos: Censor-bot deletes message: True, and that's the part of the conversation I'm curious about: what do you do for physical interaction as someone who is generally reserved when it comes to touch, when outside of a relationship?
+Chaos: Censor-bot adds message: I don't, which ~*REDACTED*~ a problem
+Chaos: Censor-bot deletes message: I don't, which is a problem
+Chaos: Lol-bot adds reaction: yeah
+Chaos: Third-bot adds message: Brenden don't seek out that kind of interaction outside of relationships
+Chaos: Third-bot deletes message: I don't seek out that kind of interaction outside of relationships
+Chaos: ChaosSeed-bot adds reaction: salute_cap
+Chaos: ChaosSeed-bot adds reaction: squirrel
+Chaos: Third-bot adds message: Brenden tend to go in cycles
+Chaos: Third-bot deletes message: I tend to go in cycles
+Chaos: Censor-bot adds message: Being in a relationship ~*REDACTED*~ so much work
+Chaos: Censor-bot deletes message: Being in a relationship is so much work
+Chaos: Botify-bot adds message: Discord calls all afternoon!?!?!?
+Chaos: Botify-bot deletes message: Discord calls all afternoon!?!?!?
+Chaos: ChaosSeed-bot adds message: Hey <@UETS9HTSS> <@UDL020K8D> <@UDD45P5A9> <@UHQD9J1SL> <@UDDE5960N>! There's a thread here!
+Chaos: Censor-bot adds message: but when my typical time to unwind ~*REDACTED*~ before bed
+Chaos: Censor-bot deletes message: but when my typical time to unwind is before bed
+Chaos: Contraction-bot adds message: that tends to'nt mesh well
+Chaos: Contraction-bot deletes message: that tends to not mesh well
+Chaos: Censor-bot adds message: Sleep? I don't really think sleep ~*REDACTED*~ much of an issue at the moment. Not really much else to do
+Chaos: Censor-bot deletes message: Sleep? I don't really think sleep is much of an issue at the moment. Not really much else to do
+Chaos: Contraction-bot adds message: Hmmm I see that as more o'a concious decision to sleep less
+Chaos: Contraction-bot deletes message: Hmmm I see that as more of a concious decision to sleep less
+Chaos: Botify-bot adds message: Mei drives me crazy because she's a night owl
+Chaos: Botify-bot deletes message: Mei drives me crazy because she's a night owl
