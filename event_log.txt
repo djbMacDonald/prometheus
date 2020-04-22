@@ -1700,3 +1700,15 @@ Chaos: Censor-bot deletes message: Soooooo I'm confused about why you're sad bei
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 65)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 65)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 138)
+Chaos: Censor-bot adds message: Ok, I was just curious. I don't think touch ~*REDACTED*~ something I consider super important. (But who knows if I was locked inside forever without it)
+Chaos: Censor-bot deletes message: Ok, I was just curious. I don't think touch is something I consider super important. (But who knows if I was locked inside forever without it)
+Chaos: Censor-bot adds message: I don't think it ~*REDACTED*~ crazy, or at least something that isn't readily understandable if you are starved of even the most basic of human physical interaction
+Chaos: Censor-bot deletes message: I don't think it is crazy, or at least something that isn't readily understandable if you are starved of even the most basic of human physical interaction
+Chaos: Censor-bot adds message: I think touch ~*REDACTED*~ very important
+Chaos: Censor-bot deletes message: I think touch is very important
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 232)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 138)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 65)
+Chaos: Botify-bot adds message: lol
+Chaos: Botify-bot deletes message: lol
+Chaos: Lol-bot adds reaction: lol
