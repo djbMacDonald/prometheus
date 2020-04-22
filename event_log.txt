@@ -1782,3 +1782,28 @@ Chaos: Lex-bot deletes message: Okcupid was ok a long time ago
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 232)
 Chaos: Third-bot adds message: Brenden like phonetic pronunciation
 Chaos: Third-bot deletes message: I like phonetic pronunciation
+Chaos: Censor-bot adds message: &gt; maybe put it in one of these after a newline
+
+Yeah, and this ~*REDACTED*~ an αόριστος not meeting up
+&gt; αόριστος: [[indefinite]] (phonetic pronunciation)
+
+Chaos: Censor-bot deletes message: &gt; maybe put it in one of these after a newline
+
+Yeah, and this is an αόριστος not meeting up
+&gt; αόριστος: [[indefinite]] (phonetic pronunciation)
+
+Chaos: Contraction-bot adds message: one o'my better creations. ne'er'ad any luck with online dating't was more like screaming into the void
+Chaos: Contraction-bot deletes message: one of my better creations. never had any luck with online dating it was more like screaming into the void
+Chaos: ChaosSeed-bot adds message: Hey <@UDL020K8D> <@UDD45P5A9> <@UDDE5960N> <@UDC4QL95G> <@UETS9HTSS> <@UHQD9J1SL>! There's a thread here!
+Chaos: Censor-bot adds message: &gt; maybe put it in one of these after a newline
+
+Yeah, and this ~*REDACTED*~ an αόριστος not meeting up
+&gt; αόριστος: [[indefinite]] (phonetic pronunciation)
+
+Chaos: Censor-bot deletes message: &gt; maybe put it in one of these after a newline
+
+Yeah, and this is an αόριστος not meeting up
+&gt; αόριστος: [[indefinite]] (phonetic pronunciation)
+
+Chaos: Botify-bot adds message: I hang out with people, and sometimes that goes late on the weekend. Mei gets all her energy at night so she wants to clean at 10pm instead of get ready for sleep
+Chaos: Botify-bot deletes message: I hang out with people, and sometimes that goes late on the weekend. Mei gets all her energy at night so she wants to clean at 10pm instead of get ready for sleep
