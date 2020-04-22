@@ -23,19 +23,21 @@ from model.action_queue import ActionQueue
 hardDisableAllBots = False
 
 def callAllBots(event, mongoClient, user, emotes, actionQueue):
+  if event.channel() == ch.alertsChannel():
+    return
+  print('qwe')
   botList = sorted(list(filter(lambda name: not name.startswith("_"), dir(bots))))
   for bot in botList:
     try:
       _callBot(bot, event, mongoClient, user, emotes, actionQueue)
     except Exception as error:
-      if event._channel is not ch.alertsChannel():
-        actionQueue.addReply(
-          'Bot Error',
-          ch.alertsChannel(), 
-          None,
-          error,
-          None
-        )
+      actionQueue.addReply(
+        'Bot Error',
+        ch.alertsChannel(), 
+        None,
+        error,
+        None
+      )
       pprint.pprint(error)
       print(traceback.format_exc())
 

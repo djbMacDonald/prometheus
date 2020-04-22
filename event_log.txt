@@ -2003,3 +2003,6 @@ Chaos: Censor-bot adds message: I mean, generally any pocket I have ~*REDACTED*~
 Chaos: Censor-bot deletes message: I mean, generally any pocket I have is worthless, but agreed back pockets are normally bigger/better
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 66)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 15)
+Alerts: Bot Error-bot adds message: Test Error
+Megamoji: Lol-bot adds reaction: testing
+Alerts: Bot Error-bot adds message: Test Error
