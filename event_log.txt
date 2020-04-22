@@ -1686,3 +1686,8 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it 
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 13)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 137)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 64)
+Chaos: Censor-bot adds message: `It ~*REDACTED*~ safe for all of you to assume that we will not be returning to the office the first week of May and that a return will likely be phased gradually over a period of time.`
+Chaos: Censor-bot deletes message: `It is safe for all of you to assume that we will not be returning to the office the first week of May and that a return will likely be phased gradually over a period of time.`
+Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
+Chaos: Censor-bot adds message: Sam saw the same thing a few days ago. I tend to agree it won't be till then. It's already till about Mid May anyway, so what's another couple of weeks tacked on in response to how long the peak ~*REDACTED*~ 
+Chaos: Censor-bot deletes message: Sam saw the same thing a few days ago. I tend to agree it won't be till then. It's already till about Mid May anyway, so what's another couple of weeks tacked on in response to how long the peak is
