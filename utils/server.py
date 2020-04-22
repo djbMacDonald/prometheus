@@ -28,13 +28,14 @@ def callAllBots(event, mongoClient, user, emotes, actionQueue):
     try:
       _callBot(bot, event, mongoClient, user, emotes, actionQueue)
     except Exception as error:
-      actionQueue.addReply(
-        'Bot Error',
-        ch.alertsChannel(), 
-        None, 
-        error, 
-        None
-      )
+      if event._channel is not ch.alertsChannel():
+        actionQueue.addReply(
+          'Bot Error',
+          ch.alertsChannel(), 
+          None,
+          error,
+          None
+        )
       pprint.pprint(error)
       print(traceback.format_exc())
 

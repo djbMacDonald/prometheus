@@ -1996,3 +1996,10 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your tu
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 66)
 Chaos: Censor-bot adds message: Mine ~*REDACTED*~ being watch by a tiger right now aka my mom
 Chaos: Censor-bot deletes message: Mine is being watch by a tiger right now aka my mom
+Chaos: Contraction-bot adds message: yeah, like the text'd turn gray'stead o'black.
+Chaos: Contraction-bot deletes message: yeah, like the text would turn gray instead of black.
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 234)
+Chaos: Censor-bot adds message: I mean, generally any pocket I have ~*REDACTED*~ worthless, but agreed back pockets are normally bigger/better
+Chaos: Censor-bot deletes message: I mean, generally any pocket I have is worthless, but agreed back pockets are normally bigger/better
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 66)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 15)
