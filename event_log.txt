@@ -2122,3 +2122,17 @@ Civilization: Censor-bot deletes message: I forgot this is a school night
 CivilizationSlaughter: Lol-bot adds reaction: lol
 Civilization: Censor-bot adds message: ashley ~*REDACTED*~ too young for that shit
 Civilization: Censor-bot deletes message: ashley is too young for that shit
+Megamoji: Contraction-bot adds message: <@UDL020K8D> <@UDC4QL95G>, ban bot didn't refresh last night, ban word's still's
+Megamoji: Contraction-bot deletes message: <@UDL020K8D> <@UDC4QL95G>, ban bot didn't refresh last night, ban word is still is
+Megamoji: Censor-bot adds message:  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: is
+Megamoji: Lol-bot adds reaction: is
+Chaos: Censor-bot adds message: Man that Night Daka ~*REDACTED*~ a real piece of work
+Chaos: Censor-bot deletes message: Man that Night Daka is a real piece of work
+Megamoji: Lol-bot adds reaction: test
+Megamoji: Lol-bot adds reaction: is
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 68)
+Megamoji: Lol-bot adds reaction: fixed
+Megamoji: Dm-bot adds message: Roll a handgun check to steal food from the trapdoor
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 237)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 141)
