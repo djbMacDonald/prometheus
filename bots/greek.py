@@ -8,11 +8,11 @@ class Greek(Bot):
   _active = True
   _frequency = .03
   _langauges = {
-    # 'el': 'Greek',
-    # 'te': 'Telegu',
+    'el': 'Greek',
+    'te': 'Telegu',
     'ru': 'Russian',
-    # 'iw': 'Hebrew',
-    # 'fa': 'Farsi'
+    'iw': 'Hebrew',
+    'fa': 'Farsi'
   }
   
   @classmethod
@@ -20,10 +20,10 @@ class Greek(Bot):
     return "Has a {}% chance to replace a word in the post with another language, via Google Translate.".format(cls._frequency * 100)
   
   def run(self):
-    # if not self._chaosUserSendsMessage() or not self._randomUtil.rollDice(self._frequency):
-    #   return
-    if not self._event.isInChannel('Megamoji') or self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFrom('Doug'):
+    if not self._chaosUserSendsMessage() or not self._randomUtil.rollDice(self._frequency):
       return
+    # if not self._event.isInChannel('Megamoji') or self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFrom('Doug'):
+    #   return
     
     translator = Translator()
     
@@ -36,9 +36,6 @@ class Greek(Bot):
       longWord = max(words, key=len)
       charBefore = self.getCharacterBefore(longWord, originalString)
       charAfter = self.getCharacterAfter(longWord, originalString)
-      print(charBefore)
-      print(charAfter)
-      print(charBefore == ':' and charAfter == ':')
       isEmote = charBefore == ':' and charAfter == ':'
       if charBefore is not '@' and not isEmote:
         cool = True
@@ -58,7 +55,8 @@ class Greek(Bot):
     
     newString = originalString.replace(longWord, '{} [[{}]]'.format(text, longWord))
     newString += '\n\n [[{}'.format(lang[1])
-    if translation.pronunciation:
+    print(translation)
+    if translation.pronunciation and translation.pronunciation != longWord:
       newString += ': {}'.format(translation.pronunciation)
     newString += ']]'
     self._replacePost(newString)
@@ -67,11 +65,7 @@ class Greek(Bot):
     return place - 1 >= 0   
   
   def _isCharacterAfter(self, place, length, string):
-    print(place)
-    print(length)
-    print(string)
-    print(len(string) >= place+length)
-    return len(string) >= place+length
+    return len(string) >= place+length+1
   
   def getCharacterBefore(self, word, string):
     place = string.find(word)
@@ -79,9 +73,9 @@ class Greek(Bot):
       return None
     return string[place - 1]
 
-  def getCharacterAfter(self,word, string):
+  def getCharacterAfter(self, word, string):
     place = string.find(word)
     length = len(word)
-    if not self._isCharacterAfter(place, length, word):
+    if not self._isCharacterAfter(place, length, string):
       return None
     return string[place+length]

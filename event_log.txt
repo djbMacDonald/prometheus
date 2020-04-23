@@ -2927,3 +2927,32 @@ Megamoji: Spam-bot adds reaction: she-can-do-whatever-she-wants
 Megamoji: Spam-bot adds reaction: partyhoney
 Megamoji: Spam-bot adds reaction: xp
 Megamoji: Spam-bot adds reaction: unchecked
+Megamoji: Greek-bot adds message: это [[This]] is a test of :longEmoteName:
+
+ [[Russian]]
+Megamoji: Greek-bot deletes message: This is a test of :longEmoteName:
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 38, in run
+    charAfter = self.getCharacterAfter(longWord, originalString)
+  File "/app/bots/greek.py", line 81, in getCharacterAfter
+    return string[place+length]
+IndexError: string index out of range
+
+Megamoji: Lol-bot adds reaction: this
+Megamoji: Greek-bot adds message: Αυτό [[This]]
+
+ [[Greek]]
+Megamoji: Greek-bot deletes message: This
+Megamoji: Lol-bot adds reaction: this
+Megamoji: Greek-bot adds message: משהו [[Something]]
+
+ [[Hebrew: Something]]
+Megamoji: Greek-bot deletes message: Something
+Megamoji: DejaVu-bot adds message: test
+Megamoji: DejaVu-bot adds reaction: dejavu
