@@ -3046,3 +3046,7 @@ Chaos: Botify-bot adds message: So just be fast on the trigger finger
 Chaos: Botify-bot deletes message: So just be fast on the trigger finger
 Chaos: Contraction-bot adds message: Literally cut stuff up and dump't in!
 Chaos: Contraction-bot deletes message: Literally cut stuff up and dump it in!
+Chaos: Lex-bot adds message: Who said trdaer joe's?
+Chaos: Lex-bot deletes message: Who said trader joe's?
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 69)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 69)
