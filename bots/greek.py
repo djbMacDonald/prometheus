@@ -22,18 +22,20 @@ class Greek(Bot):
   def run(self):
     # if not self._chaosUserSendsMessage() or not self._randomUtil.rollDice(self._frequency):
     #   return
-    if not self._event.isInChannel('Megamoji') and not self._event.isFromABot() and self._event.isAMessage():
+    if not self._event.isInChannel('Megamoji') or self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFrom('Doug'):
       return
     
     translator = Translator()
     
-    words = re.findall(r'\w+', str(self._event.text()))
+    originalString = str(self._event.text())
+    
+    words = re.findall(r'\w+', originalString)
     
     cool = False
     while not cool and len(words) > 0:
       longWord = max(words, key=len)
-      charBefore = self.getCharacterBefore(longWord, self._event.text())
-      charAfter = self.getCharacterAfter(longWord, self._event.text())
+      charBefore = self.getCharacterBefore(longWord, originalString)
+      charAfter = self.getCharacterAfter(longWord, originalString)
       if (
         charAfter is not '@' and
         (charBefore is not ':' and charAfter is not ':')
@@ -47,7 +49,7 @@ class Greek(Bot):
     translation = translator.translate(longWord, dest=lang[0])
     if translation.text == longWord:
       return
-    newString = self._event.text().replace(longWord, '{} [[{}]]'.format(translation.text, longWord))
+    newString = originalString.replace(longWord, '{} [[{}]]'.format(translation.text, longWord))
     newString += '\n\n [[{}'.format(lang[1])
     if translation.pronunciation:
       newString += ': {}'.format(translation.pronunciation)

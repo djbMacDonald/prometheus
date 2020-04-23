@@ -2241,3 +2241,566 @@ Alerts: Error Logger-bot adds message: Traceback (most recent call last):
     identity = IDENTITIES[self._event.user()]
 KeyError: None
 
+Megamoji: Greek-bot adds message: :పరీక్ష [[testing]]:
+
+ [[Telegu]]
+Megamoji: Greek-bot deletes message: :testing:
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 57, in run
+    self._replacePost(newString)
+  File "/app/bots/_bot.py", line 76, in _replacePost
+    identity = IDENTITIES[self._event.user()]
+KeyError: None
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 57, in run
+    self._replacePost(newString)
+  File "/app/bots/_bot.py", line 76, in _replacePost
+    identity = IDENTITIES[self._event.user()]
+KeyError: None
+
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 20)
+Megamoji: Greek-bot adds message: :آزمایش کردن [[testing]]:
+
+ [[Farsi: testing]]
+Megamoji: Greek-bot deletes message: :testing:
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 57, in run
+    self._replacePost(newString)
+  File "/app/bots/_bot.py", line 77, in _replacePost
+    self._queue.addReplacement(self.__class__.__name__, self._event.channel(), self._event.id(), self._event.threadId(), message, Identity(identity.get('username'), identity.get('profilePicture')))
+AttributeError: 'NoneType' object has no attribute 'get'
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 57, in run
+    self._replacePost(newString)
+  File "/app/bots/_bot.py", line 77, in _replacePost
+    self._queue.addReplacement(self.__class__.__name__, self._event.channel(), self._event.id(), self._event.threadId(), message, Identity(identity.get('username'), identity.get('profilePicture')))
+AttributeError: 'NoneType' object has no attribute 'get'
+
+Megamoji: Greek-bot adds message: :тестирование [[testing]]:
+
+ [[Russian]]
+Megamoji: Greek-bot deletes message: :testing:
+Megamoji: Greek-bot adds message: :పరీక్ష [[тестирование]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+Megamoji: Greek-bot deletes message: :тестирование [[testing]]:
+
+ [[Russian]]
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[Russian]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: :పరీక్ష [[పరీక్ష [[тестирование]]]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Telegu: Parīkṣa]]
+Megamoji: Greek-bot deletes message: :పరీక్ష [[тестирование]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[Ρωσική [[Russian]]]]
+
+ [[Greek: Rosikí]]
+Megamoji: Greek-bot deletes message: Никто [[None]]
+
+ [[Russian]]
+Megamoji: Greek-bot adds message: :పరీక్ష [[పరీక్ష [[δοκιμή [[тестирование]]]]]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Greek: dokimí]]
+Megamoji: Greek-bot deletes message: :పరీక్ష [[పరీక్ష [[тестирование]]]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Telegu: Parīkṣa]]
+Megamoji: Greek-bot adds message: אף אחד [[None]]
+
+ [[Hebrew: None]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[Ρωσική [[రష్యన్ [[Russian]]]]]]
+
+ [[Greek: Rosikí]]
+
+ [[Telegu: Raṣyan]]
+Megamoji: Greek-bot deletes message: Никто [[None]]
+
+ [[Ρωσική [[Russian]]]]
+
+ [[Greek: Rosikí]]
+Megamoji: Greek-bot adds message: :పరీక్ష [[పరీక్ష [[δοκιμή [[تست [[тестирование]]]]]]]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Greek: dokimí]]
+
+ [[Farsi]]
+Megamoji: Greek-bot deletes message: :పరీక్ష [[పరీక్ష [[δοκιμή [[тестирование]]]]]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Greek: dokimí]]
+Megamoji: Greek-bot adds message: אף אחד [[None]]
+
+ [[עברי [[Hebrew]]: None]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot deletes message: אף אחד [[None]]
+
+ [[Hebrew: None]]
+Megamoji: Greek-bot adds message: אף אחד [[None]]
+
+ [[עברי [[హిబ్రూ [[Hebrew]]]]: None]]
+
+ [[హిబ్రూ [[Hebrew]]]]
+
+ [[Telegu: Hibrū]]
+Megamoji: Greek-bot deletes message: אף אחד [[None]]
+
+ [[עברי [[Hebrew]]: None]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[Ρωσική [[రష్యన్ [[రష్యన్ [[Russian]]]]]]]]
+
+ [[Greek: Rosikí]]
+
+ [[Telegu: Raṣyan]]
+
+ [[Telegu: Raṣyan]]
+Megamoji: Greek-bot deletes message: Никто [[None]]
+
+ [[Ρωσική [[రష్యన్ [[Russian]]]]]]
+
+ [[Greek: Rosikí]]
+
+ [[Telegu: Raṣyan]]
+Megamoji: Greek-bot adds message: אף אחד [[None]]
+
+ [[Hebrew: None]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[Russian]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: Κανένας [[None]]
+
+ [[Greek]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: :పరీక్ష [[పరీక్ష [[δοκιμή [[تست [[בדיקות [[тестирование]]]]]]]]]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Greek: dokimí]]
+
+ [[Farsi]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot deletes message: :పరీక్ష [[పరీక్ష [[δοκιμή [[تست [[тестирование]]]]]]]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Greek: dokimí]]
+
+ [[Farsi]]
+Megamoji: Greek-bot adds message: Κανένας [[None]]
+
+ [[Greek]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: :పరీక్ష [[పరీక్ష [[δοκιμή [[تست [[בדיקות [[בדיקות [[тестирование]]]]]]]]]]]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Greek: dokimí]]
+
+ [[Farsi]]
+
+ [[Hebrew]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot deletes message: :పరీక్ష [[పరీక్ష [[δοκιμή [[تست [[בדיקות [[тестирование]]]]]]]]]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Greek: dokimí]]
+
+ [[Farsi]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot adds message: никто [[Κανένας]] [[None]]
+
+ [[Greek]]
+
+ [[Russian: nikto]]
+Megamoji: Greek-bot deletes message: Κανένας [[None]]
+
+ [[Greek]]
+Megamoji: Greek-bot adds message: Κανένας [[None]]
+
+ [[Greek]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: Κανένας [[None]]
+
+ [[Greek]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: никто [[Κανένας]] [[None]]
+
+ [[Greek]]
+
+ [[Russian: nikto]]
+Megamoji: Greek-bot deletes message: Κανένας [[None]]
+
+ [[Greek]]
+Megamoji: Greek-bot adds message: никто [[никто [[Κανένας]]]] [[None]]
+
+ [[Greek]]
+
+ [[Russian: nikto]]
+
+ [[Russian: nikto]]
+Megamoji: Greek-bot deletes message: никто [[Κανένας]] [[None]]
+
+ [[Greek]]
+
+ [[Russian: nikto]]
+Megamoji: Greek-bot adds message: אף אחד [[None]]
+
+ [[Hebrew: None]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: هیچ کس [[Κανένας]] [[None]]
+
+ [[Greek]]
+
+ [[Farsi]]
+Megamoji: Greek-bot deletes message: Κανένας [[None]]
+
+ [[Greek]]
+Megamoji: Greek-bot adds message: هیچ کس [[ఎవరూ [[Κανένας]]]] [[None]]
+
+ [[Greek]]
+
+ [[Farsi]]
+
+ [[Telegu: Evarū]]
+Megamoji: Greek-bot deletes message: هیچ کس [[Κανένας]] [[None]]
+
+ [[Greek]]
+
+ [[Farsi]]
+Megamoji: Greek-bot adds message: אף אחד [[None]]
+
+ [[హిబ్రూ [[Hebrew]]: None]]
+
+ [[Telegu: Hibrū]]
+Megamoji: Greek-bot deletes message: אף אחד [[None]]
+
+ [[Hebrew: None]]
+Megamoji: Greek-bot adds message: :పరీక్ష [[పరీక్ష [[δοκιμή [[تست [[בדיקות [[בדיקות [[تست [[тестирование]]]]]]]]]]]]]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Greek: dokimí]]
+
+ [[Farsi]]
+
+ [[Hebrew]]
+
+ [[Hebrew]]
+
+ [[Farsi]]
+Megamoji: Greek-bot deletes message: :పరీక్ష [[పరీక్ష [[δοκιμή [[تست [[בדיקות [[בדיקות [[тестирование]]]]]]]]]]]] [[testing]]:
+
+ [[Russian]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Telegu: Parīkṣa]]
+
+ [[Greek: dokimí]]
+
+ [[Farsi]]
+
+ [[Hebrew]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot adds message: אף אחד [[None]]
+
+ [[עברי [[హిబ్రూ [[иврит [[Hebrew]]]]]]: None]]
+
+ [[హిబ్రూ [[иврит [[Hebrew]]]]]]
+
+ [[Telegu: Hibrū]]
+
+ [[Ρωσική [[Russian]]: ivrit]]
+
+ [[Greek: Rosikí]]
+Megamoji: Greek-bot deletes message: אף אחד [[None]]
+
+ [[עברי [[హిబ్రూ [[иврит [[Hebrew]]]]]]: None]]
+
+ [[హిబ్రూ [[иврит [[Hebrew]]]]]]
+
+ [[Telegu: Hibrū]]
+
+ [[Russian: ivrit]]
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[Russian]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[Ρωσική [[రష్యన్ [[రష్యన్ [[Ρωσική [[רוסי [[Russian]]]]]]]]]]]]
+
+ [[Greek: Rosikí]]
+
+ [[Telegu: Raṣyan]]
+
+ [[Telegu: Raṣyan]]
+
+ [[Greek: Rosikí]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot deletes message: Никто [[None]]
+
+ [[Ρωσική [[రష్యన్ [[రష్యన్ [[Ρωσική [[Russian]]]]]]]]]]
+
+ [[Greek: Rosikí]]
+
+ [[Telegu: Raṣyan]]
+
+ [[Telegu: Raṣyan]]
+
+ [[Greek: Rosikí]]
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[русский [[Russian]]]]
+
+ [[Russian: russkiy]]
+Megamoji: Greek-bot deletes message: Никто [[None]]
+
+ [[Russian]]
+Megamoji: Greek-bot adds message: אף אחד [[None]]
+
+ [[עברי [[హిబ్రూ [[иврит [[Hebrew]]]]]]: None]]
+
+ [[హిబ్రూ [[иврит [[Hebrew]]]]]]
+
+ [[Telegu: Hibrū]]
+
+ [[Ρωσική [[רוסי [[Russian]]]]: ivrit]]
+
+ [[Greek: Rosikí]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot deletes message: אף אחד [[None]]
+
+ [[עברי [[హిబ్రూ [[иврит [[Hebrew]]]]]]: None]]
+
+ [[హిబ్రూ [[иврит [[Hebrew]]]]]]
+
+ [[Telegu: Hibrū]]
+
+ [[Ρωσική [[Russian]]: ivrit]]
+
+ [[Greek: Rosikí]]
+Megamoji: Greek-bot adds message: никто [[никто [[Κανένας]]]] [[None]]
+
+ [[Greek]]
+
+ [[Russian: nikto]]
+
+ [[Russian: nikto]]
+Megamoji: Greek-bot deletes message: никто [[Κανένας]] [[None]]
+
+ [[Greek]]
+
+ [[Russian: nikto]]
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[רוסי [[русский]] [[Russian]]]]
+
+ [[Russian: russkiy]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot deletes message: Никто [[None]]
+
+ [[русский [[Russian]]]]
+
+ [[Russian: russkiy]]
+Megamoji: Greek-bot adds message: אף אחד [[None]]
+
+ [[Hebrew: None]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: గమనిక [[None]]
+
+ [[Telegu]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[רוסי [[రష్యన్ [[русский]]]] [[Russian]]]]
+
+ [[Russian: russkiy]]
+
+ [[Hebrew]]
+
+ [[Telegu: Raṣyan]]
+Megamoji: Greek-bot deletes message: Никто [[None]]
+
+ [[רוסי [[русский]] [[Russian]]]]
+
+ [[Russian: russkiy]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[Russian]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: Κανένας [[None]]
+
+ [[Greek]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: ఎవరూ [[Κανένας]] [[None]]
+
+ [[Greek]]
+
+ [[Telegu: Evarū]]
+Megamoji: Greek-bot deletes message: Κανένας [[None]]
+
+ [[Greek]]
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[రష్యన్ [[Russian]]]]
+
+ [[Telegu: Raṣyan]]
+Megamoji: Greek-bot deletes message: Никто [[None]]
+
+ [[Russian]]
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[Russian]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: గమనిక [[None]]
+
+ [[Telegu]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Greek-bot adds message: אף אחד [[None]]
+
+ [[עברי [[Hebrew]]: None]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot deletes message: אף אחד [[None]]
+
+ [[Hebrew: None]]
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[Ρωσική [[రష్యన్ [[రష్యన్ [[Ρωσική [[רוסי [[רוסי [[רוסי [[Russian]]]]]]]]]]]]]]]]
+
+ [[Greek: Rosikí]]
+
+ [[Telegu: Raṣyan]]
+
+ [[Telegu: Raṣyan]]
+
+ [[Greek: Rosikí]]
+
+ [[Hebrew]]
+
+ [[Hebrew]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot deletes message: Никто [[None]]
+
+ [[Ρωσική [[రష్యన్ [[రష్యన్ [[Ρωσική [[רוסי [[רוסי [[Russian]]]]]]]]]]]]]]
+
+ [[Greek: Rosikí]]
+
+ [[Telegu: Raṣyan]]
+
+ [[Telegu: Raṣyan]]
+
+ [[Greek: Rosikí]]
+
+ [[Hebrew]]
+
+ [[Hebrew]]
+Megamoji: Greek-bot adds message: Никто [[None]]
+
+ [[Russian]]
+Megamoji: Greek-bot deletes message: None
+Megamoji: Lol-bot adds reaction: testing
+Megamoji: Mock-bot adds message: TeStInG
+Megamoji: Greek-bot adds message: :పరీక్ష [[testing]]:
+
+ [[Telegu]]
+Megamoji: Greek-bot deletes message: :testing:
