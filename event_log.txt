@@ -3027,3 +3027,5 @@ Chaos: Spam-bot adds reaction: storyline
 Chaos: Spam-bot adds reaction: fire_drill
 Chaos: Spam-bot adds reaction: teddyb_1-5
 Chaos: Spam-bot adds reaction: charleskramergoat
+Chaos: Botify-bot adds message: Have ceral and milk tomorrow
+Chaos: Botify-bot deletes message: Have ceral and milk tomorrow
