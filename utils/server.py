@@ -35,7 +35,7 @@ def callAllBots(event, mongoClient, user, emotes, actionQueue):
         'Error Logger',
         ch.alertsChannel(), 
         None,
-        error,
+        traceback.format_exc(),
         None
       )
       pprint.pprint(error)

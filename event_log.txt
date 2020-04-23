@@ -2147,3 +2147,97 @@ Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! 
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 142)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 56)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 20)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 68)
+Alerts: Error Logger-bot adds message: getCharacterBefore() takes 2 positional arguments but 3 were given
+Alerts: Error Logger-bot adds message: 'UDL020K8D'
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 57)
+Megamoji: Greek-bot adds message: :పరీక్ష [[testing]]:
+
+ [[Telegu]]
+Megamoji: Greek-bot deletes message: :testing:
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 55, in run
+    self._replacePost(newString)
+  File "/app/bots/_bot.py", line 76, in _replacePost
+    identity = IDENTITIES[self._event.user()]
+KeyError: None
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 30, in run
+    words = re.findall(r'\w+', self._event.text())
+  File "/usr/lib/python3.7/re.py", line 223, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: expected string or bytes-like object
+
+Megamoji: Greek-bot adds message: :آزمایش کردن [[testing]]:
+
+ [[Farsi: testing]]
+Megamoji: Greek-bot deletes message: :testing:
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 55, in run
+    self._replacePost(newString)
+  File "/app/bots/_bot.py", line 76, in _replacePost
+    identity = IDENTITIES[self._event.user()]
+KeyError: None
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 30, in run
+    words = re.findall(r'\w+', self._event.text())
+  File "/usr/lib/python3.7/re.py", line 223, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: expected string or bytes-like object
+
+Megamoji: Greek-bot adds message: :δοκιμή [[testing]]:
+
+ [[Greek]]
+Megamoji: Greek-bot deletes message: :testing:
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 35, in run
+    charBefore = self.getCharacterBefore(longWord, self._event.text())
+  File "/app/bots/greek.py", line 64, in getCharacterBefore
+    place = string.find(word)
+AttributeError: 'NoneType' object has no attribute 'find'
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 55, in run
+    self._replacePost(newString)
+  File "/app/bots/_bot.py", line 76, in _replacePost
+    identity = IDENTITIES[self._event.user()]
+KeyError: None
+
