@@ -2081,3 +2081,11 @@ Chaos: Censor-bot adds message: Good night people mei ~*REDACTED*~ already fast 
 Chaos: Censor-bot deletes message: Good night people mei is already fast asleep
 Chaos: Censor-bot adds message: Morning Daka ~*REDACTED*~ going to be cursing your name
 Chaos: Censor-bot deletes message: Morning Daka is going to be cursing your name
+Megamoji: Censor-bot adds message:  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: is
+Megamoji: Lol-bot adds reaction: is
+Megamoji: Censor-bot adds message: Morning Daka ~*REDACTED*~ going to be cursing your name
+Megamoji: Censor-bot deletes message: Morning Daka is going to be cursing your name
+Megamoji: Censor-bot adds message: Good night people mei ~*REDACTED*~ already fast asleep
+Megamoji: Censor-bot deletes message: Good night people mei is already fast asleep
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 55)
