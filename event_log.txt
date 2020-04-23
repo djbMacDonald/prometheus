@@ -2094,3 +2094,28 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your tu
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 19)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 56)
 Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 93)
+Civilization: Botify-bot adds message: For like an hour maybe 2 at the outside
+Civilization: Botify-bot deletes message: For like an hour maybe 2 at the outside
+Civilization: Spam-bot adds reaction: per-my-last-email
+Civilization: Spam-bot adds reaction: real_work_gets_in_the_mix
+Civilization: Spam-bot adds reaction: simisage
+Civilization: Spam-bot adds reaction: hit-it-joe
+Civilization: Spam-bot adds reaction: closed_lock_with_key
+Civilization: Spam-bot adds reaction: raccoon-heart
+Civilization: Spam-bot adds reaction: thanos-thumb-up
+Civilization: Spam-bot adds reaction: warlin_think
+Civilization: Spam-bot adds reaction: utahu
+Civilization: Spam-bot adds reaction: youre_not_wrong
+Civilization: Spam-bot adds reaction: ooops
+Civilization: Spam-bot adds reaction: alot
+Civilization: Spam-bot adds reaction: cc_shrug
+Civilization: Spam-bot adds reaction: running
+Civilization: Spam-bot adds reaction: flag-gb-wls
+Civilization: Spam-bot adds reaction: ifyoulikepinacolada
+Civilization: Spam-bot adds reaction: kirby_intensifies
+Civilization: Spam-bot adds reaction: gabigail_intensifies
+Civilization: Spam-bot adds reaction: sass
+Civilization: Spam-bot adds reaction: monokuma
+Civilization: Spam-bot adds reaction: ass
+Civilization: Censor-bot adds message: I forgot this ~*REDACTED*~ a school night
+Civilization: Censor-bot deletes message: I forgot this is a school night
