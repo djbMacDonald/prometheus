@@ -36,10 +36,8 @@ class Greek(Bot):
       longWord = max(words, key=len)
       charBefore = self.getCharacterBefore(longWord, originalString)
       charAfter = self.getCharacterAfter(longWord, originalString)
-      if (
-        charAfter is not '@' and
-        (charBefore is not ':' and charAfter is not ':')
-      ):
+      isEmote = charBefore == ':' and charAfterfter == ':'
+      if charBefore is not '@' and not isEmote:
         cool = True
       words.remove(longWord)
     if not cool:
@@ -57,10 +55,10 @@ class Greek(Bot):
     self._replacePost(newString)
     
   def _isCharacterBefore(self, place):
-    return place - 1 > 0   
+    return place - 1 >= 0   
   
   def _isCharacterAfter(self, place, length, string):
-    return len(string) > place+length
+    return len(string) >= place+length
   
   def getCharacterBefore(self, word, string):
     place = string.find(word)

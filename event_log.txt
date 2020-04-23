@@ -2804,3 +2804,24 @@ Megamoji: Greek-bot adds message: :పరీక్ష [[testing]]:
 
  [[Telegu]]
 Megamoji: Greek-bot deletes message: :testing:
+Megamoji: Greek-bot adds message: :آزمایش کردن [[testing]]:
+
+ [[Farsi: testing]]
+Megamoji: Greek-bot deletes message: :testing:
+Megamoji: Greek-bot adds message: :בדיקה [[testing]]:
+
+ [[Hebrew: testing]]
+Megamoji: Greek-bot deletes message: :testing:
+Megamoji: Greek-bot adds message: :тестирование [[testing]]:
+
+ [[Russian]]
+Megamoji: Greek-bot deletes message: :testing:
+Megamoji: Greek-bot adds message: This is a test of что-то [[something]].
+
+ [[Russian: chto-to]]
+Megamoji: Greek-bot deletes message: This is a test of something.
+Megamoji: Dm-bot adds message: Roll a spot hidden check to swim past the gazebo
+Megamoji: Greek-bot adds message: این [[This]] is a test of @longUserPing
+
+ [[Farsi: This]]
+Megamoji: Greek-bot deletes message: This is a test of @longUserPing
