@@ -2825,3 +2825,55 @@ Megamoji: Greek-bot adds message: این [[This]] is a test of @longUserPing
 
  [[Farsi: This]]
 Megamoji: Greek-bot deletes message: This is a test of @longUserPing
+Megamoji: Greek-bot adds message: ఈ [[This]] is a test of @longUserPing
+
+ [[Telegu]]
+Megamoji: Greek-bot deletes message: This is a test of @longUserPing
+Megamoji: Greek-bot adds message: Αυτό [[This]] is a test of @longUserPing
+
+ [[Greek]]
+Megamoji: Greek-bot deletes message: This is a test of @longUserPing
+Megamoji: Greek-bot adds message: این [[This]] is a test of @longUserPing
+
+ [[Farsi: This]]
+Megamoji: Greek-bot deletes message: This is a test of @longUserPing
+Megamoji: Greek-bot adds message: oh weird, when you have a right to left language, python συνενώνει [[concatenates]] differently.
+
+ [[Greek: synenónei]]
+Megamoji: Greek-bot deletes message: oh weird, when you have a right to left language, python concatenates differently.
+Megamoji: Greek-bot adds message: این [[This]] is a test of @longUserPing
+
+ [[Farsi: This]]
+Megamoji: Greek-bot deletes message: This is a test of @longUserPing
+Megamoji: Greek-bot adds message: זה [[This]] is a test of @longUserPing
+
+ [[Hebrew: This]]
+Megamoji: Greek-bot deletes message: This is a test of @longUserPing
+Megamoji: Greek-bot adds message: This is בדיקה [[testing]] @longUserPing
+
+ [[Hebrew: testing]]
+Megamoji: Greek-bot deletes message: This is testing @longUserPing
+Megamoji: Greek-bot adds message: This is בדיקה [[testing]] @longUserPing
+
+ [[Hebrew: testing]]
+Megamoji: Greek-bot deletes message: This is testing @longUserPing
+Megamoji: Greek-bot adds message: This is בדיקה [[testing]] @longUserPing
+
+ [[Hebrew: testing]]
+Megamoji: Greek-bot deletes message: This is testing @longUserPing
+Megamoji: Greek-bot adds message: این [[This]] is a test of @longUserPing
+
+ [[Farsi: This]]
+Megamoji: Greek-bot deletes message: This is a test of @longUserPing
+Megamoji: Greek-bot adds message: نیا [[This]] is a test of @longUserPing
+
+ [[Farsi: This]]
+Megamoji: Greek-bot deletes message: This is a test of @longUserPing
+Megamoji: Greek-bot adds message: זה [[This]] is a test of @longUserPing
+
+ [[Hebrew: This]]
+Megamoji: Greek-bot deletes message: This is a test of @longUserPing
+Megamoji: Greek-bot adds message: ⁧זה⁩ [[This]] is a
+
+ [[Hebrew: This]]
+Megamoji: Greek-bot deletes message: This is a

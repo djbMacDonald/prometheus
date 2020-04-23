@@ -8,9 +8,9 @@ class Greek(Bot):
   _active = True
   _frequency = .03
   _langauges = {
-    'el': 'Greek',
-    'te': 'Telegu',
-    'ru': 'Russian',
+    # 'el': 'Greek',
+    # 'te': 'Telegu',
+    # 'ru': 'Russian',
     'iw': 'Hebrew',
     'fa': 'Farsi'
   }
@@ -47,7 +47,11 @@ class Greek(Bot):
     translation = translator.translate(longWord, dest=lang[0])
     if translation.text == longWord:
       return
-    newString = originalString.replace(longWord, '{} [[{}]]'.format(translation.text, longWord))
+    print(originalString)
+    print(longWord)
+    print(translation.text)
+    text = '\u2067' + translation.text + '\u2069'
+    newString = originalString.replace(longWord, '{} [[{}]]'.format(text, longWord))
     newString += '\n\n [[{}'.format(lang[1])
     if translation.pronunciation:
       newString += ': {}'.format(translation.pronunciation)
