@@ -2074,3 +2074,10 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is 
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 236)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 237)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 237)
+Chaos: Dm-bot adds message: Roll an operate heavy machine check to steal food from the charging rhino
+Chaos: Lol-bot adds reaction: yup
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 141)
+Chaos: Censor-bot adds message: Good night people mei ~*REDACTED*~ already fast asleep
+Chaos: Censor-bot deletes message: Good night people mei is already fast asleep
+Chaos: Censor-bot adds message: Morning Daka ~*REDACTED*~ going to be cursing your name
+Chaos: Censor-bot deletes message: Morning Daka is going to be cursing your name
