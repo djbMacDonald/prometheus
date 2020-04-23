@@ -37,3 +37,22 @@ class Greek(Bot):
       newString += ': {}'.format(translation.pronunciation)
     newString += ']]'
     self._replacePost(newString)
+    
+  def _isCharacterBefore(place):
+    return place - 1 > 0   
+  
+  def _isCharacterAfter(place, length, string):
+    return len(string) > place+length
+  
+  def getCharacterBefore(string, longWord):
+    place = string.find(longWord)
+    if not self._isCharacterBefore(place):
+      return None
+    return string[place - 1]
+
+  def getCharacterAfter(thing, longWord):
+    if not self._isCharacterAfter(thing, longWord):
+      return None
+    place = thing.find(longWord)
+    length = len(longWord)
+    return thing[place+length]
