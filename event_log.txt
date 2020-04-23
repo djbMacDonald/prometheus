@@ -2138,3 +2138,7 @@ CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is 
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 141)
 Megamoji: Contraction-bot adds message: I though't some point I went back and fixed't to reset't 8:00AM the next day
 Megamoji: Contraction-bot deletes message: I though at some point I went back and fixed it to reset at 8:00AM the next day
+Chaos: Greek-bot adds message: <@UD4L95G [[UDC4QL95G]]> what time did you sleep?
+
+ [[Hebrew]]
+Chaos: Greek-bot deletes message: <@UDC4QL95G> what time did you sleep?

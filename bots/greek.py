@@ -5,7 +5,7 @@ import random
 
 class Greek(Bot):
   
-  _active = True
+  _active = False
   _frequency = .03
   _langauges = {
     'el': 'Greek',
