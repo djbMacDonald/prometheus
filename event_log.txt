@@ -3029,3 +3029,20 @@ Chaos: Spam-bot adds reaction: teddyb_1-5
 Chaos: Spam-bot adds reaction: charleskramergoat
 Chaos: Botify-bot adds message: Have ceral and milk tomorrow
 Chaos: Botify-bot deletes message: Have ceral and milk tomorrow
+Chaos: Greek-bot adds message: I figure I'll go out for רכיבים [[ingredients]] around once every 2 weeks or so
+
+ [[Hebrew]]
+Chaos: Greek-bot deletes message: I figure I'll go out for ingredients around once every 2 weeks or so
+Chaos: Contraction-bot adds message: <@UK7V13DS7> y'need to be in this chat
+Chaos: Contraction-bot deletes message: <@UK7V13DS7> you need to be in this chat
+Chaos: Third-bot adds message: so Brenden have to go further
+Chaos: Third-bot deletes message: so I have to go further
+Chaos: Lol-bot adds reaction: lol
+Chaos: SpaceReplace-bot adds message: I-am-curious-what-your-go-to-recipes-are
+Chaos: SpaceReplace-bot deletes message: I am curious what your go-to recipes are
+Chaos: Lex-bot adds message: back when I still had chicken in the house, I was exrintiepmeng with a pot pie like thing in my cast iron pan
+Chaos: Lex-bot deletes message: back when I still had chicken in the house, I was experimenting with a pot pie like thing in my cast iron pan
+Chaos: Botify-bot adds message: So just be fast on the trigger finger
+Chaos: Botify-bot deletes message: So just be fast on the trigger finger
+Chaos: Contraction-bot adds message: Literally cut stuff up and dump't in!
+Chaos: Contraction-bot deletes message: Literally cut stuff up and dump it in!
