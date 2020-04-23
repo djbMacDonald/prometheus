@@ -2119,3 +2119,6 @@ Civilization: Spam-bot adds reaction: monokuma
 Civilization: Spam-bot adds reaction: ass
 Civilization: Censor-bot adds message: I forgot this ~*REDACTED*~ a school night
 Civilization: Censor-bot deletes message: I forgot this is a school night
+CivilizationSlaughter: Lol-bot adds reaction: lol
+Civilization: Censor-bot adds message: ashley ~*REDACTED*~ too young for that shit
+Civilization: Censor-bot deletes message: ashley is too young for that shit
