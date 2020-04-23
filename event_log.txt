@@ -2877,3 +2877,53 @@ Megamoji: Greek-bot adds message: ⁧זה⁩ [[This]] is a
 
  [[Hebrew: This]]
 Megamoji: Greek-bot deletes message: This is a
+Megamoji: Greek-bot adds message: זה⁩ [[This]] is a
+
+ [[Hebrew: This]]
+Megamoji: Greek-bot deletes message: This is a
+Megamoji: Greek-bot adds message: این⁩ [[This]] is a test of @LongUserPing
+
+ [[Farsi: This]]
+Megamoji: Greek-bot deletes message: This is a test of @LongUserPing
+Megamoji: Greek-bot adds message: это⁩ [[This]] is a test of @longUserPing
+
+ [[Russian]]
+Megamoji: Greek-bot deletes message: This is a test of @longUserPing
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/greek.py", line 39, in run
+    isEmote = charBefore == ':' and charAfterfter == ':'
+NameError: name 'charAfterfter' is not defined
+
+CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UETS9HTSS> it is your turn! (turn 238)
+Megamoji: Contraction-bot adds message: This's a test o':longEmoteName:
+Megamoji: Contraction-bot deletes message: This is a test of :longEmoteName:
+Megamoji: Greek-bot adds message: это [[This]] is a test of @LongUserPing
+
+ [[Russian]]
+Megamoji: Greek-bot deletes message: This is a test of @LongUserPing
+Megamoji: Spam-bot adds reaction: jfet-shh
+Megamoji: Spam-bot adds reaction: aminals-husky-heart
+Megamoji: Spam-bot adds reaction: peepin-roo
+Megamoji: Spam-bot adds reaction: enemy-stand
+Megamoji: Spam-bot adds reaction: super-buff-shaggy-1
+Megamoji: Spam-bot adds reaction: shoryuken
+Megamoji: Spam-bot adds reaction: they-also-haw
+Megamoji: Spam-bot adds reaction: starman
+Megamoji: Spam-bot adds reaction: ginandjuice
+Megamoji: Spam-bot adds reaction: bac-bac-worry
+Megamoji: Spam-bot adds reaction: cascade
+Megamoji: Spam-bot adds reaction: borg_queen
+Megamoji: Spam-bot adds reaction: prakhar_1
+Megamoji: Spam-bot adds reaction: wolf-laugh
+Megamoji: Spam-bot adds reaction: point_up_2
+Megamoji: Spam-bot adds reaction: forest-but-spooky
+Megamoji: Spam-bot adds reaction: she-can-do-whatever-she-wants
+Megamoji: Spam-bot adds reaction: partyhoney
+Megamoji: Spam-bot adds reaction: xp
+Megamoji: Spam-bot adds reaction: unchecked

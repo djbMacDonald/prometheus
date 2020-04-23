@@ -10,9 +10,9 @@ class Greek(Bot):
   _langauges = {
     # 'el': 'Greek',
     # 'te': 'Telegu',
-    # 'ru': 'Russian',
-    'iw': 'Hebrew',
-    'fa': 'Farsi'
+    'ru': 'Russian',
+    # 'iw': 'Hebrew',
+    # 'fa': 'Farsi'
   }
   
   @classmethod
@@ -36,7 +36,10 @@ class Greek(Bot):
       longWord = max(words, key=len)
       charBefore = self.getCharacterBefore(longWord, originalString)
       charAfter = self.getCharacterAfter(longWord, originalString)
-      isEmote = charBefore == ':' and charAfterfter == ':'
+      print(charBefore)
+      print(charAfter)
+      print(charBefore == ':' and charAfter == ':')
+      isEmote = charBefore == ':' and charAfter == ':'
       if charBefore is not '@' and not isEmote:
         cool = True
       words.remove(longWord)
@@ -47,10 +50,12 @@ class Greek(Bot):
     translation = translator.translate(longWord, dest=lang[0])
     if translation.text == longWord:
       return
-    print(originalString)
-    print(longWord)
-    print(translation.text)
-    text = '\u2067' + translation.text + '\u2069'
+    
+    if lang in ['iw', 'fa']:
+      text = translation.text + '\u2069'
+    else:
+      text = translation.text
+    
     newString = originalString.replace(longWord, '{} [[{}]]'.format(text, longWord))
     newString += '\n\n [[{}'.format(lang[1])
     if translation.pronunciation:
@@ -62,6 +67,10 @@ class Greek(Bot):
     return place - 1 >= 0   
   
   def _isCharacterAfter(self, place, length, string):
+    print(place)
+    print(length)
+    print(string)
+    print(len(string) >= place+length)
     return len(string) >= place+length
   
   def getCharacterBefore(self, word, string):
