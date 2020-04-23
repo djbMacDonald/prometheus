@@ -2144,3 +2144,6 @@ Chaos: Greek-bot adds message: <@UD4L95G [[UDC4QL95G]]> what time did you sleep?
 Chaos: Greek-bot deletes message: <@UDC4QL95G> what time did you sleep?
 Civilization: Civ-bot adds message: chaos_monkey: <@UETS9HTSS> it is your turn! (turn 94)
 Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 94)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 142)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 56)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 20)
