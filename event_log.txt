@@ -2958,3 +2958,8 @@ Megamoji: DejaVu-bot adds message: test
 Megamoji: DejaVu-bot adds reaction: dejavu
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 142)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 238)
+Chaos: Third-bot adds message: Brenden bought a certified refurbished Glion Dolly near the start of social distancing
+Chaos: Third-bot deletes message: I bought a certified refurbished Glion Dolly near the start of social distancing
+Chaos: ChaosSeed-bot adds message: Hey <@UDDE5960N> <@UDC4QL95G> <@UDC03KCGK> <@UK7V13DS7>! There's a thread here!
+Chaos: Censor-bot adds message: shocks aren't great; I tend to avoid roads with ~*REDACTED*~ of potholes
+Chaos: Censor-bot deletes message: shocks aren't great; I tend to avoid roads with lots of potholes
