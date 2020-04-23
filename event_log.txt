@@ -3050,3 +3050,10 @@ Chaos: Lex-bot adds message: Who said trdaer joe's?
 Chaos: Lex-bot deletes message: Who said trader joe's?
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 69)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 69)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 57)
+Chaos: Scrambler-bot adds message: should follow slickdeals I
+Chaos: Scrambler-bot deletes message: I should follow slickdeals
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 21)
+Chaos: Contraction-bot adds message: speaking o': <@UDDE5960N> if y'need daipers `<https://slickdeals.net/f/14002694-size-4-pampers-swaddlers-diapers-300-total-diapers-20-walmart-giftcard-15-prepaid-gc-77-58>`
+Chaos: Contraction-bot deletes message: speaking of: <@UDDE5960N> if you need daipers `<https://slickdeals.net/f/14002694-size-4-pampers-swaddlers-diapers-300-total-diapers-20-walmart-giftcard-15-prepaid-gc-77-58>`
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 69)
