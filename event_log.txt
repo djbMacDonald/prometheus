@@ -3057,3 +3057,8 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your tu
 Chaos: Contraction-bot adds message: speaking o': <@UDDE5960N> if y'need daipers `<https://slickdeals.net/f/14002694-size-4-pampers-swaddlers-diapers-300-total-diapers-20-walmart-giftcard-15-prepaid-gc-77-58>`
 Chaos: Contraction-bot deletes message: speaking of: <@UDDE5960N> if you need daipers `<https://slickdeals.net/f/14002694-size-4-pampers-swaddlers-diapers-300-total-diapers-20-walmart-giftcard-15-prepaid-gc-77-58>`
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 69)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 143)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 143)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 143)
+Chaos: Contraction-bot adds message: Probably a comination o'lack o'parking lot, and lack o'college students in the dorm
+Chaos: Contraction-bot deletes message: Probably a comination of lack of parking lot, and lack of college students in the dorm
