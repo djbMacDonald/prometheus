@@ -3184,3 +3184,5 @@ Chaos: Dm-bot adds message: Roll a mythos check to swim past the giant lizard
 Chaos: Botify-bot adds message: Another weird glitch
 Chaos: Botify-bot deletes message: Another weird glitch
 Chaos: ChaosSeed-bot adds message: Hey <@UDC03KCGK> <@UDD45P5A9> <@UETS9HTSS> <@UHQD9J1SL> <@UK7V13DS7>! There's a thread here!
+Chaos: DejaVu-bot adds message: Front paws need endurance too!
+Chaos: DejaVu-bot adds reaction: dejavu
