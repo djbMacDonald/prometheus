@@ -3164,3 +3164,9 @@ Chaos: Botify-bot deletes message: No they're both conditions
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 147)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 72)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 72)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 147)
+Chaos: DejaVu-bot adds message: &gt;Bumping again, can we just block this door off as emergency exit only? ^^^
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Lol-bot adds reaction: nope
+Chaos: Lex-bot adds message: even atfer a 20 mile hike I don't feel like that
+Chaos: Lex-bot deletes message: even after a 20 mile hike I don't feel like that
