@@ -3193,3 +3193,4 @@ Civilization: DejaVu-bot adds reaction: dejavu
 Civilization: Botify-bot adds message: Fyi war in civ vs players is real time so be ready for twitchy shit
 Civilization: Botify-bot deletes message: Fyi war in civ vs players is real time so be ready for twitchy shit
 Civilization: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 210)
+Civilization: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 211)

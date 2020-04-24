@@ -319,7 +319,8 @@ def civ():
     "Beerdeau's Game": ch.civBeerdeauChannel(),
     '2 Front War': ch.civTwoFrontWarChannel(),
     "lackmind's Game": ch.civLackChannel(),
-    'Hide From Sumeria': ch.civHideFromSumeria()
+    'Hide From Sumeria': ch.civHideFromSumeria(),
+    'mod-pilot': ch.civModPilot()
   }
   
   actionQueue.addReply(

@@ -11,7 +11,8 @@ CHANNELS = {
   'C011WA7AFQE': {'post': True, 'name': 'CivilizationTwoFrontWar'},
   'C011NA88LVD': {'post': True, 'name': 'civ_lack_game'},
   'C011S05A3SB': {'post': True, 'name': 'civ_hide_from_sumeria'},
-  'C012AAM0FNZ': {'post': True, 'name': 'Alerts'}
+  'C012AAM0FNZ': {'post': True, 'name': 'Alerts'},
+  'C012WCET1DF': {'post': True, 'name': 'civ_mod_pilot'}
 }
 
 def chaosChannel():
@@ -37,6 +38,9 @@ def civLackChannel():
 
 def civHideFromSumeria():
   return 'C011S05A3SB'
+
+def civModPilot():
+  return 'C012WCET1DF'
 
 def alertsChannel():
   return 'C012AAM0FNZ'
