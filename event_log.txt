@@ -3133,3 +3133,14 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK>
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 71)
 CivilizationBeerdeau: Civ-bot adds message: Beerdeau's Game: <@UDDE5960N> it is your turn! (turn 240)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 61)
+Civilization: Lol-bot adds reaction: finally
+Civilization: Lol-bot adds reaction: sure
+Civilization: DejaVu-bot adds message: Is there a chance the code reads weirdly for CJ?
+Civilization: DejaVu-bot adds reaction: dejavu
+Civilization: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UDC03KCGK> <@UHQD9J1SL> <@UDD45P5A9> <@UK7V13DS7> <@UDDE5960N> <@UDL020K8D>! There's a thread here!
+Civilization: Contraction-bot adds message: Optional: Religion Expanded:
+&gt; Religion Expanded raises the founded-religions-per-game cap to a maximum o'16, introduces more than 40 new beliefs, and adds new, fully-customized religious buildings. In short, religion becomes more dynamic and personalized.
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1178185727>
+Civilization: Contraction-bot deletes message: Optional: Religion Expanded:
+&gt; Religion Expanded raises the founded-religions-per-game cap to a maximum of 16, introduces more than 40 new beliefs, and adds new, fully-customized religious buildings. In short, religion becomes more dynamic and personalized.
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1178185727>
