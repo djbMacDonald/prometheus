@@ -3186,3 +3186,7 @@ Chaos: Botify-bot deletes message: Another weird glitch
 Chaos: ChaosSeed-bot adds message: Hey <@UDC03KCGK> <@UDD45P5A9> <@UETS9HTSS> <@UHQD9J1SL> <@UK7V13DS7>! There's a thread here!
 Chaos: DejaVu-bot adds message: Front paws need endurance too!
 Chaos: DejaVu-bot adds reaction: dejavu
+Civilization: Botify-bot adds message: I'm gonna say in the future no to the city state one, because starting with walls is broken
+Civilization: Botify-bot deletes message: I'm gonna say in the future no to the city state one, because starting with walls is broken
+Civilization: DejaVu-bot adds message: I"m not sure why CJ seeing mine helps or changes anything
+Civilization: DejaVu-bot adds reaction: dejavu
