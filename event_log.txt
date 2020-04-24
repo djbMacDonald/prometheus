@@ -3123,3 +3123,6 @@ Chaos: Greek-bot adds message: There is some unicode that is υποτιθεμέ�
  [[Greek: ypotitheménos]]
 Chaos: Greek-bot deletes message: There is some unicode that is supposed to let you embed right-to-left text within left-to-right text. I think I have it hooked up now. we’ll see.
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 71)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 60)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 24)
+Chaos: Lol-bot adds reaction: sure
