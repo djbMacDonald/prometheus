@@ -3111,3 +3111,7 @@ Chaos: Greek-bot adds message: I make sushi like Kimbap (korean style) or sashim
 
  [[Farsi]]
 Chaos: Greek-bot deletes message: I make sushi like Kimbap (korean style) or sashimi. Japanese chicken curry, very easy to make. Cereal or devil eggs for morning hehehe
+Chaos: Greek-bot adds message: Good morning ప్రతి ఒక్కరూ [[everyone]] 
+
+ [[Telegu: Prati okkarū]]
+Chaos: Greek-bot deletes message: Good morning everyone 
