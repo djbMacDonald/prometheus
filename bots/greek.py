@@ -6,7 +6,7 @@ import random
 class Greek(Bot):
   
   _active = True
-  _frequency = .01
+  _frequency = .007
   _langauges = {
     'el': 'Greek',
     'te': 'Telegu',

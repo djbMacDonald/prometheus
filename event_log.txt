@@ -3115,3 +3115,11 @@ Chaos: Greek-bot adds message: Good morning ప్రతి ఒక్కరూ [
 
  [[Telegu: Prati okkarū]]
 Chaos: Greek-bot deletes message: Good morning everyone 
+Chaos: Botify-bot adds message: Yea, it actually did them backwards
+Chaos: Botify-bot deletes message: Yea, it actually did them backwards
+Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UDC03KCGK> <@UHQD9J1SL> <@UK7V13DS7> <@UDC4QL95G> <@UETS9HTSS>! There's a thread here!
+Chaos: Greek-bot adds message: There is some unicode that is υποτιθεμένος [[supposed]] to let you embed right-to-left text within left-to-right text. I think I have it hooked up now. we’ll see.
+
+ [[Greek: ypotitheménos]]
+Chaos: Greek-bot deletes message: There is some unicode that is supposed to let you embed right-to-left text within left-to-right text. I think I have it hooked up now. we’ll see.
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 71)
