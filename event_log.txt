@@ -3107,3 +3107,7 @@ Chaos: Greek-bot adds message: במיוחד [[Espcially]] morning <@UDC4QL95G>!
 
  [[Hebrew]]
 Chaos: Greek-bot deletes message: Espcially morning <@UDC4QL95G>!
+Chaos: Greek-bot adds message: I make sushi like Kimbap (korean style) or sashimi. ژاپنی [[Japanese]] chicken curry, very easy to make. Cereal or devil eggs for morning hehehe
+
+ [[Farsi]]
+Chaos: Greek-bot deletes message: I make sushi like Kimbap (korean style) or sashimi. Japanese chicken curry, very easy to make. Cereal or devil eggs for morning hehehe
