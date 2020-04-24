@@ -3077,3 +3077,6 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your tu
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 144)
 Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 94)
 Civilization: Civ-bot adds message: chaos_monkey: <@UETS9HTSS> it is your turn! (turn 95)
+Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 95)
+Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 95)
+Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 104)
