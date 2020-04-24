@@ -3159,3 +3159,8 @@ Civilization: Botify-bot adds message: That's why abundant resources is good
 Civilization: Botify-bot deletes message: That's why abundant resources is good
 Civilization: Contraction-bot adds message: I think the only thing left to decide's more tribal villages
 Civilization: Contraction-bot deletes message: I think the only thing left to decide is more tribal villages
+Chaos: Botify-bot adds message: No they're both conditions
+Chaos: Botify-bot deletes message: No they're both conditions
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 147)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 72)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 72)
