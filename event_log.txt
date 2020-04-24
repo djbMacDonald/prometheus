@@ -3153,3 +3153,9 @@ Chaos: Lol-bot adds reaction: lol
 Chaos: Contraction-bot adds message: My thought that depression's a condition, and anxiety's a symptom.
 Chaos: Contraction-bot deletes message: My thought that depression is a condition, and anxiety is a symptom.
 Chaos: ChaosSeed-bot adds message: Hey <@UETS9HTSS> <@UDD45P5A9> <@UDL020K8D> <@UK7V13DS7> <@UHQD9J1SL>! There's a thread here!
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 25)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 62)
+Civilization: Botify-bot adds message: That's why abundant resources is good
+Civilization: Botify-bot deletes message: That's why abundant resources is good
+Civilization: Contraction-bot adds message: I think the only thing left to decide's more tribal villages
+Civilization: Contraction-bot deletes message: I think the only thing left to decide is more tribal villages
