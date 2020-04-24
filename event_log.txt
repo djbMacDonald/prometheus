@@ -3147,3 +3147,9 @@ Civilization: Contraction-bot deletes message: Optional: Religion Expanded:
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 25)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 61)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 72)
+Chaos: Contraction-bot adds message: Y'missed this Gem Brenden `productivity very often goes hand in hand with avoiding grief and pain'stead o'coping with't. A lot o'this productivity people're engaging in's simply a way to avoid breaking down. Speaking as someone who's actively doing this`
+Chaos: Contraction-bot deletes message: You missed this Gem Brenden `productivity very often goes hand in hand with avoiding grief and pain instead of coping with it. A lot of this productivity people are engaging in is simply a way to avoid breaking down. Speaking as someone who is actively doing this`
+Chaos: Lol-bot adds reaction: lol
+Chaos: Contraction-bot adds message: My thought that depression's a condition, and anxiety's a symptom.
+Chaos: Contraction-bot deletes message: My thought that depression is a condition, and anxiety is a symptom.
+Chaos: ChaosSeed-bot adds message: Hey <@UETS9HTSS> <@UDD45P5A9> <@UDL020K8D> <@UK7V13DS7> <@UHQD9J1SL>! There's a thread here!
