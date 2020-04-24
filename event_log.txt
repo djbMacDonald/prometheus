@@ -3144,3 +3144,6 @@ Civilization: Contraction-bot adds message: Optional: Religion Expanded:
 Civilization: Contraction-bot deletes message: Optional: Religion Expanded:
 &gt; Religion Expanded raises the founded-religions-per-game cap to a maximum of 16, introduces more than 40 new beliefs, and adds new, fully-customized religious buildings. In short, religion becomes more dynamic and personalized.
 <https://steamcommunity.com/sharedfiles/filedetails/?id=1178185727>
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 25)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 61)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 72)
