@@ -3092,3 +3092,8 @@ Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! 
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 59)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 145)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 145)
+Chaos: ChaosSeed-bot adds message: Hey <@UHQD9J1SL> <@UDD45P5A9> <@UETS9HTSS> <@UDDE5960N> <@UK7V13DS7> <@UDL020K8D>! There's a thread here!
+Chaos: Scrambler-bot adds message: to Go <@UDC4QL95G> bed
+Chaos: Scrambler-bot deletes message: Go to bed <@UDC4QL95G>
+Chaos: Dm-bot adds message: Roll a bargain check to pickpocket from the gazebo
+Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
