@@ -3170,3 +3170,8 @@ Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: Lol-bot adds reaction: nope
 Chaos: Lex-bot adds message: even atfer a 20 mile hike I don't feel like that
 Chaos: Lex-bot deletes message: even after a 20 mile hike I don't feel like that
+Chaos: Contraction-bot adds message: doesn't always work out, but I tend'nt to burn stuff too badly
+Chaos: Contraction-bot deletes message: doesn't always work out, but I tend not to burn stuff too badly
+Chaos: Contraction-bot adds message: 't one point, I almost set a grease fire because I walked away from the stove
+Chaos: Contraction-bot deletes message: at one point, I almost set a grease fire because I walked away from the stove
+Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UDC03KCGK> <@UK7V13DS7> <@UDDE5960N> <@UDC4QL95G>! There's a thread here!
