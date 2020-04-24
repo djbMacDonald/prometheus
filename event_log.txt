@@ -3190,3 +3190,5 @@ Civilization: Botify-bot adds message: I'm gonna say in the future no to the cit
 Civilization: Botify-bot deletes message: I'm gonna say in the future no to the city state one, because starting with walls is broken
 Civilization: DejaVu-bot adds message: I"m not sure why CJ seeing mine helps or changes anything
 Civilization: DejaVu-bot adds reaction: dejavu
+Civilization: Botify-bot adds message: Fyi war in civ vs players is real time so be ready for twitchy shit
+Civilization: Botify-bot deletes message: Fyi war in civ vs players is real time so be ready for twitchy shit
