@@ -48,7 +48,7 @@ class Greek(Bot):
     if translation.text == longWord:
       return
     
-    if lang in ['iw', 'fa']:
+    if lang[0] in ['iw', 'fa']:
       text = translation.text + '\u2069'
     else:
       text = translation.text
