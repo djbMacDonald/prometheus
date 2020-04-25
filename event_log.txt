@@ -3213,3 +3213,5 @@ Chaos: Lol-bot adds reaction: lol
 Chaos: Contraction-bot adds message: Also still waiting to hear from <@UTFFJEJ6P> and <@UDTR9SLN4>. Currently've 5 which's the bare minimum to play
 Chaos: Contraction-bot deletes message: Also still waiting to hear from <@UTFFJEJ6P> and <@UDTR9SLN4>. Currently have 5 which is the bare minimum to play
 Chaos: Lol-bot adds reaction: lol
+Chaos: Third-bot adds message: not this time; though there is a tiny bit of stuff related to an on-campus job that Brenden'd love to get rid of
+Chaos: Third-bot deletes message: not this time; though there is a tiny bit of stuff related to an on-campus job that I'd love to get rid of
