@@ -3207,3 +3207,5 @@ Chaos: Third-bot adds message: what would you prefer Brenden call it?
 Chaos: Third-bot deletes message: what would you prefer I call it?
 Chaos: Contraction-bot adds message: There'll be information on me searchable on the internet; I can't control that
 Chaos: Contraction-bot deletes message: There will be information on me searchable on the internet; I can't control that
+Chaos: Botify-bot adds message: Hahahahaha
+Chaos: Botify-bot deletes message: Hahahahaha
