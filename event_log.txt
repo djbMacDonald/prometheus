@@ -3215,3 +3215,4 @@ Chaos: Contraction-bot deletes message: Also still waiting to hear from <@UTFFJE
 Chaos: Lol-bot adds reaction: lol
 Chaos: Third-bot adds message: not this time; though there is a tiny bit of stuff related to an on-campus job that Brenden'd love to get rid of
 Chaos: Third-bot deletes message: not this time; though there is a tiny bit of stuff related to an on-campus job that I'd love to get rid of
+Chaos: ChaosSeed-bot adds message: Hey <@UDL020K8D> <@UDD45P5A9> <@UK7V13DS7> <@UDDE5960N> <@UDC03KCGK> <@UDC4QL95G>! There's a thread here!
