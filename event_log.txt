@@ -3203,3 +3203,7 @@ Civilization: Contraction-bot deletes message: Is that the case in all our games
 Chaos: Scrambler-bot adds message: <@UDTR9SLN4>? <@UDD45P5A9> <@UHQD9J1SL> <@UDDE5960N>
 Chaos: Scrambler-bot deletes message: <@UHQD9J1SL> <@UDD45P5A9> <@UDDE5960N> <@UDTR9SLN4>?
 Chaos: Dm-bot adds message: Roll a law check with disadvantage to tell a story to the gazebo
+Chaos: Third-bot adds message: what would you prefer Brenden call it?
+Chaos: Third-bot deletes message: what would you prefer I call it?
+Chaos: Contraction-bot adds message: There'll be information on me searchable on the internet; I can't control that
+Chaos: Contraction-bot deletes message: There will be information on me searchable on the internet; I can't control that
