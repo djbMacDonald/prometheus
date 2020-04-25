@@ -3202,3 +3202,4 @@ Civilization: Contraction-bot adds message: 's that the case in all our games cu
 Civilization: Contraction-bot deletes message: Is that the case in all our games currently???
 Chaos: Scrambler-bot adds message: <@UDTR9SLN4>? <@UDD45P5A9> <@UHQD9J1SL> <@UDDE5960N>
 Chaos: Scrambler-bot deletes message: <@UHQD9J1SL> <@UDD45P5A9> <@UDDE5960N> <@UDTR9SLN4>?
+Chaos: Dm-bot adds message: Roll a law check with disadvantage to tell a story to the gazebo
