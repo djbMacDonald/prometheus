@@ -3242,3 +3242,15 @@ Chaos: Censor-bot deletes message: Fine a minute, logging in
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 26)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 26)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 63)
+Chaos: Censor-bot adds message: It's ~*REDACTED*~ nice apartment. Bedroom might be ~*REDACTED*~ bit cramped depending on which of the 2 you get.
+That area is right down the street from where I worked at Brigham. It's on the cusp of where the nice longwood medical area turns into the more sketchy Roxbury side of things.
+Great donuts across the street though!
+Chaos: Censor-bot deletes message: It's a nice apartment. Bedroom might be a bit cramped depending on which of the 2 you get.
+That area is right down the street from where I worked at Brigham. It's on the cusp of where the nice longwood medical area turns into the more sketchy Roxbury side of things.
+Great donuts across the street though!
+Chaos: Censor-bot adds message: It's ~*REDACTED*~ nice apartment. Bedroom might be ~*REDACTED*~ bit cramped depending on which of the 2 you get.
+That area is right down the street from where I worked at Brigham. It's on the cusp of where the nice longwood medical area turns into the more sketchy Roxbury side of things.
+Great donuts across the street though!
+Chaos: Censor-bot deletes message: It's a nice apartment. Bedroom might be a bit cramped depending on which of the 2 you get.
+That area is right down the street from where I worked at Brigham. It's on the cusp of where the nice longwood medical area turns into the more sketchy Roxbury side of things.
+Great donuts across the street though!
