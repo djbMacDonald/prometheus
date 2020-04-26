@@ -3231,3 +3231,11 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your tu
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 62)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 73)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 148)
+Chaos: Censor-bot adds message: Apparently you need ~*REDACTED*~ pin code
+Chaos: Censor-bot deletes message: Apparently you need a pin code
+Megamoji: Censor-bot adds message: " ~*REDACTED*~ " was not on the ban ban list
+Megamoji: Censor-bot deletes message: "a" was not on the ban ban list
+Chaos: Censor-bot adds message: <@UDL020K8D> need ~*REDACTED*~ video call link when you have ~*REDACTED*~ second
+Chaos: Censor-bot deletes message: <@UDL020K8D> need a video call link when you have a second
+Chaos: Censor-bot adds message: Fine ~*REDACTED*~ minute, logging in
+Chaos: Censor-bot deletes message: Fine a minute, logging in
