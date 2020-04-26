@@ -3222,3 +3222,4 @@ Civilization: DejaVu-bot adds message: it should post something like that
 Civilization: DejaVu-bot adds reaction: dejavu
 Civilization: Botify-bot adds message: No all of my games were waiting on someone else
 Civilization: Botify-bot deletes message: No all of my games were waiting on someone else
+Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UK7V13DS7> <@UDDE5960N> <@UDC03KCGK> <@UDC4QL95G>! There's a thread here!
