@@ -3241,3 +3241,4 @@ Chaos: Censor-bot adds message: Fine ~*REDACTED*~ minute, logging in
 Chaos: Censor-bot deletes message: Fine a minute, logging in
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 26)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 26)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 63)
