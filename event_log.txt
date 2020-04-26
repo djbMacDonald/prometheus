@@ -3254,3 +3254,7 @@ Great donuts across the street though!
 Chaos: Censor-bot deletes message: It's a nice apartment. Bedroom might be a bit cramped depending on which of the 2 you get.
 That area is right down the street from where I worked at Brigham. It's on the cusp of where the nice longwood medical area turns into the more sketchy Roxbury side of things.
 Great donuts across the street though!
+Civilization: Censor-bot adds message: Hey <@UDC03KCGK>, next time you log in.  Can you do me ~*REDACTED*~ favor and check to see if you have MP only scenarios. Most notably Warmachine or Global Thermonuclear war?
+Civilization: Censor-bot deletes message: Hey <@UDC03KCGK>, next time you log in.  Can you do me a favor and check to see if you have MP only scenarios. Most notably Warmachine or Global Thermonuclear war?
+Civilization: Censor-bot adds message: Hey <@UDC03KCGK>, next time you log in.  Can you do me ~*REDACTED*~ favor and check to see if you have MP only scenarios. Most notably Warmachine or Global Thermonuclear war?
+Civilization: Censor-bot deletes message: Hey <@UDC03KCGK>, next time you log in.  Can you do me a favor and check to see if you have MP only scenarios. Most notably Warmachine or Global Thermonuclear war?
