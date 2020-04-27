@@ -3319,3 +3319,6 @@ Chaos: Censor-bot deletes message: I actually don't know how to check the data I
 Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UDC4QL95G> <@UK7V13DS7> <@UDL020K8D>! There's a thread here!
 Chaos: Censor-bot adds message: Either way, I think ~*REDACTED*~ workout video course like that can be really effective
 Chaos: Censor-bot deletes message: Either way, I think a workout video course like that can be really effective
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 148)
+CivilizationSlaughter: Censor-bot adds message: That was ~*REDACTED*~ long ass turn, and why I like async, because I was able to really puzzle out what I wanted cities and districts to be working on
+CivilizationSlaughter: Censor-bot deletes message: That was a long ass turn, and why I like async, because I was able to really puzzle out what I wanted cities and districts to be working on
