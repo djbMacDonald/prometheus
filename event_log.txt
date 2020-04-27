@@ -3273,3 +3273,10 @@ Chaos: Botify-bot adds message: Once you start down the path of coffee addiction
 Chaos: Botify-bot deletes message: Once you start down the path of coffee addiction there's no coming back
 Chaos: Censor-bot adds message: Actually I pull myself back really quickly and easily. I'm not ~*REDACTED*~ person who gets overly addicted to substances with the sole exception of sugar
 Chaos: Censor-bot deletes message: Actually I pull myself back really quickly and easily. I'm not a person who gets overly addicted to substances with the sole exception of sugar
+Chaos: Censor-bot adds message: like ~*REDACTED*~ Moka pot?
+Chaos: Censor-bot deletes message: like a Moka pot?
+Chaos: Lol-bot adds reaction: yep
+Chaos: Censor-bot adds message: is it ~*REDACTED*~ fancy machine that grinds it for you?
+Chaos: Censor-bot deletes message: is it a fancy machine that grinds it for you?
+Chaos: DejaVu-bot adds message: For now, there will forever be a minimum of 2 bans
+Chaos: DejaVu-bot adds reaction: dejavu
