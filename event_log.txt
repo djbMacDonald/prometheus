@@ -3475,3 +3475,4 @@ Chaos: Scrambler-bot deletes message: The deja vu bot was something I'm really g
 Chaos: Dm-bot adds message: Roll a credit rating check to notice the Juiblex
 Chaos: Third-bot adds message: Brenden don't notice him
 Chaos: Third-bot deletes message: I don't notice him
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 213)
