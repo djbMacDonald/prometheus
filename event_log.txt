@@ -3338,3 +3338,9 @@ Chaos: DejaVu-bot adds message: I made delicious shrimp this weekend and now I w
 Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: Lol-bot adds reaction: explain
 Chaos: ChaosSeed-bot adds message: Hey <@UDC03KCGK> <@UDD45P5A9> <@UDDE5960N> <@UETS9HTSS> <@UK7V13DS7>! There's a thread here!
+Chaos: Censor-bot adds message: I find people are more desperate to fill that time with any social interaction they can, and since it is harder to organize large scale digital groups, there's ~*REDACTED*~ lot more fractured individual calls and groups being formed
+Chaos: Censor-bot deletes message: I find people are more desperate to fill that time with any social interaction they can, and since it is harder to organize large scale digital groups, there's a lot more fractured individual calls and groups being formed
+Chaos: Censor-bot adds message: Like, I have had several calls with friends and family that I otherwise would not be trying to talk to outside of ~*REDACTED*~ trip or party had it not been for Covid-19 and people feeling more eager than ever to reconnect and schedule these things
+Chaos: Censor-bot deletes message: Like, I have had several calls with friends and family that I otherwise would not be trying to talk to outside of a trip or party had it not been for Covid-19 and people feeling more eager than ever to reconnect and schedule these things
+Chaos: Censor-bot adds message: Sam made ~*REDACTED*~ bunch of fabric masks there for ~*REDACTED*~ couple weeks. Mailed them off to some family members and kept 2 back for ourselves
+Chaos: Censor-bot deletes message: Sam made a bunch of fabric masks there for a couple weeks. Mailed them off to some family members and kept 2 back for ourselves
