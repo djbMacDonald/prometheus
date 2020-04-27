@@ -3280,3 +3280,27 @@ Chaos: Censor-bot adds message: is it ~*REDACTED*~ fancy machine that grinds it 
 Chaos: Censor-bot deletes message: is it a fancy machine that grinds it for you?
 Chaos: DejaVu-bot adds message: For now, there will forever be a minimum of 2 bans
 Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Censor-bot adds message: We have ~*REDACTED*~ grinder actually. Just only use it for the coffee we bought from ~*REDACTED*~ coffee shop in Maine because they only sold espresso whole bean.
+I've definitely tried ~*REDACTED*~ bunch of different espresso types to find one that works best and tastes good. There's ~*REDACTED*~ reason so many place in Italy and France use Lavazza
+Chaos: Censor-bot deletes message: We have a grinder actually. Just only use it for the coffee we bought from a coffee shop in Maine because they only sold espresso whole bean.
+I've definitely tried a bunch of different espresso types to find one that works best and tastes good. There's a reason so many place in Italy and France use Lavazza
+Chaos: Spam-bot adds reaction: pavlin-bang
+Chaos: Spam-bot adds reaction: mckinnon
+Chaos: Spam-bot adds reaction: cowboy_edgar
+Chaos: Spam-bot adds reaction: shaurya
+Chaos: Spam-bot adds reaction: bait
+Chaos: Spam-bot adds reaction: weeb-aaaaa
+Chaos: Spam-bot adds reaction: inosuke
+Chaos: Spam-bot adds reaction: tin-an-announcement
+Chaos: Spam-bot adds reaction: frank-creep
+Chaos: Spam-bot adds reaction: manselmi
+Chaos: Spam-bot adds reaction: pompom
+Chaos: Spam-bot adds reaction: project-manager
+Chaos: Spam-bot adds reaction: am_baby_4_3
+Chaos: Spam-bot adds reaction: labs-party
+Chaos: Spam-bot adds reaction: solr5
+Chaos: Censor-bot adds message: well, it wasn't ~*REDACTED*~ coffee addiction so much as ~*REDACTED*~ caffeine one
+Chaos: Censor-bot deletes message: well, it wasn't a coffee addiction so much as a caffeine one
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 28)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 64)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 73)
