@@ -3347,3 +3347,12 @@ Chaos: Censor-bot deletes message: Sam made a bunch of fabric masks there for a 
 Megamoji: Censor-bot adds message: not ~*REDACTED*~ clue
 Megamoji: Censor-bot deletes message: not a clue
 Megamoji: Lol-bot adds reaction: testing
+Chaos: Lol-bot adds reaction: oh
+Chaos: Lol-bot adds reaction: oh
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 73)
+Chaos: Lol-bot adds reaction: lol
+Chaos: Censor-bot adds message: but yeah, this was ~*REDACTED*~ bot, not me
+Chaos: Censor-bot deletes message: but yeah, this was a bot, not me
+Megamoji: Censor-bot adds message:  ~*REDACTED*~ trifle of ~*REDACTED*~ request
+Megamoji: Censor-bot deletes message: A trifle of a request
+Megamoji: Lol-bot adds reaction: boo
