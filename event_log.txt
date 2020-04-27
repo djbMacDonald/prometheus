@@ -3264,3 +3264,6 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is y
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 64)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 64)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 27)
+Chaos: Lol-bot adds reaction: lol
+Chaos: Scrambler-bot adds message: day. I dependent it to the just hate being start on
+Chaos: Scrambler-bot deletes message: I just hate being dependent on it to start the day.
