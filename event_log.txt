@@ -3267,3 +3267,9 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your tu
 Chaos: Lol-bot adds reaction: lol
 Chaos: Scrambler-bot adds message: day. I dependent it to the just hate being start on
 Chaos: Scrambler-bot deletes message: I just hate being dependent on it to start the day.
+Chaos: Botify-bot adds message: You're fucked drew
+Chaos: Botify-bot deletes message: You're fucked drew
+Chaos: Botify-bot adds message: Once you start down the path of coffee addiction there's no coming back
+Chaos: Botify-bot deletes message: Once you start down the path of coffee addiction there's no coming back
+Chaos: Censor-bot adds message: Actually I pull myself back really quickly and easily. I'm not ~*REDACTED*~ person who gets overly addicted to substances with the sole exception of sugar
+Chaos: Censor-bot deletes message: Actually I pull myself back really quickly and easily. I'm not a person who gets overly addicted to substances with the sole exception of sugar
