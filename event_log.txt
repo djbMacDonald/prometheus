@@ -3469,3 +3469,4 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is y
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 148)
 Megamoji: Lol-bot adds reaction: test
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 28)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 213)
