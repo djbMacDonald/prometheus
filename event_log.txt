@@ -3463,3 +3463,9 @@ Megamoji: Censor-bot adds message:  ~*REDACTED*~
 Megamoji: Censor-bot deletes message: tokens
 Megamoji: Censor-bot adds message:  ~*REDACTED*~ 
 Megamoji: Censor-bot deletes message: created
+Chaos: ChaosSeed-bot adds reaction: salute_cap
+Chaos: ChaosSeed-bot adds reaction: squirrel
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 65)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 148)
+Megamoji: Lol-bot adds reaction: test
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 28)
