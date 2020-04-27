@@ -4,7 +4,7 @@ from bots._bot import Bot
 
 class Censor(Bot):
   
-  _active = False
+  _active = True
   
   @classmethod
   def description(cls):

@@ -20,13 +20,14 @@ class Ban:
       myword = random.choice(myline.split(' '))
     
     tz = timezone('EST')
-    n = datetime.datetime.now(tz)
-    expirationDate = int(round(time.time())) + int(round(((24 - n.hour - 2) * 60 * 60) + ((60 - n.minute - 1) * 60) + (60 - n.second)))
-    newBan = '{}~~~{}'.format(myword, expirationDate)
+    # n = datetime.datetime.now(tz)
+    # expirationDate = int(round(time.time())) + int(round(((24 - n.hour - 2) * 60 * 60) + ((60 - n.minute - 1) * 60) + (60 - n.second)))
+    todayDate = datetime.date.today()
+    newBan = '{}~~~{}'.format(myword, todayDate)
     f = open('banlist.txt', 'w+')
     f.write(newBan)
     f.close()
-    bans['myword'] = expirationDate
+    bans['myword'] = todayDate
     return bans;
   
   def getBans(self):
@@ -41,10 +42,11 @@ class Ban:
     return bans;
 
   def activeBans(self, bans):
-    print(date.today())
     copy = bans.copy()
+    todayDate = datetime.date.today()
     
     for ban in bans.items():
-      if (int(ban[1]) < int(round(time.time()))):
+      banDate = datetime.datetime.strptime(ban[1], '%Y-%m-%d').date()
+      if banDate < todayDate:
         del copy[ban[0]]
     return copy

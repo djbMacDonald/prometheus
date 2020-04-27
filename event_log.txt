@@ -3404,3 +3404,62 @@ NameError: name 'date' is not defined
 Megamoji: Dm-bot adds message: Roll a chemistry check to bum a cigarette from the monster truck rally
 Megamoji: Scrambler-bot adds message: for slack in do Thought to it from you Daka command a put
 Megamoji: Scrambler-bot deletes message: Thought Daka put in a command for you to do it from slack
+Megamoji: Lol-bot adds reaction: testing
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 25, in run
+    self._censorMessage(activeBans);
+  File "/app/bots/censor.py", line 29, in _censorMessage
+    words = newMessage.split(' ');
+AttributeError: 'NoneType' object has no attribute 'split'
+
+Megamoji: Censor-bot adds message: this is ~*REDACTED*~ test
+Megamoji: Censor-bot deletes message: this is a test
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 20, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 49, in activeBans
+    if int(ban[1]) < todayDate:
+ValueError: invalid literal for int() with base 10: '2020-04-27'
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 20, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 49, in activeBans
+    banDate = datetime.strptime(ban[1], '%Y-%m-%d')
+AttributeError: module 'datetime' has no attribute 'strptime'
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 20, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 50, in activeBans
+    if banDate < todayDate:
+TypeError: can't compare datetime.datetime to datetime.date
+
+Megamoji: Censor-bot adds message:  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: tokens
+Megamoji: Censor-bot adds message:  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: created
