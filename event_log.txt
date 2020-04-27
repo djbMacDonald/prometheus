@@ -3261,3 +3261,6 @@ Civilization: Censor-bot deletes message: Hey <@UDC03KCGK>, next time you log in
 Civilization: Lol-bot adds reaction: lol
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 27)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 63)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 64)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 64)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 27)
