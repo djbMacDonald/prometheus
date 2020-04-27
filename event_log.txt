@@ -3260,3 +3260,4 @@ Civilization: Censor-bot adds message: Hey <@UDC03KCGK>, next time you log in.  
 Civilization: Censor-bot deletes message: Hey <@UDC03KCGK>, next time you log in.  Can you do me a favor and check to see if you have MP only scenarios. Most notably Warmachine or Global Thermonuclear war?
 Civilization: Lol-bot adds reaction: lol
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 27)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 63)
