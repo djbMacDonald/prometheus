@@ -41,6 +41,7 @@ class Ban:
     return bans;
 
   def activeBans(self, bans):
+    print(date.today())
     copy = bans.copy()
     
     for ban in bans.items():

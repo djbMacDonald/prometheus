@@ -3356,3 +3356,51 @@ Chaos: Censor-bot deletes message: but yeah, this was a bot, not me
 Megamoji: Censor-bot adds message:  ~*REDACTED*~ trifle of ~*REDACTED*~ request
 Megamoji: Censor-bot deletes message: A trifle of a request
 Megamoji: Lol-bot adds reaction: boo
+Megamoji: Censor-bot adds message: This is ~*REDACTED*~ test
+Megamoji: Censor-bot deletes message: This is a test
+Megamoji: Censor-bot adds message: This is ~*REDACTED*~ test
+Megamoji: Censor-bot deletes message: This is a test
+Megamoji: Censor-bot adds message: This is ~*REDACTED*~ test
+Megamoji: Censor-bot deletes message: This is a test
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 18, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 44, in activeBans
+    print(date.today())
+NameError: name 'date' is not defined
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 18, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 44, in activeBans
+    print(date.today())
+NameError: name 'date' is not defined
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 18, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 44, in activeBans
+    print(date.today())
+NameError: name 'date' is not defined
+
+Megamoji: Dm-bot adds message: Roll a chemistry check to bum a cigarette from the monster truck rally
+Megamoji: Scrambler-bot adds message: for slack in do Thought to it from you Daka command a put
+Megamoji: Scrambler-bot deletes message: Thought Daka put in a command for you to do it from slack
