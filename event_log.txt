@@ -3322,3 +3322,19 @@ Chaos: Censor-bot deletes message: Either way, I think a workout video course li
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 148)
 CivilizationSlaughter: Censor-bot adds message: That was ~*REDACTED*~ long ass turn, and why I like async, because I was able to really puzzle out what I wanted cities and districts to be working on
 CivilizationSlaughter: Censor-bot deletes message: That was a long ass turn, and why I like async, because I was able to really puzzle out what I wanted cities and districts to be working on
+Chaos: Censor-bot adds message: So as little as $94 for 2 people, as much as $144. Again, $37 or so are device payments. 
+We're thinking of switching once the pandemic is over because Sam uses ~*REDACTED*~ lot more data than I do.
+Chaos: Censor-bot deletes message: So as little as $94 for 2 people, as much as $144. Again, $37 or so are device payments. 
+We're thinking of switching once the pandemic is over because Sam uses a lot more data than I do.
+Chaos: Censor-bot adds message: ```Somerville folks: face masks/coverings are now mandatory, unless you want to risk ~*REDACTED*~  $300 fine/corona```
+Chaos: Censor-bot deletes message: ```Somerville folks: face masks/coverings are now mandatory, unless you want to risk a $300 fine/corona```
+Chaos: Censor-bot adds message:  ~*REDACTED*~ lot of my neighbors are gonna be fined then
+Chaos: Censor-bot deletes message: A lot of my neighbors are gonna be fined then
+Chaos: Censor-bot adds message: Online sure, I've been using ~*REDACTED*~ bandana when I go out
+Chaos: Censor-bot deletes message: Online sure, I've been using a bandana when I go out
+Chaos: Censor-bot adds message: alibaba has ~*REDACTED*~ lot
+Chaos: Censor-bot deletes message: alibaba has a lot
+Chaos: DejaVu-bot adds message: I made delicious shrimp this weekend and now I want to make more
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Lol-bot adds reaction: explain
+Chaos: ChaosSeed-bot adds message: Hey <@UDC03KCGK> <@UDD45P5A9> <@UDDE5960N> <@UETS9HTSS> <@UK7V13DS7>! There's a thread here!
