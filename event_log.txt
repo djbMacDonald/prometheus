@@ -3487,3 +3487,5 @@ Chaos: Botify-bot adds message: lol
 Chaos: Botify-bot deletes message: lol
 Chaos: Lol-bot adds reaction: lol
 Chaos: Lol-bot adds reaction: yep
+Chaos: Lex-bot adds message: She's a neewr adc
+Chaos: Lex-bot deletes message: She's a newer adc
