@@ -3470,3 +3470,5 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK>
 Megamoji: Lol-bot adds reaction: test
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 28)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 213)
+Chaos: Scrambler-bot adds message: something vu I'm glad to bot be was implemented was really deja The able
+Chaos: Scrambler-bot deletes message: The deja vu bot was something I'm really glad was able to be implemented
