@@ -3502,3 +3502,9 @@ Chaos: Scrambler-bot deletes message: Great, so it is just the worst
 Chaos: Lex-bot adds message: Ummmm, no naturally immunity this quick is teiyirfrng
 Chaos: Lex-bot deletes message: Ummmm, no naturally immunity this quick is terrifying
 Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UK7V13DS7> <@UETS9HTSS> <@UDC03KCGK> <@UDC4QL95G>! There's a thread here!
+Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UK7V13DS7> <@UHQD9J1SL> <@UDC03KCGK> <@UDL020K8D> <@UDC4QL95G>! There's a thread here!
+Chaos: Third-bot adds message: Brenden'm just not at lightning pace
+Chaos: Third-bot deletes message: I'm just not at lightning pace
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 74)
+Chaos: Botify-bot adds message: Booooooooo
+Chaos: Botify-bot deletes message: Booooooooo
