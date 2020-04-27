@@ -19,11 +19,20 @@ class Ban:
       myline = random.choice(lines)
       myword = random.choice(myline.split(' '))
     
-    tz = timezone('EST')
+    # tz = timezone('EST')
     # n = datetime.datetime.now(tz)
     # expirationDate = int(round(time.time())) + int(round(((24 - n.hour - 2) * 60 * 60) + ((60 - n.minute - 1) * 60) + (60 - n.second)))
     todayDate = datetime.date.today()
     newBan = '{}~~~{}'.format(myword, todayDate)
+    f = open('banlist.txt', 'w+')
+    f.write(newBan)
+    f.close()
+    bans['myword'] = todayDate
+    return bans;
+  
+  def banWord(self, word):
+    todayDate = datetime.date.today()
+    newBan = '{}~~~{}'.format(word, todayDate)
     f = open('banlist.txt', 'w+')
     f.write(newBan)
     f.close()
