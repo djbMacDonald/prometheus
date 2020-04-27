@@ -3344,3 +3344,6 @@ Chaos: Censor-bot adds message: Like, I have had several calls with friends and 
 Chaos: Censor-bot deletes message: Like, I have had several calls with friends and family that I otherwise would not be trying to talk to outside of a trip or party had it not been for Covid-19 and people feeling more eager than ever to reconnect and schedule these things
 Chaos: Censor-bot adds message: Sam made ~*REDACTED*~ bunch of fabric masks there for ~*REDACTED*~ couple weeks. Mailed them off to some family members and kept 2 back for ourselves
 Chaos: Censor-bot deletes message: Sam made a bunch of fabric masks there for a couple weeks. Mailed them off to some family members and kept 2 back for ourselves
+Megamoji: Censor-bot adds message: not ~*REDACTED*~ clue
+Megamoji: Censor-bot deletes message: not a clue
+Megamoji: Lol-bot adds reaction: testing
