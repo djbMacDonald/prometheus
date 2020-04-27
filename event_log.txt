@@ -3489,3 +3489,8 @@ Chaos: Lol-bot adds reaction: lol
 Chaos: Lol-bot adds reaction: yep
 Chaos: Lex-bot adds message: She's a neewr adc
 Chaos: Lex-bot deletes message: She's a newer adc
+Chaos: Lex-bot adds message: any sort of moral argument is basilcaly saying "my culture is superior to yours"
+Chaos: Lex-bot deletes message: any sort of moral argument is basically saying "my culture is superior to yours"
+Chaos: Lol-bot adds reaction: exactly
+Chaos: Lex-bot adds message: no ieda
+Chaos: Lex-bot deletes message: no idea
