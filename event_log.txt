@@ -3258,3 +3258,4 @@ Civilization: Censor-bot adds message: Hey <@UDC03KCGK>, next time you log in.  
 Civilization: Censor-bot deletes message: Hey <@UDC03KCGK>, next time you log in.  Can you do me a favor and check to see if you have MP only scenarios. Most notably Warmachine or Global Thermonuclear war?
 Civilization: Censor-bot adds message: Hey <@UDC03KCGK>, next time you log in.  Can you do me ~*REDACTED*~ favor and check to see if you have MP only scenarios. Most notably Warmachine or Global Thermonuclear war?
 Civilization: Censor-bot deletes message: Hey <@UDC03KCGK>, next time you log in.  Can you do me a favor and check to see if you have MP only scenarios. Most notably Warmachine or Global Thermonuclear war?
+Civilization: Lol-bot adds reaction: lol
