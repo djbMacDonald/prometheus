@@ -263,10 +263,7 @@ def addBan(word):
   if word in bans.keys():
     return
   banUtil = Ban()
-  dailybans = banUtil.getBans()
-  # tz = timezone('EST')
-  # n = datetime.datetime.now(tz)
-  # bans[word] = int(round(time.time())) + int(round(((24 - n.hour - 2) * 60 * 60) + ((60 - n.minute - 1) * 60) + (60 - n.second)))
+  dailybans = banUtil.banWord(word)
   
 @app.route('/cast', methods=['POST'])
 def cast():
