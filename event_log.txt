@@ -3514,3 +3514,5 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it 
 Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 105)
 Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 105)
 Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UDL020K8D> <@UDC4QL95G> <@UHQD9J1SL>! There's a thread here!
+Chaos: Third-bot adds message: back in the day, Brenden was able to do it
+Chaos: Third-bot deletes message: back in the day, I was able to do it
