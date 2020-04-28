@@ -3546,3 +3546,12 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it 
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 75)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 75)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 218)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 66)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 29)
+Chaos: Botify-bot adds message: The back to back to back meetings are killing me slowly
+Chaos: Botify-bot deletes message: The back to back to back meetings are killing me slowly
+Chaos: Lol-bot adds reaction: lol
+Chaos: Botify-bot adds message: So I got a new tool to run, and getting caught up on that. An L4 is leaving, so now I"m 50/50 on a new team, and we found out today that another L1 is leaving so my team has to lean in there too
+Chaos: Botify-bot deletes message: So I got a new tool to run, and getting caught up on that. An L4 is leaving, so now I"m 50/50 on a new team, and we found out today that another L1 is leaving so my team has to lean in there too
+Chaos: Botify-bot adds message: It's minorly concerning
+Chaos: Botify-bot deletes message: It's minorly concerning
