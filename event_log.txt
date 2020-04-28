@@ -3555,3 +3555,5 @@ Chaos: Botify-bot adds message: So I got a new tool to run, and getting caught u
 Chaos: Botify-bot deletes message: So I got a new tool to run, and getting caught up on that. An L4 is leaving, so now I"m 50/50 on a new team, and we found out today that another L1 is leaving so my team has to lean in there too
 Chaos: Botify-bot adds message: It's minorly concerning
 Chaos: Botify-bot deletes message: It's minorly concerning
+Chaos: Botify-bot adds message: Ohh Aysh, I don't like meetings because nothing actually gets done in meetings
+Chaos: Botify-bot deletes message: Ohh Aysh, I don't like meetings because nothing actually gets done in meetings
