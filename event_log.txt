@@ -3538,3 +3538,7 @@ Civilization: Civ-bot adds message: chaos_monkey: <@UETS9HTSS> it is your turn! 
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 150)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 150)
 Chaos: Lol-bot adds reaction: gah
+Chaos: Botify-bot adds message: You ok Aysh?
+Chaos: Botify-bot deletes message: You ok Aysh?
+Chaos: Lol-bot adds reaction: never
+Chaos: Lol-bot adds reaction: lol
