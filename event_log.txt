@@ -3516,3 +3516,19 @@ Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! 
 Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UDL020K8D> <@UDC4QL95G> <@UHQD9J1SL>! There's a thread here!
 Chaos: Third-bot adds message: back in the day, Brenden was able to do it
 Chaos: Third-bot deletes message: back in the day, I was able to do it
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 29)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 29)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 75)
+Civilization: Greek-bot adds message: When do you all want to make αλλο [[another]] live game?
+
+ [[Greek: allo]]
+Civilization: Greek-bot deletes message: When do you all want to make another live game?
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 75)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 75)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 65)
+Civilization: Scrambler-bot adds message: two free Pretty hour 5-6 or to from every much an play or for day 5-7
+Civilization: Scrambler-bot deletes message: Pretty much free to play for an hour or two every day from 5-6 or 5-7
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 149)
+Civilization: Contraction-bot adds message: 'nt saying I don't want to do't
+Civilization: Contraction-bot deletes message: not saying I don't want to do it
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 217)
