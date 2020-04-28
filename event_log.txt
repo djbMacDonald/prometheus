@@ -3557,3 +3557,5 @@ Chaos: Botify-bot adds message: It's minorly concerning
 Chaos: Botify-bot deletes message: It's minorly concerning
 Chaos: Botify-bot adds message: Ohh Aysh, I don't like meetings because nothing actually gets done in meetings
 Chaos: Botify-bot deletes message: Ohh Aysh, I don't like meetings because nothing actually gets done in meetings
+Chaos: Contraction-bot adds message: depends on the kind o'meeting
+Chaos: Contraction-bot deletes message: depends on the kind of meeting
