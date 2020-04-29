@@ -3581,3 +3581,4 @@ Chaos: Botify-bot adds message: See I disagree, I think it has less to do with p
 Chaos: Botify-bot deletes message: See I disagree, I think it has less to do with percentage of life, and more to do with novelty (which are correlated, but not the same)
 Chaos: Botify-bot adds message: I WILL FIND SOMETHING AND ALL OF YOU WILL REGET IT!
 Chaos: Botify-bot deletes message: I WILL FIND SOMETHING AND ALL OF YOU WILL REGET IT!
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 220)
