@@ -3598,3 +3598,23 @@ Chaos: Botify-bot deletes message: HAVE YOU SEEN THOSE PINCHABLE CHEEKS!!!
 Chaos: Dm-bot adds message: Roll a psychology check to throw the tarrasque
 Chaos: Botify-bot adds message: /roll 2d20k-1+3
 Chaos: Botify-bot deletes message: /roll 2d20k-1+3
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 77)
+Chaos: Lol-bot adds reaction: lol
+Chaos: Botify-bot adds message: All because I tried to throw him with my mind
+Chaos: Botify-bot deletes message: All because I tried to throw him with my mind
+Chaos: Spam-bot adds reaction: lioness-bonk
+Chaos: Spam-bot adds reaction: realfinja
+Chaos: Spam-bot adds reaction: shooketh
+Chaos: Spam-bot adds reaction: vive
+Chaos: Spam-bot adds reaction: release_note
+Chaos: Spam-bot adds reaction: shrek
+Chaos: Spam-bot adds reaction: tin-a-stanley-poll
+Chaos: Spam-bot adds reaction: shiny-sparkles-2
+Chaos: Spam-bot adds reaction: davestars
+Chaos: Spam-bot adds reaction: he-brings-you-a-mango
+Chaos: Spam-bot adds reaction: kanye-i-love-it
+Chaos: Spam-bot adds reaction: mansalads
+Chaos: Spam-bot adds reaction: radical_condor
+Chaos: Spam-bot adds reaction: ack-cathy
+Chaos: Spam-bot adds reaction: mikemikemike
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 221)
