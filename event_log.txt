@@ -3622,3 +3622,32 @@ Chaos: Botify-bot adds message: Also valid
 Chaos: Botify-bot deletes message: Also valid
 Chaos: Botify-bot adds message: "It wasn't the governments that did it, they didn't have a good public feedback for the bots.  No it was the multinational corporations, that built skynet constantly trying to out do each other on price.  Imagine that, human civilization undone by bots trying to price match"
 Chaos: Botify-bot deletes message: "It wasn't the governments that did it, they didn't have a good public feedback for the bots.  No it was the multinational corporations, that built skynet constantly trying to out do each other on price.  Imagine that, human civilization undone by bots trying to price match"
+Chaos: Third-bot adds message: Source: Brenden work on CompIntel
+Chaos: Third-bot deletes message: Source: I work on CompIntel
+Chaos: SpaceReplace-bot adds message: just-not-the-engineering-side
+Chaos: SpaceReplace-bot deletes message: just not the engineering side
+Chaos: ChaosSeed-bot adds message: Hey <@UDDE5960N> <@UDC4QL95G> <@UDL020K8D> <@UK7V13DS7> <@UDD45P5A9> <@UHQD9J1SL>! There's a thread here!
+Chaos: Scrambler-bot adds message: engineering you team? are How side? this So is both big
+Chaos: Scrambler-bot deletes message: So are you both engineering side? How big is this team?
+Chaos: Spam-bot adds reaction: gallahearts
+Chaos: Spam-bot adds reaction: this-is-not-a-fire
+Chaos: Spam-bot adds reaction: what-it-do-baby
+Chaos: Spam-bot adds reaction: sheeplove
+Chaos: Spam-bot adds reaction: mana-gw
+Chaos: Spam-bot adds reaction: splatrick
+Chaos: Spam-bot adds reaction: meow-camera
+Chaos: Spam-bot adds reaction: ben-stache_3-4
+Chaos: Spam-bot adds reaction: armaldo
+Chaos: Spam-bot adds reaction: speechless
+Chaos: Spam-bot adds reaction: trader_joes
+Chaos: Spam-bot adds reaction: when-i-was-a-young-warthog
+Chaos: Spam-bot adds reaction: wayhome
+Chaos: Spam-bot adds reaction: gloria-ready-to-party
+Chaos: Spam-bot adds reaction: big_think_yolk
+Chaos: Spam-bot adds reaction: arkgremlin
+Chaos: Spam-bot adds reaction: sorter-left-explosion
+Chaos: Lol-bot adds reaction: idk
+Chaos: DejaVu-bot adds message: There's a new way to communicate?
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: SpaceReplace-bot adds message: 2-more-in-the-EU
+Chaos: SpaceReplace-bot deletes message: 2 more in the EU
