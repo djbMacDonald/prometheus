@@ -3582,3 +3582,5 @@ Chaos: Botify-bot deletes message: See I disagree, I think it has less to do wit
 Chaos: Botify-bot adds message: I WILL FIND SOMETHING AND ALL OF YOU WILL REGET IT!
 Chaos: Botify-bot deletes message: I WILL FIND SOMETHING AND ALL OF YOU WILL REGET IT!
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 220)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 77)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 31)
