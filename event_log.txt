@@ -3618,3 +3618,5 @@ Chaos: Spam-bot adds reaction: radical_condor
 Chaos: Spam-bot adds reaction: ack-cathy
 Chaos: Spam-bot adds reaction: mikemikemike
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 221)
+Chaos: Botify-bot adds message: Also valid
+Chaos: Botify-bot deletes message: Also valid
