@@ -1,1 +1,1 @@
-{'value1': 'Slaughter of the Lamb', 'value2': 'Beerdeau', 'value3': '152'}
+{'value1': '2 Front War', 'value2': 'Fernet', 'value3': '68'}
