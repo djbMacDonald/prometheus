@@ -3620,3 +3620,5 @@ Chaos: Spam-bot adds reaction: mikemikemike
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 221)
 Chaos: Botify-bot adds message: Also valid
 Chaos: Botify-bot deletes message: Also valid
+Chaos: Botify-bot adds message: "It wasn't the governments that did it, they didn't have a good public feedback for the bots.  No it was the multinational corporations, that built skynet constantly trying to out do each other on price.  Imagine that, human civilization undone by bots trying to price match"
+Chaos: Botify-bot deletes message: "It wasn't the governments that did it, they didn't have a good public feedback for the bots.  No it was the multinational corporations, that built skynet constantly trying to out do each other on price.  Imagine that, human civilization undone by bots trying to price match"
