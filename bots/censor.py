@@ -16,7 +16,6 @@ class Censor(Bot):
     
     bans = self._banUtil.getBans()
     activeBans = self._banUtil.activeBans(bans)
-    print(activeBans)
 
     if len(activeBans) == 0:
       bans = self._banUtil.banNewWord();
