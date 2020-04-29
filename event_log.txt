@@ -3651,3 +3651,7 @@ Chaos: DejaVu-bot adds message: There's a new way to communicate?
 Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: SpaceReplace-bot adds message: 2-more-in-the-EU
 Chaos: SpaceReplace-bot deletes message: 2 more in the EU
+Chaos: Third-bot adds message: so Brenden'll call the final number 66
+Chaos: Third-bot deletes message: so I'll call the final number 66
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 68)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 32)
