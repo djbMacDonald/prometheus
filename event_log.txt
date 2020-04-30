@@ -3753,3 +3753,5 @@ Chaos: ChaosSeed-bot adds message: Hey <@UDC03KCGK> <@UETS9HTSS> <@UDC4QL95G> <@
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 224)
 Chaos: DejaVu-bot adds message: That feels slightly insulting to Dave
 Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Lol-bot adds reaction: interesting
+Chaos: Lol-bot adds reaction: interesting
