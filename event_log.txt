@@ -3718,3 +3718,6 @@ Defying gravity
 I think I'll try
 Defying gravity
 And you can't pull me down
+Chaos: Censor-bot adds message: no Brenden ~*REDACTED*~ saying i can defy gravity
+Chaos: Censor-bot deletes message: no Brenden was saying i can defy gravity
+Chaos: ChaosSeed-bot adds message: Hey <@UETS9HTSS> <@UDDE5960N> <@UDC4QL95G> <@UDD45P5A9>! There's a thread here!
