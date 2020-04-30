@@ -3721,3 +3721,9 @@ And you can't pull me down
 Chaos: Censor-bot adds message: no Brenden ~*REDACTED*~ saying i can defy gravity
 Chaos: Censor-bot deletes message: no Brenden was saying i can defy gravity
 Chaos: ChaosSeed-bot adds message: Hey <@UETS9HTSS> <@UDDE5960N> <@UDC4QL95G> <@UDD45P5A9>! There's a thread here!
+Chaos: Censor-bot adds message: Wait, so this song ~*REDACTED*~ coming up naturally? Or you can get the bot to trigger specific songs on command?
+Chaos: Censor-bot deletes message: Wait, so this song was coming up naturally? Or you can get the bot to trigger specific songs on command?
+Chaos: Lol-bot adds reaction: agree
+Chaos: Botify-bot adds message: perfect
+Chaos: Botify-bot deletes message: perfect
+Chaos: Lol-bot adds reaction: perfect
