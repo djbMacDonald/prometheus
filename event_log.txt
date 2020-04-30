@@ -3677,3 +3677,23 @@ Civilization: Botify-bot deletes message: Ohhhh fancy! Any good plans?
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 223)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 223)
 Chaos: Lol-bot adds reaction: oof
+Chaos: Botify-bot adds message: Depends on where it's located
+Chaos: Botify-bot deletes message: Depends on where it's located
+Chaos: Greek-bot adds message: τυχαίος [[accidental]] somersault says otherwise
+
+ [[Greek: tychaíos]]
+Chaos: Greek-bot deletes message: accidental somersault says otherwise
+Chaos: Censor-bot adds message: ok admittedly that wasnt when i ~*REDACTED*~   trying to sleep. i usually do this forearm wall stand and ...uh.... did it without the wall on monday and did a flip
+Chaos: Censor-bot deletes message: ok admittedly that wasnt when i was  trying to sleep. i usually do this forearm wall stand and ...uh.... did it without the wall on monday and did a flip
+Chaos: Lol-bot adds reaction: huh
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/dial.py", line 14, in run
+    self._addMessageToChannel(self._event.text(), identity, CHANNELS['Chaos'])
+KeyError: 'Chaos'
+
