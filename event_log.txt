@@ -3779,3 +3779,10 @@ Chaos: DejaVu-bot adds message: Coming more downtown?
 Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: Censor-bot adds message: the other of the two ~*REDACTED*~ considerably more friendly
 Chaos: Censor-bot deletes message: the other of the two was considerably more friendly
+Civilization: Botify-bot adds message: interesting
+Civilization: Botify-bot deletes message: interesting
+Civilization: Lol-bot adds reaction: interesting
+Chaos: Censor-bot adds message: I always watched my online lectures at 2x speed. It ~*REDACTED*~ SO nice to trun a 90 min class into 45 minutes
+Chaos: Censor-bot deletes message: I always watched my online lectures at 2x speed. It was SO nice to trun a 90 min class into 45 minutes
+Civilization: Third-bot adds message: Brenden discovered a new mechanic that Brenden really enjoy in civ
+Civilization: Third-bot deletes message: I discovered a new mechanic that I really enjoy in civ
