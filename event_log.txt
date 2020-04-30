@@ -3727,3 +3727,7 @@ Chaos: Lol-bot adds reaction: agree
 Chaos: Botify-bot adds message: perfect
 Chaos: Botify-bot deletes message: perfect
 Chaos: Lol-bot adds reaction: perfect
+Civilization: Censor-bot adds message: (1 of them is still ongoing purely because Brenden got knocked out in the first 50 turns and ~*REDACTED*~ supposed to be a 3 player game)
+Civilization: Censor-bot deletes message: (1 of them is still ongoing purely because Brenden got knocked out in the first 50 turns and was supposed to be a 3 player game)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 79)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 79)
