@@ -3676,3 +3676,4 @@ Civilization: Botify-bot adds message: Ohhhh fancy! Any good plans?
 Civilization: Botify-bot deletes message: Ohhhh fancy! Any good plans?
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 223)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 223)
+Chaos: Lol-bot adds reaction: oof
