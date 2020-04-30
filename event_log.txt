@@ -3731,3 +3731,5 @@ Civilization: Censor-bot adds message: (1 of them is still ongoing purely becaus
 Civilization: Censor-bot deletes message: (1 of them is still ongoing purely because Brenden got knocked out in the first 50 turns and was supposed to be a 3 player game)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 79)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 79)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 69)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 33)
