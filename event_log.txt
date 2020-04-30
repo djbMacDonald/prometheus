@@ -3735,3 +3735,9 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is y
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 33)
 Chaos: Censor-bot adds message: I sent my brother last time I ~*REDACTED*~ craving korean bbq lol
 Chaos: Censor-bot deletes message: I sent my brother last time I was craving korean bbq lol
+CivilizationSlaughter: Censor-bot adds message: So the webhook doesn't launch if you leave the game too quickly, but the turn ~*REDACTED*~ preserved. So your turn <@UETS9HTSS>
+CivilizationSlaughter: Censor-bot deletes message: So the webhook doesn't launch if you leave the game too quickly, but the turn was preserved. So your turn <@UETS9HTSS>
+CivilizationSlaughter: Censor-bot adds message: So the webhook doesn't launch if you leave the game too quickly, but the turn ~*REDACTED*~ preserved. So your turn <@UETS9HTSS>
+CivilizationSlaughter: Censor-bot deletes message: So the webhook doesn't launch if you leave the game too quickly, but the turn was preserved. So your turn <@UETS9HTSS>
+Civilization: Lex-bot adds message: BURN ALL THE BAIDDES!
+Civilization: Lex-bot deletes message: BURN ALL THE BADDIES!
