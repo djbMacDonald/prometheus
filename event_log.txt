@@ -3741,3 +3741,6 @@ CivilizationSlaughter: Censor-bot adds message: So the webhook doesn't launch if
 CivilizationSlaughter: Censor-bot deletes message: So the webhook doesn't launch if you leave the game too quickly, but the turn was preserved. So your turn <@UETS9HTSS>
 Civilization: Lex-bot adds message: BURN ALL THE BAIDDES!
 Civilization: Lex-bot deletes message: BURN ALL THE BADDIES!
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 79)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 154)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 154)
