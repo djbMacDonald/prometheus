@@ -67,7 +67,7 @@ class Bot(object):
   def _addMessageToChannel(self, message, identity = None, channel = None):
     if not channel:
       channel = self._event.channel()
-    self._queue.addReply(self.__class__.__name__, self._event.channel(), None, message, identity)
+    self._queue.addReply(self.__class__.__name__, channel, None, message, identity)
     
   def _useCommand(self, command, message, channel):
     self._queue.addCommand(self.__class__.__name__, channel, command, message, identity)

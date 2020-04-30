@@ -3697,3 +3697,24 @@ Alerts: Error Logger-bot adds message: Traceback (most recent call last):
     self._addMessageToChannel(self._event.text(), identity, CHANNELS['Chaos'])
 KeyError: 'Chaos'
 
+Chaos: Botify-bot adds message: ummmm you guys worry me
+Chaos: Botify-bot deletes message: ummmm you guys worry me
+Chaos: Censor-bot adds message: I couldn’t sleep on my right side either when I ~*REDACTED*~ pregnant
+Chaos: Censor-bot deletes message: I couldn’t sleep on my right side either when I was pregnant
+Chaos: Censor-bot adds message: I went to my doctor weekly for 3 weeks and they didn’t know that I ~*REDACTED*~ pregnant
+Chaos: Censor-bot deletes message: I went to my doctor weekly for 3 weeks and they didn’t know that I was pregnant
+Chaos: Botify-bot adds message: She's already started
+Chaos: Botify-bot deletes message: She's already started
+Chaos: Botify-bot adds message: it
+Chaos: Botify-bot deletes message: it
+Chaos: Lol-bot adds reaction: it
+Chaos: Dial-bot adds message: Too late for second guessing
+Too late to go back to sleep
+It's time to trust my instincts
+Close my eyes and leap
+
+It's time to try
+Defying gravity
+I think I'll try
+Defying gravity
+And you can't pull me down
