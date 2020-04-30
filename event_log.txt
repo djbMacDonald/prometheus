@@ -3755,3 +3755,15 @@ Chaos: DejaVu-bot adds message: That feels slightly insulting to Dave
 Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: Lol-bot adds reaction: interesting
 Chaos: Lol-bot adds reaction: interesting
+Chaos: ChaosSeed-bot adds message: Hey <@UDC03KCGK> <@UDD45P5A9> <@UDDE5960N>! There's a thread here!
+Chaos: Lol-bot adds reaction: lol
+Chaos: Botify-bot adds message: WTF YOU DON'T LIKE DOGS!!?!?!?
+Chaos: Botify-bot deletes message: WTF YOU DON'T LIKE DOGS!!?!?!?
+Chaos: Botify-bot adds message: Nope Attleboro MA
+Chaos: Botify-bot deletes message: Nope Attleboro MA
+Chaos: Contraction-bot adds message: honestly, this's masterfully done: `<https://v.redd.'t/pidabci54zv41>`
+Chaos: Contraction-bot deletes message: honestly, this is masterfully done: `<https://v.redd.it/pidabci54zv41>`
+Chaos: Censor-bot adds message: I quite like well trained dogs. I have never had a dog that ~*REDACTED*~ trained at all, so as a result, I have a general mis-trust of dogs
+Chaos: Censor-bot deletes message: I quite like well trained dogs. I have never had a dog that was trained at all, so as a result, I have a general mis-trust of dogs
+Chaos: Censor-bot adds message: first link ~*REDACTED*~ broken
+Chaos: Censor-bot deletes message: first link was broken
