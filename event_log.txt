@@ -3792,3 +3792,10 @@ Chaos: Censor-bot adds message:  ~*REDACTED*~ walking to the grocery store, and 
 Chaos: Censor-bot deletes message: Was walking to the grocery store, and saw a dude walking by shake the hand of another dude standing outside the store protesting or something. Couldn't help but cringe a bit... over a handshake... weird times we live in
 Chaos: Censor-bot adds message: On that same trip there is a Huge sign literally blocking the door that says "Dont come in if you don't have a mask". And the number of people inside without a mask, who cant have failed too see it,  ~*REDACTED*~ astonishing.
 Chaos: Censor-bot deletes message: On that same trip there is a Huge sign literally blocking the door that says "Dont come in if you don't have a mask". And the number of people inside without a mask, who cant have failed too see it, was astonishing.
+Civilization: Third-bot adds message: Brenden can
+Civilization: Third-bot deletes message: I can
+Civilization: DejaVu-bot adds message: so I whitelisted bots here
+Civilization: DejaVu-bot adds reaction: dejavu
+Chaos: Censor-bot adds message: The star market Daka is talking about also has one way signs on the floor that both point opposite directions. So depending on which side of the aisle you went in on, you'd think everyone else walking the other way ~*REDACTED*~ an iggnorant moron. Apparently the store employees putting down the one way signs didn't line them up
+Chaos: Censor-bot deletes message: The star market Daka is talking about also has one way signs on the floor that both point opposite directions. So depending on which side of the aisle you went in on, you'd think everyone else walking the other way was an iggnorant moron. Apparently the store employees putting down the one way signs didn't line them up
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 224)
