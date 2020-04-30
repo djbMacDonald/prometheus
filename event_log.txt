@@ -3786,3 +3786,9 @@ Chaos: Censor-bot adds message: I always watched my online lectures at 2x speed.
 Chaos: Censor-bot deletes message: I always watched my online lectures at 2x speed. It was SO nice to trun a 90 min class into 45 minutes
 Civilization: Third-bot adds message: Brenden discovered a new mechanic that Brenden really enjoy in civ
 Civilization: Third-bot deletes message: I discovered a new mechanic that I really enjoy in civ
+Civilization: Botify-bot adds message: ohhh?
+Civilization: Botify-bot deletes message: ohhh?
+Chaos: Censor-bot adds message:  ~*REDACTED*~ walking to the grocery store, and saw a dude walking by shake the hand of another dude standing outside the store protesting or something. Couldn't help but cringe a bit... over a handshake... weird times we live in
+Chaos: Censor-bot deletes message: Was walking to the grocery store, and saw a dude walking by shake the hand of another dude standing outside the store protesting or something. Couldn't help but cringe a bit... over a handshake... weird times we live in
+Chaos: Censor-bot adds message: On that same trip there is a Huge sign literally blocking the door that says "Dont come in if you don't have a mask". And the number of people inside without a mask, who cant have failed too see it,  ~*REDACTED*~ astonishing.
+Chaos: Censor-bot deletes message: On that same trip there is a Huge sign literally blocking the door that says "Dont come in if you don't have a mask". And the number of people inside without a mask, who cant have failed too see it, was astonishing.
