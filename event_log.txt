@@ -3767,3 +3767,13 @@ Chaos: Censor-bot adds message: I quite like well trained dogs. I have never had
 Chaos: Censor-bot deletes message: I quite like well trained dogs. I have never had a dog that was trained at all, so as a result, I have a general mis-trust of dogs
 Chaos: Censor-bot adds message: first link ~*REDACTED*~ broken
 Chaos: Censor-bot deletes message: first link was broken
+Chaos: Greek-bot adds message: Barking, Begging, επίθεση [[aggression]], pulling the leash, dogs that are afraid of literally everything
+
+ [[Greek: epíthesi]]
+Chaos: Greek-bot deletes message: Barking, Begging, aggression, pulling the leash, dogs that are afraid of literally everything
+Chaos: Lex-bot adds message: smlaler dogs tend to pull more
+Chaos: Lex-bot deletes message: smaller dogs tend to pull more
+Chaos: Third-bot adds message: Brenden find cats to be sociopathic fluff balls of apathy
+Chaos: Third-bot deletes message: I find cats to be sociopathic fluff balls of apathy
+Chaos: DejaVu-bot adds message: Coming more downtown?
+Chaos: DejaVu-bot adds reaction: dejavu

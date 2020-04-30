@@ -22,8 +22,6 @@ class Greek(Bot):
   def run(self):
     if not self._chaosUserSendsMessage() or not self._randomUtil.rollDice(self._frequency):
       return
-    # if not self._event.isInChannel('Megamoji') or self._event.isFromABot() or not self._event.isAMessage() or not self._event.isFrom('Doug'):
-    #   return
     
     translator = Translator()
     
