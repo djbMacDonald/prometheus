@@ -3819,3 +3819,4 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS>
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 157)
 Civilization: Contraction-bot adds message: Y'all ok with turning chaos_monkey live tomorrow (tonight if y're reading this and your calendar tells y't's May 1st)'t 7:30?
 Civilization: Contraction-bot deletes message: You all ok with turning chaos_monkey live tomorrow (tonight if you're reading this and your calendar tells you it is May 1st) at 7:30?
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 157)
