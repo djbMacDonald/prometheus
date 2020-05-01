@@ -3949,3 +3949,5 @@ Chaos: Lol-bot adds reaction: huh
 Chaos: Contraction-bot adds message: I’m happy my parents ne'er knew about this school
 Chaos: Contraction-bot deletes message: I’m happy my parents never knew about this school
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 161)
+civ_hide_from_sumeria: Contraction-bot adds message: so this's the game tonight?
+civ_hide_from_sumeria: Contraction-bot deletes message: so this is the game tonight?
