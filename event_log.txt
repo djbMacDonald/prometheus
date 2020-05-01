@@ -3944,3 +3944,5 @@ Chaos: Lex-bot deletes message: yeah the students weren't happy about it
 Chaos: Lol-bot adds reaction: but
 Chaos: DejaVu-bot adds message: its like that parenting technique where you let babies cry themselves to sleep
 Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Dm-bot adds message: Roll a martial arts check to appraise the charging rhino
+Chaos: Lol-bot adds reaction: huh
