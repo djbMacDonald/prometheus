@@ -3939,3 +3939,8 @@ Chaos: Nice-bot adds message: nice
 Chaos: Lol-bot adds reaction: nice
 Chaos: Lol-bot adds reaction: oof
 Chaos: ChaosSeed-bot adds message: Hey <@UDDE5960N> <@UK7V13DS7> <@UDC4QL95G> <@UETS9HTSS> <@UDC03KCGK> <@UDD45P5A9>! There's a thread here!
+Chaos: Lex-bot adds message: yeah the stduents weren't happy about it
+Chaos: Lex-bot deletes message: yeah the students weren't happy about it
+Chaos: Lol-bot adds reaction: but
+Chaos: DejaVu-bot adds message: its like that parenting technique where you let babies cry themselves to sleep
+Chaos: DejaVu-bot adds reaction: dejavu
