@@ -3917,3 +3917,7 @@ Chaos: Spam-bot adds reaction: full_scowling
 Chaos: Spam-bot adds reaction: bliss_5_7
 Chaos: Spam-bot adds reaction: muscle-right
 Chaos: Spam-bot adds reaction: fiesto
+Chaos: Contraction-bot adds message: but so long as I got't all back in the same condition, I'd be okay with't
+Chaos: Contraction-bot deletes message: but so long as I got it all back in the same condition, I'd be okay with it
+Chaos: Contraction-bot adds message: The idea o'a homeless dude sitting in my chair doens't sit well with me. I'd prefer all my stuff be moved elsewhere if they're going to occupy where my desk's.
+Chaos: Contraction-bot deletes message: The idea of a homeless dude sitting in my chair doens't sit well with me. I'd prefer all my stuff be moved elsewhere if they are going to occupy where my desk is.
