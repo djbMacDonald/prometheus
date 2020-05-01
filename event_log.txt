@@ -3925,3 +3925,5 @@ Chaos: Contraction-bot adds message: Just switching teams't Wayfair there were a
 Good. Fucking. Luck.
 Chaos: Contraction-bot deletes message: Just switching teams at Wayfair there were a dozen access and equipment issues. Now double that with you are at home and don't have the necessary contacts to get it resolved because you're using your own equipment? 
 Good. Fucking. Luck.
+Chaos: Botify-bot adds message: No these are people taking equivalent jobs in other companies
+Chaos: Botify-bot deletes message: No these are people taking equivalent jobs in other companies
