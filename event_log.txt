@@ -3954,3 +3954,5 @@ civ_hide_from_sumeria: Contraction-bot deletes message: so this is the game toni
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 161)
 civ_hide_from_sumeria: Botify-bot adds message: I'm guessing 7:30
 civ_hide_from_sumeria: Botify-bot deletes message: I'm guessing 7:30
+civ_hide_from_sumeria: Botify-bot adds message: It's his start/end depending on if he's doing dinner I think
+civ_hide_from_sumeria: Botify-bot deletes message: It's his start/end depending on if he's doing dinner I think
