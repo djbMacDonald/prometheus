@@ -3841,3 +3841,16 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS>
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 158)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 35)
 Chaos: Lol-bot adds reaction: lol
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 159)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 81)
+Chaos: Botify-bot adds message: ......
+Chaos: Botify-bot deletes message: ......
+Chaos: Contraction-bot adds message: and't's a lot o'effort to get't back, most people'll simply just chalk't up to the virus, and move on
+Chaos: Contraction-bot deletes message: and it is a lot of effort to get it back, most people will simply just chalk it up to the virus, and move on
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 159)
+Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
+Chaos: Botify-bot adds message: SURE IT DOES!
+Chaos: Botify-bot deletes message: SURE IT DOES!
+Chaos: Fire-bot adds message: Dakota gave us fire <@UDC03KCGK>
+Chaos: Botify-bot adds message: because there's still someone in the loop for opening the door and showing the truck it's location
+Chaos: Botify-bot deletes message: because there's still someone in the loop for opening the door and showing the truck it's location
