@@ -3929,3 +3929,11 @@ Chaos: Botify-bot adds message: No these are people taking equivalent jobs in ot
 Chaos: Botify-bot deletes message: No these are people taking equivalent jobs in other companies
 Chaos: Lol-bot adds reaction: emoji
 Chaos: Fire-bot adds message: Dakota gave us fire
+Chaos: Nice-bot adds message: nice
+Chaos: Nice-bot adds message: nice
+Chaos: Nice-bot adds message: nice
+Chaos: Nice-bot adds message: nice
+Chaos: Nice-bot adds message: nice
+Chaos: Nice-bot adds message: nice
+Chaos: Nice-bot adds message: nice
+Chaos: Lol-bot adds reaction: nice
