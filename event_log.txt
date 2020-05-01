@@ -3838,3 +3838,6 @@ Chaos: Lex-bot deletes message: ......................5th month
 Chaos: DejaVu-bot adds message: Usually a strength or other stat based buff like agility
 Chaos: DejaVu-bot adds reaction: dejavu
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 158)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 158)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 35)
+Chaos: Lol-bot adds reaction: lol
