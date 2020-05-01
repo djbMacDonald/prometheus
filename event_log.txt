@@ -3894,3 +3894,26 @@ Chaos: ChaosSeed-bot adds reaction: salute_cap
 Chaos: ChaosSeed-bot adds reaction: squirrel
 Chaos: Lol-bot adds reaction: gracias
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 160)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 160)
+Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UETS9HTSS> <@UDD45P5A9> <@UDC03KCGK> <@UK7V13DS7> <@UHQD9J1SL> <@UDDE5960N>! There's a thread here!
+Chaos: Botify-bot adds message: It's all investor and debtor money
+Chaos: Botify-bot deletes message: It's all investor and debtor money
+Chaos: Contraction-bot adds message: yup, but since we're'nt making a profit, we shouldn't use't towards humanitarian efforts
+Chaos: Contraction-bot deletes message: yes, but since we're not making a profit, we shouldn't use it towards humanitarian efforts
+Chaos: Spam-bot adds reaction: arrow_lower_left
+Chaos: Spam-bot adds reaction: eyeroll
+Chaos: Spam-bot adds reaction: creepy_cat
+Chaos: Spam-bot adds reaction: dukenukem
+Chaos: Spam-bot adds reaction: you-get-used-to-it
+Chaos: Spam-bot adds reaction: jnoble_knight
+Chaos: Spam-bot adds reaction: i-guess-they-never-miss-huh
+Chaos: Spam-bot adds reaction: he-bring-you-safely
+Chaos: Spam-bot adds reaction: the_writer_is_king_here_at_capitol_pictures
+Chaos: Spam-bot adds reaction: myeggo
+Chaos: Spam-bot adds reaction: dsn40
+Chaos: Spam-bot adds reaction: yayayaya
+Chaos: Spam-bot adds reaction: slot-machine-2
+Chaos: Spam-bot adds reaction: full_scowling
+Chaos: Spam-bot adds reaction: bliss_5_7
+Chaos: Spam-bot adds reaction: muscle-right
+Chaos: Spam-bot adds reaction: fiesto
