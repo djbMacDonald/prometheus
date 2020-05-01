@@ -3893,3 +3893,4 @@ Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UETS9HTSS> <@UDD45P5A9> <@
 Chaos: ChaosSeed-bot adds reaction: salute_cap
 Chaos: ChaosSeed-bot adds reaction: squirrel
 Chaos: Lol-bot adds reaction: gracias
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 160)
