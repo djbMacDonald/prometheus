@@ -3973,3 +3973,7 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK>
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 169)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 169)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 169)
+Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 122)
+Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 122)
+Civilization: Civ-bot adds message: chaos_monkey: <@UDC03KCGK> it is your turn! (turn 122)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 82)
