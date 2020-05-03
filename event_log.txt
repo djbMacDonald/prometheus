@@ -3997,3 +3997,7 @@ civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (t
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 83)
 civ_lack_game: Botify-bot adds message: <@UDC03KCGK> Live game?
 civ_lack_game: Botify-bot deletes message: <@UDC03KCGK> Live game?
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 38)
+civ_lack_game: Scrambler-bot adds message: I'm on Also discord
+civ_lack_game: Scrambler-bot deletes message: Also I'm on discord
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 73)
