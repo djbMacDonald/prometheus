@@ -4008,3 +4008,4 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your tu
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 171)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 83)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 100)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 171)
