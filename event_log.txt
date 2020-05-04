@@ -4084,3 +4084,10 @@ Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UDC03KCGK> <@UDC4QL95G> <@
 Chaos: Lol-bot adds reaction: yup
 Chaos: Contraction-bot adds message: That's also valid, but I just want to make sure people know they've the ability, and they should push back against lazy people
 Chaos: Contraction-bot deletes message: That's also valid, but I just want to make sure people know they have the ability, and they should push back against lazy people
+Chaos: Contraction-bot adds message: Y'ne'er got the video call'id y'?
+Chaos: Contraction-bot deletes message: You never got the video call did you?
+Chaos: Greek-bot adds message: I don't think I can without a bad Σκωτσέζικο [[scottish]] or irish accent
+
+ [[Greek]]
+Chaos: Greek-bot deletes message: I don't think I can without a bad scottish or irish accent
+Chaos: Lol-bot adds reaction: same
