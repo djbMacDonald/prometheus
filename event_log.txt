@@ -4024,3 +4024,4 @@ civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (t
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 74)
 Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 124)
 Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 124)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 172)
