@@ -4035,3 +4035,5 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your tu
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 314)
 civ_lack_game: Botify-bot adds message: So I could delete it remember?
 civ_lack_game: Botify-bot deletes message: So I could delete it remember?
+civ_lack_game: Botify-bot adds message: WHAT?!?!?!
+civ_lack_game: Botify-bot deletes message: WHAT?!?!?!
