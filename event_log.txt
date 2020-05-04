@@ -4025,3 +4025,5 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is y
 Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 124)
 Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 124)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 172)
+civ_hide_from_sumeria: DejaVu-bot adds message: Sorry Brenden, missed your message. Not today but another day this week before CJ's old man bedtime
+civ_hide_from_sumeria: DejaVu-bot adds reaction: dejavu
