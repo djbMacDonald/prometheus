@@ -4144,3 +4144,4 @@ civ_hide_from_sumeria: Botify-bot adds message: I have meetings till 5 tomorrow 
 civ_hide_from_sumeria: Botify-bot deletes message: I have meetings till 5 tomorrow right now and that's it
 Chaos: DejaVu-bot adds message: We didn't jump into a room and funnel off the enemies. 
 Chaos: DejaVu-bot adds reaction: dejavu
+civ_hide_from_sumeria: Lol-bot adds reaction: kk
