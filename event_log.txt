@@ -4097,3 +4097,6 @@ Chaos: DejaVu-bot adds message: though there are currently 10k + lines in the hi
 Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: Botify-bot adds message: I mean there's wood putty too, you could probably use that and very few people would notice
 Chaos: Botify-bot deletes message: I mean there's wood putty too, you could probably use that and very few people would notice
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UHQD9J1SL> <@UDD45P5A9> <@UDDE5960N> <@UDC4QL95G>! There's a thread here!
+Chaos: Third-bot adds message: Brenden aspire to retire into woodworking as a hobby
+Chaos: Third-bot deletes message: I aspire to retire into woodworking as a hobby
