@@ -4057,3 +4057,5 @@ Chaos: Spam-bot adds reaction: orwell
 Chaos: Spam-bot adds reaction: gt
 Chaos: DejaVu-bot adds message: Chaotic good is still a thing Aysh
 Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: ChaosSeed-bot adds message: Hey <@UHQD9J1SL> <@UDL020K8D> <@UDD45P5A9> <@UDC4QL95G> <@UK7V13DS7>! There's a thread here!
+Chaos: ChaosSeed-bot adds message: Hey <@UHQD9J1SL> <@UDL020K8D> <@UDD45P5A9> <@UDC4QL95G> <@UK7V13DS7>! There's a thread here!
