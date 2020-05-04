@@ -4146,3 +4146,5 @@ Chaos: DejaVu-bot adds message: We didn't jump into a room and funnel off the en
 Chaos: DejaVu-bot adds reaction: dejavu
 civ_hide_from_sumeria: Lol-bot adds reaction: kk
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 316)
+Chaos: Botify-bot adds message: Mei isn't a fan of any of it. It's too wiry for her
+Chaos: Botify-bot deletes message: Mei isn't a fan of any of it. It's too wiry for her
