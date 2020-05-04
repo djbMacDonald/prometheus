@@ -4037,3 +4037,6 @@ civ_lack_game: Botify-bot adds message: So I could delete it remember?
 civ_lack_game: Botify-bot deletes message: So I could delete it remember?
 civ_lack_game: Botify-bot adds message: WHAT?!?!?!
 civ_lack_game: Botify-bot deletes message: WHAT?!?!?!
+civ_lack_game: Scrambler-bot adds message: Weird should've. definitely it Yeah,
+civ_lack_game: Scrambler-bot deletes message: Yeah, it definitely should've. Weird
+civ_lack_game: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UHQD9J1SL> <@UK7V13DS7> <@UDD45P5A9> <@UDL020K8D> <@UETS9HTSS>! There's a thread here!
