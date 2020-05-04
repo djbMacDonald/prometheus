@@ -4123,3 +4123,10 @@ Chaos: Spam-bot adds reaction: fdamaa_car_explosion
 Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UDD45P5A9> <@UDC03KCGK> <@UK7V13DS7> <@UDL020K8D> <@UDDE5960N>! There's a thread here!
 Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UDD45P5A9> <@UETS9HTSS> <@UDL020K8D>! There's a thread here!
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 85)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 173)
+Chaos: Botify-bot adds message: It runs in code blocks. so I can make changes and re-run it as many times as I want without having to re-run the whole thing.
+Chaos: Botify-bot deletes message: It runs in code blocks. so I can make changes and re-run it as many times as I want without having to re-run the whole thing.
+Chaos: Botify-bot adds message: If you set up each cell right, it makes test and learn super easy within a single file
+Chaos: Botify-bot deletes message: If you set up each cell right, it makes test and learn super easy within a single file
+Chaos: Botify-bot adds message: There is a draw back, which is that if you make lots of changes to lots of Cells you can have X=6 as code, but in the data X=4 and you have no way to know other than to remember that's what you had it set as before
+Chaos: Botify-bot deletes message: There is a draw back, which is that if you make lots of changes to lots of Cells you can have X=6 as code, but in the data X=4 and you have no way to know other than to remember that's what you had it set as before
