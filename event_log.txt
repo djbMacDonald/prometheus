@@ -4122,3 +4122,4 @@ Chaos: Spam-bot adds reaction: stare
 Chaos: Spam-bot adds reaction: fdamaa_car_explosion
 Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UDD45P5A9> <@UDC03KCGK> <@UK7V13DS7> <@UDL020K8D> <@UDDE5960N>! There's a thread here!
 Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UDD45P5A9> <@UETS9HTSS> <@UDL020K8D>! There's a thread here!
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 85)
