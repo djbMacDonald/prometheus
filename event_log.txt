@@ -4074,3 +4074,10 @@ Chaos: Botify-bot adds message: ???
 Chaos: Botify-bot deletes message: ???
 Chaos: Botify-bot adds message: It's the same people as this channel!?!?!
 Chaos: Botify-bot deletes message: It's the same people as this channel!?!?!
+Chaos: Lol-bot adds reaction: tomorrow
+Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UETS9HTSS> <@UDC03KCGK> <@UK7V13DS7> <@UDD45P5A9>! There's a thread here!
+Chaos: DejaVu-bot adds message: I don't think a sub fits into structure neutral is the issue
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Contraction-bot adds message: NO SHIT! I'ad no idea, I hate how little announcement we get
+Chaos: Contraction-bot deletes message: NO SHIT! I had no idea, I hate how little announcement we get
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UDC03KCGK> <@UDC4QL95G> <@UETS9HTSS>! There's a thread here!
