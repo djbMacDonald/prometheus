@@ -4142,3 +4142,5 @@ Civilization: Contraction-bot deletes message: also, roman legions are strong
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 315)
 civ_hide_from_sumeria: Botify-bot adds message: I have meetings till 5 tomorrow right now and that's it
 civ_hide_from_sumeria: Botify-bot deletes message: I have meetings till 5 tomorrow right now and that's it
+Chaos: DejaVu-bot adds message: We didn't jump into a room and funnel off the enemies. 
+Chaos: DejaVu-bot adds reaction: dejavu
