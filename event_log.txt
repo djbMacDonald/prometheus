@@ -4091,3 +4091,5 @@ Chaos: Greek-bot adds message: I don't think I can without a bad Σκωτσέζ�
  [[Greek]]
 Chaos: Greek-bot deletes message: I don't think I can without a bad scottish or irish accent
 Chaos: Lol-bot adds reaction: same
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UHQD9J1SL> <@UDD45P5A9> <@UETS9HTSS> <@UDC4QL95G>! There's a thread here!
+Chaos: Lol-bot adds reaction: yeah
