@@ -4214,3 +4214,5 @@ Chaos: Botify-bot adds message: But you get rage dmg, and you can use ASI for St
 Chaos: Botify-bot deletes message: But you get rage dmg, and you can use ASI for Str and Con
 Chaos: Botify-bot adds message: easy bonus action economy usage, and decent DPS
 Chaos: Botify-bot deletes message: easy bonus action economy usage, and decent DPS
+Chaos: Contraction-bot adds message: I'm now the owner o'a slack instance whose name's an office reference
+Chaos: Contraction-bot deletes message: I'm now the owner of a slack instance whose name is an office reference
