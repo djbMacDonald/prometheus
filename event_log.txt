@@ -4190,3 +4190,7 @@ Chaos: Botify-bot adds message: Most companies don't do anything beyond confirm 
 Chaos: Botify-bot deletes message: Most companies don't do anything beyond confirm employment because otherwise they become liable
 Chaos: Contraction-bot adds message: Yup, and's she the manager or the person who quit? That was what wasn't clear from the quote
 Chaos: Contraction-bot deletes message: Yes, and is she the manager or the person who quit? That was what wasn't clear from the quote
+Chaos: Greek-bot adds message: I was trying to figure that out, LOL! That's дорогой [[expensive]]
+
+ [[Russian: dorogoy]]
+Chaos: Greek-bot deletes message: I was trying to figure that out, LOL! That's expensive
