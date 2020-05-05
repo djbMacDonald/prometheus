@@ -4160,3 +4160,6 @@ Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! 
 Chaos: Lex-bot adds message: Pepole are dumb and ragy aysh
 Chaos: Lex-bot deletes message: People are dumb and ragy aysh
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 174)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 76)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 86)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 103)
