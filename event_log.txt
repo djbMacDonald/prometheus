@@ -4216,3 +4216,10 @@ Chaos: Botify-bot adds message: easy bonus action economy usage, and decent DPS
 Chaos: Botify-bot deletes message: easy bonus action economy usage, and decent DPS
 Chaos: Contraction-bot adds message: I'm now the owner o'a slack instance whose name's an office reference
 Chaos: Contraction-bot deletes message: I'm now the owner of a slack instance whose name is an office reference
+Chaos: Greek-bot adds message: ఎందుకంటే [[because]] I dislike the office
+
+ [[Telegu: Endukaṇṭē]]
+Chaos: Greek-bot deletes message: because I dislike the office
+Chaos: Lol-bot adds reaction: yes
+Chaos: SpaceReplace-bot adds message: Or,-more-accurately,-I-dislike-that-people-use-liking-the-office-(the-TV-show)-as-their-defining-personality-trait
+Chaos: SpaceReplace-bot deletes message: Or, more accurately, I dislike that people use liking the office (the TV show) as their defining personality trait
