@@ -4179,3 +4179,12 @@ Chaos: Spam-bot adds reaction: festivetodd
 Chaos: Spam-bot adds reaction: pentagram
 Chaos: Spam-bot adds reaction: habanero-pepper
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 77)
+Chaos: Censor-bot adds message: So, I have a lot of thoughts on this topic given my employment history. 
+Why someone quits rather than gets fired usually comes down to the narrative. Getting fired ~*REDACTED*~ for some incredibly awkward interviews in the future, and also leaves you in the unknown about how that gets communicated when new companies go back to your old company for references. I'm not in HR, so I actually don't know if former companies communicate that you were fired? It's shared by a lot of people you're better off quitting than getting fired, whether or not that is actually true, and certainly in the face of financial sense.
+Chaos: Censor-bot deletes message: So, I have a lot of thoughts on this topic given my employment history. 
+Why someone quits rather than gets fired usually comes down to the narrative. Getting fired makes for some incredibly awkward interviews in the future, and also leaves you in the unknown about how that gets communicated when new companies go back to your old company for references. I'm not in HR, so I actually don't know if former companies communicate that you were fired? It's shared by a lot of people you're better off quitting than getting fired, whether or not that is actually true, and certainly in the face of financial sense.
+Chaos: Contraction-bot adds message: "the team found out via an email popup on one o'managers computers she was sharing during a standup"
+Chaos: Contraction-bot deletes message: "the team found out via an email popup on one of the managers computers she was sharing during a standup"
+Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UDL020K8D> <@UDC4QL95G> <@UHQD9J1SL> <@UK7V13DS7> <@UDDE5960N>! There's a thread here!
+Chaos: Botify-bot adds message: Most companies don't do anything beyond confirm employment because otherwise they become liable
+Chaos: Botify-bot deletes message: Most companies don't do anything beyond confirm employment because otherwise they become liable
