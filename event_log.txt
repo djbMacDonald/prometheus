@@ -4196,3 +4196,4 @@ Chaos: Greek-bot adds message: I was trying to figure that out, LOL! That's до
 Chaos: Greek-bot deletes message: I was trying to figure that out, LOL! That's expensive
 Chaos: ChaosSeed-bot adds message: Hey <@UDL020K8D> <@UDD45P5A9> <@UK7V13DS7> <@UETS9HTSS> <@UDC4QL95G>! There's a thread here!
 Chaos: Lol-bot adds reaction: interesting
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UDL020K8D> <@UDD45P5A9> <@UDC4QL95G> <@UHQD9J1SL>! There's a thread here!
