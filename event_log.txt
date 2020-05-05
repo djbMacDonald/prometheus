@@ -4227,3 +4227,24 @@ Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
 Chaos: Dm-bot adds message: Roll a mythos check to dodge the zombies
 Chaos: Contraction-bot adds message: I'ad to watch the office episodes for a law class
 Chaos: Contraction-bot deletes message: I had to watch the office episodes for a law class
+civ_hide_from_sumeria: Spam-bot adds reaction: watch_out_neil_degrasse_tyson
+civ_hide_from_sumeria: Spam-bot adds reaction: cool-batch-left
+civ_hide_from_sumeria: Spam-bot adds reaction: wink
+civ_hide_from_sumeria: Spam-bot adds reaction: cascoon
+civ_hide_from_sumeria: Spam-bot adds reaction: mandelbrot
+civ_hide_from_sumeria: Spam-bot adds reaction: dogerev
+civ_hide_from_sumeria: Spam-bot adds reaction: liuhaizhu
+civ_hide_from_sumeria: Spam-bot adds reaction: digital-ocean
+civ_hide_from_sumeria: Spam-bot adds reaction: aouncoop34
+civ_hide_from_sumeria: Spam-bot adds reaction: ken
+civ_hide_from_sumeria: Spam-bot adds reaction: beet
+civ_hide_from_sumeria: Spam-bot adds reaction: saint_vincent_and_the_grenadines_parrot
+civ_hide_from_sumeria: Spam-bot adds reaction: much_zen
+civ_hide_from_sumeria: Spam-bot adds reaction: rickmcnair
+civ_hide_from_sumeria: Spam-bot adds reaction: creepymatt
+civ_hide_from_sumeria: Spam-bot adds reaction: kavitadealwithit
+civ_hide_from_sumeria: Spam-bot adds reaction: nyr
+civ_hide_from_sumeria: Spam-bot adds reaction: linkedin
+civ_hide_from_sumeria: Spam-bot adds reaction: metal
+civ_hide_from_sumeria: Spam-bot adds reaction: window-police
+civ_hide_from_sumeria: Spam-bot adds reaction: khan
