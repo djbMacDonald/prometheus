@@ -4157,3 +4157,6 @@ Chaos: Botify-bot deletes message: Not shocking
 Chaos: Lex-bot adds message: PIP = worst case, 6 weeks of pay and benefits. and getting fired = unempymeolnt. he could have taken that instead.
 Chaos: Lex-bot deletes message: PIP = worst case, 6 weeks of pay and benefits. and getting fired = unemployment. he could have taken that instead.
 Civilization: Civ-bot adds message: chaos_monkey: <@UTX6E7LLU> it is your turn! (turn 125)
+Chaos: Lex-bot adds message: Pepole are dumb and ragy aysh
+Chaos: Lex-bot deletes message: People are dumb and ragy aysh
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 174)
