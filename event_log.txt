@@ -4163,3 +4163,19 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS>
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 76)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 86)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 103)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 103)
+Chaos: Lol-bot adds reaction: lol
+Chaos: Spam-bot adds reaction: hnnng
+Chaos: Spam-bot adds reaction: chloe-cat
+Chaos: Spam-bot adds reaction: xiaoliuya_sorry
+Chaos: Spam-bot adds reaction: jojo
+Chaos: Spam-bot adds reaction: kirby-smile
+Chaos: Spam-bot adds reaction: lion-yawn
+Chaos: Spam-bot adds reaction: press-rat-to-doubt
+Chaos: Spam-bot adds reaction: aaron
+Chaos: Spam-bot adds reaction: texas-tech
+Chaos: Spam-bot adds reaction: aminals-bee-butt-shake
+Chaos: Spam-bot adds reaction: festivetodd
+Chaos: Spam-bot adds reaction: pentagram
+Chaos: Spam-bot adds reaction: habanero-pepper
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 77)
