@@ -4419,3 +4419,21 @@ Chaos: Censor-bot deletes message: I feel like this might deserve a thread of it
 Chaos: Lol-bot adds reaction: bug
 Chaos: Censor-bot adds message: that shared message was on the non-bot message ~*REDACTED*~ the parent ~*REDACTED*~ this thread
 Chaos: Censor-bot deletes message: that shared message was on the non-bot message of the parent of this thread
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 133)
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UHQD9J1SL> <@UDC03KCGK> <@UDDE5960N> <@UDD45P5A9> <@UDC4QL95G>! There's a thread here!
+Chaos: Lol-bot adds reaction: no
+Chaos: Contraction-bot adds message: look't the most recent post in chaos monkey
+Chaos: Contraction-bot deletes message: look at the most recent post in chaos monkey
+Chaos: Censor-bot adds message: the parent ~*REDACTED*~ this thread was like that
+Chaos: Censor-bot deletes message: the parent of this thread was like that
+Chaos: Censor-bot adds message: the shared message wasn't included in the bot message that replaced the parent message ~*REDACTED*~ this thread
+Chaos: Censor-bot deletes message: the shared message wasn't included in the bot message that replaced the parent message of this thread
+Chaos: Dm-bot adds message: Roll a martial arts check to disarm the podcast
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UDC03KCGK> <@UDDE5960N> <@UDD45P5A9> <@UDL020K8D> <@UDC4QL95G>! There's a thread here!
+Chaos: Censor-bot adds message: I alwys start with 'I think maybe' instead ~*REDACTED*~ just sharing an opinion or an idea. I've started correcting myself when I do this
+Chaos: Censor-bot deletes message: I alwys start with 'I think maybe' instead of just sharing an opinion or an idea. I've started correcting myself when I do this
+Chaos: Censor-bot adds message: you didn't use the word ~*REDACTED*~ 
+Chaos: Censor-bot deletes message: you didn't use the word of
+Chaos: Lol-bot adds reaction: yes
+Chaos: Censor-bot adds message: and annotate with the word ~*REDACTED*~ 
+Chaos: Censor-bot deletes message: and annotate with the word of
