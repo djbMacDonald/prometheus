@@ -4437,3 +4437,72 @@ Chaos: Censor-bot deletes message: you didn't use the word of
 Chaos: Lol-bot adds reaction: yes
 Chaos: Censor-bot adds message: and annotate with the word ~*REDACTED*~ 
 Chaos: Censor-bot deletes message: and annotate with the word of
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UHQD9J1SL> <@UDC03KCGK> <@UDDE5960N> <@UDD45P5A9> <@UDC4QL95G>! There's a thread here!
+Chaos: Lol-bot adds reaction: oh
+Megamoji: Censor-bot adds message:  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: of
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 25, in run
+    self._censorMessage(activeBans);
+  File "/app/bots/censor.py", line 29, in _censorMessage
+    words = newMessage.split(' ');
+AttributeError: 'NoneType' object has no attribute 'split'
+
+Megamoji: Censor-bot adds message:  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: of
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 25, in run
+    self._censorMessage(activeBans);
+  File "/app/bots/censor.py", line 29, in _censorMessage
+    words = newMessage.split(' ');
+AttributeError: 'NoneType' object has no attribute 'split'
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 15, in run
+    if not self._event.isInChannel('Megamoji') and event.text() is not None and not event.isFromABot():
+NameError: name 'event' is not defined
+
+Megamoji: Censor-bot adds message:  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: of
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 25, in run
+    self._censorMessage(activeBans);
+  File "/app/bots/censor.py", line 29, in _censorMessage
+    words = newMessage.split(' ');
+AttributeError: 'NoneType' object has no attribute 'split'
+
+Megamoji: Censor-bot adds message:  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: of
+Megamoji: Lol-bot adds reaction: testing
+Megamoji: Censor-bot adds message:  ~*REDACTED*~  ~*REDACTED*~  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: of of of
+Chaos: SpaceReplace-bot adds message: like-as-the-manager,-I-wouldn't-want-to-phrase-it-like-them-vs-me
+Chaos: SpaceReplace-bot deletes message: like as the manager, I wouldn't want to phrase it like them vs me
+Megamoji: Censor-bot adds message:  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: of
+Chaos: Lex-bot adds message: If you share a message and Prethmoeus bots it, the shared message disappears
+Chaos: Lex-bot deletes message: If you share a message and Prometheus bots it, the shared message disappears

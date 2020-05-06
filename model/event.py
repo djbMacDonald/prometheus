@@ -1,9 +1,11 @@
 from constant.people import USERS, IDENTITIES
 from constant.channels import CHANNELS
+import pprint
 
 class Event:
   
   def __init__(self, data, bans=None):
+    pprint.pprint(data)
     if not 'event' in data:
       self._event = data
     else:
