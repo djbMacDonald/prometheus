@@ -4333,3 +4333,7 @@ I just can't do that without any viable leverage, be it another offer, or a job 
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 131)
 Megamoji: Censor-bot adds message: I need to update the ban ban list to include " ~*REDACTED*~ "
 Megamoji: Censor-bot deletes message: I need to update the ban ban list to include "of"
+Chaos: Censor-bot adds message: and I only found out what I would've been getting by talking to coworkers who upon joining straight out ~*REDACTED*~ college were making $10k more than me
+Chaos: Censor-bot deletes message: and I only found out what I would've been getting by talking to coworkers who upon joining straight out of college were making $10k more than me
+Chaos: Censor-bot adds message: Brenden, what was your leverage to negotiate when you joined Wayfair? Comfortable keeping your old job if Wayfair didn't work out? Had other offers? Balls ~*REDACTED*~ steel?
+Chaos: Censor-bot deletes message: Brenden, what was your leverage to negotiate when you joined Wayfair? Comfortable keeping your old job if Wayfair didn't work out? Had other offers? Balls of steel?
