@@ -4341,3 +4341,15 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is y
 Chaos: Censor-bot adds message: Wait what??? I never get any ~*REDACTED*~ that stuff!
 Chaos: Censor-bot deletes message: Wait what??? I never get any of that stuff!
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 104)
+Chaos: Censor-bot adds message: Online stores and warehouses are open, but I have to ask: are retail locations also shut down? I can't walk into the mall and go into just about any ~*REDACTED*~ those stores right?
+Chaos: Censor-bot deletes message: Online stores and warehouses are open, but I have to ask: are retail locations also shut down? I can't walk into the mall and go into just about any of those stores right?
+Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
+Chaos: Censor-bot adds message: <https://www.cnbc.com/2020/05/06/uber-to-lay-off-3700-employees-about-14percent ~*REDACTED*~ workforce.html>
+Chaos: Censor-bot deletes message: <https://www.cnbc.com/2020/05/06/uber-to-lay-off-3700-employees-about-14percent-of-workforce.html>
+Chaos: Censor-bot adds message: Yeah, Uber is not a great company in terms ~*REDACTED*~ ethics
+Chaos: Censor-bot deletes message: Yeah, Uber is not a great company in terms of ethics
+Chaos: Scrambler-bot adds message: than Lyft lot I've more yet, And also used a them
+Chaos: Scrambler-bot deletes message: And yet, I've also used them a lot more than Lyft
+Chaos: Dm-bot adds message: Roll a disguise check to steal food from the podcast
+Chaos: Censor-bot adds message: We are quite literally in Great Depression levels ~*REDACTED*~ unemployment
+Chaos: Censor-bot deletes message: We are quite literally in Great Depression levels of unemployment
