@@ -4337,3 +4337,7 @@ Chaos: Censor-bot adds message: and I only found out what I would've been gettin
 Chaos: Censor-bot deletes message: and I only found out what I would've been getting by talking to coworkers who upon joining straight out of college were making $10k more than me
 Chaos: Censor-bot adds message: Brenden, what was your leverage to negotiate when you joined Wayfair? Comfortable keeping your old job if Wayfair didn't work out? Had other offers? Balls ~*REDACTED*~ steel?
 Chaos: Censor-bot deletes message: Brenden, what was your leverage to negotiate when you joined Wayfair? Comfortable keeping your old job if Wayfair didn't work out? Had other offers? Balls of steel?
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 77)
+Chaos: Censor-bot adds message: Wait what??? I never get any ~*REDACTED*~ that stuff!
+Chaos: Censor-bot deletes message: Wait what??? I never get any of that stuff!
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 104)
