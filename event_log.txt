@@ -4356,3 +4356,6 @@ Chaos: Censor-bot deletes message: We are quite literally in Great Depression le
 Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UHQD9J1SL> <@UETS9HTSS> <@UDD45P5A9> <@UDDE5960N> <@UDC4QL95G>! There's a thread here!
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 319)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 104)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 78)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 132)
+Chaos: Lol-bot adds reaction: boston-city-hall
