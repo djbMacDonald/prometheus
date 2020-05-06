@@ -33,10 +33,10 @@ class ActionQueue:
       return;
     self._replacements.append({'bot': bot, 'channel': channel, 'id': id, 'threadId': thread, 'message': message, 'identity': identity})
   
-  def addReaction(self, bot, channel, timestamp, reaction):
+  def addReaction(self, bot, channel, timestamp, reaction, priority = 1):
     if not self._isAllowedToPostInThisChannel(channel):
       return;
-    self._reactions.append({'bot': bot, 'channel': channel, 'timestamp': timestamp, 'reaction': reaction})
+    self._reactions.append({'bot': bot, 'channel': channel, 'timestamp': timestamp, 'reaction': reaction, 'priority': priority})
   
   def addReply(self, bot, channel, thread, message, identity = None):
     if not self._isAllowedToPostInThisChannel(channel):
@@ -57,7 +57,10 @@ class ActionQueue:
     for replyRequest in self._replies:
       self._flushReply(replyRequest)
       
-    for reactionRequest in self._reactions:
+    reactRequests = self._reactions
+    random.shuffle(reactRequests)
+    sorted(reactRequests, key=lambda request: request.get('priority'), reverse=True) 
+    for reactionRequest in reactRequests:
       self._flushReaction(reactionRequest)
       
     for commandRequest in self._commands:

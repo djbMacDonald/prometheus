@@ -18,5 +18,6 @@ BAN_BAN_LIST = {
   'like',
   'as',
   'is',
-  'a'
+  'a',
+  'of'
 }

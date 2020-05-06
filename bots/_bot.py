@@ -49,8 +49,8 @@ class Bot(object):
   def getListView(self):
     return
   
-  def _addReactionToMessage(self, reaction):
-    self._queue.addReaction(self.__class__.__name__, self._event.channel(), self._event.id(), reaction)
+  def _addReactionToMessage(self, reaction, priority = 1):
+    self._queue.addReaction(self.__class__.__name__, self._event.channel(), self._event.id(), reaction, priority)
     
   def _addReactionToOriginalMessage(self, reaction):
     self._queue.addReaction(self.__class__.__name__, self._event.channel(), self._event.threadId(), reaction)

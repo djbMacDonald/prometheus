@@ -20,4 +20,4 @@ class Spam(Bot):
       return
     randomEmojis = random.sample(self._emoteUtil.getAll(), k=self._randomUtil.randRange(self._minNumberOfEmotes, self._maxNumberOfEmotes))
     for emoji in randomEmojis:
-      self._addReactionToMessage(emoji)
+      self._addReactionToMessage(emoji, 0)

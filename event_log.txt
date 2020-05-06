@@ -4362,3 +4362,4 @@ Chaos: Lol-bot adds reaction: boston-city-hall
 Chaos: DejaVu-bot adds message: there"
 Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: Lol-bot adds reaction: boston-city-hall
+Megamoji: Lol-bot adds reaction: lol
