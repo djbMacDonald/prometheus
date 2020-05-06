@@ -4506,3 +4506,26 @@ Megamoji: Censor-bot adds message:  ~*REDACTED*~
 Megamoji: Censor-bot deletes message: of
 Chaos: Lex-bot adds message: If you share a message and Prethmoeus bots it, the shared message disappears
 Chaos: Lex-bot deletes message: If you share a message and Prometheus bots it, the shared message disappears
+Chaos: Greek-bot adds message: آره⁩ [[yes]]
+
+ [[Farsi]]
+Chaos: Greek-bot deletes message: yes
+Chaos: Lol-bot adds reaction: yes
+Megamoji: Lol-bot adds reaction: testing
+Megamoji: Censor-bot adds message:  ~*REDACTED*~  ~*REDACTED*~  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: of of of
+Chaos: Botify-bot adds message: That's about as far as I go for being nice
+Chaos: Botify-bot deletes message: That's about as far as I go for being nice
+Chaos: Lol-bot adds reaction: watching
+Chaos: Lol-bot adds reaction: drew
+Megamoji: Lol-bot adds reaction: testing
+Chaos: Dm-bot adds message: Roll a shotgun check with advantage to avoid the trapdoor
+Megamoji: Censor-bot adds message:  ~*REDACTED*~  ~*REDACTED*~  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: of of of
+Megamoji: Dm-bot adds message: Roll a history check to survive the monstrosaur
+Chaos: Contraction-bot adds message: My point's Aysh, and most women I've talked to about this,'ve'ad to be WAAAAAAY too soft in emails and such than male counterparts
+Chaos: Contraction-bot deletes message: My point is Aysh, and most women I've talked to about this, have had to be WAAAAAAY too soft in emails and such than male counterparts
+Chaos: DejaVu-bot adds message: oh yeah, that's why I grabbed the song. :slightly_smiling_face: It would have showed up right after Brenden said it, but there was a bug in the bot I had to fix first.
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Botify-bot adds message: That's about as far as I go for being nice
+Chaos: Botify-bot deletes message: That's about as far as I go for being nice

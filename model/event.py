@@ -1,11 +1,9 @@
 from constant.people import USERS, IDENTITIES
 from constant.channels import CHANNELS
-import pprint
 
 class Event:
   
   def __init__(self, data, bans=None):
-    pprint.pprint(data)
     if not 'event' in data:
       self._event = data
     else:
@@ -29,6 +27,7 @@ class Event:
     self._bans = bans
     self._reaction = self._event.get('reaction')
     self._trigger_id = self._event.get('trigger_id')
+    self._attachments = self._event.get('attachments')
     
     if self._type == 'reaction_added':
       self._channel = self._event.get('item').get('channel')
@@ -81,6 +80,9 @@ class Event:
   
   def id(self):
     return self._id
+  
+  def attachments(self):
+    return self._attachments
   
   def isFromABot(self):
     return not not self._botId or self._hidden

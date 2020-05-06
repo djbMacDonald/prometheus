@@ -2,12 +2,13 @@ import os
 
 class PostData:
   
-  def __init__(self, channel, message, identity, impersonate = False, threadId = None):
+  def __init__(self, channel, message, identity, impersonate = False, threadId = None, attachments = []):
     self.params = {
       'token': os.environ.get('SECRET'),
       'channel': channel,
       'text': message,
       'as_user': impersonate,
+      'attachments': attachments
     }
     if threadId:
       self.params['thread_ts'] = threadId

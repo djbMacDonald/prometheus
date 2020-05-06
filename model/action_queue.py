@@ -28,10 +28,10 @@ class ActionQueue:
     self._reactions = []
     self._commands = []
     
-  def addReplacement(self, bot, channel, id, thread, message, identity = None):
+  def addReplacement(self, bot, channel, id, thread, message, identity = None, attachments = []):
     if not self._isAllowedToPostInThisChannel(channel):
       return;
-    self._replacements.append({'bot': bot, 'channel': channel, 'id': id, 'threadId': thread, 'message': message, 'identity': identity})
+    self._replacements.append({'bot': bot, 'channel': channel, 'id': id, 'threadId': thread, 'message': message, 'identity': identity, 'attachments': attachments})
   
   def addReaction(self, bot, channel, timestamp, reaction, priority = 1):
     if not self._isAllowedToPostInThisChannel(channel):
@@ -82,7 +82,8 @@ class ActionQueue:
       replacementRequest.get('channel'), 
       replacementRequest.get('message'), 
       replacementRequest.get('identity'), 
-      threadId = replacementRequest.get('threadId')
+      threadId = replacementRequest.get('threadId'),
+      attachments = replacementRequest.get('attachments')
     )
     info = postData.get()
     url = 'https://www.slack.com/api/chat.postMessage?{}'.format(urllib.parse.urlencode(info))

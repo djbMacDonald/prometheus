@@ -75,9 +75,9 @@ class Bot(object):
   def _replacePost(self, message):
     identity = IDENTITIES.get(self._event.user())
     if identity:
-      self._queue.addReplacement(self.__class__.__name__, self._event.channel(), self._event.id(), self._event.threadId(), message, Identity(identity.get('username'), identity.get('profilePicture')))
+      self._queue.addReplacement(self.__class__.__name__, self._event.channel(), self._event.id(), self._event.threadId(), message, Identity(identity.get('username'), identity.get('profilePicture')), attachments = self._event.attachments())
     else:
-      self._queue.addReplacement(self.__class__.__name__, self._event.channel(), self._event.id(), self._event.threadId(), message)
+      self._queue.addReplacement(self.__class__.__name__, self._event.channel(), self._event.id(), self._event.threadId(), message, attachments = self._event.attachments())
     
   def _targetSendsMessageToChannel(self):
     return self._triggerUtil.targetSendsMessageToChannel(self._target, self._frequency)
