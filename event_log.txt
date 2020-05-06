@@ -4381,3 +4381,9 @@ Chaos: Censor-bot deletes message: you'll still need to put in a bit of work, bu
 Chaos: DejaVu-bot adds message: Tada!
 Chaos: DejaVu-bot adds reaction: dejavu
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 322)
+Megamoji: Censor-bot adds message: Is there no way to comment blocks ~*REDACTED*~ code in Python?
+Megamoji: Censor-bot deletes message: Is there no way to comment blocks of code in Python?
+Megamoji: Censor-bot adds message: Is there no way to comment blocks ~*REDACTED*~ code in Python?
+Megamoji: Censor-bot deletes message: Is there no way to comment blocks of code in Python?
+Megamoji: Censor-bot adds message: Apparently in Pycharm I can just highlight an do a shit ton ~*REDACTED*~ line comments with a single keystroke, so I guess that's sufficient
+Megamoji: Censor-bot deletes message: Apparently in Pycharm I can just highlight an do a shit ton of line comments with a single keystroke, so I guess that's sufficient
