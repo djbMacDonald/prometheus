@@ -4376,3 +4376,8 @@ Chaos: Censor-bot deletes message: We have a DM as of this weekend
 Chaos: Lol-bot adds reaction: no
 Chaos: Censor-bot adds message: and class/level/race ~*REDACTED*~ the character you're making here
 Chaos: Censor-bot deletes message: and class/level/race of the character you're making here
+Chaos: Censor-bot adds message: you'll still need to put in a bit ~*REDACTED*~ work, but it'll get the basics set up
+Chaos: Censor-bot deletes message: you'll still need to put in a bit of work, but it'll get the basics set up
+Chaos: DejaVu-bot adds message: Tada!
+Chaos: DejaVu-bot adds reaction: dejavu
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 322)
