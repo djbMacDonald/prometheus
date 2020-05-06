@@ -4287,3 +4287,49 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS>
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 131)
 Chaos: DejaVu-bot adds message: :wave:
 Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Censor-bot adds message: Still important that those kinds ~*REDACTED*~ posts exist. When I was at Brigham, there was a girl who had been there over a year, knew so much and had so much work on her plate, and she was making $15,000 less because she had been fresh out ~*REDACTED*~ college. Made sure to share that info. They didn't pay up, so shortly after I was let go, she found a new job that paid her what she was worth
+Chaos: Censor-bot deletes message: Still important that those kinds of posts exist. When I was at Brigham, there was a girl who had been there over a year, knew so much and had so much work on her plate, and she was making $15,000 less because she had been fresh out of college. Made sure to share that info. They didn't pay up, so shortly after I was let go, she found a new job that paid her what she was worth
+Chaos: Censor-bot adds message: Also learned how much I was underpaid before quitting Wayfair. Helped in terms ~*REDACTED*~ knowing what I could ask for when looking for new jobs
+Chaos: Censor-bot deletes message: Also learned how much I was underpaid before quitting Wayfair. Helped in terms of knowing what I could ask for when looking for new jobs
+Chaos: DejaVu-bot adds message: <@UDBGH9BMX> You should love me like one of your french girls!
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Spam-bot adds reaction: batch-fingerguns
+Chaos: Spam-bot adds reaction: thankyou
+Chaos: Spam-bot adds reaction: nebulas
+Chaos: Spam-bot adds reaction: svn
+Chaos: Spam-bot adds reaction: zleblanc
+Chaos: Spam-bot adds reaction: magnezone
+Chaos: Spam-bot adds reaction: im-back
+Chaos: Spam-bot adds reaction: womp-womp
+Chaos: Spam-bot adds reaction: babylon5_vorlon
+Chaos: Spam-bot adds reaction: amateurhour
+Chaos: Spam-bot adds reaction: de_opresso
+Chaos: Spam-bot adds reaction: ds-hmm
+Chaos: Spam-bot adds reaction: -10
+Chaos: Spam-bot adds reaction: kaytatoes
+Chaos: Spam-bot adds reaction: biped_boat_2_5
+Chaos: Spam-bot adds reaction: kathy
+Chaos: Spam-bot adds reaction: ryan-panics
+Chaos: Spam-bot adds reaction: liz
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 131)
+Chaos: Censor-bot adds message: Ugh, that's the worst and anyone with the slightest bit ~*REDACTED*~ finance knowledge or the term "arbitrage" knows that is bullshit
+Chaos: Censor-bot deletes message: Ugh, that's the worst and anyone with the slightest bit of finance knowledge or the term "arbitrage" knows that is bullshit
+Chaos: Botify-bot adds message: ¯\_(ツ)_/¯
+Chaos: Botify-bot deletes message: ¯\_(ツ)_/¯
+Chaos: DejaVu-bot adds message: cool, I broke it
+Chaos: DejaVu-bot adds reaction: dejavu
+Civilization: Contraction-bot adds message: Just realized the number o'horses y'need changes with game speed
+Civilization: Contraction-bot deletes message: Just realized the number of horses you need changes with game speed
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 319)
+Civilization: Lol-bot adds reaction: yes
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 175)
+Chaos: DejaVu-bot adds message: yes you do!! dumb-ass.......
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UETS9HTSS> <@UDD45P5A9> <@UDL020K8D> <@UDC4QL95G>! There's a thread here!
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Censor-bot adds message: I mean look, I respect the hell out ~*REDACTED*~ people who stare into the face and negotiate for higher salaries and time off. Especially over the phone as opposed to being in the room able to talk a deal.
+I just can't do that without any viable leverage, be it another offer, or a job I wasn't desperate to leave
+Chaos: Censor-bot deletes message: I mean look, I respect the hell out of people who stare into the face and negotiate for higher salaries and time off. Especially over the phone as opposed to being in the room able to talk a deal.
+I just can't do that without any viable leverage, be it another offer, or a job I wasn't desperate to leave
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 131)
+Megamoji: Censor-bot adds message: I need to update the ban ban list to include " ~*REDACTED*~ "
+Megamoji: Censor-bot deletes message: I need to update the ban ban list to include "of"
