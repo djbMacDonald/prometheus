@@ -4370,3 +4370,9 @@ civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (t
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 320)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 320)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 321)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 321)
+Chaos: Censor-bot adds message: We have a DM as ~*REDACTED*~ this weekend
+Chaos: Censor-bot deletes message: We have a DM as of this weekend
+Chaos: Lol-bot adds reaction: no
+Chaos: Censor-bot adds message: and class/level/race ~*REDACTED*~ the character you're making here
+Chaos: Censor-bot deletes message: and class/level/race of the character you're making here
