@@ -4275,3 +4275,9 @@ Chaos: Censor-bot adds message: The comments are the best part ~*REDACTED*~ the 
 Chaos: Censor-bot deletes message: The comments are the best part of the whole thing
 Chaos: Lol-bot adds reaction: lol
 Chaos: ChaosSeed-bot adds message: Hey <@UHQD9J1SL> <@UK7V13DS7> <@UETS9HTSS> <@UDC03KCGK> <@UDC4QL95G>! There's a thread here!
+Chaos: Contraction-bot adds message: Alright, since y'asked, y're no longer an admin. However,'t comes with a cost.
+<@UDBGH9BMX> y've been unleashed.
+Hope y'all enjoy your chaotic Wednesday!
+Chaos: Contraction-bot deletes message: Alright, since you asked, you are no longer an admin. However, it comes with a cost.
+<@UDBGH9BMX> you've been unleashed.
+Hope you all enjoy your chaotic Wednesday!
