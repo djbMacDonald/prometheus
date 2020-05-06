@@ -4529,3 +4529,25 @@ Chaos: DejaVu-bot adds message: oh yeah, that's why I grabbed the song. :slightl
 Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: Botify-bot adds message: That's about as far as I go for being nice
 Chaos: Botify-bot deletes message: That's about as far as I go for being nice
+Chaos: Lol-bot adds reaction: no
+Megamoji: Censor-bot adds message:  ~*REDACTED*~  ~*REDACTED*~ 
+Megamoji: Censor-bot deletes message: of of
+Chaos: Botify-bot adds message: Just gotta go full nuclear
+Chaos: Botify-bot deletes message: Just gotta go full nuclear
+Chaos: Censor-bot adds message: I have to be honest- if someone (male or female) didnt sound 'nice' I would be surprised. Hasnt been my experience (80%  ~*REDACTED*~ the time)  at WF
+Chaos: Censor-bot deletes message: I have to be honest- if someone (male or female) didnt sound 'nice' I would be surprised. Hasnt been my experience (80% of the time)  at WF
+civ_hide_from_sumeria: Lol-bot adds reaction: oh
+Chaos: Spam-bot adds reaction: lies2
+Chaos: Spam-bot adds reaction: she-hat
+Chaos: Spam-bot adds reaction: aron
+Chaos: Spam-bot adds reaction: philthinks
+Chaos: Spam-bot adds reaction: bobby-2-2
+Chaos: Spam-bot adds reaction: you-are-already-dead
+Chaos: Spam-bot adds reaction: its-sklobbering-time
+Chaos: Spam-bot adds reaction: questionable-alias
+Chaos: Spam-bot adds reaction: kpatil-oops
+Chaos: Spam-bot adds reaction: phoco
+Chaos: Spam-bot adds reaction: waybot_yellow
+Chaos: Spam-bot adds reaction: roller_coaster_of_emotion
+Chaos: Spam-bot adds reaction: biped-truck-2-5
+Chaos: Spam-bot adds reaction: manju_troll
