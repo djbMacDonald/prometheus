@@ -4283,3 +4283,7 @@ Chaos: Contraction-bot deletes message: Alright, since you asked, you are no lon
 Hope you all enjoy your chaotic Wednesday!
 Civilization: Censor-bot adds message: I'm starting to appreciate how in several civ games, I don't have to keep track ~*REDACTED*~ as many city states and quests, because CJ just keeps taking them all
 Civilization: Censor-bot deletes message: I'm starting to appreciate how in several civ games, I don't have to keep track of as many city states and quests, because CJ just keeps taking them all
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 175)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 131)
+Chaos: DejaVu-bot adds message: :wave:
+Chaos: DejaVu-bot adds reaction: dejavu
