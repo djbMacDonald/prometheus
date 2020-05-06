@@ -4353,3 +4353,6 @@ Chaos: Scrambler-bot deletes message: And yet, I've also used them a lot more th
 Chaos: Dm-bot adds message: Roll a disguise check to steal food from the podcast
 Chaos: Censor-bot adds message: We are quite literally in Great Depression levels ~*REDACTED*~ unemployment
 Chaos: Censor-bot deletes message: We are quite literally in Great Depression levels of unemployment
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UHQD9J1SL> <@UETS9HTSS> <@UDD45P5A9> <@UDDE5960N> <@UDC4QL95G>! There's a thread here!
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 319)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 104)
