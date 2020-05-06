@@ -4554,3 +4554,8 @@ Chaos: Spam-bot adds reaction: manju_troll
 civ_hide_from_sumeria: Scrambler-bot adds message: sound in Change the output Discord
 civ_hide_from_sumeria: Scrambler-bot deletes message: Change the sound output in Discord
 Chaos: Lol-bot adds reaction: fun
+Chaos: Censor-bot adds message: "The worst part ~*REDACTED*~ having a heart attack was that damn COVID test. They shoved that swab so far up my nose I swear if they pushed any further it would have touched the back ~*REDACTED*~ my tongue" - My Dad.
+Chaos: Censor-bot deletes message: "The worst part of having a heart attack was that damn COVID test. They shoved that swab so far up my nose I swear if they pushed any further it would have touched the back of my tongue" - My Dad.
+Chaos: Fire-bot adds message: Dakota gave us fire
+Chaos: Censor-bot adds message: "The worst part ~*REDACTED*~ having a heart attack was that damn COVID test. They shoved that swab so far up my nose I swear if they pushed any further it would have touched the back ~*REDACTED*~ my tongue" - My Dad.
+Chaos: Censor-bot deletes message: "The worst part of having a heart attack was that damn COVID test. They shoved that swab so far up my nose I swear if they pushed any further it would have touched the back of my tongue" - My Dad.
