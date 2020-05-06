@@ -4559,3 +4559,23 @@ Chaos: Censor-bot deletes message: "The worst part of having a heart attack was 
 Chaos: Fire-bot adds message: Dakota gave us fire
 Chaos: Censor-bot adds message: "The worst part ~*REDACTED*~ having a heart attack was that damn COVID test. They shoved that swab so far up my nose I swear if they pushed any further it would have touched the back ~*REDACTED*~ my tongue" - My Dad.
 Chaos: Censor-bot deletes message: "The worst part of having a heart attack was that damn COVID test. They shoved that swab so far up my nose I swear if they pushed any further it would have touched the back of my tongue" - My Dad.
+Chaos: Censor-bot adds message: `Conducted in an office on the UA campus, the study included about 80 participants, some ~*REDACTED*~ whom received droplets on their hands at the start ~*REDACTED*~ a normal work day. While most ~*REDACTED*~ those droplets were plain water, one person unknowingly received a droplet containing artificial viruses mimicking the cold, the flu and a stomach bug.`
+`Employees were instructed to go about their day as usual. After about four hours, researchers sampled commonly touched surfaces in the office, as well as employees' hands, and found that more than 50 percent ~*REDACTED*~ surfaces and employees were infected with at least one ~*REDACTED*~ the viruses.`
+
+Source: <https://uanews.arizona.edu/story/germs-spread-fast-at-work-study-finds>
+Chaos: Censor-bot deletes message: `Conducted in an office on the UA campus, the study included about 80 participants, some of whom received droplets on their hands at the start of a normal work day. While most of those droplets were plain water, one person unknowingly received a droplet containing artificial viruses mimicking the cold, the flu and a stomach bug.`
+`Employees were instructed to go about their day as usual. After about four hours, researchers sampled commonly touched surfaces in the office, as well as employees' hands, and found that more than 50 percent of surfaces and employees were infected with at least one of the viruses.`
+
+Source: <https://uanews.arizona.edu/story/germs-spread-fast-at-work-study-finds>
+Chaos: Censor-bot adds message: `Conducted in an office on the UA campus, the study included about 80 participants, some ~*REDACTED*~ whom received droplets on their hands at the start ~*REDACTED*~ a normal work day. While most ~*REDACTED*~ those droplets were plain water, one person unknowingly received a droplet containing artificial viruses mimicking the cold, the flu and a stomach bug.`
+`Employees were instructed to go about their day as usual. After about four hours, researchers sampled commonly touched surfaces in the office, as well as employees' hands, and found that more than 50 percent ~*REDACTED*~ surfaces and employees were infected with at least one ~*REDACTED*~ the viruses.`
+
+Source: <https://uanews.arizona.edu/story/germs-spread-fast-at-work-study-finds>
+Chaos: Censor-bot deletes message: `Conducted in an office on the UA campus, the study included about 80 participants, some of whom received droplets on their hands at the start of a normal work day. While most of those droplets were plain water, one person unknowingly received a droplet containing artificial viruses mimicking the cold, the flu and a stomach bug.`
+`Employees were instructed to go about their day as usual. After about four hours, researchers sampled commonly touched surfaces in the office, as well as employees' hands, and found that more than 50 percent of surfaces and employees were infected with at least one of the viruses.`
+
+Source: <https://uanews.arizona.edu/story/germs-spread-fast-at-work-study-finds>
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 160)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 160)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 161)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 133)
