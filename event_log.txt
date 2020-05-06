@@ -4551,3 +4551,6 @@ Chaos: Spam-bot adds reaction: waybot_yellow
 Chaos: Spam-bot adds reaction: roller_coaster_of_emotion
 Chaos: Spam-bot adds reaction: biped-truck-2-5
 Chaos: Spam-bot adds reaction: manju_troll
+civ_hide_from_sumeria: Scrambler-bot adds message: sound in Change the output Discord
+civ_hide_from_sumeria: Scrambler-bot deletes message: Change the sound output in Discord
+Chaos: Lol-bot adds reaction: fun
