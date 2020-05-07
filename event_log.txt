@@ -4633,3 +4633,8 @@ Civilization: Greek-bot deletes message: lol
 Civilization: Lol-bot adds reaction: lol
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 161)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 161)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 326)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 176)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 176)
+civ_hide_from_sumeria: Censor-bot adds message: You're teaming ~*REDACTED*~ against me?!
+civ_hide_from_sumeria: Censor-bot deletes message: You're teaming up against me?!
