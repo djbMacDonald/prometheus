@@ -4651,3 +4651,5 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it 
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 162)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 79)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 105)
+Civilization: Third-bot adds message: Brenden mean, she had military units near my cities, and had said she was making her way over
+Civilization: Third-bot deletes message: I mean, she had military units near my cities, and had said she was making her way over
