@@ -4625,3 +4625,4 @@ Chaos: Scrambler-bot deletes message: Oh no which one?
 Chaos: Contraction-bot adds message: huh? How's salt'nt a spice?
 Chaos: Contraction-bot deletes message: huh? How is salt not a spice?
 Chaos: ChaosSeed-bot adds message: Hey <@UETS9HTSS> <@UK7V13DS7> <@UDDE5960N> <@UDC03KCGK> <@UDD45P5A9>! There's a thread here!
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 326)
