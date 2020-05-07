@@ -4638,3 +4638,8 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS>
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 176)
 civ_hide_from_sumeria: Censor-bot adds message: You're teaming ~*REDACTED*~ against me?!
 civ_hide_from_sumeria: Censor-bot deletes message: You're teaming up against me?!
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 78)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 176)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 105)
+civ_hide_from_sumeria: Lol-bot adds reaction: fair
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 327)
