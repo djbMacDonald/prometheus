@@ -4631,3 +4631,5 @@ Civilization: Greek-bot adds message: лол [[lol]]
  [[Russian]]
 Civilization: Greek-bot deletes message: lol
 Civilization: Lol-bot adds reaction: lol
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 161)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 161)
