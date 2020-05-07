@@ -4590,3 +4590,6 @@ Chaos: Censor-bot deletes message: I personally love the idea of raging beyond d
 Chaos: Censor-bot adds message: yea i was thinking over the top smiter ~*REDACTED*~ the damned
 Chaos: Censor-bot deletes message: yea i was thinking over the top smiter of the damned
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 161)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 323)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 323)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 323)
