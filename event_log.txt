@@ -4610,3 +4610,12 @@ Civilization: Greek-bot adds message: חחח⁩ [[LOL]]!
  [[Hebrew]]
 Civilization: Greek-bot deletes message: LOL!
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 324)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 325)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 325)
+Chaos: Lol-bot adds reaction: lol
+Chaos: Botify-bot adds message: Move out entirely to erase all the bad memories?
+Chaos: Botify-bot deletes message: Move out entirely to erase all the bad memories?
+Chaos: Greek-bot adds message: meanwhile I'm sitting over here like: gosh I spend so much less money during καραντίνα [[quarrantine]]
+
+ [[Greek]]
+Chaos: Greek-bot deletes message: meanwhile I'm sitting over here like: gosh I spend so much less money during quarrantine
