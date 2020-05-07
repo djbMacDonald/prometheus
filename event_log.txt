@@ -4619,3 +4619,4 @@ Chaos: Greek-bot adds message: meanwhile I'm sitting over here like: gosh I spen
 
  [[Greek]]
 Chaos: Greek-bot deletes message: meanwhile I'm sitting over here like: gosh I spend so much less money during quarrantine
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 325)
