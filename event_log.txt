@@ -4673,3 +4673,5 @@ Chaos: Lex-bot adds message: <https://reddit.app.link/QApZqdU4j6|https://reddit.
 Chaos: Lex-bot deletes message: <https://reddit.app.link/QAdZpq4Uj6|https://reddit.app.link/QAdZpq4Uj6>
 Chaos: Botify-bot adds message: This is quality Indian film right Aysh?
 Chaos: Botify-bot deletes message: This is quality Indian film right Aysh?
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 331)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 331)
