@@ -4682,3 +4682,7 @@ civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (t
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 332)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 333)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 333)
+civ_hide_from_sumeria: Lol-bot adds reaction: maybe
+civ_hide_from_sumeria: Botify-bot adds message: Maybe
+civ_hide_from_sumeria: Botify-bot deletes message: Maybe
+civ_hide_from_sumeria: Lol-bot adds reaction: maybe
