@@ -4686,3 +4686,5 @@ civ_hide_from_sumeria: Lol-bot adds reaction: maybe
 civ_hide_from_sumeria: Botify-bot adds message: Maybe
 civ_hide_from_sumeria: Botify-bot deletes message: Maybe
 civ_hide_from_sumeria: Lol-bot adds reaction: maybe
+Chaos: Botify-bot adds message: NICE!
+Chaos: Botify-bot deletes message: NICE!
