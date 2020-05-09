@@ -4688,3 +4688,6 @@ civ_hide_from_sumeria: Botify-bot deletes message: Maybe
 civ_hide_from_sumeria: Lol-bot adds reaction: maybe
 Chaos: Botify-bot adds message: NICE!
 Chaos: Botify-bot deletes message: NICE!
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 162)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 162)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 178)
