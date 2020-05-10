@@ -4704,3 +4704,105 @@ civ_hide_from_sumeria: Lol-bot adds reaction: lol
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 162)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 334)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 334)
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 18, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 58, in activeBans
+    banDate = datetime.datetime.strptime(ban[1], '%Y-%m-%d').date()
+  File "/usr/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.7/_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: lala
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 18, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 58, in activeBans
+    banDate = datetime.datetime.strptime(ban[1], '%Y-%m-%d').date()
+  File "/usr/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.7/_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: lala
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 18, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 58, in activeBans
+    banDate = datetime.datetime.strptime(ban[1], '%Y-%m-%d').date()
+  File "/usr/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.7/_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: lala
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 18, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 58, in activeBans
+    banDate = datetime.datetime.strptime(ban[1], '%Y-%m-%d').date()
+  File "/usr/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.7/_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: lala
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 18, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 58, in activeBans
+    banDate = datetime.datetime.strptime(ban[1], '%Y-%m-%d').date()
+  File "/usr/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.7/_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: lala
+
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/censor.py", line 18, in run
+    activeBans = self._banUtil.activeBans(bans)
+  File "/app/utils/ban.py", line 58, in activeBans
+    banDate = datetime.datetime.strptime(ban[1], '%Y-%m-%d').date()
+  File "/usr/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.7/_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains: lala
+
