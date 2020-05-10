@@ -18,10 +18,6 @@ class Ban:
     while not myword.isalpha() or myword in bans.keys() or myword.lower() in BAN_BAN_LIST:
       myline = random.choice(lines)
       myword = random.choice(myline.split(' '))
-    
-    # tz = timezone('EST')
-    # n = datetime.datetime.now(tz)
-    # expirationDate = int(round(time.time())) + int(round(((24 - n.hour - 2) * 60 * 60) + ((60 - n.minute - 1) * 60) + (60 - n.second)))
     todayDate = datetime.date.today()
     newBan = '{}~~~{}'.format(myword, todayDate)
     f = open('banlist.txt', 'w+')
