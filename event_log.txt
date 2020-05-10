@@ -4862,3 +4862,7 @@ Megamoji: Censor-bot deletes message: lol
 Megamoji: Lol-bot adds reaction: lol
 Chaos: Contraction-bot adds message: Ah, that was nice o'y'Dave. Happy Mother's day Mei! Enjoy your food once the pandemic's o'er and y'can go celebrate properly. Hit's up if y'need a babysitter for that night.
 Chaos: Contraction-bot deletes message: Ah, that was nice of you Dave. Happy Mother's day Mei! Enjoy your food once the pandemic is over and you can go celebrate properly. Hit us up if you need a babysitter for that night.
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 163)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 163)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 80)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 107)
