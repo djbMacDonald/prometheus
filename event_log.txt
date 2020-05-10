@@ -4872,3 +4872,8 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it 
 civ_hide_from_sumeria: Lol-bot adds reaction: sure
 civ_hide_from_sumeria: Dm-bot adds message: Roll a psychoanalysis check to persuade the tarrasque
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 178)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 202)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 179)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 107)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 81)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 202)
