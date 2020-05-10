@@ -4860,3 +4860,5 @@ ValueError: unconverted data remains: lala
 Megamoji: Censor-bot adds message:  ~*REDACTED*~ 
 Megamoji: Censor-bot deletes message: lol
 Megamoji: Lol-bot adds reaction: lol
+Chaos: Contraction-bot adds message: Ah, that was nice o'y'Dave. Happy Mother's day Mei! Enjoy your food once the pandemic's o'er and y'can go celebrate properly. Hit's up if y'need a babysitter for that night.
+Chaos: Contraction-bot deletes message: Ah, that was nice of you Dave. Happy Mother's day Mei! Enjoy your food once the pandemic is over and you can go celebrate properly. Hit us up if you need a babysitter for that night.
