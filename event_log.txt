@@ -4910,3 +4910,9 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is y
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 82)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 108)
 civ_hide_from_sumeria: Dm-bot adds message: Roll a handgun check to gather information from the ziggurat
+civ_lack_game: Scrambler-bot adds message: Scythia I'm with friends Oh,
+civ_lack_game: Scrambler-bot deletes message: Oh, I'm friends with Scythia
+civ_lack_game: Scrambler-bot adds message: dumb would Arctic unless civ be also did again contingent That thing making a the
+civ_lack_game: Scrambler-bot deletes message: That would also be the Arctic unless civ did a dumb contingent making thing again
+civ_lack_game: Botify-bot adds message: Yes use the contient filler, this one actually makes sense because I'm ringed by moutains
+civ_lack_game: Botify-bot deletes message: Yes use the contient filler, this one actually makes sense because I'm ringed by moutains
