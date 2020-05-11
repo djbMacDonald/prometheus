@@ -4887,3 +4887,17 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it 
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 336)
 Chaos: Botify-bot adds message: Good morning!
 Chaos: Botify-bot deletes message: Good morning!
+Chaos: Spam-bot adds reaction: 7km-egg
+Chaos: Spam-bot adds reaction: turt_1_8
+Chaos: Spam-bot adds reaction: grapple-king
+Chaos: Spam-bot adds reaction: tonys_ponies
+Chaos: Spam-bot adds reaction: rossi46
+Chaos: Spam-bot adds reaction: momoa
+Chaos: Spam-bot adds reaction: jiggled
+Chaos: Spam-bot adds reaction: king_slime
+Chaos: Spam-bot adds reaction: ahoy
+Chaos: Spam-bot adds reaction: nomo
+Chaos: Spam-bot adds reaction: batchqueen
+Chaos: Botify-bot adds message: :doubt:
+Chaos: Botify-bot deletes message: :doubt:
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 204)
