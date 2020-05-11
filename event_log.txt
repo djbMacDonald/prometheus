@@ -4930,3 +4930,4 @@ Chaos: Botify-bot adds message: lol
 Chaos: Botify-bot deletes message: lol
 Chaos: Lol-bot adds reaction: lol
 Chaos: Lol-bot adds reaction: lol
+Chaos: Lol-bot adds reaction: yeah
