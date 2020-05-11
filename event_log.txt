@@ -4909,3 +4909,4 @@ Chaos: Lol-bot adds reaction: good
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 82)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 82)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 108)
+civ_hide_from_sumeria: Dm-bot adds message: Roll a handgun check to gather information from the ziggurat
