@@ -4916,3 +4916,8 @@ civ_lack_game: Scrambler-bot adds message: dumb would Arctic unless civ be also 
 civ_lack_game: Scrambler-bot deletes message: That would also be the Arctic unless civ did a dumb contingent making thing again
 civ_lack_game: Botify-bot adds message: Yes use the contient filler, this one actually makes sense because I'm ringed by moutains
 civ_lack_game: Botify-bot deletes message: Yes use the contient filler, this one actually makes sense because I'm ringed by moutains
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 204)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 204)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 204)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 180)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 180)
