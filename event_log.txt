@@ -4906,3 +4906,6 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is y
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 108)
 Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
 Chaos: Lol-bot adds reaction: good
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 82)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 82)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 108)
