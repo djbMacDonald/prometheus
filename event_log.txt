@@ -4931,3 +4931,6 @@ Chaos: Botify-bot deletes message: lol
 Chaos: Lol-bot adds reaction: lol
 Chaos: Lol-bot adds reaction: lol
 Chaos: Lol-bot adds reaction: yeah
+Chaos: SpaceReplace-bot adds message: arizona-IIRC
+Chaos: SpaceReplace-bot deletes message: arizona IIRC
+civ_hide_from_sumeria: Lol-bot adds reaction: bump
