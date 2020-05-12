@@ -4951,3 +4951,8 @@ civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (t
 Chaos: Botify-bot adds message: <https://reddit.app.link/SQyniglyq6|https://reddit.app.link/SQyniglyq6>
 Chaos: Botify-bot deletes message: <https://reddit.app.link/SQyniglyq6|https://reddit.app.link/SQyniglyq6>
 Chaos: Dm-bot adds message: Roll a listen check to assess the Juiblex
+Chaos: Contraction-bot adds message: This's where I hate Kanban. 't's like someone hearing about Keto but deciding they really like bread, so they'll change their diet to be mostly sandwiches
+Chaos: Contraction-bot deletes message: This is where I hate Kanban.
+It's like someone hearing about Keto but deciding they really like bread, so they'll change their diet to be mostly sandwiches
+Chaos: Contraction-bot adds message: And yet't was and usually's presented as a form o'agile
+Chaos: Contraction-bot deletes message: And yet it was and usually is presented as a form of agile
