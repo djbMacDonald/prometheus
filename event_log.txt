@@ -4956,3 +4956,12 @@ Chaos: Contraction-bot deletes message: This is where I hate Kanban.
 It's like someone hearing about Keto but deciding they really like bread, so they'll change their diet to be mostly sandwiches
 Chaos: Contraction-bot adds message: And yet't was and usually's presented as a form o'agile
 Chaos: Contraction-bot deletes message: And yet it was and usually is presented as a form of agile
+Chaos: Botify-bot adds message: I'm with doug, Wayfair will lead the way to sci fi dystopia
+Chaos: Botify-bot deletes message: I'm with doug, Wayfair will lead the way to sci fi dystopia
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 83)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 83)
+Chaos: Botify-bot adds message: <@UHQD9J1SL> I had no idea where Pariah came from.  Where did you hear it and get annoyed?
+Chaos: Botify-bot deletes message: <@UHQD9J1SL> I had no idea where Pariah came from.  Where did you hear it and get annoyed?
+Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UK7V13DS7> <@UHQD9J1SL> <@UDL020K8D> <@UDD45P5A9> <@UDDE5960N>! There's a thread here!
+Chaos: DejaVu-bot adds message: That's what a lot of the informed talk is about now, it's not that it has a low death rate its what happens when ANYONE can't get care because EVERYONE's trying to get care
+Chaos: DejaVu-bot adds reaction: dejavu
