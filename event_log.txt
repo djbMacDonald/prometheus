@@ -4934,3 +4934,6 @@ Chaos: Lol-bot adds reaction: yeah
 Chaos: SpaceReplace-bot adds message: arizona-IIRC
 Chaos: SpaceReplace-bot deletes message: arizona IIRC
 civ_hide_from_sumeria: Lol-bot adds reaction: bump
+civ_hide_from_sumeria: Lol-bot adds reaction: sure
+civ_hide_from_sumeria: Lol-bot adds reaction: sure
+civ_hide_from_sumeria: Lol-bot adds reaction: ok
