@@ -4965,3 +4965,4 @@ Chaos: Botify-bot deletes message: <@UHQD9J1SL> I had no idea where Pariah came 
 Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UK7V13DS7> <@UHQD9J1SL> <@UDL020K8D> <@UDD45P5A9> <@UDDE5960N>! There's a thread here!
 Chaos: DejaVu-bot adds message: That's what a lot of the informed talk is about now, it's not that it has a low death rate its what happens when ANYONE can't get care because EVERYONE's trying to get care
 Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Lol-bot adds reaction: interesting
