@@ -4950,3 +4950,4 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your tu
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 338)
 Chaos: Botify-bot adds message: <https://reddit.app.link/SQyniglyq6|https://reddit.app.link/SQyniglyq6>
 Chaos: Botify-bot deletes message: <https://reddit.app.link/SQyniglyq6|https://reddit.app.link/SQyniglyq6>
+Chaos: Dm-bot adds message: Roll a listen check to assess the Juiblex
