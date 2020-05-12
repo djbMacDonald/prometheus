@@ -4966,3 +4966,8 @@ Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UK7V13DS7> <@UHQD9J1SL> <@
 Chaos: DejaVu-bot adds message: That's what a lot of the informed talk is about now, it's not that it has a low death rate its what happens when ANYONE can't get care because EVERYONE's trying to get care
 Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: Lol-bot adds reaction: interesting
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 205)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 181)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 338)
+civ_lack_game: Botify-bot adds message: Showing that my cardinal directions are not wrong
+civ_lack_game: Botify-bot deletes message: Showing that my cardinal directions are not wrong
