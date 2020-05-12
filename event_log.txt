@@ -4980,3 +4980,5 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your tu
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 339)
 Chaos: Fire-bot adds message: Dakota opened the box
 Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UDC4QL95G> <@UK7V13DS7> <@UDC03KCGK> <@UDDE5960N> <@UETS9HTSS>! There's a thread here!
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 206)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 222)
