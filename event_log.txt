@@ -5008,3 +5008,4 @@ Chaos: Greek-bot adds message: There used to be a team that did remote screen ن
 
  [[Farsi]]
 Chaos: Greek-bot deletes message: There used to be a team that did remote screen monitoring, so that's not surprising...
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 340)
