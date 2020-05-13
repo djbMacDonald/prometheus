@@ -4991,3 +4991,7 @@ Chaos: Botify-bot adds message: Kinda makes me sad though
 Chaos: Botify-bot deletes message: Kinda makes me sad though
 Chaos: DejaVu-bot adds message: my job is pretty fun. just have everything blowing up half the time due to no fault of my team.
 Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Botify-bot adds message: Would you go out to the middle of no where Wyoming or Colorado?
+Chaos: Botify-bot deletes message: Would you go out to the middle of no where Wyoming or Colorado?
+Chaos: Contraction-bot adds message: I've an acquaintance who just settled in Copenhagen, and I think she'es freelance, so there must be a way to get visas
+Chaos: Contraction-bot deletes message: I have an acquaintance who just settled in Copenhagen, and I think she does freelance, so there must be a way to get visas
