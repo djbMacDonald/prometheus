@@ -4996,3 +4996,7 @@ Chaos: Botify-bot deletes message: Would you go out to the middle of no where Wy
 Chaos: Contraction-bot adds message: I've an acquaintance who just settled in Copenhagen, and I think she'es freelance, so there must be a way to get visas
 Chaos: Contraction-bot deletes message: I have an acquaintance who just settled in Copenhagen, and I think she does freelance, so there must be a way to get visas
 Chaos: Lol-bot adds reaction: no
+Chaos: Botify-bot adds message: it's 75 in my house :crying:
+Chaos: Botify-bot deletes message: it's 75 in my house :crying:
+Chaos: DejaVu-bot adds message: it was
+Chaos: DejaVu-bot adds reaction: dejavu
