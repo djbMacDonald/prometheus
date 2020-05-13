@@ -5027,3 +5027,26 @@ Chaos: Spam-bot adds reaction: cookie
 Chaos: Spam-bot adds reaction: baby_bottle
 Chaos: Botify-bot adds message: Play games online with us
 Chaos: Botify-bot deletes message: Play games online with us
+Chaos: Spam-bot adds reaction: beethoven
+Chaos: Spam-bot adds reaction: scammin
+Chaos: Spam-bot adds reaction: test-it
+Chaos: Spam-bot adds reaction: normal_smile
+Chaos: Spam-bot adds reaction: sby-her-displeasure
+Chaos: Spam-bot adds reaction: jack-grealish
+Chaos: Spam-bot adds reaction: mililol_2_3
+Chaos: Spam-bot adds reaction: captain_america
+Chaos: Spam-bot adds reaction: ryan
+Chaos: Spam-bot adds reaction: easy-var-button
+Chaos: Spam-bot adds reaction: aerosmith
+Chaos: Spam-bot adds reaction: big-and-true
+Chaos: Spam-bot adds reaction: blue-steel
+Chaos: Spam-bot adds reaction: orgbro-9
+Chaos: Spam-bot adds reaction: katiecry
+Chaos: Spam-bot adds reaction: shutuptrevor
+Chaos: Spam-bot adds reaction: tinachair
+Chaos: Spam-bot adds reaction: 4-100
+Chaos: Spam-bot adds reaction: andrewfab
+Chaos: Botify-bot adds message: ewwwwww
+Chaos: Botify-bot deletes message: ewwwwww
+Chaos: DejaVu-bot adds message: time to transform ....
+Chaos: DejaVu-bot adds reaction: dejavu
