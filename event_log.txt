@@ -4989,3 +4989,5 @@ civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (t
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 340)
 Chaos: Botify-bot adds message: Kinda makes me sad though
 Chaos: Botify-bot deletes message: Kinda makes me sad though
+Chaos: DejaVu-bot adds message: my job is pretty fun. just have everything blowing up half the time due to no fault of my team.
+Chaos: DejaVu-bot adds reaction: dejavu
