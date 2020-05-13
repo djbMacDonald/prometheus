@@ -4995,3 +4995,4 @@ Chaos: Botify-bot adds message: Would you go out to the middle of no where Wyomi
 Chaos: Botify-bot deletes message: Would you go out to the middle of no where Wyoming or Colorado?
 Chaos: Contraction-bot adds message: I've an acquaintance who just settled in Copenhagen, and I think she'es freelance, so there must be a way to get visas
 Chaos: Contraction-bot deletes message: I have an acquaintance who just settled in Copenhagen, and I think she does freelance, so there must be a way to get visas
+Chaos: Lol-bot adds reaction: no
