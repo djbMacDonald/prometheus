@@ -5004,3 +5004,7 @@ Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UDD45P5A9> <@UK7V13DS7> <@
 Chaos: Lol-bot adds reaction: lol
 Chaos: Contraction-bot adds message: 't's TERRIBLE!
 Chaos: Contraction-bot deletes message: It's TERRIBLE!
+Chaos: Greek-bot adds message: There used to be a team that did remote screen نظارت بر⁩ [[monitoring]], so that's not surprising...
+
+ [[Farsi]]
+Chaos: Greek-bot deletes message: There used to be a team that did remote screen monitoring, so that's not surprising...
