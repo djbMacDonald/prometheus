@@ -5000,3 +5000,5 @@ Chaos: Botify-bot adds message: it's 75 in my house :crying:
 Chaos: Botify-bot deletes message: it's 75 in my house :crying:
 Chaos: DejaVu-bot adds message: it was
 Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UDD45P5A9> <@UK7V13DS7> <@UDL020K8D> <@UHQD9J1SL> <@UDC03KCGK>! There's a thread here!
+Chaos: Lol-bot adds reaction: lol
