@@ -5081,3 +5081,7 @@ Chaos: Lol-bot adds reaction: how
 Chaos: Lol-bot adds reaction: yes
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 342)
 civ_hide_from_sumeria: ChaosSeed-bot adds message: Hey <@UHQD9J1SL> <@UK7V13DS7> <@UDD45P5A9> <@UDC4QL95G> <@UDL020K8D> <@UDC03KCGK> <@UDDE5960N>! There's a thread here!
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 343)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 343)
+Chaos: Contraction-bot adds message: Yeah the dub's pretty damn funny some o'time. The people who'id the dub were able to do whatever they wanted, as long as they didn't change names or what was required to act'ly defeat the ghosts.
+Chaos: Contraction-bot deletes message: Yeah the dub is pretty damn funny some of the time. The people who did the dub were able to do whatever they wanted, as long as they didn't change names or what was required to actually defeat the ghosts.
