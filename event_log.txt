@@ -5052,3 +5052,8 @@ Chaos: DejaVu-bot adds message: time to transform ....
 Chaos: DejaVu-bot adds reaction: dejavu
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 341)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 223)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 181)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 181)
+Civilization: Scrambler-bot adds message: just Or is Thunderdome? that
+Civilization: Scrambler-bot deletes message: Or is that just Thunderdome?
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 111)
