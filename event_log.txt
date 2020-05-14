@@ -5065,3 +5065,5 @@ Civilization: Dm-bot adds message: Roll a mechanical repair check to play cards 
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 182)
 Chaos: Botify-bot adds message: But people are just wasting less time for work stuff
 Chaos: Botify-bot deletes message: But people are just wasting less time for work stuff
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 223)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 182)
