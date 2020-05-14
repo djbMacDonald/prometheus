@@ -5062,3 +5062,6 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it 
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 341)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 181)
 Civilization: Dm-bot adds message: Roll a mechanical repair check to play cards with the gazebo
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 182)
+Chaos: Botify-bot adds message: But people are just wasting less time for work stuff
+Chaos: Botify-bot deletes message: But people are just wasting less time for work stuff
