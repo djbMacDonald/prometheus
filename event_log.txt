@@ -5079,3 +5079,4 @@ Chaos: Botify-bot deletes message: I think it's the, "It's so bad it's good" cat
 Chaos: Lol-bot adds reaction: what
 Chaos: Lol-bot adds reaction: how
 Chaos: Lol-bot adds reaction: yes
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 342)
