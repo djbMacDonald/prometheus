@@ -5050,3 +5050,4 @@ Chaos: Botify-bot adds message: ewwwwww
 Chaos: Botify-bot deletes message: ewwwwww
 Chaos: DejaVu-bot adds message: time to transform ....
 Chaos: DejaVu-bot adds reaction: dejavu
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 341)
