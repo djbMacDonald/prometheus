@@ -5109,3 +5109,6 @@ Chaos: Censor-bot adds message: Like if you ~*REDACTED*~ see it once it's not te
 Chaos: Censor-bot deletes message: Like if you only see it once it's not terrible
 Chaos: Botify-bot adds message: This is a terrible way to make friends
 Chaos: Botify-bot deletes message: This is a terrible way to make friends
+Chaos: Botify-bot adds message: DON"T LEAVE!!!
+Chaos: Botify-bot deletes message: DON"T LEAVE!!!
+Chaos: Lol-bot adds reaction: nope
