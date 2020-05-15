@@ -5121,3 +5121,9 @@ Civilization: Censor-bot adds message: But the ~*REDACTED*~ way to guarantee tha
 Civilization: Censor-bot deletes message: But the only way to guarantee that people can't get broken Civs is to pick
 Civilization: Botify-bot adds message: I say pick Civs, and if someone wants to go rush strat that's fine, everyone else knows what they're getting into
 Civilization: Botify-bot deletes message: I say pick Civs, and if someone wants to go rush strat that's fine, everyone else knows what they're getting into
+Civilization: Censor-bot adds message: on the topic of picking civs:
+if the ~*REDACTED*~ reason you want to pick is to not get broken civs, one of the mods I sometimes use is a map based mod that also adds the ability to exclude civs from the random option
+Civilization: Censor-bot deletes message: on the topic of picking civs:
+if the only reason you want to pick is to not get broken civs, one of the mods I sometimes use is a map based mod that also adds the ability to exclude civs from the random option
+Civilization: Botify-bot adds message: I mean if we're doing thunderdome, no AIs, Duel map size
+Civilization: Botify-bot deletes message: I mean if we're doing thunderdome, no AIs, Duel map size
