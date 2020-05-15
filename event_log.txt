@@ -5144,3 +5144,16 @@ Chaos: Botify-bot adds message: LOL!
 Chaos: Botify-bot deletes message: LOL!
 Chaos: Botify-bot adds message: I think that's the appropriate takeaway
 Chaos: Botify-bot deletes message: I think that's the appropriate takeaway
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 224)
+Chaos: Lol-bot adds reaction: lol
+Alerts: Error Logger-bot adds message: Traceback (most recent call last):
+  File "/app/utils/server.py", line 32, in callAllBots
+    _callBot(bot, event, mongoClient, user, emotes, actionQueue)
+  File "/app/utils/server.py", line 63, in _callBot
+    return runner.safeRun()
+  File "/app/bots/_bot.py", line 44, in safeRun
+    self.run()
+  File "/app/bots/chaos_seed.py", line 40, in run
+    threadUsers = map(lambda x: x.get('id'), self._user._db.users.find({'threads': True}))
+AttributeError: 'NoneType' object has no attribute '_db'
+
