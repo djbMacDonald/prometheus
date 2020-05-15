@@ -5127,3 +5127,7 @@ Civilization: Censor-bot deletes message: on the topic of picking civs:
 if the only reason you want to pick is to not get broken civs, one of the mods I sometimes use is a map based mod that also adds the ability to exclude civs from the random option
 Civilization: Botify-bot adds message: I mean if we're doing thunderdome, no AIs, Duel map size
 Civilization: Botify-bot deletes message: I mean if we're doing thunderdome, no AIs, Duel map size
+Chaos: Censor-bot adds message:  ~*REDACTED*~ get 2 months of leave :( half pay too
+Chaos: Censor-bot deletes message: Only get 2 months of leave :( half pay too
+Chaos: Censor-bot adds message:  ~*REDACTED*~ get 2 months of leave :( half pay too
+Chaos: Censor-bot deletes message: Only get 2 months of leave :( half pay too
