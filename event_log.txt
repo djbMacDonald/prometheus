@@ -5087,3 +5087,4 @@ Chaos: Contraction-bot adds message: Yeah the dub's pretty damn funny some o'tim
 Chaos: Contraction-bot deletes message: Yeah the dub is pretty damn funny some of the time. The people who did the dub were able to do whatever they wanted, as long as they didn't change names or what was required to actually defeat the ghosts.
 Chaos: Censor-bot adds message:  ~*REDACTED*~ , but that requires more effort than i am willing to put in, and i'm pretty tired of the lockdown/mask argument. And now whatever obamagate is. I just don't care.
 Chaos: Censor-bot deletes message: True, but that requires more effort than i am willing to put in, and i'm pretty tired of the lockdown/mask argument. And now whatever obamagate is. I just don't care.
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 224)
