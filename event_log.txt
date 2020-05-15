@@ -5117,3 +5117,7 @@ Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UDC4QL95G> <@UDD45P5A9> <@UDDE5960N> <@UETS9HTSS> <@UDC03KCGK>! There's a thread here!
 Chaos: Lex-bot adds message: Beaucse the office isn't in a plane
 Chaos: Lex-bot deletes message: Because the office isn't in a plane
+Civilization: Censor-bot adds message: But the ~*REDACTED*~ way to guarantee that people can't get broken Civs is to pick
+Civilization: Censor-bot deletes message: But the only way to guarantee that people can't get broken Civs is to pick
+Civilization: Botify-bot adds message: I say pick Civs, and if someone wants to go rush strat that's fine, everyone else knows what they're getting into
+Civilization: Botify-bot deletes message: I say pick Civs, and if someone wants to go rush strat that's fine, everyone else knows what they're getting into
