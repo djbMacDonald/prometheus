@@ -5138,3 +5138,9 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your tu
 Chaos: Lol-bot adds reaction: same
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 184)
 Chaos: Dm-bot adds message: Roll a navigate check to track the tarrasque
+Chaos: Lol-bot adds reaction: yes
+Chaos: ChaosSeed-bot adds message: Hey <@UHQD9J1SL> <@UDDE5960N> <@UDC03KCGK> <@UDC4QL95G> <@UK7V13DS7> <@UDL020K8D> <@UDD45P5A9>! There's a thread here!
+Chaos: Botify-bot adds message: LOL!
+Chaos: Botify-bot deletes message: LOL!
+Chaos: Botify-bot adds message: I think that's the appropriate takeaway
+Chaos: Botify-bot deletes message: I think that's the appropriate takeaway
