@@ -5112,3 +5112,8 @@ Chaos: Botify-bot deletes message: This is a terrible way to make friends
 Chaos: Botify-bot adds message: DON"T LEAVE!!!
 Chaos: Botify-bot deletes message: DON"T LEAVE!!!
 Chaos: Lol-bot adds reaction: nope
+Chaos: DejaVu-bot adds message: Ok how is it ok to bring snakes into an office?
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UDC4QL95G> <@UDD45P5A9> <@UDDE5960N> <@UETS9HTSS> <@UDC03KCGK>! There's a thread here!
+Chaos: Lex-bot adds message: Beaucse the office isn't in a plane
+Chaos: Lex-bot deletes message: Because the office isn't in a plane
