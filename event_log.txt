@@ -5157,3 +5157,5 @@ Alerts: Error Logger-bot adds message: Traceback (most recent call last):
     threadUsers = map(lambda x: x.get('id'), self._user._db.users.find({'threads': True}))
 AttributeError: 'NoneType' object has no attribute '_db'
 
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 87)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 113)
