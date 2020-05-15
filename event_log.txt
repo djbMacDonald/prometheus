@@ -5093,3 +5093,5 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your tu
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 85)
 Civilization: Botify-bot adds message: And I'm good any day
 Civilization: Botify-bot deletes message: And I'm good any day
+Chaos: Contraction-bot adds message: What was the propoganda y'were seeing?
+Chaos: Contraction-bot deletes message: What was the propoganda you were seeing?
