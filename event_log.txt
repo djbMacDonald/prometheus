@@ -5095,3 +5095,5 @@ Civilization: Botify-bot adds message: And I'm good any day
 Civilization: Botify-bot deletes message: And I'm good any day
 Chaos: Contraction-bot adds message: What was the propoganda y'were seeing?
 Chaos: Contraction-bot deletes message: What was the propoganda you were seeing?
+Civilization: Contraction-bot adds message: Do y'turtle, do y'go on the offensive, do y'rush that 2nd city!?!?!
+Civilization: Contraction-bot deletes message: Do you turtle, do you go on the offensive, do you rush that 2nd city!?!?!
