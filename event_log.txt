@@ -5131,3 +5131,7 @@ Chaos: Censor-bot adds message:  ~*REDACTED*~ get 2 months of leave :( half pay 
 Chaos: Censor-bot deletes message: Only get 2 months of leave :( half pay too
 Chaos: Censor-bot adds message:  ~*REDACTED*~ get 2 months of leave :( half pay too
 Chaos: Censor-bot deletes message: Only get 2 months of leave :( half pay too
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 184)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 184)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 86)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 113)
