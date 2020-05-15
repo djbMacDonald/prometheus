@@ -5097,3 +5097,4 @@ Chaos: Contraction-bot adds message: What was the propoganda y'were seeing?
 Chaos: Contraction-bot deletes message: What was the propoganda you were seeing?
 Civilization: Contraction-bot adds message: Do y'turtle, do y'go on the offensive, do y'rush that 2nd city!?!?!
 Civilization: Contraction-bot deletes message: Do you turtle, do you go on the offensive, do you rush that 2nd city!?!?!
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 86)
