@@ -5188,3 +5188,5 @@ Chaos: Lex-bot adds message: Espeaclily if any of these companies get breached, 
 Chaos: Lex-bot deletes message: Especially if any of these companies get breached, like his broker or bank, and a bunch of that info is leaked anyway?
 Chaos: DejaVu-bot adds message: Ohhhh man that sucks
 Chaos: DejaVu-bot adds reaction: dejavu
+Civilization: Botify-bot adds message: I'm good whenever! We're having lunch right now, but will be done by the time anything is organized
+Civilization: Botify-bot deletes message: I'm good whenever! We're having lunch right now, but will be done by the time anything is organized
