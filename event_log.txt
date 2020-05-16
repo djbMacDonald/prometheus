@@ -5169,3 +5169,7 @@ Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UDC03KCGK> <@UHQD9J1SL> <@
 Chaos: Botify-bot adds message: Ohhhh what for?
 Chaos: Botify-bot deletes message: Ohhhh what for?
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 345)
+Chaos: Third-bot adds message: Decided Brenden don't want my browsing sold to the highest bidder
+Chaos: Third-bot deletes message: Decided I don't want my browsing sold to the highest bidder
+Chaos: SpaceReplace-bot adds message: Not-gaming-traffic-though
+Chaos: SpaceReplace-bot deletes message: Not gaming traffic though
