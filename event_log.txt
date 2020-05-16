@@ -5184,3 +5184,7 @@ Chaos: Botify-bot deletes message: Everyone does something illegal, probably cau
 Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UETS9HTSS> <@UDC4QL95G> <@UDD45P5A9> <@UDL020K8D> <@UHQD9J1SL>! There's a thread here!
 Chaos: DejaVu-bot adds message: 3. profit
 Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Lex-bot adds message: Espeaclily if any of these companies get breached, like his broker or bank, and a bunch of that info is leaked anyway?
+Chaos: Lex-bot deletes message: Especially if any of these companies get breached, like his broker or bank, and a bunch of that info is leaked anyway?
+Chaos: DejaVu-bot adds message: Ohhhh man that sucks
+Chaos: DejaVu-bot adds reaction: dejavu
