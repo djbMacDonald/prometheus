@@ -5175,3 +5175,5 @@ Chaos: SpaceReplace-bot adds message: Not-gaming-traffic-though
 Chaos: SpaceReplace-bot deletes message: Not gaming traffic though
 Chaos: Botify-bot adds message: did you see what happened to burr?
 Chaos: Botify-bot deletes message: did you see what happened to burr?
+Chaos: Botify-bot adds message: WTF is group me?
+Chaos: Botify-bot deletes message: WTF is group me?
