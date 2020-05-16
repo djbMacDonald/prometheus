@@ -5205,3 +5205,5 @@ Chaos: Botify-bot adds message: Construction is a necessary evil in my world
 Chaos: Botify-bot deletes message: Construction is a necessary evil in my world
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 251)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 185)
+Chaos: Botify-bot adds message: The swiping is a little weird
+Chaos: Botify-bot deletes message: The swiping is a little weird
