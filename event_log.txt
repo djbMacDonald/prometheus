@@ -5212,3 +5212,5 @@ Chaos: Botify-bot adds message: Lol! Generally I get recruited into doing it
 Chaos: Botify-bot deletes message: Lol! Generally I get recruited into doing it
 Chaos: Botify-bot adds message: We need to finish it, so framing, design, electrical, drywall, painting.... the list goes on and on
 Chaos: Botify-bot deletes message: We need to finish it, so framing, design, electrical, drywall, painting.... the list goes on and on
+Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UETS9HTSS> <@UHQD9J1SL> <@UDC4QL95G> <@UK7V13DS7> <@UDL020K8D>! There's a thread here!
+Chaos: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UETS9HTSS> <@UHQD9J1SL> <@UDC4QL95G> <@UK7V13DS7> <@UDL020K8D>! There's a thread here!
