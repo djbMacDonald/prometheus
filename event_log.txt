@@ -5208,3 +5208,7 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK>
 Chaos: Botify-bot adds message: The swiping is a little weird
 Chaos: Botify-bot deletes message: The swiping is a little weird
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 186)
+Chaos: Botify-bot adds message: Lol! Generally I get recruited into doing it
+Chaos: Botify-bot deletes message: Lol! Generally I get recruited into doing it
+Chaos: Botify-bot adds message: We need to finish it, so framing, design, electrical, drywall, painting.... the list goes on and on
+Chaos: Botify-bot deletes message: We need to finish it, so framing, design, electrical, drywall, painting.... the list goes on and on
