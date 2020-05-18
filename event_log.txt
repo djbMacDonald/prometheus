@@ -5384,3 +5384,14 @@ Chaos: Botify-bot deletes message: post fact!
 Chaos: Botify-bot adds message: Ohhhh sad
 Chaos: Botify-bot deletes message: Ohhhh sad
 Chaos: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UDL020K8D> <@UDD45P5A9> <@UK7V13DS7> <@UDDE5960N> <@UHQD9J1SL>! There's a thread here!
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 252)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 252)
+civ_hide_from_sumeria: Lol-bot adds reaction: whoops
+civ_hide_from_sumeria: Scrambler-bot adds message: turn gonna fun Ugh, double be a
+civ_hide_from_sumeria: Scrambler-bot deletes message: Ugh, gonna be a fun double turn
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 252)
+civ_hide_from_sumeria: Lol-bot adds reaction: cj
+civ_hide_from_sumeria: Dm-bot adds message: Roll a Strength saving throw to seduce the evil twin
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 253)
+civ_hide_from_sumeria: Dm-bot adds message: Roll a bargain check with disadvantage to buy off the gazebo
+civ_hide_from_sumeria: Lol-bot adds reaction: oh
