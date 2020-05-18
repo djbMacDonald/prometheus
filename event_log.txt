@@ -5395,3 +5395,5 @@ civ_hide_from_sumeria: Dm-bot adds message: Roll a Strength saving throw to sedu
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 253)
 civ_hide_from_sumeria: Dm-bot adds message: Roll a bargain check with disadvantage to buy off the gazebo
 civ_hide_from_sumeria: Lol-bot adds reaction: oh
+civ_hide_from_sumeria: Botify-bot adds message: LOL!
+civ_hide_from_sumeria: Botify-bot deletes message: LOL!
