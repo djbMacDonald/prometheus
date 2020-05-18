@@ -5248,3 +5248,11 @@ Civilization: Lol-bot adds reaction: sure
 Chaos: Contraction-bot adds message: I love the lack o'masks and social distancing in the live feed
 Chaos: Contraction-bot deletes message: I love the lack of masks and social distancing in the live feed
 Chaos: ChaosSeed-bot adds message: Hey <@UDL020K8D> <@UDC4QL95G> <@UETS9HTSS> <@UDD45P5A9> <@UK7V13DS7> <@UHQD9J1SL> <@UDDE5960N>! There's a thread here!
+Chaos: Contraction-bot adds message: 't was unclear if restaurants and bars're phase 2 or phase 4 (I'm only talking about these because I figure people want to eat out or drink again,'nt because't affects me)
+Chaos: Contraction-bot deletes message: It was unclear if restaurants and bars are phase 2 or phase 4 (I'm only talking about these because I figure people want to eat out or drink again, not because it affects me)
+Chaos: Greek-bot adds message: Website they keep referencing for more info <https://www.mass.gov/info-details/reopening-మసాచుసెట్స్ [[massachusetts]]>
+
+ [[Telegu: Masācuseṭs]]
+Chaos: Greek-bot deletes message: Website they keep referencing for more info <https://www.mass.gov/info-details/reopening-massachusetts>
+Chaos: Contraction-bot adds message: Riders o'Public Transport must wear masks, no exceptions
+Chaos: Contraction-bot deletes message: Riders of Public Transport must wear masks, no exceptions
