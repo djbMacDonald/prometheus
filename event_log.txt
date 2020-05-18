@@ -5240,3 +5240,8 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your tu
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 347)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 347)
 Chaos: Lol-bot adds reaction: lol
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 89)
+Chaos: ChaosSeed-bot adds message: Hey <@UETS9HTSS> <@UDD45P5A9> <@UK7V13DS7> <@UHQD9J1SL> <@UDDE5960N>! There's a thread here!
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 116)
+Civilization: Dm-bot adds message: Roll a Charisma saving throw to deceive the swarm of bats
+Civilization: Lol-bot adds reaction: sure
