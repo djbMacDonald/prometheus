@@ -5381,3 +5381,5 @@ Chaos: Spam-bot adds reaction: dompos
 Chaos: Spam-bot adds reaction: nicoleapprovesthis
 Chaos: Botify-bot adds message: post fact!
 Chaos: Botify-bot deletes message: post fact!
+Chaos: Botify-bot adds message: Ohhhh sad
+Chaos: Botify-bot deletes message: Ohhhh sad
