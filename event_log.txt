@@ -5347,3 +5347,10 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it 
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 188)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 90)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 117)
+Chaos: Lex-bot adds message: wiat
+Chaos: Lex-bot deletes message: wait
+Chaos: Lol-bot adds reaction: wait
+Chaos: DejaVu-bot adds message: yup, they sent it back to me via email :smile:
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: ChaosSeed-bot adds reaction: squirrel
+Chaos: ChaosSeed-bot adds reaction: salute_cap
