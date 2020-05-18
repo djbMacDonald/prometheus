@@ -5338,3 +5338,6 @@ Civilization: Botify-bot adds message: Rolling rolling rolling
 Civilization: Botify-bot deletes message: Rolling rolling rolling
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 116)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 348)
+Chaos: Contraction-bot adds message: Look, I despise Trump and how the Republican party'as handled power. However, I'll acknowledge their ability to question rules and precedents with a "Make me." attitude to really hammer home how much these systems were'nt designed well ultimately.
+Chaos: Contraction-bot deletes message: Look, I despise Trump and how the Republican party has handled power. However, I will acknowledge their ability to question rules and precedents with a "Make me." attitude to really hammer home how much these systems were not designed well ultimately.
+Chaos: ChaosSeed-bot adds message: Hey <@UETS9HTSS> <@UK7V13DS7> <@UDDE5960N> <@UHQD9J1SL> <@UDD45P5A9>! There's a thread here!
