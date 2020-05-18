@@ -5229,3 +5229,9 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS>
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 88)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 115)
 Chaos: Dm-bot adds message: Roll a Dexterity saving throw to steal from the charging rhino
+Chaos: DejaVu-bot adds message: The js is super lazy, but the back end required some interesting API work
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Third-bot adds message: You misunderstand; Brenden don't avoid those sites
+Chaos: Third-bot deletes message: You misunderstand; I don't avoid those sites
+Chaos: Third-bot adds message: To expand: by containerizing facebook, all its tracking cookies and such don't follow me everywhere Brenden go
+Chaos: Third-bot deletes message: To expand: by containerizing facebook, all its tracking cookies and such don't follow me everywhere I go
