@@ -5237,3 +5237,5 @@ Chaos: Third-bot adds message: To expand: by containerizing facebook, all its tr
 Chaos: Third-bot deletes message: To expand: by containerizing facebook, all its tracking cookies and such don't follow me everywhere I go
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 89)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 115)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 347)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 347)
