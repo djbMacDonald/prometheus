@@ -5325,3 +5325,8 @@ Megamoji: Moogle-bot adds message: TESTPUNCT yourPUNCT TESTPUNCT
 Megamoji: Moogle-bot deletes message: you, your. you!
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 252)
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 187)
+Chaos: Botify-bot adds message: Ohhhhh!!!!
+Chaos: Botify-bot deletes message: Ohhhhh!!!!
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UDDE5960N> it is your turn! (turn 347)
+Chaos: Contraction-bot adds message: Agreed, I think they're going to right way to opening things, I just think't may be a bit soon to be opening the whole state. There could be an argument for opening western mass while keeping the greater Boston area closed for another month
+Chaos: Contraction-bot deletes message: Agreed, I think they're going to right way to opening things, I just think it may be a bit soon to be opening the whole state. There could be an argument for opening western mass while keeping the greater Boston area closed for another month
