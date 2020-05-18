@@ -5397,3 +5397,5 @@ civ_hide_from_sumeria: Dm-bot adds message: Roll a bargain check with disadvanta
 civ_hide_from_sumeria: Lol-bot adds reaction: oh
 civ_hide_from_sumeria: Botify-bot adds message: LOL!
 civ_hide_from_sumeria: Botify-bot deletes message: LOL!
+Chaos: Botify-bot adds message: People wearing masks poorly is the name of the game
+Chaos: Botify-bot deletes message: People wearing masks poorly is the name of the game
