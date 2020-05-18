@@ -5314,3 +5314,5 @@ Chaos: Spam-bot adds reaction: ursula-the-cat
 Chaos: Spam-bot adds reaction: gang_transparent
 Chaos: Spam-bot adds reaction: pyeongchang-tiger-im-ready
 Chaos: Spam-bot adds reaction: fidget-spinner
+Megamoji: Moogle-bot adds message: TEST TESTr
+Megamoji: Moogle-bot deletes message: you your
