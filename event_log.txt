@@ -5337,3 +5337,4 @@ Civilization: Botify-bot deletes message: Ancient wars are the best wars, you ju
 Civilization: Botify-bot adds message: Rolling rolling rolling
 Civilization: Botify-bot deletes message: Rolling rolling rolling
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 116)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 348)
