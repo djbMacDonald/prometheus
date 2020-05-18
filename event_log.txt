@@ -5247,3 +5247,4 @@ Civilization: Dm-bot adds message: Roll a Charisma saving throw to deceive the s
 Civilization: Lol-bot adds reaction: sure
 Chaos: Contraction-bot adds message: I love the lack o'masks and social distancing in the live feed
 Chaos: Contraction-bot deletes message: I love the lack of masks and social distancing in the live feed
+Chaos: ChaosSeed-bot adds message: Hey <@UDL020K8D> <@UDC4QL95G> <@UETS9HTSS> <@UDD45P5A9> <@UK7V13DS7> <@UHQD9J1SL> <@UDDE5960N>! There's a thread here!
