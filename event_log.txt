@@ -5344,3 +5344,6 @@ Chaos: ChaosSeed-bot adds message: Hey <@UETS9HTSS> <@UK7V13DS7> <@UDDE5960N> <@
 Chaos: DejaVu-bot adds message: It's a nice apartment. Bedroom might be a bit cramped depending on which of the 2 you get.
 Chaos: DejaVu-bot adds reaction: dejavu
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 252)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 188)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 90)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 117)
