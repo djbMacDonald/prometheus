@@ -5316,3 +5316,10 @@ Chaos: Spam-bot adds reaction: pyeongchang-tiger-im-ready
 Chaos: Spam-bot adds reaction: fidget-spinner
 Megamoji: Moogle-bot adds message: TEST TESTr
 Megamoji: Moogle-bot deletes message: you your
+Megamoji: Moogle-bot adds message: TEST your
+Megamoji: Moogle-bot deletes message: you your
+Megamoji: Moogle-bot adds message: TEST YoUr
+Megamoji: Moogle-bot deletes message: YoU YoUr
+Chaos: ChaosSeed-bot adds message: Hey <@UDL020K8D> <@UHQD9J1SL> <@UETS9HTSS> <@UDC4QL95G> <@UDDE5960N> <@UK7V13DS7>! There's a thread here!
+Megamoji: Moogle-bot adds message: TESTPUNCT yourPUNCT TESTPUNCT
+Megamoji: Moogle-bot deletes message: you, your. you!
