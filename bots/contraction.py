@@ -50,7 +50,9 @@ class Contraction(Bot):
     "at": "t",
     "him": "im",
     "her": "er",
-    "around": "round"
+    "around": "round",
+    "that": "at",
+    "which": "ch"
   }
   
   _after = {

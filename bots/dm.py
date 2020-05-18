@@ -8,16 +8,16 @@ class Dm(Bot):
   
   _active = True
   
-  _frenquency = .01
+  _frequency = .01
   _frequency_save = .2
   _frequency_special = .2
   
   @classmethod
   def description(cls):
-    return "Has a {}% chance to post a command from your dungeon master. {}% of the time it will be a saving throw. Only works on messages in channel directly.".format(cls._frenquency * 100, cls._frequency_save * 100)
+    return "Has a {}% chance to post a command from your dungeon master. {}% of the time it will be a saving throw. Only works on messages in channel directly.".format(cls._frequency * 100, cls._frequency_save * 100)
     
   def run(self):
-    if self._event.isFromABot() or self._event.isPartOfAThread() or not self._event.isAMessage() or not self._randomUtil.rollDice(self._frenquency):
+    if self._event.isFromABot() or self._event.isPartOfAThread() or not self._event.isAMessage() or not self._randomUtil.rollDice(self._frequency):
       return;
     message = 'Roll {} to {} the {}'.format(self._createRollMessage(), random.choice(ACTIONS), random.choice(DANGERS))
     identity = Identity(userName = 'Dungeon Master', profilePicture = self._identityUtil.randomImageUrl())
