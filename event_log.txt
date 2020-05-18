@@ -5343,3 +5343,4 @@ Chaos: Contraction-bot deletes message: Look, I despise Trump and how the Republ
 Chaos: ChaosSeed-bot adds message: Hey <@UETS9HTSS> <@UK7V13DS7> <@UDDE5960N> <@UHQD9J1SL> <@UDD45P5A9>! There's a thread here!
 Chaos: DejaVu-bot adds message: It's a nice apartment. Bedroom might be a bit cramped depending on which of the 2 you get.
 Chaos: DejaVu-bot adds reaction: dejavu
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 252)
