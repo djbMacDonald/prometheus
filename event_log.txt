@@ -5245,3 +5245,5 @@ Chaos: ChaosSeed-bot adds message: Hey <@UETS9HTSS> <@UDD45P5A9> <@UK7V13DS7> <@
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 116)
 Civilization: Dm-bot adds message: Roll a Charisma saving throw to deceive the swarm of bats
 Civilization: Lol-bot adds reaction: sure
+Chaos: Contraction-bot adds message: I love the lack o'masks and social distancing in the live feed
+Chaos: Contraction-bot deletes message: I love the lack of masks and social distancing in the live feed
