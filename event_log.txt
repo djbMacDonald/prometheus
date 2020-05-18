@@ -5323,3 +5323,5 @@ Megamoji: Moogle-bot deletes message: YoU YoUr
 Chaos: ChaosSeed-bot adds message: Hey <@UDL020K8D> <@UHQD9J1SL> <@UETS9HTSS> <@UDC4QL95G> <@UDDE5960N> <@UK7V13DS7>! There's a thread here!
 Megamoji: Moogle-bot adds message: TESTPUNCT yourPUNCT TESTPUNCT
 Megamoji: Moogle-bot deletes message: you, your. you!
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 252)
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK> it is your turn! (turn 187)
