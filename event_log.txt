@@ -5235,3 +5235,5 @@ Chaos: Third-bot adds message: You misunderstand; Brenden don't avoid those site
 Chaos: Third-bot deletes message: You misunderstand; I don't avoid those sites
 Chaos: Third-bot adds message: To expand: by containerizing facebook, all its tracking cookies and such don't follow me everywhere Brenden go
 Chaos: Third-bot deletes message: To expand: by containerizing facebook, all its tracking cookies and such don't follow me everywhere I go
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 89)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 115)
