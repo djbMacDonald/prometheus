@@ -5427,3 +5427,5 @@ Chaos: Contraction-bot deletes message: Is this because we're finally allowed ou
 Chaos: DejaVu-bot adds message: Its fun to be on criticals rotATION when everythings dying! :smile:
 Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: Lol-bot adds reaction: yup
+Chaos: Botify-bot adds message: What a terrible fate
+Chaos: Botify-bot deletes message: What a terrible fate
