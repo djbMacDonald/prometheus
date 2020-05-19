@@ -5429,3 +5429,4 @@ Chaos: DejaVu-bot adds reaction: dejavu
 Chaos: Lol-bot adds reaction: yup
 Chaos: Botify-bot adds message: What a terrible fate
 Chaos: Botify-bot deletes message: What a terrible fate
+Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
