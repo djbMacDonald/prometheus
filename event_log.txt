@@ -5453,3 +5453,5 @@ Chaos: Contraction-bot adds message: This's'nt a good year for much
 Chaos: Contraction-bot deletes message: This is not a good year for much
 Chaos: Contraction-bot adds message: now I just've to hope't boots back up correctly and I can remote back into't
 Chaos: Contraction-bot deletes message: now I just have to hope it boots back up correctly and I can remote back into it
+Chaos: Botify-bot adds message: Can you guess who posted it?
+Chaos: Botify-bot deletes message: Can you guess who posted it?
