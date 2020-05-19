@@ -5444,3 +5444,10 @@ civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it 
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 351)
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 265)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 93)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 119)
+Chaos: Third-bot adds message: Brenden can just zone out
+Chaos: Third-bot deletes message: I can just zone out
+Chaos: Botify-bot adds message: Yea this is not a good year for roller coasters
+Chaos: Botify-bot deletes message: Yea this is not a good year for roller coasters
+Chaos: Contraction-bot adds message: This's'nt a good year for much
+Chaos: Contraction-bot deletes message: This is not a good year for much
