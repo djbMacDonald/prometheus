@@ -5422,3 +5422,8 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is y
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 118)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 92)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 118)
+Chaos: Contraction-bot adds message: 's this because we're finally allowed outside?
+Chaos: Contraction-bot deletes message: Is this because we're finally allowed outside?
+Chaos: DejaVu-bot adds message: Its fun to be on criticals rotATION when everythings dying! :smile:
+Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Lol-bot adds reaction: yup
