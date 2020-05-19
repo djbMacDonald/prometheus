@@ -5439,3 +5439,4 @@ CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UDC03KCGK>
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 191)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 119)
 Chaos: Dm-bot adds message: Roll a Reflex saving throw to subscribe to the molten glass golem
+Chaos: ChaosSeed-bot adds message: Hey <@UDDE5960N> <@UDC4QL95G> <@UDC03KCGK> <@UK7V13DS7> <@UDL020K8D> <@UETS9HTSS> <@UHQD9J1SL>! There's a thread here!
