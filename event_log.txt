@@ -5451,3 +5451,5 @@ Chaos: Botify-bot adds message: Yea this is not a good year for roller coasters
 Chaos: Botify-bot deletes message: Yea this is not a good year for roller coasters
 Chaos: Contraction-bot adds message: This's'nt a good year for much
 Chaos: Contraction-bot deletes message: This is not a good year for much
+Chaos: Contraction-bot adds message: now I just've to hope't boots back up correctly and I can remote back into't
+Chaos: Contraction-bot deletes message: now I just have to hope it boots back up correctly and I can remote back into it
