@@ -5430,3 +5430,4 @@ Chaos: Lol-bot adds reaction: yup
 Chaos: Botify-bot adds message: What a terrible fate
 Chaos: Botify-bot deletes message: What a terrible fate
 Chaos: Emerald-bot adds message: Never forget: :you-mean-the-chaos-emeralds:
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UDC4QL95G> <@UDDE5960N> <@UDD45P5A9> <@UDC03KCGK>! There's a thread here!
