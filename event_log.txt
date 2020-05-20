@@ -5489,3 +5489,5 @@ Chaos: Botify-bot adds message: I wasn't skipping over, I was just more stating 
 Chaos: Botify-bot deletes message: I wasn't skipping over, I was just more stating why I'm more afraid for my keys than my phone
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 265)
 civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 352)
+Chaos: Botify-bot adds message: I mean it's always brokenly fun
+Chaos: Botify-bot deletes message: I mean it's always brokenly fun
