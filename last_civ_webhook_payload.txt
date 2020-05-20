@@ -1,1 +1,1 @@
-{'value1': 'Hide From Sumeria', 'value2': 'Beerdeau', 'value3': '266'}
+{'value1': 'Slaughter of the Lamb', 'value2': 'Beerdeau', 'value3': '192'}

@@ -5503,3 +5503,4 @@ Chaos: Lex-bot adds message: Someone on reddit was posting how they have both ev
 Chaos: Lex-bot deletes message: Someone on reddit was posting how they have both evac and stay at home orders from officials
 Chaos: Lex-bot adds message: People praobbly panic
 Chaos: Lex-bot deletes message: People probably panic
+CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 192)
