@@ -5462,3 +5462,19 @@ Chaos: Scrambler-bot adds message: know. or LMGTFY Ms Rachel? I actually don't
 Chaos: Scrambler-bot deletes message: I actually don't know. Ms LMGTFY or Rachel?
 civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDDE5960N> it is your turn! (turn 265)
 Chaos: ChaosSeed-bot adds message: Hey <@UDL020K8D> <@UK7V13DS7> <@UETS9HTSS> <@UDC4QL95G>! There's a thread here!
+Chaos: Scrambler-bot adds message: <@U0141L5U02G>! Hi <@U013EM2E3EK> and
+Chaos: Scrambler-bot deletes message: Hi <@U013EM2E3EK> and <@U0141L5U02G>!
+Chaos: Botify-bot adds message: I think you mean perfect time on the word scramble
+Chaos: Botify-bot deletes message: I think you mean perfect time on the word scramble
+Chaos: Spam-bot adds reaction: mmpr_pink_ranger
+Chaos: Spam-bot adds reaction: worst-cat
+Chaos: Spam-bot adds reaction: critical-face
+Chaos: Spam-bot adds reaction: skiddo
+Chaos: Spam-bot adds reaction: manning_face
+Chaos: Spam-bot adds reaction: sarahkerchgrunin
+Chaos: Spam-bot adds reaction: moist
+Chaos: Spam-bot adds reaction: shiba-lollipop
+Chaos: Spam-bot adds reaction: 2birds1stone
+Chaos: Spam-bot adds reaction: objection2
+Chaos: Contraction-bot adds message: 't's more like the fact'at she thinks going first's going to save'er, or'at somehow a dental office's either doing 1 patient't a time, or as complete revamped their floor plan
+Chaos: Contraction-bot deletes message: It's more like the fact that she thinks going first is going to save her, or that somehow a dental office is either doing 1 patient at a time, or as complete revamped their floor plan
