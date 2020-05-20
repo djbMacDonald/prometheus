@@ -5511,3 +5511,6 @@ Megamoji: Lol-bot adds reaction: is
 Megamoji: Lol-bot adds reaction: is
 Chaos: Third-bot adds message: Brenden didn't get the impression that they'd be putting patients together
 Chaos: Third-bot deletes message: I didn't get the impression that they'd be putting patients together
+Chaos: Botify-bot adds message: wow
+Chaos: Botify-bot deletes message: wow
+Chaos: Lol-bot adds reaction: wow
