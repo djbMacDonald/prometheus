@@ -5542,3 +5542,14 @@ civ_lack_game: DejaVu-bot adds message: So I could delete it remember?
 civ_lack_game: DejaVu-bot adds reaction: dejavu
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 123)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 97)
+Chaos: Botify-bot adds message: Normal people are assholes
+Chaos: Botify-bot deletes message: Normal people are assholes
+Chaos: Contraction-bot adds message: Lots o'places're giving 3 months to mothers and 6 weeks to fathers as recruitment bonuses
+Chaos: Contraction-bot deletes message: Lots of places are giving 3 months to mothers and 6 weeks to fathers as recruitment bonuses
+Chaos: Botify-bot adds message: I might join you tomorrow when Ash is with my parents
+Chaos: Botify-bot deletes message: I might join you tomorrow when Ash is with my parents
+Chaos: Greek-bot adds message: fair చాలు [[enough]]
+
+ [[Telegu: Cālu]]
+Chaos: Greek-bot deletes message: fair enough
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 97)
