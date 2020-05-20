@@ -5526,3 +5526,12 @@ Chaos: Censor-bot deletes message: check bus lines to see if they work out at al
 Chaos: DejaVu-bot adds message: games are happening?
 Chaos: DejaVu-bot adds reaction: dejavu
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 95)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 95)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 121)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 122)
+civ_lack_game: Lex-bot adds message: I always speed up in games once I've gotten through the new mehacnics and rules and shit
+civ_lack_game: Lex-bot deletes message: I always speed up in games once I've gotten through the new mechanics and rules and shit
+civ_lack_game: Dm-bot adds message: Roll an anthropology check to disarm the Man in the Moon
+civ_lack_game: Botify-bot adds message: :mindblown:
+civ_lack_game: Botify-bot deletes message: :mindblown:
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 96)
