@@ -5518,3 +5518,4 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is y
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 120)
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 94)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 121)
+Chaos: ChaosSeed-bot adds message: Hey <@UDL020K8D> <@UDD45P5A9> <@UDC4QL95G> <@UHQD9J1SL> <@UDDE5960N> <@UK7V13DS7>! There's a thread here!
