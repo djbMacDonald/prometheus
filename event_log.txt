@@ -5498,3 +5498,8 @@ Chaos: Contraction-bot adds message: Probably'nt much productive
 Chaos: Contraction-bot deletes message: Probably not much productive
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 93)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 120)
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UETS9HTSS> it is your turn! (turn 266)
+Chaos: Lex-bot adds message: Someone on reddit was posting how they have both evac and stay at home orders from ofaificls
+Chaos: Lex-bot deletes message: Someone on reddit was posting how they have both evac and stay at home orders from officials
+Chaos: Lex-bot adds message: People praobbly panic
+Chaos: Lex-bot deletes message: People probably panic
