@@ -5494,3 +5494,5 @@ Chaos: Botify-bot deletes message: I mean it's always brokenly fun
 Chaos: Lol-bot adds reaction: lol
 Chaos: Censor-bot adds message: not ~*REDACTED*~ dental work can wait
 Chaos: Censor-bot deletes message: not all dental work can wait
+Chaos: Contraction-bot adds message: Probably'nt much productive
+Chaos: Contraction-bot deletes message: Probably not much productive
