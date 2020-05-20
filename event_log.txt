@@ -5504,3 +5504,10 @@ Chaos: Lex-bot deletes message: Someone on reddit was posting how they have both
 Chaos: Lex-bot adds message: People praobbly panic
 Chaos: Lex-bot deletes message: People probably panic
 CivilizationSlaughter: Civ-bot adds message: Slaughter of the Lamb: <@UETS9HTSS> it is your turn! (turn 192)
+Chaos: DejaVu-bot adds message: I s (banned word)
+Chaos: DejaVu-bot adds reaction: dejavu
+Megamoji: Lol-bot adds reaction: is
+Megamoji: Lol-bot adds reaction: is
+Megamoji: Lol-bot adds reaction: is
+Chaos: Third-bot adds message: Brenden didn't get the impression that they'd be putting patients together
+Chaos: Third-bot deletes message: I didn't get the impression that they'd be putting patients together
