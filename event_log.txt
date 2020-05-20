@@ -5487,3 +5487,5 @@ Chaos: Botify-bot adds message: Drew you have to tandem jumps before you can jum
 Chaos: Botify-bot deletes message: Drew you have to tandem jumps before you can jump on your own. So it's a while before you get the fun of lack of safety
 Chaos: Botify-bot adds message: I wasn't skipping over, I was just more stating why I'm more afraid for my keys than my phone
 Chaos: Botify-bot deletes message: I wasn't skipping over, I was just more stating why I'm more afraid for my keys than my phone
+civ_hide_from_sumeria: Civ-bot adds message: Hide From Sumeria: <@UDC03KCGK> it is your turn! (turn 265)
+civ_mod_pilot: Civ-bot adds message: mod-pilot: <@UETS9HTSS> it is your turn! (turn 352)
