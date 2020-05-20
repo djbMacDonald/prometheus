@@ -5519,3 +5519,10 @@ civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your tu
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 94)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 121)
 Chaos: ChaosSeed-bot adds message: Hey <@UDL020K8D> <@UDD45P5A9> <@UDC4QL95G> <@UHQD9J1SL> <@UDDE5960N> <@UK7V13DS7>! There's a thread here!
+Chaos: Contraction-bot adds message: Longfellow'd be good. Hadn't heard o'B&amp;B. Bully Boy might be too far out
+Chaos: Contraction-bot deletes message: Longfellow would be good. Hadn't heard of B&amp;B. Bully Boy might be too far out
+Chaos: Censor-bot adds message: check bus lines to see if they work out at ~*REDACTED*~ 
+Chaos: Censor-bot deletes message: check bus lines to see if they work out at all
+Chaos: DejaVu-bot adds message: games are happening?
+Chaos: DejaVu-bot adds reaction: dejavu
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 95)
