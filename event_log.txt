@@ -5514,3 +5514,6 @@ Chaos: Third-bot deletes message: I didn't get the impression that they'd be put
 Chaos: Botify-bot adds message: wow
 Chaos: Botify-bot deletes message: wow
 Chaos: Lol-bot adds reaction: wow
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 94)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 120)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 94)
