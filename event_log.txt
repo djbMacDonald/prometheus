@@ -5478,3 +5478,8 @@ Chaos: Spam-bot adds reaction: 2birds1stone
 Chaos: Spam-bot adds reaction: objection2
 Chaos: Contraction-bot adds message: 't's more like the fact'at she thinks going first's going to save'er, or'at somehow a dental office's either doing 1 patient't a time, or as complete revamped their floor plan
 Chaos: Contraction-bot deletes message: It's more like the fact that she thinks going first is going to save her, or that somehow a dental office is either doing 1 patient at a time, or as complete revamped their floor plan
+Chaos: Censor-bot adds message: Yeah, I agree with you that she sounds very entitled or at least completely unable to be realistic about how anything is supposed to work. 
+Frankly, I didn't realize dentists were reopening already, and the fact that she can get a dentist appointment at ~*REDACTED*~ is a kind of luxury.
+Chaos: Censor-bot deletes message: Yeah, I agree with you that she sounds very entitled or at least completely unable to be realistic about how anything is supposed to work. 
+Frankly, I didn't realize dentists were reopening already, and the fact that she can get a dentist appointment at all is a kind of luxury.
+Chaos: ChaosSeed-bot adds message: Hey <@UK7V13DS7> <@UDC4QL95G> <@UHQD9J1SL> <@UDL020K8D> <@UDD45P5A9>! There's a thread here!
