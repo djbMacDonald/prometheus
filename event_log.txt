@@ -5556,3 +5556,17 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is y
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 124)
 Civilization: Botify-bot adds message: This also looks promising <https://steamcommunity.com/sharedfiles/filedetails/?id=2044522714>
 Civilization: Botify-bot deletes message: This also looks promising <https://steamcommunity.com/sharedfiles/filedetails/?id=2044522714>
+Civilization: Contraction-bot adds message: Don't like the look o'at one
+Civilization: Contraction-bot deletes message: Don't like the look of that one
+Civilization: ChaosSeed-bot adds message: Hey <@UDD45P5A9> <@UDC03KCGK> <@UDC4QL95G> <@UK7V13DS7> <@UDL020K8D> <@UHQD9J1SL>! There's a thread here!
+Civilization: Botify-bot adds message: I don't mind the spacing one, although I always thought it was a fun trade of do you settle near or not
+Civilization: Botify-bot deletes message: I don't mind the spacing one, although I always thought it was a fun trade of do you settle near or not
+Civilization: Botify-bot adds message: Agreed
+Civilization: Botify-bot deletes message: Agreed
+Civilization: Greek-bot adds message: So scratch the unit one
+add στρατηγική [[strategic]] resources, city placement and decom
+
+ [[Greek: stratigikí]]
+Civilization: Greek-bot deletes message: So scratch the unit one
+add strategic resources, city placement and decom
+Civilization: Lol-bot adds reaction: sure
