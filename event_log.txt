@@ -5554,3 +5554,5 @@ Chaos: Greek-bot adds message: fair చాలు [[enough]]
 Chaos: Greek-bot deletes message: fair enough
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 97)
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 124)
+Civilization: Botify-bot adds message: This also looks promising <https://steamcommunity.com/sharedfiles/filedetails/?id=2044522714>
+Civilization: Botify-bot deletes message: This also looks promising <https://steamcommunity.com/sharedfiles/filedetails/?id=2044522714>
