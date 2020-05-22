@@ -5590,3 +5590,5 @@ Chaos: Botify-bot deletes message: I feel like it's saying that ME3 doesn't have
 CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 122)
 CivilizationTwoFrontWar: Lol-bot adds reaction: lol
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 125)
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is your turn! (turn 123)
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 125)
