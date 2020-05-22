@@ -5587,3 +5587,6 @@ Civilization: Contraction-bot adds message: Ohhh't's definetly the Civ servers
 Civilization: Contraction-bot deletes message: Ohhh it's definetly the Civ servers
 Chaos: Botify-bot adds message: I feel like it's saying that ME3 doesn't have story carry over from 1 and 2. Which it does if you played them
 Chaos: Botify-bot deletes message: I feel like it's saying that ME3 doesn't have story carry over from 1 and 2. Which it does if you played them
+CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDDE5960N> it is your turn! (turn 122)
+CivilizationTwoFrontWar: Lol-bot adds reaction: lol
+civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDDE5960N> it is your turn! (turn 125)
