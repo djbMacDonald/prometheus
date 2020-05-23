@@ -5594,3 +5594,10 @@ CivilizationTwoFrontWar: Civ-bot adds message: 2 Front War: <@UDC03KCGK> it is y
 civ_lack_game: Civ-bot adds message: lackmind's Game: <@UDC03KCGK> it is your turn! (turn 125)
 Civilization: Botify-bot adds message: Ahhhhh ok
 Civilization: Botify-bot deletes message: Ahhhhh ok
+Civilization: Lol-bot adds reaction: no
+Civilization: Botify-bot adds message: <@UDC03KCGK>
+Civilization: Botify-bot deletes message: <@UDC03KCGK>
+Civilization: Lol-bot adds reaction: fyi
+Civilization: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UDL020K8D> <@UHQD9J1SL> <@UDD45P5A9> <@UETS9HTSS> <@UK7V13DS7>! There's a thread here!
+Civilization: Botify-bot adds message: And you get the mods you need
+Civilization: Botify-bot deletes message: And you get the mods you need
