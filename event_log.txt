@@ -5601,3 +5601,5 @@ Civilization: Lol-bot adds reaction: fyi
 Civilization: ChaosSeed-bot adds message: Hey <@UDC4QL95G> <@UDL020K8D> <@UHQD9J1SL> <@UDD45P5A9> <@UETS9HTSS> <@UK7V13DS7>! There's a thread here!
 Civilization: Botify-bot adds message: And you get the mods you need
 Civilization: Botify-bot deletes message: And you get the mods you need
+Chaos: Botify-bot adds message: demon  slayer is at the whole foods in boston, good but pricey
+Chaos: Botify-bot deletes message: demon  slayer is at the whole foods in boston, good but pricey
