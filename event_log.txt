@@ -5603,3 +5603,5 @@ Civilization: Botify-bot adds message: And you get the mods you need
 Civilization: Botify-bot deletes message: And you get the mods you need
 Chaos: Botify-bot adds message: demon  slayer is at the whole foods in boston, good but pricey
 Chaos: Botify-bot deletes message: demon  slayer is at the whole foods in boston, good but pricey
+Chaos: Censor-bot adds message: Nice, I'd good ~*REDACTED*~ the moonstone personally. Good quality, decent price.
+Chaos: Censor-bot deletes message: Nice, I'd good with the moonstone personally. Good quality, decent price.
