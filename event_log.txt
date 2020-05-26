@@ -5719,3 +5719,15 @@ Chaos: Censor-bot adds message: can see ~*REDACTED*~  :shrug:  i think theyre tr
 Chaos: Censor-bot deletes message: can see that :shrug:  i think theyre trained to think' no big deal, everyone's gonna get it eventually'
 Chaos: Censor-bot adds message: Well, I would believe ~*REDACTED*~ if it weren't for the vast majority of medical professionals talking about how ~*REDACTED*~ s not ok
 Chaos: Censor-bot deletes message: Well, I would believe that if it weren't for the vast majority of medical professionals talking about how that's not ok
+Chaos: Censor-bot adds message: I don't live alone, so I can't speak toward the difficulties with ~*REDACTED*~ , but Sam and I have been as strict as we can with it. I go to the grocery store once a week, she's gone on some walks with a friend of hers 6 feet apart the whole time, and ~*REDACTED*~ s basically it.
+Chaos: Censor-bot deletes message: I don't live alone, so I can't speak toward the difficulties with that, but Sam and I have been as strict as we can with it. I go to the grocery store once a week, she's gone on some walks with a friend of hers 6 feet apart the whole time, and that's basically it.
+Chaos: Censor-bot adds message: I discovered today ~*REDACTED*~ rental car agencies sell used cars at significant discounts
+Chaos: Censor-bot deletes message: I discovered today that rental car agencies sell used cars at significant discounts
+Chaos: Censor-bot adds message: but care condition wont be ~*REDACTED*~ good
+Chaos: Censor-bot deletes message: but care condition wont be that good
+Chaos: Censor-bot adds message: I'd more say ~*REDACTED*~ they're driven hard and not cared well for while being driven
+Chaos: Censor-bot deletes message: I'd more say that they're driven hard and not cared well for while being driven
+Chaos: Censor-bot adds message: yes ~*REDACTED*~ 
+Chaos: Censor-bot deletes message: yes that
+Chaos: Contraction-bot adds message: and typically driven more miles in a year than's desirable
+Chaos: Contraction-bot deletes message: and typically driven more miles in a year than is desirable
