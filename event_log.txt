@@ -5699,3 +5699,5 @@ Chaos: Censor-bot deletes message: I kinda agree with brenden here. All the beau
 Chaos: Censor-bot adds message: i went out for the first time in like, 2.5 months yesterday and who do I see, but the person ~*REDACTED*~ quit last week because he disagreed with a PIP
 Chaos: Censor-bot deletes message: i went out for the first time in like, 2.5 months yesterday and who do I see, but the person that quit last week because he disagreed with a PIP
 Chaos: Lol-bot adds reaction: wow
+Chaos: Censor-bot adds message: ain't nobody got time fo'  ~*REDACTED*~ 
+Chaos: Censor-bot deletes message: ain't nobody got time fo' that
