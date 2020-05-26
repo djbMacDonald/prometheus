@@ -5715,3 +5715,7 @@ Chaos: Botify-bot adds message: i mean if you see people doing the same thing yo
 Chaos: Botify-bot deletes message: i mean if you see people doing the same thing you are that's pretty low risk in my opinion
 Chaos: Censor-bot adds message: yeah ~*REDACTED*~ i made sure of
 Chaos: Censor-bot deletes message: yeah that i made sure of
+Chaos: Censor-bot adds message: can see ~*REDACTED*~  :shrug:  i think theyre trained to think' no big deal, everyone's gonna get it eventually'
+Chaos: Censor-bot deletes message: can see that :shrug:  i think theyre trained to think' no big deal, everyone's gonna get it eventually'
+Chaos: Censor-bot adds message: Well, I would believe ~*REDACTED*~ if it weren't for the vast majority of medical professionals talking about how ~*REDACTED*~ s not ok
+Chaos: Censor-bot deletes message: Well, I would believe that if it weren't for the vast majority of medical professionals talking about how that's not ok
