@@ -5676,3 +5676,7 @@ Chaos: Spam-bot adds reaction: hon-hon-hon
 Chaos: Spam-bot adds reaction: komachi-laugh
 Chaos: Spam-bot adds reaction: get_rich_or_die_tywin
 Chaos: Spam-bot adds reaction: adm_nimitz
+Chaos: Censor-bot adds message: Yeah Doug mentioned something about them putting in a ticket and explaining ~*REDACTED*~ it auto shuts off for some crazy random reason. Even when it is their fault.
+Chaos: Censor-bot deletes message: Yeah Doug mentioned something about them putting in a ticket and explaining that it auto shuts off for some crazy random reason. Even when it is their fault.
+Chaos: Censor-bot adds message: Yeah Doug mentioned something about them putting in a ticket and explaining ~*REDACTED*~ it auto shuts off for some crazy random reason. Even when it is their fault.
+Chaos: Censor-bot deletes message: Yeah Doug mentioned something about them putting in a ticket and explaining that it auto shuts off for some crazy random reason. Even when it is their fault.
