@@ -5731,3 +5731,4 @@ Chaos: Censor-bot adds message: yes ~*REDACTED*~
 Chaos: Censor-bot deletes message: yes that
 Chaos: Contraction-bot adds message: and typically driven more miles in a year than's desirable
 Chaos: Contraction-bot deletes message: and typically driven more miles in a year than is desirable
+Chaos: Lol-bot adds reaction: valid
