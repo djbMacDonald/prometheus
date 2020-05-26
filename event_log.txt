@@ -5709,3 +5709,9 @@ Chaos: Botify-bot adds message: well then
 Chaos: Botify-bot deletes message: well then
 Chaos: DejaVu-bot adds message: not only are those not square, but they are just numbered sequentially...
 Chaos: DejaVu-bot adds reaction: dejavu
+Chaos: Contraction-bot adds message: I mean, any one o'those things'd've been enough o'an excuse as to why y'weren't'round.
+Chaos: Contraction-bot deletes message: I mean, any one of those things would have been enough of an excuse as to why you weren't around.
+Chaos: Botify-bot adds message: i mean if you see people doing the same thing you are that's pretty low risk in my opinion
+Chaos: Botify-bot deletes message: i mean if you see people doing the same thing you are that's pretty low risk in my opinion
+Chaos: Censor-bot adds message: yeah ~*REDACTED*~ i made sure of
+Chaos: Censor-bot deletes message: yeah that i made sure of
