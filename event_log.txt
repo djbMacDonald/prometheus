@@ -5656,3 +5656,4 @@ better coastal cities
 removable districts
 
 are the only ones that affect gameplay
+Chaos: Mock-bot adds message: MoRnInG!
