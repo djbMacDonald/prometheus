@@ -5701,3 +5701,11 @@ Chaos: Censor-bot deletes message: i went out for the first time in like, 2.5 mo
 Chaos: Lol-bot adds reaction: wow
 Chaos: Censor-bot adds message: ain't nobody got time fo'  ~*REDACTED*~ 
 Chaos: Censor-bot deletes message: ain't nobody got time fo' that
+Chaos: Botify-bot adds message: You can hide ash Aysh!
+Chaos: Botify-bot deletes message: You can hide ash Aysh!
+Chaos: Censor-bot adds message: im being stalked, why would you risk ~*REDACTED*~ CJ?
+Chaos: Censor-bot deletes message: im being stalked, why would you risk that CJ?
+Chaos: Botify-bot adds message: well then
+Chaos: Botify-bot deletes message: well then
+Chaos: DejaVu-bot adds message: not only are those not square, but they are just numbered sequentially...
+Chaos: DejaVu-bot adds reaction: dejavu
