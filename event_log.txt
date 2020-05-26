@@ -5657,3 +5657,22 @@ removable districts
 
 are the only ones that affect gameplay
 Chaos: Mock-bot adds message: MoRnInG!
+Chaos: Spam-bot adds reaction: jfet-answer-me
+Chaos: Spam-bot adds reaction: notion-train
+Chaos: Spam-bot adds reaction: idontbelieveyou
+Chaos: Spam-bot adds reaction: raspberry_pi
+Chaos: Spam-bot adds reaction: cube_demons
+Chaos: Spam-bot adds reaction: spaghettios
+Chaos: Spam-bot adds reaction: niko-sad
+Chaos: Spam-bot adds reaction: chickenandriceguys
+Chaos: Spam-bot adds reaction: fridaybeers
+Chaos: Spam-bot adds reaction: duhhh
+Chaos: Spam-bot adds reaction: he-brings-you-a-new-emoji
+Chaos: Spam-bot adds reaction: bigdoof2
+Chaos: Spam-bot adds reaction: metal_slug
+Chaos: Spam-bot adds reaction: ml_really
+Chaos: Spam-bot adds reaction: flex_heather
+Chaos: Spam-bot adds reaction: hon-hon-hon
+Chaos: Spam-bot adds reaction: komachi-laugh
+Chaos: Spam-bot adds reaction: get_rich_or_die_tywin
+Chaos: Spam-bot adds reaction: adm_nimitz
