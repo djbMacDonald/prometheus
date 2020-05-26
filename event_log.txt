@@ -5682,3 +5682,8 @@ Chaos: Censor-bot adds message: Yeah Doug mentioned something about them putting
 Chaos: Censor-bot deletes message: Yeah Doug mentioned something about them putting in a ticket and explaining that it auto shuts off for some crazy random reason. Even when it is their fault.
 Chaos: Censor-bot adds message: the Prime Minister is from there. It s famous for diamonds and some riots ~*REDACTED*~ happened a decade ago between Hindus and Muslims were lots of people died. It is famou for an anual 14 day celebration where people dance from sunset to when they want to die. They dance in circles and its called a 'Garba' and there are several events in Boston too ~*REDACTED*~ host this. Its famous for its 'sweets' - which are like teeny confections but VERY sweet
 Chaos: Censor-bot deletes message: the Prime Minister is from there. It s famous for diamonds and some riots that happened a decade ago between Hindus and Muslims were lots of people died. It is famou for an anual 14 day celebration where people dance from sunset to when they want to die. They dance in circles and its called a 'Garba' and there are several events in Boston too that host this. Its famous for its 'sweets' - which are like teeny confections but VERY sweet
+Chaos: Dm-bot adds message: Roll a Fortitude saving throw with disadvantage to steal food from the giant lizard
+Chaos: Greek-bot adds message: I hate ящериц [[lizards]] :disappointed:
+
+ [[Russian]]
+Chaos: Greek-bot deletes message: I hate lizards :disappointed:
