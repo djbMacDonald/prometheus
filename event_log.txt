@@ -5732,3 +5732,13 @@ Chaos: Censor-bot deletes message: yes that
 Chaos: Contraction-bot adds message: and typically driven more miles in a year than's desirable
 Chaos: Contraction-bot deletes message: and typically driven more miles in a year than is desirable
 Chaos: Lol-bot adds reaction: valid
+Chaos: Censor-bot adds message: why do I have the feeling ~*REDACTED*~ pandemics will be specifically called out in terms/conditions/contracts very soon as boilerplate material
+Chaos: Censor-bot deletes message: why do I have the feeling that pandemics will be specifically called out in terms/conditions/contracts very soon as boilerplate material
+Chaos: Censor-bot adds message: as an example, I imagine colleges accepting tuition will include clauses ~*REDACTED*~ don't allow for refunds in the event of a pandemic
+Chaos: Censor-bot deletes message: as an example, I imagine colleges accepting tuition will include clauses that don't allow for refunds in the event of a pandemic
+Chaos: Greek-bot adds message: Yeah, the not seeing οι φιλοι [[friends]]/family has been hard. Once more things are open, maybe small groups can happen.
+
+ [[Greek]]
+Chaos: Greek-bot deletes message: Yeah, the not seeing friends/family has been hard. Once more things are open, maybe small groups can happen.
+Chaos: Censor-bot adds message: I do feel a bit selfish ~*REDACTED*~ I've been spending time with someone outside my dwelling, but we have been as careful as we can.
+Chaos: Censor-bot deletes message: I do feel a bit selfish that I've been spending time with someone outside my dwelling, but we have been as careful as we can.
