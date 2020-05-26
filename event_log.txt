@@ -5620,3 +5620,39 @@ Civilization: Greek-bot adds message: That is all the items you have загру�
 
  [[Russian]]
 Civilization: Greek-bot deletes message: That is all the items you have downloaded
+Civilization: Censor-bot adds message: to pare it down a bit:
+watchtower
+strategic forts
+capture unique
+decom power plant
+better coastal cities
+removable districts
+
+are the only ones ~*REDACTED*~ affect gameplay
+Civilization: Censor-bot deletes message: to pare it down a bit:
+watchtower
+strategic forts
+capture unique
+decom power plant
+better coastal cities
+removable districts
+
+are the only ones that affect gameplay
+Civilization: Censor-bot adds message: to pare it down a bit:
+watchtower
+strategic forts
+capture unique
+decom power plant
+better coastal cities
+removable districts
+
+are the only ones ~*REDACTED*~ affect gameplay
+Civilization: Censor-bot deletes message: to pare it down a bit:
+watchtower
+strategic forts
+capture unique
+decom power plant
+better coastal cities
+removable districts
+
+are the only ones that affect gameplay
