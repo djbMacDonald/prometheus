@@ -1,0 +1,1800 @@
+test
+test
+test
+tets
+test
+test
+test
+test
+tets
+test
+test
+aaa
+blah
+a
+a
+tets
+for some reason a single post is turning into 4 separate events. and someone that leads to the double deja vu. not sure how to fix it
+find
+find
+find
+find
+find
+find me
+test
+find
+find
+find
+find
+find
+find
+find
+find
+find
+find
+find
+find
+find
+find
+find me
+test
+test
+test test
+ok, things all seem to be working with the new back end
+phase 2 complete
+ok, next phase is to pull in what I can from megamoji. We probably don't need a python server and a JS server. eh, we'll see
+We dont it's just that JS server went up first
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+Well that looks broken
+it'll get there.
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+better. now I need a way for it to not post once its already done it once.
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+find
+find
+find
+find
+find
+find
+find
+find
+how
+find
+find
+find
+find
+find
+find
+find
+find
+a
+a
+a
+a
+a
+a
+a
+a
+a
+silence chaos seed
+silence chaos seed
+silence chaos seed
+silence chaos seed
+silence chaos seed
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+silence chaos seed
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+ok, chaos seed and silence should be working in prometheus now. Looking at megamoji, that's probably the only piece that I actually care to port over. Whatever unown and megamoji stuff can continue to live there until someone else messes with them. All the chaos bots are in the same place now.
+test
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+HOLY GOD DOUG YOU'VE CHANGED SO MUCH!!!!
+It's like a real program now
+<@UDL020K8D> when you get in office can you add me to buttery-waxflower?
+ok, doing it now.
+Thanks!
+<https://glitch.com/edit/#!/join/1f31c8f6-39aa-4e37-9b6b-3d451b8be9bd>
+^ edit link
+<@UPGVCMGD9>
+test test
+Doug did you kill the fact that it would post messages to logs?
+will check now
+yeah, chaos-monkey logs are up to date. I see you talking about Iran
+hmmm ok, I'm probably being stupid.  Thanks Doug
+its in the deja vu bot
+all functionality is in bots now. The server.py now only serves to instantiate and trigger them
+Oh, know i was trying to figure out what Marissa's id is
+Which I usually just go into the logs after pinging people
+but some reason I'm not seeing messages post to them
+you can click on her directly to see it
+Thanks!
+for the impersonations, I wasn't sure where the image URLs came from
+That's totally a dakota thing, like I said, glitch use to have the full json printed to the log file
+I'm assuming that's where dakota got them from
+oh, those logs. yeah, I cut some of that out, hoping to make it more obvious when errors were happening.
+there was too much normal text to sift through
+Yea, we tended to use those in order to back into what we wanted slack to do
+You know, reverse engineering instead of reading documentation
+yeah, I used it a bit as well. but turned it off once I got what I needed from it.
+click name, right click, copy image url
+that's simpler than I was making it out to be.
+nice
+nice
+Testing Chaos SEed
+b
+a
+c
+d
+d
+f
+e
+h
+g
+s
+e
+ci
+a
+c
+e
+FAIL!
+i guess
+should work when doug is not actively coding
+ah subtle differences in refactor
+there it is
+:chaos:
+interesting that it is frozen now though
+ah subtle differences in refactor
+testing chaos seed again
+test
+1
+2
+c
+d
+e
+no idea what you mean
+spam50
+spam50
+spam50
+spam50
+spam50
+spam50
+spam50
+spam50
+LOL!
+TOOT TOOT MOTHERFUCKERS!!!!
+```Object of type ObjectId is not JSON serializable```
+
+test
+test
+whats wrong with the printed event?
+test
+test
+test
+hm, not sure
+I don't get why ObjectId is showing up before you try to save the event.
+test
+test
+looks like it might have something to do with flask
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+I'm sad it's not reposting stuff
+For the record I don't know what you guys did, but something is deleting comments and not reposting
+I'm turning off cenor bot. that's the most likely cause
+kk
+oh, nevermind, I know the problem
+it was just you CJ
+the pig latin bot broke
+ohhhhhhh
+fixed now
+yea!!!!!!!
+lucky break right there
+dejavu
+dejavu
+lol
+lol
+lol
+lol
+lol
+lol
+/ roll d20k1 -3
+/roll d20k1 -1
+Whooops
+/roll 2d20k1 -3
+/roll d20
+Tracked the dragon did not jump the molten glass golem
+its set at 2%. weird to see two so close
+¯\_(ツ)_/¯
+lol
+parrot
+parrot
+parrot
+nice
+test?
+testing test did this work?
+:phew:
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+lol
+test
+just missing a comma
+test
+test
+nice
+Unintended interaction. Kind of funny. I like it. 
+wait, if there is a matching emoji, does it react to it?
+Look at bots/lol.py   I added it last night. 
+Hm, that should have done it. 
+sweet
+I think the get_all_emojis call returns an object that is too big. You should search for a specific emoji instead
+Oooohhh
+Look at bots/lol.py   I added it last night. 
+Ah. 
+parrot
+you can add a query param
+Hm, I’ll have to figure out how to redo the bot spam bot as well. 
+wait, if there is a matching emoji, does it react to it?
+Maybe it’s just not worth it. 
+I stored a big json of all the emojis for the old spam bot, but that will be a pretty big file
+Or maybe mongo will help here. 
+Unintended interaction. Kind of funny. I like it. 
+you can add a query param
+I think the get_all_emojis call returns an object that is too big. You should search for a specific emoji instead
+I stored a big json of all the emojis for the old spam bot, but that will be a pretty big file
+oh could be a good use for mongo. I could also update my emoji script to upload a doc for each new emoji as well
+I turned off lol_bot and spam_bot for now.
+I don't see a query param listed on the API
+```  url = '<https://games-club-external.slack.com/api/emoji.adminList?token=>{}&amp;queries=["{}"]&amp;count=100000'.format(os.environ.get('MEGA'), searchTerm)```
+I didn't see emoji.adminList on the api docs
+only emoji.list
+I hate the slack api docs
+Yea they suck
+every with this knowledge I cannot find confirmation online that emoji.adminList exists.
+adminList is not official
+so you're using an internal api?
+if you look at the network requets, you can see it is an api used by the slack website
+yessir
+oh
+i c
+Why does scrambler have 0.1 frequency *100?
+because to convert from a decimal to a percent, you need to multiply it by 100
+0.1 * 100 = 10%
+We had it set to way lower than that
+Unable to confirm after refactor
+I invited you to edit. changing _frequency should work
+Watching you code feels like watching you have a stroke in real time
+Who is editing it at the same time?
+I was trying to make prometheus less broken
+you somehow broke prometheus
+I have not idea how
+At least from how it is updating on my end
+I fixed what jumped out to me, but you'd have to rewind to yesterday to see if I missed some more
+i think there was some weird desync since I wasn't copy-pasting anything
+wtf i just refreshed and the code looks TOTALLY different
+Have you looked at the scrambler bot code?
+You put in some WEIRD copy pastes
+alright it is back up. That was super odd
+I understand the stroke comment now
+Huh, so what happened?
+I was going to go back and fix the code but you'd already fixed/restored it
+wtf i just refreshed and the code looks TOTALLY different
+i think there was some weird desync since I wasn't copy-pasting anything
+_frequency = .01 is 1 in 100. That is what scrambler was set to before the refactor. <@UDC03KCGK>
+If you'd like it lower, that totally works as well
+oh, you said .1. yeah, that looks like a typo
+you changed Scrambler to CJ? He's already being hit by pig latin
+...sigh, way to kill a joke Doug
+eventually I think there should be a bot for all you. Drew has scramble, CJ has pig latin, Brenden has dashes. I've haven't spent much time brainstorming though.
+I have "Dakota Gave Us Fire" techinically
+CJ also has an emoji spam bot somwehere
+and any time he says stabby
+people can have multiple.
+oh, I turned off old spam bot when I thought I had a replacement for everyone. I should turn it back on.
+megamoji cj-spam back on for now.
+I have a new idea for a bot
+<@UDDE5960N>? ^ ?
+<@UDDE5960N>? ^^ ?
+I don't know if I want to tell you or just surprise you
+test.
+test
+test
+/roll 1d6
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+Ohhhh god, I don't like this bot......
+not working right yet
+above is not intended
+Certainly seems like a bot that posts click bait titles
+not intentionally
+test
+I can't figure out why its doing it 4 times
+test
+lol
+test
+test
+test
+test
+test
+/roll 1d6
+Btw, I have added user persistant data via mongo. see model/user.py
+<@UDL020K8D>
+nice
+not sure what do do with it, but it could probably be helpful
+oof, that one was really bad
+lol good thing there is a test channel
+I think this works
+oh god triple simultaneous development
+WHAT COULD POSSIBLY GO WRONG
+Where are the bot calls?
+?
+How do you add a new bot to the list of bots checks
+ah
+?
+you no longer need to do that
+just add the bot to the bots folder
+It automatically imports all bots from the dierectory
+you just need the run function
+neat
+(describe is a nice to have, but not a requireemnt)
+neat
+NEAT I SAID
+neat
+ah, a third person bot
+Wait I want this to work
+i
+:communist: WE :communist: want this to work
+I 'm a dumbass
+oh ... it's nice
+nice
+identity undef
+hmmmm
+use `dentity = IDENTITIES[self._event.user()]`
+But I shouldn't need to declare that because it's part of the inhertance of Bots isn't it?
+nope.
+that's `_identityUtil`
+which is different
+so many pings!
+I like this
+<@UDDE5960N> you still want the .userName, etc
+try it now
+I don't like this
+ah, just missing the import nowq
+once more
+I don't get this
+Hahahahah double
+ok, now you need to change the text manip a bit. don't set the text on the event.
+You sure it's [] and not []
+save to a varaible, then post that.
+()
+{}
+&lt;&gt;
+JESUS THIS FEELS MORE DIFFICULT NOW!
+the utility functions are a bit tougher to use now yeah
+but that is the cost of organization
+Organization seems less useful right now....
+JESUS THIS FEELS MORE DIFFICULT NOW!
+Whatever you're cooking, it seems like crazy pills
+you can say that again
+i
+GOT IT!
+almost
+i
+I'm crazy nice
+I'm crazy nice
+i am crazy
+I'm happy
+true but invalid syntax in a bot still does
+i
+:lol:
+you might not be able to catch compile problems
+is invalid syntax catchable?
+i
+I don't think so
+I think your code will break if the word starts with I
+there is no space on the left
+possibly, not sure
+i
+there should be some regex you can reuse in the redacted bot
+for banned words
+i'm sad
+i'm sad
+Yes, you did say neat
+Ok that got rid of the duplicat problem
+Under the new regime
+I want to fix this.
+the whole point of the refactor was to allow me to work on . that problem.
+I really like that breaking a bot no longer kills all the bots.
+So, if the scramble bot fires for me, but I say something redacted, how does the refactor handle this?
+it will post both
+I think it will delete your message, then double post
+I'm happy
+I did it!
+<@UDC03KCGK> I think it would be great if it posted a scrambled message with redactions
+but that's more difficult
+That'd be hilarious, but we'd have to create a queue for the bots, right?
+while still allowing people to make bots willy-nilly
+yeah
+that's my current idea.
+but I'd hide it from the bot author.
+hence moving all posts to the utility.
+theoretically, you could add another standard method to all bots called 'execute' or something
+first run through each bot, and set a flag on the slack event for each bot that triggers
+then call the execute method on each flagged bot
+New bot complete
+all posting is now hidden behind the util. so you can sub out posting, for enqueuing without anyone noticing
+I am complete
+Version 1 complete
+The bot might not be complete till version 4
+This both is not for yoU!
+It hasn't gone through QC, ipso facto, <@UETS9HTSS>
+Although I was debating on making it an array so everyone would have a different probability
+you could have to figure how to merge the strings properly, which in a scrambled + redacted message wouldn't work too well
+yeah, that's the part I don't know how its going to look yet.
+How do the bots deal with situations in which they both should fire?
+brenden cannot test a bot he cannot trigger!
+they both fire
+Under the new regime
+lol
+but controlling the post process was needed for any changes.
+Why would that matter? Scramble the message first, then redact it. Hold the string in queue as a variable
+the whole point of the refactor was to allow me to work on . that problem.
+that works for those two bots. I want it to work for any possible bots
+This was specifically talking about queuing the posts
+if you queue the posts, you don't know what happened, just the new content
+This is a bot only targeting CJ?
+That seems less chaotic
+It should only target Aysh
+You would need to seperate the trigger and the post action
+what if the bug is that anyone can trigger it
+dunno, haven't checked the target
+It's literally the most Aysh bot I've ever seen
+:hyper-think:
+yeah, that's an option
+So first all the bots get the unaltered message to see if they need to do something, and then bots get a chance to mess with the message before it's posted
+a bot might need "firing criteria" and a seperate "run"
+I literally just suggested that!
+You'd have problems with Pig and redact, but that should be pretty small
+right before "New Bot Complete"
+Yea but you're queing them, I'm saying you seperate out the trigger from the run and que both of them!
+missed it. blame CJ's fire image
+.... cj, read 2 posts before the start of this thread
+You have no idea who the bot targets now
+<@UDDE5960N>
+Make it at least target Aysh
+Although I do really want to make it an array so it affects everyone differently
+But CJ eli5
+the one hurdle here is that bots then can be acting on messages no longing in their criteria once they act. That itself is a good thing, but it means people will need to think about more general cases when they are writing.
+
+There should probably be some system to say we want one bot to run before another. Like censor should run before pigLatin
+<@UDDE5960N> :bug: what if your message ends in `i`
+&gt; *Michael:* Why don't you explain this to me like I'm five.
+&gt; *Oscar:* Your mommy and daddy give you ten dollars to open up a lemonade stand. So you go out and you buy cups and you buy lemons and you buy sugar. And now you find out that it only costs you nine dollars.
+&gt; *Michael:* Ho-oh!
+&gt; *Oscar:* So you have an extra dollar.
+&gt; *Michael:* Yeah.
+&gt; *Oscar:* So you can give that dollar back to mommy and daddy, but guess what? Next summer...
+&gt; *Michael:* I'll be six.
+NO ONE READS THE MAIN THREAD IN THE TEST CHANNEL!
+CLEARLY WE'RE TALKING IN THREAD HERE!
+Who'se fault is that!
+What english sentence ends with subject at the end?!?!?!
+Expect for maybe `not i`
+true. some sort of `_weight` to each bot
+unexpected
+that way if you have a bot that needs to act first, set the wight super low/high
+you!
+you would also need a method to indicate that "if this bot runs, stop all other execution "
+`_final` or `_stopProcessing`
+"if this bot runs, stop all other execution " &lt;- that already exists, although its hacky
+test
+test
+This thread made me laugh more than Chaos Monkey did today
+ah, figured out the duplicates. I didn't stop it from triggering off bots. The bot was triggering itself in a loop
+interesting that it cut out after 4 times
+alright, another day with 2 new bots
+you can say that again
+you can say that again
+you can say that again
+<@UDC4QL95G> I think say again works now. I just don't have an impersonation (and am not making one) so it will break for me.
+the people system, with opt-in/opt-out, that's also on the docket for improvment
+mongo persistance will come in handy there.
+test
+test
+test
+test
+test
+test
+test
+test
+test
+hm, there is a downside, <@UDC4QL95G> turns out it say you made the change, not prometheus.
+Words?
+<@UDL020K8D> I created the prometheus user for just such an issue. The Reaction utility function uses a unique token. use that one to make prometheus change the channel
+/roll 1d20
+fuck
+well you didn't subscribe to that trapdoor
+need to work on my automobile skills
+yea....... they need some freshening up because you know... you don't have one
+eh driving a car is like driving a bike
+as long as you hit them harder, you will be fine
+I was gonna say, that's a problem because the phrase is riding a bike, not driving it
+ah, good to klnow
+Request: make this an ephemeral message with an attached Roll button. Use the following link to schedule "well you failed" message to the channel that gets cancelled if they click the roll button. When they click the roll button, you can roll your own dice and post a message with the outcome.
+
+<https://api.slack.com/messaging/scheduling>
+<@UDL020K8D>
+you could give each skill type a pass, fail, critical pass, and critical failure action, and each action the same sort of results of the check
+hm, it was not really meant as an interactive thing, more a conversation starter.
+making it ephemeral kind of defeats that.
+it still would be if they choose not to click the button, or don't see it
+the scheduled message would NOT be ephemeral, nor would any result from clicking the button
+you could also give them something like only 10 seconds to roll, that way the messages go from "do a check" to "you failed/succeeded the check"
+either way, just a reason to play with scheduled messages and message attachments. The bot is also fine the way it is currently
+I can look into at some point. we'll see when I have time/interest again
+fair
+DM bot from 1 in 50 to 1 in 100
+<@UDL020K8D> we should probably get in the habit of having the bots leave some sort of emoji like :dejavu:, I feel like the pig latin bot can be confusing if you don't realize it
+Yup that
+<@UDL020K8D> bots should have visible tells
+I thought the different name was the tell
+All bots repost with the same name, so :dejavu:, botify, and pig latin all use `CJ O'Stabby`
+oh, you want multiple impersonations for the same person?
+Nah i was thinking emoji's
+Like :dejavu:
+So each bot would have it's own :fingerprint:
+that is doable. but its pretty obvious when a pig latin happens.
+True, just more food for thought as we implement more bots
+it is possible
+Well DejaVu happens because it posts an orignal message. Most other bots replace the original
+DejaVu needed it's own because it literally posts text that happened in the channel previously
+<@UDC4QL95G> memory at 90%
+yeah it seems to resolve itself when it does that though
+not sure what causes it
+probably the Pool
+hm. at least pool is set up as a singleton right now.
+We should find the fun line in general. Scrambler and pig latin are both very difficult to read. Is that ok in general?
+They are ok as long as they are rarer than other bots
+Bots like the one that just randomly makes CJ's text an impersonation can be more commen
+but the goal is to make no one bot actually annoying
+It took me a while to tune Dakota's fire/box probability
+Can't you post the new message, then emoji it?
+Maybe? We currently do not have any events listening for other events. It depends on if any given post returns the ID of the message it posted
+you can say that again
+you can say that again
+that was super weird
+glitch is having memory issues today
+<@UDC4QL95G> I copied the is a bot logic from the old one. I actually don't know if its right. There is a weird double not
+yeah that was intentional
+memory back to normal now
+i think memeory spikes when it does an api call
+<@UDC4QL95G> is the prometheus image url saved somewhere? Right now the DM bot can't reference it, it shows a generic person image.
+like the profile picture, or the one that comes up when it says "Dakota Gave us Fire"
+Fire bot uses the random function
+oh, if you don't include an image url, it will default to the app image
+I think
+unless slack updated
+It must have updated
+I vaguely remember all applications being given separate permissions for bot users. It is probably that update
+You can say that again
+Stop trying to burn everything to the ground!
+Never!
+you can say that again
+uhhh
+you can say that again
+you can say that again
+you can say that again
+I just want you to know i started laughing out loud at this
+you can say that again
+you can say that again
+test
+you can say that again
+not sure where the vaguely one came from
+dont repeat this
+you can say that again
+<@UDC4QL95G>
+well i'm lost
+?
+is that a new bot?
+No
+you said you didn't know where it came from
+It came from here
+oh well I meant i didn't know why i picked that one
+I thought it just wanted to the original phrase. can we get rid of all the getChannelDate stuff?
+we need it to get the most recent message in the channel/threae
+It's suppose to be the message directly before it
+oh
+then my description is wrong
+but for some reason, the channel data returned the tread data as well
+aka
+Somebody says something dumb
+`Say that again`
+Something dumb
+you can say that again
+you can say that again
+idk, I can't test it until I mess with the way prometheus deals with people.
+Orrrrr you could add yourself to the mayhem
+aka
+Somebody says something dumb
+`Say that again`
+Something dumb
+MUHAHAHAHAHAHA
+but for some reason, the channel data returned the tread data as well
+you could say that again
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+<@UDC4QL95G> say something.
+something
+was i too late?
+well, that did show me a new error.
+:lol:
+I think I'm pretty close to having this bot's settings controlled from mongo. you can change target and frequency with a slash command
+oh nice
+<@UDC4QL95G> one more time
+sorry for delay
+test
+ok, bugs look to be worked out now. so what you can do:
+`/bot configure frequency code .02`
+or
+`/bot configure target code Dakota`
+
+where `code` is the bot name. (in this case, the name is `code`)
+that will let you change target and frequency on the fly.
+I have a fair bit of re-writing to do before we can get all the bots doing this.
+That's incredible
+And perfect for ultimate chaos
+double deja vu there is odd
+that's the second double dejavu in two days, however this time the second reaction didn't happen
+<@UDC4QL95G> I re-aimed the ban slash command to buttery waxflower. so you should be able to play around with that some now.
+<@UDC4QL95G> memory was a 99%. I commented out the mongo client and it dropped to 10%.
+was trying to figure out why my message replace for you wasn't working, but also wasn't throwing errors.
+Another proof of concept to play with doug
+type /cast
+<@UDL020K8D>
+could be good for an actual UI for configuring bot targets and frequencies
+I DON"T KNOW WHAT IT DOES BUT I LIKE IT!
+Basically, code now exists that makes an interactable popup. More of a "here is a place to start working on a UI if you want one"
+I like to dance
+Config files are small enough that we can store them in files, like the chat history (although that is not small anymore). With the UI we could get this working pretty quickly. 
+working pretty quickly?
+I'm silly
+I'm not silly
+bot idea; load up some lyrics, randomly choose 1 line
+so it must be a snippet between punctuation, so you likely won't be able to identify the song
+and we can speculate where it came from
+this is totally not what I'm doing in <#CDR5ZBTT7|chaos_monkey>
+we'd just need a site to draw random lyrics off of. all the rest is pretty easy to hook up
+five minutes later, post a link in a thread what song it came from
+or spend too long manually added some
+so we can be vindicated if we were right about what song it came from
+test
+Summon the Silent
+test
+Well this can only end well
+Why is CJ's doppleganger black
+For creepiness
+I just saw there was a cj emote and a surprised cj emote. I didn't actually look to closely. Looks like surprised-cj refers to a different cj
+:cj:
+surprised  cj is a different cj. but :cj:  is this cj
+Awkward
+<@UDC03KCGK> scrambler bot odds are now 15%/count of words
+So if you have 15 words it's back to 1 percent
+I don't think that is 15% per count of words. That would be 15 words for every 100
+Like, this is going to be super common, unless it is 15% per count of words per post
+How do I find a channel ID?
+test
+test
+test
+<@UDL020K8D> I approved your changes
+hm, slack still says I need to re-install.
+not sure what's going on
+¯\_(ツ)_/¯
+creepy
+`/cast` has been updated a bit
+Now i just gotta make it actually _do_ something
+Plan is to use a quicktime.py event to counter a spell, and if they don't do it it time, inflict a status on them that will cause a given bot to trigger 100% of the time for X messages (or time)
+*Slackbot*  [4:12 PM]
+*/cast* failed with the error "operation_timeout"
+did the popup come up though?
+sometimes it says timeout, but still comes up
+I think it's because it is loading those images
+yes, but it didn't do anything
+well yeah `Now i just gotta make it actually _do_ something`
+Also I can't select fireball :disappointed:
+Only confusion
+IT'S A PROOF OF CONCEPT. THE BUTTONS DON'T WORK YET
+gosh
+LOL!
+I'm just bug testing it
+Lol yeah it's a bit slow, and Selecting and buttons aren't really supposed to work like that, but w/e
+Botify feels like way more than 20%
+20% is about the highest percentage of any bot
+every 5 mesages is a lot. It really only is noticable when REDACTED is on a common word
+which it has been for a couple days
+a
+b
+c
+e
+d
+f
+h
+g
+i
+j
+thanks Dakota. now chaos seed (and silence) should be the only things turned on
+Thank you!
+<@UDC4QL95G> what is gameMonk?
+I see the app in monkey
+oh it was an app i was playing with. we can rmove it
+<@UDL020K8D> <@UDDE5960N>
+I have added a new Modal.py and a View folder to play with user interfaces.
+
+currently `/cast` and `/bot list` are set up to use `Modal.Open` if . you look at the `/bot` and `/cast` sections
+I AM SO FUCKING HAPPY DAKOTA!
+I take it you clicked the Cast button?
+Fuck yea
+`*/cast* failed with the error "http_service_error"`
+Does cast actually do anything yet?
+hmmm cast may not work for chaos users...
+and no it does not
+well, except for the Cast button
+BUT THE BUTTON TOLD ME IT WORKS AND TO BE HAPPY!
+yeah, works as in it actually did literally ANTTHINg
+it works better than the other buttons on the screen
+I've also not decided now exactly I want the status effects to apply
+<@UDC4QL95G> I don’t see crabby bot. 
+I just deleted it
+Ok, I’ll write it back up. 
+Didn't wanna try to fix the code on my phone, so that was the quickest I could fix it
+<@UDDE5960N> you can now select your spell in `/cast`
+LIES!!!!!! I have *Slackbot*  [4:54 PM]
+*/cast* failed with the error "operation_timeout"
+I'm developing fool
+LIES!!!!!! I have *Slackbot*  [4:54 PM]
+*/cast* failed with the error "operation_timeout"
+You said I could do stuff, I can't do stuff
+I'm developing fool
+STUFFFFFFF
+try now
+Yea!!!!
+test
+test
+t
+test
+a
+d
+fe
+upi cam sau tjat agaom
+test
+you can say that again
+test
+a
+b
+c
+f
+e
+d
+a
+c
+d
+i
+h
+k
+j
+f
+b
+g
+e
+lm
+p
+n
+o
+<@UDL020K8D> there is an issue somewhere that causes each event to trigger another instance of python3
+which is leading to our memory issues
+It's probably that failure of an attempt at making the post messages async
+Wait what?!?!?!
+prometheus is spinning up another prometheus every time a message gets posted or something like that
+No I get that's what happening, I'm just shocked you write code that triggered it
+No I get that's what happening, I'm just shocked you write code that triggered it
+I'm shocked the app recovers from this :lol:
+It's because of how often it turns itself off
+Oh look new Python3 instance
+Weird. 
+Summon the Silent
+a
+b
+c
+d
+e
+f
+h
+g
+i
+j
+k
+lm
+n
+o
+p
+a
+b
+c
+d
+f
+e
+g
+j
+h
+mn
+i
+k
+opq
+l
+Summon the Silent
+Summon the SIlent
+asdfafd
+you can say that again
+you can say that again
+Alright memory issues should be solved, think we could probably turn back on MongoDB
+Dakota watcha doing?
+`/chaos` 
+I was only set up for half of it!
+It doesn't actually load any real data
+booooo
+make the ui pop up and making it DO anything are 2 very different things
+I feel like all your UI skills will go for naught if we can't get some state info/db connection
+Thats the thing. We removed the DB because the Memory issue. The memory issue has been resolved, which means the DB is back on the table
+Ohhhh fancy
+if you are bored, you could always program the `/cast` and `/chaos` commands to actually do something
+Just look at slackevent.py in the model folder
+and ignore `next(iter(next(iter(event.get('view').get('state').get('values').values())).values())).get('selected_option').get('value');`
+twst
+2
+1
+4
+5
+6
+3
+8
+19
+9
+7
+1
+Also <@UDDE5960N> I plan to make a chaos admin dashboard that will allow you to configure the preferences of other users, and maybe lock them in.
+Ohhhhh fancy and dangerous
+test
+1
+2
+3
+4
+5
+6
+test
+7
+`chaos admin`
+You are certaintly having a lot of un
+fun
+Down side is your creating that list not pulling from the users
+so for admin it's still manual
+hmm? that list is pulling from all users in DB
+the people who are missing haven't chatted recently enough to have a profile created
+ahhhhhh
+It's more work to manually create them than to just let the system create them for me
+and so far, only Aysh hasn't opted into threading. (that's what the checkbox means)
+but I can do it for here
+Not yet
+MUHAHAHAHAHA
+Awwwwwww
+It just displays there status currently
+The page is dumb and rather than telling me which box changed, it send me
+HEY HERE IS EVERYBOX THAT IS CURRENTLY CHECKED
+<@UDC4QL95G> <@UDC4QL95G>
+<@UDC4QL95G>
+<@UDC4QL95G> <@UDC4QL95G>
+<@UDC4QL95G> <@UDC4QL95G>
+<@UDC4QL95G>
+<@UDC4QL95G> <@UDC4QL95G>
+<@UDC4QL95G>
+hmm?
+<@UDC4QL95G> <@UDC4QL95G>
+<@UDC4QL95G> <@UDC4QL95G>
+<@UDC4QL95G>
+<@UDC4QL95G>
+oh, nothing
+just felt like pinging you
+as did a bot apparently
+<@UDC4QL95G> <@UDC4QL95G>
+<@UDC4QL95G> <@UDC4QL95G>
+looks like the underscore bot
+<@UDC4QL95G> <@UDC4QL95G>
+as did a bot apparently
+bot idea:
+turn sentences in to awful uses of contractions
+Today I was going to have peanuts, but not unshelled ones as unshelled peanuts are too much work to eat
+becomes:
+Today I was going to've peanuts, butn't unshelled ones as unshelled peanuts're too much work to eat
+so blanket replacements like:
+([a-zA-Z]) have
+$1've
+could probably just do a straight replace of " have" "'ve"
+nah, then shit like this happens
+You haven't done that, have you?
+You 'ven't done that,'ve you?
+I mean isn't that the point though?
+I don't like ,`'`
+Even with your text you'd still end up with You'ven't
+which is hilarious
+`You'ven't done that've you?`
+That sounds kinda hilarious
+That sounds annoying to write
+Need to find a data source with words and associated contractions
+Wikipedia to the rescue
+<@UETS9HTSS> what was the stupid song with contraction
+no idea
+<@UDC4QL95G> <@UDL020K8D> I don't know why I'm getting this error `AttributeError("module 'bots.contraction_junction' has no attribute 'ContractionJunction'")`
+IT HAS BEEN DONE!!!!
+15% odds
+Also how do I make it affect more than one person?
+<@UDDE5960N> you messed up spacing
+<https://games-club-external.slack.com/archives/CDR5ZBTT7/p1583183761355100?thread_ts=1583183744.351000&amp;cid=CDR5ZBTT7>
+<@UDDE5960N>
+the fuck is this? <https://games-club-external.slack.com/archives/CDU145F08/p1583183775031600>
+lol
+@udde5960n y'
+oh god
+what have you done <@UDDE5960N>
+also what if the bot also undoes contractions that were in the original message
+I pulled the wikipedia list of contractions and made it do stuff
+I don't know why it isn't stealing your profile pic
+Probably the same reason drew's doesn't work. I need to hook it up to the user profile
+could have would have should have
+could have would have should have
+could have would have should have
+could have would have should have
+could have would have should have
+could have would have should have
+could have would have should have
+could have would have should have
+I still don't know how to make the bots attack everyone in this new format
+NONE SHALL BE SAVE FROM CONTRACTION JUNCTION!
+At least make sure they are a chaos user
+_*NONE*_
+twst
+twst
+`
+```self._postUtil.addMessage(message, self._event.channel(), self._event.threadId(), Identity(identity.get('username'), identity.get))````
+<@UDDE5960N> what is wrong with the last param here
+it is
+it is
+it is
+it isit is
+it isit is
+it is
+it is
+it is
+it isit is
+it is
+it is
+it is
+it is
+WTF are you doing?
+Fixing the profile picture
+what was the file you were playing with yesterday
+wait.... hold up there is no 4th param
+well there's 5 params here
+`identity.get`  doesn't do anythign
+but yes, the file you were dicking around with yesterday I deleted a param because you got distrcated
+what file?
+what param did you delete?
+dunno
+it was erroring out prometheus because you had `, , `
+I deleted a comma and everything worked
+this is in conjunction junction bot
+you have a dangling `identity.get`
+no it was while I was playing with conjunction junction
+I DO!?!?!?
+YES
+line 35
+Whoops
+bam no longer dangling
+I have no idea what that does
+...
+that is gonna error out
+oh hey it didn't error out, but still no profile pic
+oh hey it didn't error out, but still no profile pic
+oh hey it didn't error out, but still no profile pic
+oh hey it didn't error out, but still no profile pic
+`oh hey it'dn't error out, but still no profile pic`
+what happened here??!?!
+`it'dn't`
+MAGIC
+The bots that delete my giphies make me sad
+delete your giphies?
+Yea if I do a /giphy blah, they get deleted it's terrible Dakota! TERRIBLE!
+test
+have
+test
+Test test test
+test
+have
+have
+I have
+have
+have
+have
+I have
+I have
+I have
+I have
+I HAVE
+I HAVE
+test
+<@UDDE5960N> /chaos admin
+Oddly enough the edit function kinda works
+What do you mean oddly enough. I implemented it
+Mei retained Wizarding but not threading or replacement
+you gotta go kinda slow unfortunately
+there is a loading thing, it is just small
+Nifty
+Happy now
+delete doesn't work though
+Fuck yea
+Mei is opted in against her will
+Now It just needs a field to add the Impersonation Nick Names and prometheus can be fully functional on /chaos configs
+FANCY
+I can't wait to slay drew repeatedly
+Lol I still don't know how I want spells to work...
+Some way in which I will have a permanent, preferably insurmountable, advantage over drew
+You have access to the source code, it wouldn't be too hard to tweak something here or there
+I mean yea, that's why
+The spells are just listed in constant/spells.py
+and the spells assigned will be stored in the db.
+Really the only things to work out are:
+ how to force a bot to always apply to a user message (probably easy)
+ How mana should work
+ Reactions to spells
+ How stats should come into play
+ how to gain stats
+I mean the other thing is what do you want to be able to achieve with spells
+Nah that's easy
+spells inflict statuses, which give a 100% chance for that status bot to activate on a user message
+Cause like if it's FFA won't you save mana for Reactions
+I'm thinking there will be 2 ways to cast spells
+Ritual and Flashcast
+Flashcasting spells will not last as long, cost more mana, but apply instantly or something like that
+Rituals will take some amount of time, were the target has a chance of countering the spell somehow
+so you've created sorceries, instants, and interrupts.
+Yup
+Well, i haven't created any of them yet. Just a vague idea of what I want to do
+a
+d
+c
+h
+i
+e
+b
+f
+g
+j
+k
+l
+m
+n
+p
+o
+q
+r
+t
+s
+v
+u
+<@UDC4QL95G> I don't know how the view factory is supposed to work.
+`moduleType = getattr(view, type)`
+that's the line in the view factory where the failing happens
+:looking:
+no type bot_list found
+yeah sometimes that happens if there is an error in the view.
+yeah sometimes that happens if there is an error in the view.
+import view
+dir(view) only shows cast, chaos, and chaos_admin. I'm so lost
+&gt; /bot list
+alright bot list works
+```def run(self):
+    if self._triggerUtil.targetSendsMessageAnywhere(self._target, self._frequency):
+      self._postUtil.replacePost(self._event.text())```
+^ that's what the make-CJ-look-like-a-robot bot looks like now. is there any additional way you think we should make the code simpler? <@UDC4QL95G>
+:lgtm:
+oh, back up
+also, glitch is down now.
+<@UDC4QL95G> how do we get the spam bot working? I know that loading up all the emotes on each event is too much. Could we have the query happen on server spin up instead? Any other suggestion on how to deal with this memory intensive action?
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+nice
+fire
+lol
+fire
+fire
+fire
+fire
+fire
+bowtie
+fire
+thread
+he-brings-you-ice
+All comments getting deleted
+please fix
+<@UDC4QL95G> <@UDL020K8D>
+Not sure what you are doing but it is deleting threaded comments and not letting new ones post
+really weird.
+try again
+is it still happening
+fire
+yay-
+hm, I don't see the requests getting logged in Prometheus. Maybe the connection is down?
+test
+oh, now I see it. weird blip
+test
+test
+test
+<@UDC4QL95G> I set a base variable for all bots in _bot.py. if _active = False, that will disable all bots unless they have an override. I'm going to set a hard off-switch in the servier utils as well. so it will be easier to turn on and off individual bots and all bots if needed
+:thumbsup:
+test
+testing then
+spongebob-mock
+test
+test
+qwer
+qwer
+asdfghjklqwertyuiop
+dfsgbfdghfsgighi'fshbinsfiobnreignw
+gdsfndsafhads;fghjdsgjk;bfdjbjfsdb;kfdnb;df
+werwerwrwerewrewrwerwerwerewrwe
+qrqowriqweoqwieqwoe
+zxczxcxzcxzcxz
+test
+lol
+test
+qweq
+test
+test
+test
+test
+I have a bot idea!
+You know how people can read messages if the first letter and last letter of every word is in the right spot, and then the other correct letters are there, just scrambled inbetween? Basically like the scrambler bot that works on me, but it is still completely readable
+Lkie tihs for eamxlpe
+I hear you have a lot of time on your hands. Perfect time to learn to write a bot!
+That depends on how you approach "A lot of time"
+I haven't been going to a job
+That doesn't mean I've had a lot of time
+hey <@UDC4QL95G> do we take incoming web hooks in prometheus?
+We could. Currently we just use event listeners
+I'd like to use prometheus for civ 6 webhooks for turn notifications in <#C011E259FR8|civ>
+as we need to do some processing to the json object sent with the post before sending to channel
+and mapping civ usernames to @mentions would be nice to have
+speaking of which, would you be interested in an asynchronous civ 6 game?
+this should be easy enough to write up. I'll have it out soon.
+hm, core of the scrambler is in place. I'm not sure how to not strip out punctuation yet.
+test message
+test message
+test message
+test message
+ok, connected now. Should respect punctuation. I made it only scramble a single word for now. we'll see if its noticable
+nice
+nice
+nice
+nice
+nice
+ok, nice-bot should now respond with all impersonations once, except for you.
+It occurs to me that we can read emotes on a message. We could probably have Prometheus actually copy them over when replacing a post, stopping the case we saw yesterday where a deja vu seemed to come out of nowhere because we lost the emote
+test
+lol
+test
+that shouldn't have happened. hm
+test
+test
+Hey did something change about the scrambler odds? The /bot list command shows `500%/(Word Count)^2` and that doesn't seem to be what <@UDDE5960N> described before. The concept is the same but the 500% looks wonky
+<@UDL020K8D>
+I don't think I messed with the odds.
+what would you like it to be?
+That's what it is
+with a word count greater than 3
+That's what it has always been since you tweaked it CJ?
+yes
+Interesting
+Ok, just went through some of the math. Can we tweak that to 450? That makes a solid 50% chance at 3 words
+Or did you make it so it doesn't kick in until 4?
+kicks in at 4
+more than 3, not more than or equal to
+I'd say kick it in &gt;2, but make it 450 instead of 500. That way it scrambles less often with the 7+ words
+Because between 3-7, the message is readable. So I just let it lie and people know what I said. It's a bit too common above that range and requires a lot of retyping and what not that it is less fun and more just mosquito level nuisance
+10.2 vs 9.2%
+So you want an additional 1%?
+spongebob-mock
+spongebob-mock
+I figure it is a small enough tweak, and it doesn't sacrifice the odds you were shooting for with ~50% chance to scramble a low count sentence
+8 words is 7.8 vs 7.0, so it's not even a point
+I'm trying to lead with a compromise
+spongebob-mock
+No drew, what i'm saying is the 50% isn't real
+ok, mock should respond to a bot and not go infinite
+it's 5/n^2
+it's a square decay
+Ok, so 4/n^2
+?
+it's not 50% odds, because the odds don't exist till you have a n
+Sure I'm fine with that
+Thank you!
+I'm more so pushing for meaningful change
+8%&lt; or less for words greater than 7
+Cool, thank you
+added min words to description so you can read it off `/bot list`
+also, I think I have an idea to make the bots play better together so we don't end up with the chaos seed getting pulled into the main channel when botify triggers. I expect to have more to share about with that later today.
+That sounds great. Really glad you've taken such an invested interest in our horde of bots
+helps that I have a ticket I'm working for work on that I don't actually want to think about
+I hate dev ops stuff
+lol
+nice
+nice
+nice
+nice
+nice
+nice
+nice
+nice
+summon the silent
+summon the silent
+summon the silent
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+lol
+lol
+test
+no
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+nice
+nice
+nice
+nice
+hm
+nice
+nice
+silence chaos seed
+summon the silent
+qwe
+zxc
+zxc
+q w
+a s
+z x
+e r
+q w
+z x
+a s
+a s
+z p e
+q w
+q w
+z x
+a s
+q w
+q w
+a x
+a x
+z a
+r t
+p o
+q w
+e r
+z b
+q f
+b e
+z u
+q w
+v b
+c c
+q w
+q w
+q w
+q w
+q w
+q w
+q w
+q w
+q w
+q w
+test
+test
+silence chaos seed
+nice
+lol
+lol
+lol
+```def messageMatchesText(self, message, matchText, ignoreCase):
+    if ignoreCase:
+      return text and text.lower() == matchText.lower()
+    return text and text == matchText```
+that's throwing exeptions for every message sent
+`NameError: name 'text' is not defined`
+I'm assuming text is supposed to be message?
+or the parameter message is supposed to be called text?
+changing text to message seems to have stopped the error
+test
+test
+test
+one two three
+more than one word
+asdf
+Good? Bad?
+whenever a one word message gets sent, we get an exception when we can't split the message on ' '
+for whatever reason _event.text() is None when we send a 1 word message
+Here's a bot for you. Prormeheus is a legit user, meaning we can use the API to change is display name and profile picture.
+
+Every so often, temporarily morph prometheus into an exact copy of another user in the channel
+This Morphed prometheus will not have the (bot) tag
+test
+test
+hm, this bug with censor is weird. trying to figure it out now
+qwe
+test
+test
+its the emote its complaining about. I tried to refactor the trigger for censor. Apparently its not filtering out empty text correctly.
+test
+test
+test
+test
+test
+annoying. I had `if not self._chaosUserSendsMessage:` when it should have been
+`if not self._chaosUserSendsMessage():`
+interesting. so instead of botify showing "CJ O'Stabby" it would just show "CJ"?
+surprised it didn't throw a syntax error
+yeah, python is weird and dumb
+also, I noticed the auto "nice"s didn't get a reaction added properly. I'll have to look into that.
+nice
+oh right, I had to turn that off when the spongbob mock when infinite
+Yup.
+idk, I don't really like the idea of putting words in someone's mouth without some clear indication of what's going on (like the deja vu icon)
+Well, the funny part is that when it unmorphs, all the text in the past will revert to prometheus
+and currently, we only use the prometheus user for Reactions. it would be a new functionality, like morph, then say the exact same thing again, but in all caps and exclamation points
+I think deja vu is broken right now, but I can't connect to glitch right now to look into it
+I think deja vu is broken right now, but I can't connect to glitch right now to look into it
+Its probably fixed now
+lol
+spongebob-mock
+spongebob-mock
+testing
+testing
+testing
+testing
+testing
+testing
+testing
+testing
+testing
+testing
+testing
+This is a test of something.
+This is a test of something.
+This is a test of something.
+This is a test of something.
+This is a test of something.
+We gettin hacked
+:lol:
+This is a test of something.
+I believe all is well. I eventually need to update regex to ignore emote words.
+I do like that google translated “lol” to “hahaha”
+test
+spongebob-mock
+test
+Is that translation done via markdown?
+no. can you do translations via markdown?
+No clue. I just saw `Translated(src=en, dest=el, text=κάτι, pronunciation=káti, extra_data="{'translat...") [[something]]` and assumed it was malformed markdown
+It was me showing a whole model into a string interpolation. I just forgot I needed to extract the property of the model.
+I’m amazing python just naturally converted the model to a string like that.
+This is a test of something.
+This is a test of something.
+This is a test of something.
+This is a test of something.
+This is a test of something.
+This is a test of something.
+This is a test of something.
+This a test of something.
+test of something.
+test of something.
+test of something
+test of something
+I made <#C012AAM0FNZ|alerts>. Right now if there is an error with a bot running, it should automatically ping that channel.
+testing
+testing
+testing
+testing
+testing
+testing
+testing
+testing
+testing
+testing
+testing
+testing
+Censor bot posted <@UDC03KCGK>’s message twice. hm, I don’t see a particular reason it would do that.
+I enjoy the random ping as if you think I can help with solving this
+I’m more letting you know I noticed the issue
+I appreciate that
+<@UDC03KCGK>
+AND PROMETHEUS WITH THE DOUBLE!
+Why?
+¯\_(ツ)_/¯
+is
+Morning Daka is going to be cursing your name
+Good night people mei is already fast asleep
+Good night people mei is already fast asleep
+<@UDL020K8D> <@UDC4QL95G>, ban bot didn't refresh last night, ban word is still is
+is
+test
+is
+fixed
+any idea what the issue was?
+Nope. didn't even check. I just timed out the ban
+So, bans don’t technically reset every day. Every time you post, it checks if the old ban has been out for 24 hours or more. if so, it creates a new ban and records the time. So in theory, if there is a day no one posts until noon, that means the next day the ban won’t update until noon as well.
+so without looking at the file directly, its hard to know when a ban is supposed to reset.
+we could probably make it a true daily ban if you wanted, but that would require some effort.
+I though at some point I went back and fixed it to reset at 8:00AM the next day
+I don’t see that in the code.
+`expirationDate = int(round(time.time())) + int(round(((24 - n.hour - 2) * 60 * 60) + ((60 - n.minute - 1) * 60) + (60 - n.second)))`
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+hmmmm, I'm gonna guess that that wasn't meant to happen
+hmmmm, I'm gonna guess that that wasn't meant to happen
+oops, in my testing I had it trigger on all megamoji posts. didn’t filter out bot posts.
+oh wait, I did/ I have no idea why that happened then
+testing
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+:testing:
+This is a test of something.
+This is a test of @longUserPing
+This is a test of @longUserPing
+This is a test of @longUserPing
+This is a test of @longUserPing
+This is a test of @longUserPing
+This is a test of @longUserPing
+This is a test of @longUserPing
+This is a test of @longUserPing
+oh weird, when you have a right to left language, python concatenates differently.
+This is a test of @longUserPing
+This is a test of @longUserPing
+This is testing @longUserPing
+This is testing @longUserPing
+This is testing @longUserPing
+This is a test of @longUserPing
+This is a test of @longUserPing
+This is a test of @longUserPing
+This is a
+This is a
+This is a test of @LongUserPing
+This is a test of @longUserPing
+This is a test of :longEmoteName:
+This is a test of :longEmoteName:
+This is a test of :longEmoteName:
+This is a test of :longEmoteName:
+This is a test of :longEmoteName:
+This is a test of @LongUserPing
+This is a test of :longEmoteName:
+This is a test of :longEmoteName:
+This is a test of :longEmoteName:
+This is a test of :longEmoteName:
+This is a test of :longEmoteName:
+This is a test of :longEmoteName:
+This
+This
+Something
+:test:
+@something
+ok, I think its working. turning it back on for a while. Lot of little gotchas there.
+"a" was not on the ban ban list
+The first letter of the alphabet
+added now. If you want to make changes yourself, its in constant/ban.py
+Ok, I'll try to be better of actually going into those files myself
+I don’t mind. just want to make sure its clear I’m not trying to control the system myself.
+Looks like the banned word never changed over
+Remember, its not a daily word, its a 24 hour word. Do you know if ‘a’ was the banned word yesterday morning?
+Since at least 12:56pm yesterday
+ok, try a test post at 12:57 today. Is it doesn’t change then we know there is a problem. Eventually we should move to a daily ban word. It just will require some time and attention.
+<@UDC4QL95G> do you know what the deal with the `_bot.cpython-37.pyc.140200824985520` file is? There is nothing in it I don’t know where it came from.
+not a clue
+I’m going to delete it, just t o see if something explodes.
+testing
+eh, seems like stuff is working
+<@UDC03KCGK> say something with ‘a’
+A trifle of a request
+Boo
+ok, it might be broken
+This is a test
+This is a test
+<@UDC03KCGK> there is problem with timing. too few digits. current word will be banned for long time. possibly years. Will attempt to fix now.
+This is a test
+Where do you opt in/out of bots?
+contant/people.py
+Comment out your line in `IDENTITIES`
+I’ll turn censor off for a while
+This is a test
+censor is off
+Thought Daka put in a command for you to do it from slack
+Testing
+this is a test
+This is a test
+tokens
+tokens
+tokens
+tokens
+tokens
+created
+<@UDC03KCGK> <@UDC4QL95G> censor back on. I moved it to operate on a truly daily basis. Should only look at the date of the ban. I also forced it to update the ban, so it should no long be ‘a’
+test
+although looks like today’s ban word is rath unlikely to pop up in natural conversation.
+Thanks Doug! Much appreciated!
+Thanks Doug! Much appreciated!
+<@UDC4QL95G> looks like the Prometheus disk space is creeping up. We’re up to 77% right now
+git garbage collect knocked it back to 69%
+I need to update the ban ban list to include "of"
+"o f"
+lol
+Is there no way to comment blocks of code in Python?
+Is there no way to comment blocks of code in Python?
+Apparently in Pycharm I can just highlight an do a shit ton of line comments with a single keystroke, so I guess that's sufficient
+yeah most IDE's have that feature
+There is likely another method you can use to edit multiple places at once. Try holding alt or alt+shift and draging up or down
+Prometheus also has the code block feature in it's dev environment
+Does ayone code without an IDE?
+Does ayone code without an IDE?
+only when I work on glitch
+Yeah I'd never work without one
+unless it is for something tiny
+of
+of
+of
+of
+of
+testing
+of of of
+of
+testing
+of of of
+testing
+of of of
+of of
+<@UDC4QL95G> are you working on the censor bot right now? Or are those alerts that we should look into?
+Nope, I figured it was you or drew playing around with the bota
+<@UDC03KCGK> ?
+<@UDC4QL95G> did you try to manually add a ban? Looks like a second ban was added, but the formatting was off. I’ll check the ban words functionality.
+lol
+I have not played with the bots. That will be made very clear that I am beginning to tinker with them when I do
+you your
+you your
+you your
+YoU YoUr
+you, your. you!
+is
+is
+is
+<!here> I'll try to take a look at getting Prometheus into git today.
+So fancy
+if we lost the project I don't know that any of us wants to start writing from stratch.
+True that!
+<!here> current code is now saved to a git repo in my name. I’ll poke around with getting you all access and making sure they stay in sync
+if you have a github account, let me know your username and I’ll add you.

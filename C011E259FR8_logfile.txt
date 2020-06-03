@@ -1,0 +1,883 @@
+Yeah, so I WON'T have the DLC
+which shouldn't cause an asynch problem, but something to consider for if they come up in an online hosted game
+There's a battle royale mode?
+Of all the games, didn't expect it for this one
+and yeah, Play by Cloud option exists for me despite not having the dlcs
+sweet
+So, Async will work, but just going through the tutorial, it will be brutal to get through this if we don't have a night or two near the beginning where everyone is online at once
+Damn, lost all my progress playing the tutorial
+The tutorial takes a long time if you aren't trying to aggressively kill the other civilization
+lol
+So when do we want to start? Tomorrow?
+I can start today
+Seems doubtful as I am going to bed, but feel free to try out a game without and discover all the issues!
+<@UDC03KCGK> what's your steam name, I don't think I have you added.  Also <@UTX6E7LLU>!
+Account name is "Fernet"
+I'm pretty sure I sent you a request
+You did, I just didn't recongize it
+Try Adobe Shockwave
+Done and done!
+So what is the deal? I see CJ and Brenden playing right now on Steam. Just have multiple games running at the same time?
+I mean i'm just doing single player, still trying to figure out stuff in this game
+The loyalty thing is weird
+I had a singleplayer game running in the background all day and have been taking a turn here or there
+ditto
+I was wondering why I had no idea what you were talking about at first
+Loyalty is apparently a Rise and Fall expansion added thing
+I just got my copy today
+did you get the base game? or any expansions?
+I got the bundle on steam so I think it has most, if not everything 
+platinum bundle?
+if so, great; we're all on the same page besides drew
+who just has the gathering storm expansion
+WOOT WOOT! :woot:
+<!here> when do we want to start?
+Do people have plans for this evening?
+I need to cook dinner, but other than that, I can play for the most part
+I would prefer tomorrow because I can sleep randomly on saturday to catch up on time Ashley kept me awake
+That sentence confuses me and almost makes me think you think today is Friday
+It's been 4 weeks to the day since I got back from Paris, so I am watching _28 Days Later_  for the first time tonight. Sam is exhausted though, so I might be free afterwards. Sounds like tomorrow is better for CJ though
+Tomorrow is friday, i can stay up friday night because i can sleep saturday day
+Yep platinum!
+So plan is to play today?
+yes
+what time
+I can start as early as like 3:30
+I have one request: There are some known exploits that were posted about in the last month on youtube videos where you can go infinite on certain things. I can't emphasize enough that I am trying to play this pretty casually, and that would just ruin the fun of this if people were using those
+Didn't even know they existed
+Great. I'm fine with getting my ass handed to me since the only Civ I played was Civ Revolution (which was a Civ game made easier and less complex so it could be played on consoles) so I expect to be learning on the fly and lose. Playing against someone who has the TBS equivilent of an aim bot is troll and funny to the person doing it...but would honestly really ruin the experience
+<@UETS9HTSS> <@UTX6E7LLU>, thoughts on time?
+After 6 would be best for me!
+works for me
+sooooo 6:30?
+6:00:01 pm
+I was debating on saying that, I'm ok with 6 too
+6:02?
+so I'm pretty much done with work for the day
+just pushed a couple of PRs for review
+and my other ticket is burn-in for a new feature and all the problems are happening on someone else's code
+I'm ready whenever
+I'm sooooo sad!!!! I can't gift military units anymore... HOW AM I SUPPOSE TO USE DREW TO FIGHT A PROXY WAR AGAINST BRENDEN NOW!?!?!?
+<@UDC03KCGK> <@UETS9HTSS> do you want do do an internet speed game while we wait for Phoebe?
+We wouldn't finish in time if you mean internet speed to be a live game as opposed to async
+Also I'm watching tutorial videos till 5, then looking through tech trees and civs till we start at 6
+THERE'S SO MUCH IN THIS GAME AND I WANT THIS TO ACTUALLY BE FUN
+there's nothing like learning the hard way drew
+That's why I was saying internet speed, an hour and half will teach you the ropes pretty well
+Eh, I played 3 hours of tutorial the day before, so I got the basics, but I'm still totally uniformed about all sorts of random stuff like what the hell Amenities actually do
+They stop your city from being pissed at you
+and stuff in that same category. Tutorial wasn't even enough for me to learn where to put a friggin pasture
+That's why I'm saying start a game with us, it's gonna take like 3 tries before you get it
+Probably, but I found a youtuber who's helpfully explaining stuff to me and it's comfortable and nice and i'll be happier doing that while I wait for 6
+finnnnnneeeee
+I could never do that
+trial by fire of bust
+hopping on discord now
+Civ Join Code: `0LP5y`
+<@UDC03KCGK> <@UTX6E7LLU> <@UDDE5960N>
+Getting in now
+It’s my first time loading the game so may take a sec
+That's fine, do you have discord Phoebe?
+Booting game and discord
+I’ve never used discord, no
+<https://discord.gg/YQHYrz>
+You can run it your browser
+Ohhh fyi
+we're just discussing what kind of game you want Phoebe
+<@UDC03KCGK> your turn. And you can take forever!!!!
+I mean, that's the advantage of this system. I'm slow, but I'm also the most inexperienced at Civ, so this isn't unlike other board games I'm playing for the first time
+I'm now free to play civ
+currently in discord
+CJ is here too
+that's 2/4 <@UDC03KCGK>
+Your turn <@UETS9HTSS>
+I'm playing a realtime game with CJ
+we're on turn 126
+Well, you got time. That's the point of an async game
+<@UTX6E7LLU> your turn
+All done with dinner
+Any luck with the ping system for turns?
+Cause I bet dollars to donuts <@UTX6E7LLU> doesn't even know it has been her turn
+That’s accurate
+and that's ok! I'm playing with the steam notifications, and I basically have to seek it out or have steam already up for it to be of any use.
+haven't had the time/motivation combo to look into it TBH
+<!here> when are we next doing some realtime civ?
+or maybe an hour 6-7
+Friday! Mostly because of lack of slepp
+Yeah, quarantine life for us still means some forward planning helps. So Friday works. Or Wednesday or Thursday.
+just let me know
+I'll be in the same place regardless
+<@UDC03KCGK> hop in discord
+shouldn't be necessary, but if you all could add this as the play-by-cloud webhook URL in your civ settings, that would be great: `<https://buttery-waxflower.glitch.me/civ>`
+:next:
+<@UDDE5960N> should be your turn
+after this round, we should get turn notifications
+I have no internet where I am now :(
+...where are you? :what-t:
+At home the internet kicked off
+storm from yesterday?
+No I was doing my thing and then suddenly no connection. Stupid comcast
+Looks like it hasn't gotten fixed yet. You just sitting around unable to work?
+Yup!
+Looks like it hasn't gotten fixed yet. You just sitting around unable to work?
+:squidward-deflate:
+so then how far have you gotten in civ singleplayer? :thinking-slyly:
+so then how far have you gotten in civ singleplayer? :thinking-slyly:
+so then how far have you gotten in civ singleplayer? :thinking-slyly:
+Uhhhh doing information age, Korean science run right now. Won a Japan duel domination
+so then how far have you gotten in civ singleplayer? :thinking-slyly:
+Uhhhh doing information age, Korean science run right now. Won a Japan duel domination
+Uhhhh doing information age, Korean science run right now. Won a Japan duel domination
+Uhhhh doing information age, Korean science run right now. Won a Japan duel domination
+Lies, you have internet again
+what makes you say that?
+I HAVE INTERNET!
+he could just be using his phone
+I saw his steam pop up!
+oh!
+<@UDDE5960N> take your turn
+I am I am
+Well, yes, I saw CJ's pop up
+I"m not sure why CJ seeing mine helps or changes anything
+BECAUSE I KNOW I HAVE INTERNET AGAIN!!!!!
+WOOOOHHOOOOOOO
+and they still don't classify internet as a utility...
+Drew's turn
+<@UETS9HTSS>’s turn. Something you have to set up with webhooks now?
+<@UTX6E7LLU> you're up
+:donezo: 
+<@UDC03KCGK>
+it's all you
+it's all you
+<@UETS9HTSS>, all you. Webhooks didn't seem to launch that round
+<!here> is Friday the day we'll play, or are people open to playing real time tonight/tomorrow?
+Both are fine with me.  But if we do tonight tomorrow I'm capping it at 8pm
+Totally fine, we played a game yesterday from 5-7:30. These don't need to be all night affairs, and probably are better off when they aren't.
+but you know, tech problems and figuring it out last time took up a good chunk
+<@UTX6E7LLU> your turn
+<@UTX6E7LLU> your turn
+Any idea what is going on with the webhook?
+nope
+Hmm, fun times
+:explosion:
+Do you need to set it to “my turn” or “every turn”
+every turn
+What is the webhook supposed to do? Also my turn is done
+<#C012EG6BF9N|civ-slaughter-of-the-lamb>
+look in there
+it should do that in here
+
+it should post something like that
+But's it's not doing that for us?
+seems that way
+not sure why
+Are they two distinct webhooks?
+no
+I didn’t set mine up till 12:30ish today so that could be why
+the problem is you shouldn't need to set it up
+that is just trial and error now
+seems like civ just isn't sending these payloads to glitch
+for some reason
+perhaps if I save the game, and load the file as a new game with the config already set?
+test
+Worth trying. In the meantime you have to wait for CJ...and then me :the_horror:
+our codebase throws a lot of errors
+test
+Your turn <@UDC03KCGK>
+Also don't try to fix it yet, you need all of us to be online
+I'll take that turn in 16 minutes
+<@UETS9HTSS> your turn
+<@UTX6E7LLU>
+<@UDDE5960N> 
+Ah hell, he's asleep
+asleep?
+<@UDDE5960N>
+???
+I have meetings sometimes during the day ya know
+They pay me to do... something?
+~something~ play civ
+<@UDC03KCGK>
+<@UETS9HTSS>
+What happens if you harvest a luxury?
+It tells you what you get, and the fact the luxury goes away
+Harvesting resources is new and weird
+<@UTX6E7LLU>
+<@UDDE5960N> 
+<@UDC03KCGK>
+:loading:
+So yeah, turns out you need to research Animal Husbandry to do...just about anything
+<@UETS9HTSS>
+<@UTX6E7LLU>
+Did people want to convert this to a live game for a couple hours?
+<!here>
+sure
+Yeah, give me 10 minutes to figure out what I’m doing for dinner
+im free
+:hy::pe:
+play your turns so it's my turn and I'll save the game and open a realtime one
+Will do, sorry steam is being a pain and not connecting to the server
+<@UDDE5960N> 
+<@UDC03KCGK>
+<@UTX6E7LLU>?
+<@UTX6E7LLU>?
+We're on discord
+<@UETS9HTSS> this did not work for me
+AKA I was not made aware it was my turn
+Hmm.
+Maybe Phoebe?
+She shouldn't have to edit configs, drew never had to
+Maybe a mac problem?
+Night
+I edited my configs though this time, so maybe that helped?
+Civ: my version of animal crossing
+Can't play tonight for a live game after all. Would people want to play tomorrow night since CJ can sleep in on Saturday?
+I can do that
+Tomorrow is fine with me
+Although the MIL will be here, so who knows how that will go
+Fine by me
+hmm not sure why notifications after my turn arent working
+hmm not sure why notifications after my turn arent working
+looks like it's <@UDDE5960N>’s turn
+Interesting that this channel is target of chaos monkey stuff
+i needed to allow the bots to post here
+so I whitelisted bots here
+weirdly I think the notifications worked after CJ's turn
+Holy fuck heroic ages you get to make 3 dedications!?!?!
+What?? I only got to make one for a golden age!
+Yeah, Heroic ages are bomb
+So i get the same 4 as you, but I get 3 of them, and you only get 1
+yes cj
+cycling from dark to heroic is the best thing you can do
+assuming you're not in a loyalty war
+Loyalty war?
+ohhhh for people
+Yeah, normal ages are bad
+At least a Dark age gives you some policies you can use
+well, from a loyalty standpoint, dark age sucks
+but outside of that, better than normal age
+think I fixed the duplicate notifications in here
+I have no idea how the world congress works
+You vote on the things brought forth (I think it's random) you accumulate diplo points from being a leader of a city state, and your government.  You can then use them to increase your voting power
+<@UETS9HTSS> Send your religious guys away or I will kill them
+Do we all have the same platforms?
+Yes, but you can choose different choices
+So like I think the 2 up were "How should culture work for a player" and "Which luxury resource should we mess with"
+That was confusing. I couldn't leave the world congress to civilopedia something, so when I clicked out, it didn't give me a vote
+and then the resolution that had more votes didn't win
+I'm super confused
+You can click esc to get back to the normal screen, I also think there's an x in the top left (not very intuitive personally). The specific resolution with the move votes wins.  Not A or B, but the sub type of A or B.  So more people can vote A and split it, but 1 person who puts more votes in B wins.
+That was my whole turn?
+Congressing?
+Yeah it was everyone’s whole turn
+I'm still super confused. I didn't have 10 diplomatic favor, because it cost 10
+Your first vote is free, the 2nd costs 10, the 3rd costs 20 (for a total of 30 for 3 votes)
+Well, Brenden just made my oranges worth 2 amenities, so thanks I guess
+Also Phoebe can now culture bomb stuff
+This looks normal to me, I'm not sure why you're confused.  Phoebe outvoted you and I
+I also have lots of oranges
+No scurvy in greece
+he did break it
+just pinged him and had him fix it
+Weird, it worked for Brenden's turn to pass to Phoebe, but not me to Brenden, or CJ to me?
+doug just fixed it
+he wrote a bad import last night
+Thanks for getting him to fix it
+Although we probably still haven't figured out how to get it to notify CJ
+I'm voting Macs suck
+Can you go in and switch your webhook settings to "Every turn"
+I'm just curious if that helps
+I already did
+Maybe could be related to the fact that my computer thinks civ quits unexpectedly when my turn ends 
+that might do it
+Yup, which is why I think it works for you. I was telling CJ to change his!
+Still, want to see CJ change his webhook settings to rule that out.
+It's updated to every turn now
+Is there a chance the code reads weirdly for CJ?
+Also I went to click the waxflower link and it didn't do anything
+you tried to send a get request to a post endpoint?
+I just clicked the link from slack
+the one that ends in /civ, right?
+<https://buttery-waxflower.glitch.me/civ>
+I clicked it in slack
+yeah, that won't bring you to a page, since it's an endpoint listening for a post request
+clicking it sends a get request
+even if you sent it a post request, you'll just get back a 200 response
+Added it to my settings
+Weird.... I thought this was white listed not black listed
+I whitelisted bots in the civ channels
+which perhaps was a mistake
+ohhhh, LOL!
+Dejavu doesn't work because it doesn't have a written record
+Damn CJ, you were online earlier and didn't take your turn?
+I think it’s my turn but I had to get something submitted before EOD
+Ah, priorities
+Yea i was gonna say ive been good
+Are we playing tonight?
+If like to and planned on it. Can we start at 7:45?
+Or 8
+That should be fine
+ready whenever
+ready whenever
+playing league in the meantime
+<@UTX6E7LLU> gonna have to remake tomorrow
+Does everyone have a quick minute today to remake it?
+I'm good whenever
+same
+<!here> 5pm briefly get on to get the game up and running? Been watching a live stream with Sam that goes all day so can't get on for longer than the 5 minutes it takes to put this together.
+<!here> 5pm briefly get on to get the game up and running? Been watching a live stream with Sam that goes all day so can't get on for longer than the 5 minutes it takes to put this together.
+What are you watching?
+This Global Citizen Livestream. Basically name a musician or actor and they contributed something to it. The main event is from 8pm to 11pm on ABC, NBC, and CBS.
+But there's a Livestream on YouTube that's on before it until 8pm. So kind of just feels like an all day concert thing.
+I'm online
+I'm online
+Same
+<@UDDE5960N> <@UETS9HTSS> does now still work?
+Gonna just try again tomorrow sometime
+Whoops
+got distracted
+same
+same
+sorry
+Gotta figure out how to get this to go to the right channel now
+:wave:
+thoughts on getting this started up again?
+yea whenever
+<@UDC03KCGK>
+<@UTX6E7LLU>
+I'm free
+that's 3/4
+just waiting to hear from <@UTX6E7LLU>
+Well, that's progress at least
+Sorry I’ve been cleaning, I can do that
+Sorry I’ve been cleaning, I can do that
+<!here>?
+I'm ready
+<@UDDE5960N>
+I’m in civ
+Brenden is in Discord
+I'm in both
+waiting to hear from cj that he's here before starting the game
+<@UDDE5960N>
+<@UDDE5960N> wash your hands and get your butt in here
+I’m gonna switch my laundry, I’ll be back in a minute
+:sigh:
+I'm back
+but cj isn't
+:polite-cat:
+Well, we wait I guess?
+:laughing:
+:f-it-ship-it:
+It's a CJ!
+here
+<@UDDE5960N>
+hes here
+lets do this
+koQKl
+<!here>
+Just waiting for others to join first
+waiting on Phoebe to join
+<@UTX6E7LLU>?
+I didn't get an invite
+IT's a join code
+nvm
+koQKl
+I'm in
+New game
+because Civ issues
+x8r6B
+I feel like every time I have an hour long meeting you asshats decided that you should finish your turn in the first 5 minutes
+wrong channel
+but :joy:
+I considered this the general Civ channel
+I mean, I was just taking my turns in half hour cycles. Was bound to line up with the early part of a meeting eventually
+And Brenden just seems to be able to take any turn within 2 minutes
+I keep the client open
+so when I get a slack notification, I just go take the turn if I'm not in a meeting
+Well you also took turns last night in 10 seconds despite being in the renassaince era. I can't even move all my missionaries in 10 seconds!
+that's also just how I play games; quick decisions
+Apparently Strategic Resources was introduced in `Gathering Storm` so it's a new mechanic
+Apparently Strategic Resources was introduced in `Gathering Storm` so it's a new mechanic
+They had those resources though. So maybe they didn't make them their own category?
+they might have made the category for adjacency bonuses to certain districts
+So I did finally figure out why you might not want to go crazy expanding.  Luxury resources only work on 4 cities no matter how many you have. So more cities less amenities you get from luxuries
+Other than that... no
+We got into the classical age quick
+well I clearly missed that you declared war on me
+Huh?
+Also friendly reminder it is in your turn <@UTX6E7LLU>
+Also friendly reminder it is in your turn <@UTX6E7LLU>
+:woah-dude:
+It's so weird when your city expands its territory to include a mountain. What can I build on it?
+road, wonder
+road using military engineer
+wonder like machu pichu
+when do we want to next convert to realtime?
+Not tonight. Thursday?
+I've just got so many of these games and been playing so much of it that I want some nights to do other things
+Ski resort, national park
+Also it gives sick science and religion bonuses, allows you to see the other side of the mountain
+Think I left the game before the webhook could fire properly. Your turn <@UETS9HTSS>
+this group up for a live game tomorrow night?
+<@UDDE5960N>?
+Sure, we doing the normal like 6:30-7 start time?
+Sure, we can totally do that
+Tonight, 7pm. Work for everyone? <!here>
+Tonight, 7pm. Work for everyone? <!here>
+For like an hour maybe 2 at the outside
+I forgot this is a school night
+school night?
+ashley is too young for that shit
+Going grocery shopping, be back later
+Going grocery shopping, be back later
+I'm online
+I'm online
+Back from the grocery store?
+<@UTX6E7LLU> <@UDDE5960N>?
+I’m about to take my turn now
+I'm here you're ignoring me
+We're on Discord
+Just got home
+SCORE 1 RELIGIOUS VICTORY FOR CJ!
+I'm guessing our game is over?
+yep; confirmed
+finally
+that game has been a slog for me for the past while
+Once I knew I stood no chance, I was just going through the motions
+Are we doing another one?
+sure
+Mod thread:
+Expanded City States; 4 tiers of envoy bonuses, new kinds of city states, new suzerain bonuses
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1331757859>
+One of these two for extra resources:
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1293801965>
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1369684991>
+Optional: starting scout
+<https://steamcommunity.com/sharedfiles/filedetails/?id=872293659>
+Optional: starting builder
+<https://steamcommunity.com/sharedfiles/filedetails/?id=872457850>
+Optional: more tribal villages
+<https://steamcommunity.com/sharedfiles/filedetails/?id=911395113>
+Removable Districts: (city project that takes production to remove)
+<https://steamcommunity.com/sharedfiles/filedetails/?id=970184582>
+R.E.D. Modpack: (resizes units to be more like armies and less like one guy)
+<https://steamcommunity.com/sharedfiles/filedetails/?id=870768749>
+Better Loading Screen: (displays full info on things like unique units rather than just "unique unit")
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1579019534>
+Better Coastal Cities and Water Tiles: (inland cities currently have an inherent advantage as water tiles yields are subpar)
+<https://steamcommunity.com/sharedfiles/filedetails/?id=881541733>
+Optional: Religion Expanded:
+&gt; Religion Expanded raises the founded-religions-per-game cap to a maximum of 16, introduces more than 40 new beliefs, and adds new, fully-customized religious buildings. In short, religion becomes more dynamic and personalized.
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1178185727>
+Terra Mirabilis: (natural wonder rework and additions)
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1461463960>
+Quick Start: (no initial loading screens when booting up)
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1658551717>
+I took this to mean CJ managed to win Chaos Monkey somehow already
+<@UDDE5960N> <@UDC03KCGK>
+Thumbs up are ones i'm ok with, thumbs down are ones I will argue against. No response is you'll have to sell me on them
+RE: Extra resources mods
+it feels bad when you're looking at new continents and all the resources there are ones you already have so it doesn't feel good to settle there. By adding more variety to the resources available, you'll want to expand more.
+The only things i care about are luxury resources, and that technical just makes the game easier
+Or strategic resources, which probably makes the game more difficult if there's more of them
+fair enough; if you don't want more resource variety, that's fine
+water texture pack:
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1472662589>
+makes more sense that they're groups
+rather than one dude on a horse
+That's why abundant resources is good
+Flavor things, I don't really care about since civ is an abstraction already
+I think the only thing left to decide is more tribal villages
+I can go either way on this one
+it's nice to be rewarded for exploring
+and the bonuses aren't unreasonably good
+when playing solo, I tend to turn it on
+did we talk about when we're going live next?
+No we have not discussed ityet
+I'm gonna say in the future no to the city state one, because starting with walls is broken
+are you sumeria?
+:suspicious:
+fair enough
+no you already met me
+oh, you're germany
+Fyi war in civ vs players is real time so be ready for twitchy shit
+yeah, in future games, we'll change the settings on that
+that was REAL weird
+Dynamic is the setting we want
+good to know
+What the hell happened?
+the faster player has an advantage
+and you can cheese the end of the turn if the other play has ended their turn already
+I still kind of like the idea, but it's possible the host has an advantage
+if there were a dedicated server, it might be okay
+Is that the case in all our games currently???
+Is that the case in all our games currently???
+Well it's only applicable when we're playing real time. Play by cloud is turn based.
+No one took a turn at all today
+No one took a turn at all today
+:mindblown:
+Well, for 3 of those games, that's just waiting on me
+Well, for 3 of those games, that's just waiting on me
+Not sure who's turn it is in Chaos_monkey
+No all of my games were waiting on someone else
+Hey <@UDC03KCGK>, next time you log in.  Can you do me a favor and check to see if you have MP only scenarios. Most notably Warmachine or Global Thermonuclear war?
+Hey <@UDC03KCGK>, next time you log in.  Can you do me a favor and check to see if you have MP only scenarios. Most notably Warmachine or Global Thermonuclear war?
+What do you know, I'm waiting on Brenden for some of these games.
+Do I do pushups now?
+What do you know, I'm waiting on Brenden for some of these games.
+Do I do pushups now?
+Lol
+<@UTX6E7LLU> you still playing Civ?
+<@UDC03KCGK> You didn't take any of your turns!
+Oh my god I’m so sorry I’ll do that as soon as I finish dinner
+all set!
+No worries Phoebe, life happens!
+Cj I took turns today. Went to take more but then got distracted talking to Sam
+When do you all want to make another live game?
+open to ideas
+probably depends on pheobe
+Pretty much free to play for an hour or two every day from 5-6 or 5-7
+Pretty much free for an hour or two every day starting at 5
+TBH an hour or two seems super short when playing civ
+not saying I don't want to do it
+but it'll feel like we get into the swing of things, then have to stop
+Just offering up the time I have available
+<@UTX6E7LLU> when's your next free evening?
+Depends on when this critical is over 
+ewwwwww
+If it’s over tomorrow (:fingers_crossed_intensifies: ) id have time tomorrow evening. I also took Friday off so I’ll have time then 
+If it’s over tomorrow (:fingers_crossed_intensifies: ) id have time tomorrow evening. I also took Friday off so I’ll have time then 
+Ohhhh fancy! Any good plans?
+Ohhhh fancy! Any good plans?
+:nothing: 
+Clearly Nick's day off that one Friday inspired you
+Honestly, not having to worry about Chaos Monkey turns saves me 5-10 minutes every time I go to play turns for the other 4 games going on
+(1 of them is still ongoing purely because Brenden got knocked out in the first 50 turns and was supposed to be a 3 player game)
+BURN ALL THE BADDIES!
+Wait why does the chaos game take you 5-10 mins? Because it's still the most advance game you have?
+Um, tied for most advanced
+Part of me wish I went full religion in our first game, but i had no idea how to make that work
+interesting
+I discovered a new mechanic that I really enjoy in civ
+tried it out in a bunch of singleplayer games
+finally figured out how to get 20+ population cities fairly easily
+ohhh?
+ohhh?
+Either drew or brenden want to do some realtime? I'm assuming Pheobe's critical is still going critical
+I can
+I can
+<@UDC03KCGK>
+hide from sumeria?
+Unfortunately I have to go do dishes and other stuff :disappointed:
+Soooooo mod_list then?
+You all ok with turning chaos_monkey live tomorrow (tonight if you're reading this and your calendar tells you it is May 1st) at 7:30?
+should be will check with mei
+should be will check with mei
+<!here> so, tonight, yea or nay?
+<@UTX6E7LLU>? You in?
+<@UTX6E7LLU>? You in?
+yes I can play now! sorry I was cleaning/servicing my dads old sewing machine and didn't hear the ping
+<@UETS9HTSS> PAY ATTENTION!
+We're on discord whenever you're ready
+r7nBV
+r7nBV
+That webhook really wants phoebe to know it's her turn
+Your friendly after work reminder <@UTX6E7LLU>
+After playing sumeria, and other games, I've realized how much of a ancient warmonger I am
+Yeah, you really like the war aspects of the game
+like you like war in the ancient era?
+because if so, I agree
+I enjoy combat the most before niter becomes a thing
+No I don't, but the computer's are bad at defending that early
+So it's like free cities!
+yeah, fair
+also, roman legions are strong
+I miss rifle men
+I kind of do too
+it's a weird gap
+musketman to infantry
+I just realized how wierd antiquity sites work in this game....
+oh?
+you unlock archy museums 3 techs before you can use them. and the tech that lets you build them, is boosted by already having one
+<@UTX6E7LLU> After work reminder
+I'm starting to appreciate how in several civ games, I don't have to keep track of as many city states and quests, because CJ just keeps taking them all
+Just realized the number of horses you need changes with game speed
+yes
+because you have less turns to gain them
+Just because it makes sense doesn't mean I had processed that
+Just because it makes sense doesn't mean I had processed that
+lol
+World War I has begun
+:chefskiss:
+<@UDDE5960N> you can delete that bot; it has reached peak potential
+LOL!
+Wait, begun? It was already going
+it wasn't a world war without phoebe
+lol
+I mean, she had military units near my cities, and had said she was making her way over
+So I declared the war in case she comes in range
+Not sure I'll send units over to her cities, but if her units come by, then they're getting attacked
+<@UTX6E7LLU> reminder ping
+Second, they have a  Combat Strength stat, which is used the same way as a Ranged unit would - for defensive purposes (that is, every time the city gets attacked). City CS is formed in the following way:
+• *Base strength,* equal to that of the strongest <https://civilization.fandom.com/wiki/Units_(Civ6)#Melee|melee unit> your civilization currently possesses minus 10, or to the <https://civilization.fandom.com/wiki/Units_(Civ6)|unit> which is garrisoned inside the city (whichever is greater). Note also that Corps or Army units are capable of pushing this number higher than otherwise possible for this Era, so when you station such a unit in a city, its CS will increase accordingly;
+• *Wall defenses* add +3 CS per each level of Walls (up to +9 for <https://civilization.fandom.com/wiki/Renaissance_Walls_(Civ6)|Renaissance Walls>); this bonus is lost if/when the walls are brought down. Note that this bonus is only valid for 'ancient defenses' (i.e. <https://civilization.fandom.com/wiki/Urban_Defenses_(Civ6)|pre-Urban Defenses Walls>). If a city never built any walls and then got Urban Defenses, it will never get this bonus, despite actually having modern defensive capabilities.
+• *Each Specialty <https://civilization.fandom.com/wiki/Districts_(Civ6)|district>* the city has adds +2 CS, making more developed cities more difficult to conquer, even without defenses;
+• *Bonus* if the city is built on a <https://civilization.fandom.com/wiki/Hills_(Civ6)|Hill>; this is the normal +3 bonus which is native to Hills.
+• *The  Capital* gains an additional boost of 3 CS thanks to its <https://civilization.fandom.com/wiki/Palace_(Civ6)|Palace>; this is called "Palace Guard" in the strength breakdown. This can increase to +8 when Victor has moved to the city (takes 3 turns).
+• *Damaged district* adds a progressive CS penalty, as the <https://civilization.fandom.com/wiki/City_Center_(Civ6)|City Center> or <https://civilization.fandom.com/wiki/Encampment_(Civ6)|Encampment> loses Health; the penalty ranges from -2 to -8. 
+
+Second, they have a  Combat Strength stat, which is used the same way as a Ranged unit would - for defensive purposes (that is, every time the city gets attacked). City CS is formed in the following way:
+• *Base strength,* equal to that of the strongest <https://civilization.fandom.com/wiki/Units_(Civ6)#Melee|melee unit> your civilization currently possesses minus 10, or to the <https://civilization.fandom.com/wiki/Units_(Civ6)|unit> which is garrisoned inside the city (whichever is greater). Note also that Corps or Army units are capable of pushing this number higher than otherwise possible for this Era, so when you station such a unit in a city, its CS will increase accordingly;
+• *Wall defenses* add +3 CS per each level of Walls (up to +9 for <https://civilization.fandom.com/wiki/Renaissance_Walls_(Civ6)|Renaissance Walls>); this bonus is lost if/when the walls are brought down. Note that this bonus is only valid for 'ancient defenses' (i.e. <https://civilization.fandom.com/wiki/Urban_Defenses_(Civ6)|pre-Urban Defenses Walls>). If a city never built any walls and then got Urban Defenses, it will never get this bonus, despite actually having modern defensive capabilities.
+• *Each Specialty <https://civilization.fandom.com/wiki/Districts_(Civ6)|district>* the city has adds +2 CS, making more developed cities more difficult to conquer, even without defenses;
+• *Bonus* if the city is built on a <https://civilization.fandom.com/wiki/Hills_(Civ6)|Hill>; this is the normal +3 bonus which is native to Hills.
+• *The  Capital* gains an additional boost of 3 CS thanks to its <https://civilization.fandom.com/wiki/Palace_(Civ6)|Palace>; this is called "Palace Guard" in the strength breakdown. This can increase to +8 when Victor has moved to the city (takes 3 turns).
+• *Damaged district* adds a progressive CS penalty, as the <https://civilization.fandom.com/wiki/City_Center_(Civ6)|City Center> or <https://civilization.fandom.com/wiki/Encampment_(Civ6)|Encampment> loses Health; the penalty ranges from -2 to -8. 
+
+Should we plan another live game night for this? Cause at the moment, it isn't going anywhere in play by post
+Much as I am preferring war to be turn based
+:this_is_fine_lit:
+How you know Brenden is asleep and or actually busy
+Still his turn in multiple games
+my 9am-11am is typically busy
+Any interest in a super tiny, super packed with people, sparse resource map
+Or is that just Thunderdome?
+sure, why not
+Is there any way to view a single player game settings?
+Like to see what the speed was, or any other things like that?
+Nvm, used this swanky tool called "Go ogle"
+<@UTX6E7LLU> post work turn reminder
+<@UTX6E7LLU> post work turn reminder
+Also do we want to go live with this game sometime in the next 3 days?
+Ohhh I totally want to play a thunder dome game!
+And I'm good any day
+Thunderdome game to me almost immediately means "Get an army, but don't go broke"
+Thunderdome game to me almost immediately means "Get an army, but don't go broke"
+Yea! Scare resources, tiny map, HOW DO YOU DO IT?!!?
+Yea! Scare resources, tiny map, HOW DO YOU DO IT?!!?
+Do you turtle, do you go on the offensive, do you rush that 2nd city!?!?!
+You go steal some other poor fool's settler
+You go steal some other poor fool's settler
+Also no Gilgamesh
+Soooo we get to chose the Civ?
+I mean, if there are other civs as broken as Sumeria. 
+But I would think Egypt, Sycthia, and your crazy civ with archers that you can't use because I don't have Rise and Fall, would all be civs people picked.
+Nubia is actually a DLC all on it's own
+Nubia is actually a DLC all on it's own
+But the only way to guarantee that people can't get broken Civs is to pick
+or restart a bunch of times
+I say pick Civs, and if someone wants to go rush strat that's fine, everyone else knows what they're getting into
+How many AI?
+And what difficulty? Because I think we're beyond Prince difficulty
+on the topic of picking civs:
+if the only reason you want to pick is to not get broken civs, one of the mods I sometimes use is a map based mod that also adds the ability to exclude civs from the random option
+I mean if we're doing thunderdome, no AIs, Duel map size
+I'd be ok with that. I also think it would be fun to see people choose too
+It could be fun. I fully expect to lose because I don't know the civs well, but if you'll have more fun picking, I've certainly gotten my choice of random in all the games up till now.
+<@UTX6E7LLU> any interest in Thunderdome? Also any interest in taking the chaos_monkey game live?
+Does anyone want to go live tonight?
+Didn't see this until too late. Starting dinner soon. Weekend is wide open though
+Didn't see this until too late. Starting dinner soon. Weekend is wide open though
+Ok
+I assume you're doing stuff after dinner?
+Yep, but I'll let you know if I'm free after all
+???
+ignore that; that was my original attempt separate from our glitch codebase
+ignore that; that was my original attempt separate from our glitch codebase
+Alright, so <@UTX6E7LLU> is presumed dead. Meanwhile <@UDDE5960N> and <@UETS9HTSS> are both clearly online. When would you like to play a game, Civ or Humble Bundle, today or tomorrow?
+Right now? between x hours? My only real restriction is dinner, and not playing so many hours of games that I have no time to go bake cookies with Sam
+I'm good whenever! We're having lunch right now, but will be done by the time anything is organized
+Ok, just waiting for a word from Brenden
+hi
+Hi
+This has been a word from Brenden; tune in next week for another
+(I'm free whenever, just cleaning and doing laundry at this point)
+Cool, want to put Hide From Sumeria live and play till like 5?
+Sure
+Would anyone like to go live today?
+<!here>
+sure
+busy till 5
+Can do 5-6. I'll ask Sam about longer.
+I mean if you're not the limiter, I will be, 5-6 is fine for me
+5-7pm is ok with Sam.
+Ancient wars are the best wars, you just keep on rolling through AI civs
+Rolling rolling rolling
+You keep using that word, "war." I do not think it means what you think it means.
+You've described widespread slaughter
+War genocide, it's all the same thing from the tyrants perspective!
+So I would set up the game but it doesn't give me the option to save when it isn't my turn
+So Brenden looking at you. Also turn off mods
+<@UETS9HTSS>
+what game are we playing?
+Well, I presumed 3 player, so that only leaves Hide From Sumeria. Unless you were thinking Cod
+or Thunderdome
+I'd play hide from sumeria or cod
+<@UDDE5960N> preference?
+Don't care
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1292617460>
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1665310405>
+<@UETS9HTSS> Resource overhaul
+Trying to make sense of the yields report calculations is nightmarish
+I've been trying to confirm if adjacency bonuses are per citizen, or just a straight up fixed yield
+There are times where it makes sense:
+Comercial Hub +4, and then there is a sub header for Adjacency bonus +4, and when you look at everything, the total from the Commercial Hub is +4, not +8
+
+But then I get to other cities, and the only way I come close to the yield is by calling it +8.
+
+It's crazy making
+And everything I google does not make it any clear. "Adjacency bonuses are good, here is how to get them!"
+Great, HOW good?
+for districts?
+for districts?
+Yes
+1) does a commercial district produce any gold on its own?
+2) does adjacency bonus add a fixed amount per turn or is it a bonus per unit (citizens or other stuff)
+3) how the fuck do I get the yield amounts to balance out on the reports? For example, I'm asking about commerical districts, but I can't get any of the reports to make sense for campuses either, and I imagine holy sites.
+1. no
+2. Yes
+3. I don't know what you mean
+I'll post a picture
+I just realized 2 was either or, it's a fixed bonus per turn.  You can add citizen with the right buildings and the citizen's will provide value
+This also looks promising <https://steamcommunity.com/sharedfiles/filedetails/?id=2044522714>
+This also looks promising <https://steamcommunity.com/sharedfiles/filedetails/?id=2044522714>
+Unit naming is stupid
+Unit naming is stupid
+Don't like the look of that one
+Don't like the look of that one
+and that's a hell of a lot of new units and _lines_ of units
+could you link the strategic resource mod again?
+What about this one?
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1671716145>
+and yes, I'm okay with this strategic resource overhaul:
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1665310405>
+but I want this in combination with it:
+<https://steamcommunity.com/sharedfiles/filedetails/?id=1660544080>
+as it let's you destroy power plants
+I seem to like a lot of this author's mods
+yea that's the strategic one. I actually miss having more lines, I thought you would like the separation of mobile infantry from infantry
+I also want to try out the grievance overhaul, where it generates slower and decays slower
+I don't mind the spacing one, although I always thought it was a fun trade of do you settle near or not
+yeah, but the AI just spams cities
+which feels a bit weird
+and city placement becomes much more key
+Don't care about the decomission one
+would you be open to it?
+Agreed
+Sorry don't care as in, i'm not for or against it
+So yes, we can have it
+ready to start a game?
+So scratch the unit one
+add strategic resources, city placement and decom
+I'm finishing up dinner say half hour?
+sure
+how about this unit expansion mod: <https://steamcommunity.com/sharedfiles/filedetails/?id=1292617460>
+(Steel and Thunder: Unit Expansion)
+it's compatible with both R.E.D. and the strategic resource mod
+I'm fine with that
+I lied i'm full
+Lets rock and roll
+<@UETS9HTSS> I'm in discord
+Actually, the civ servers are trash right now..... Do you want to do URF instead?
+hopping in discord now
+Teddy Roosevelt
+Seondeok
+Poundmaker
+Peter
+Pedro II
+Pericles
+Mvemba a Nzinga
+Montezuma
+Kupe
+Eleanor of Aquitaine
+Catherine de Medici
+Amanitore
+Still can't take my damn Play by Cloud turns
+:bork:
+:angry-bork-intensifies:
+It's frustrating because I clearly still have internet
+It's frustrating because I clearly still have internet
+Ohhh it's definetly the Civ servers
+Both brenden and I gave up last night
+it's probably a load issue due to the Epic game store
+That's just so weird to me that they don't have server capacity at all. It isn't like Take Two had NO IDEA that this was coming
+Civ seems to be up and running again. Just checked to make sure it wasn't just because my computer was closer to the wifi.
+well, are you sure about that?
+So I didn't turn the mods off for my single player game. Apparently infantry are Niter/Iron bound now. No oil at all
+So I didn't turn the mods off for my single player game. Apparently infantry are Niter/Iron bound now. No oil at all
+Considering it went GTA V and then Civ, both owned by Take Two, then yeah, I assume this wasn't all Epic's idea out of the blue.
+Considering it went GTA V and then Civ, both owned by Take Two, then yeah, I assume this wasn't all Epic's idea out of the blue.
+Ahhhhh ok
+Did all of our play by cloud games get wiped?
+Did all of our play by cloud games get wiped?
+<!here>
+No
+also where did you go and come from?
+<@UDC03KCGK>
+Apparently there's a way in Steam to join game, but I didn't have the mods
+OHHHH
+FYI
+And I can't see any of the play by clouds
+If you go into options
+Game
+Auto-download Additional Content
+And you get the mods you need
+Changed the settings, but it still booted me back
+I'm not sure why I could just interrupt your game and join like that anyway. Was seeing if there was a way to watch
+can you watch us now?
+<@UDC03KCGK>
+hop in discord
+almost had the sneaky diplo victory in the game between CJ and I
+guessed 1 thing wrong
+now I'm at 19/20 until the next congress in 40 turns
+Could get nuked
+Oof, that could be the deal breaker
+Oof, that could be the deal breaker
+Also we need to remake all the Play by Cloud games, cause they seem to be dead even when I try to load them from Steam Notifications
+I can't even find open games sooooo....
+Deity victory achieved!
+Deity victory achieved!
+Can I get a list and links to the active mods in that game?
+Can I get a list and links to the active mods in that game?
+You should be able to pull them yourself
+You should be able to pull them yourself
+Go into steam, and the Civ page in the library, on the bar there is "Workshop".  Click that. In the "Workshop" there is browse, and under that are "Subscribed Items"
+That is all the items you have downloaded
+as for the specific list, I think its
+&gt; Watchtower
+&gt; Enviroment Skin
+&gt; Stragetic Forts
+&gt; Quick start
+&gt; perfect World
+&gt; More lenses
+&gt; Faster Starting Settler
+&gt; Diversified Veg
+&gt; Better Espionage
+&gt; Capture Unique
+&gt; Decom Power Plant
+&gt; Starting Scout
+&gt; Better Trade Scree
+&gt; RED Mod
+&gt; Better Coastal Cities
+&gt; Removable Districts
+&gt; Good Goody Huts
+&gt; Vibrant Waters
+&gt; Better Loading Screens
+the rest are visual or interface tweaks
+to pare it down a bit:
+watchtower
+strategic forts
+capture unique
+decom power plant
+better coastal cities
+removable districts
+
+are the only ones that affect gameplay
+to pare it down a bit:
+watchtower
+strategic forts
+capture unique
+decom power plant
+better coastal cities
+removable districts
+
+are the only ones that affect gameplay
